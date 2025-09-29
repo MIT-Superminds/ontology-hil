@@ -1,0 +1,2003 @@
+{
+  "Act": {
+    "[Act on what?]": {
+      "Act on information (“Think”)": {
+        "Transfer information": {
+          "Get information": {
+            "[Get information how?]": {
+              "Understand (Understand.v.01, Interpret.v.01)": {
+                "Read (something written or printed) (Read.v.01)": {},
+                "Read (gauges, instruments, etc.) (Read.v.08)": {},
+                "Watch (Watch.v.01)": {},
+                "Listen (Heed.v.01)": {}
+              },
+              "Evaluate (Evaluate.v.02)": {
+                "Measure (Measure.v.04)": {},
+                "Weigh (Weigh.v.03)": {},
+                "Test (Test.v.01)": {},
+                "Rate (Rate.v.01)": {
+                  "Grade (Grade.v.03)": {}
+                },
+                "Review (Review.v.02, Review.v.01)": {
+                  "Proofread (Proofread.v.01)": {}
+                },
+                "Screen (Screen.v.02)": {},
+                "Audit (Audit.v.01)": {}
+              },
+              "Perceive (Perceive.v.01)": {
+                "Observe (Observe.v.04, Detect.v.01)": {},
+                "Monitor (Monitor.v.01)": {
+                  "Track (Track.v.02)": {},
+                  "Surveil (Surveil.v.01)": {}
+                },
+                "Check (Check.v.01, watch.v.02, guard.v.01, patrol.v.01)": {},
+                "Survey (Survey.v.05)": {},
+                "Search (Search.v.01)": {},
+                "Find (Find.v.03, name.v.02, locate.v.01)": {},
+                "Examine (Examine.v.02)": {
+                  "Scan (Scan.v.01)": {},
+                  "Inspect (Inspect.v.01)": {}
+                }
+              }
+            },
+            "[Get what kind of information?]": {
+              "Get information for decision-making": {}
+            },
+            "[Get access to information - how?]": {
+              "Buy information": {},
+              "Receive information": {},
+              "Take information": {}
+            }
+          },
+          "Provide information": {
+            "[Provide what kind of information?]": {
+              "Provide money (Pay.v.01)": {
+                "Disburse (Disburse.v.01)": {}
+              },
+              "Provide decision": {}
+            },
+            "[Provide information how?]": {
+              "Express Live": {
+                "Talk (Talk.v.02)": {
+                  "Address (Address.v.02, Deliver.v.01)": {}
+                },
+                "Act (Perform, e.g. in a play)": {},
+                "Read (Read.v.03)": {},
+                "Express using instruments (Play.v.07)": {},
+                "Sign (Sign.v.05)": {}
+              },
+              "Send information (Send.v.02)": {
+                "Talk (Talk.v.02)": {
+                  "Address (Address.v.02, Deliver.v.01)": {}
+                },
+                "Answer (Answer.v.01)": {},
+                "Show (Show.v.04, Expose.v.03)": {
+                  "Perform (artistic) (Perform.v.03)": {
+                    "Interpret (Interpret.v.03)": {},
+                    "Audition (Audition.v.01)": {}
+                  },
+                  "Present (Present.v.02, Show.v.01)": {}
+                },
+                "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {},
+                "Greet (Greet.v.01)": {},
+                "Inform (Inform.v.01, Advise.v.02)": {
+                  "Sign (Sign.v.05)": {},
+                  "Seat (Seat.v.01)": {},
+                  "Describe (Describe.v.01)": {},
+                  "Explain (Explain.v.01, Rede.v.01)": {},
+                  "Publish (Publish.v.02)": {},
+                  "Announce (Announce.v.01)": {
+                    "Advertise (Advertise.v.02)": {},
+                    "Post (Post.v.01)": {}
+                  },
+                  "Mention (Mention.v.01, Note.v.01)": {},
+                  "Testify (Testify.v.02)": {},
+                  "Refer (Refer.v.04)": {}
+                },
+                "Advise (Rede.v.02)": {
+                  "Preach (Preach.v.02)": {}
+                },
+                "Request (Request.v.01, Ask.v.02, Request.v.02)": {
+                  "Call (Call.v.05)": {},
+                  "Requisition (Requisition.v.01)": {},
+                  "Solicit (Solicit.v.01)": {},
+                  "Reserve (Reserve.v.04)": {}
+                },
+                "Ask (Ask.v.01, Ask.v.02)": {},
+                "Promise (Promise.v.01)": {},
+                "Relay (Relay.v.01)": {},
+                "Assure (Assure.v.03)": {
+                  "Reassure (Reassure.v.02)": {}
+                },
+                "Respond (React.v.01)": {},
+                "Load (digital) (Load.v.03)": {},
+                "Upload (Upload.v.01)": {}
+              }
+            }
+          },
+          "Exchange information": {
+            "Interview (Interview.v.02, Interview.v.01)": {},
+            "Hash out (Hash_out.v.01)": {},
+            "Confer (Confer.v.01)": {},
+            "Correspond (Correspond.v.03)": {},
+            "Meet (Meet.v.01)": {},
+            "Reach (Reach.v.04)": {},
+            "Teach (Teach.v.01, Educate.v.01, Prepare.v.05)": {
+              "Train (Train.v.01)": {},
+              "Mentor (Mentor.v.01)": {},
+              "Tutor (Tutor.v.01)": {},
+              "Coach (Coach.v.01)": {}
+            },
+            "Negotiate (Negociate.v.06)": {},
+            "Mediate (Intercede.v.01)": {},
+            "Agree (Agree.v.01)": {}
+          }
+        },
+        "Create information": {
+          "Decide (Decide.v.01)": {
+            "[Decide how?]": {
+              "Select (Choose.v.01)": {
+                "[Select with what method?]": {
+                  "Select analytically": {},
+                  "Select by explicit (human-understandable) formulas or rules": {},
+                  "Select holistically": {
+                    "Select based on emotion": {},
+                    "Select based on intuition": {},
+                    "Select by machine learning (or other opaque algorithms)": {}
+                  },
+                  "Select socially (based on what others do)": {},
+                  "Select by negotiation": {
+                    "Select by negotiation in selling": {},
+                    "Select by negotiation in buying": {}
+                  },
+                  "Select randomly": {}
+                },
+                "[Select for what purpose?]": {
+                  "Categorize (Categorize.v.01)": {},
+                  "Diagnose (Diagnose.v.01)": {},
+                  "Classify (Classify.v.01, Code.v.01)": {},
+                  "Compare (Compare.v.01)": {},
+                  "Validate (Validate.v.04, Confirm.v.01, Verify.v.01, See.v.10)": {}
+                }
+              },
+              "Estimate (Estimate.v.01)": {
+                "Quote (Quote.v.02)": {}
+              }
+            },
+            "[Decide what?]": {
+              "Make final choice": {}
+            }
+          },
+          "Plan (Plan.v.02, Plan.v.03, Mastermind.v.01)": {
+            "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {},
+            "Schedule (Schedule.v.02)": {},
+            "Design (Design.v.02)": {
+              "Specify (Specify.v.02, Specify.v.03)": {},
+              "Lay (Lay.v.03)": {},
+              "Lay out (Lay_out.v.05)": {}
+            }
+          },
+          "Analyze (Analyze.v.01)": {
+            "Investigate (Investigate.v.01)": {
+              "Research (Research.v.01, Research.v.02)": {}
+            },
+            "Determine (Determine.v.01, Determine.v.08)": {
+              "Identify (Name.v.02)": {}
+            },
+            "Trace (analytically) (Trace.v.01)": {}
+          },
+          "Reason (Reason.v.03)": {
+            "Organize (analytically) (Organize.v.04)": {},
+            "Develop (idea) (Explicate.v.02)": {},
+            "Consider (Consider.v.05)": {}
+          },
+          "Calculate (Calculate.v.02, Calculate.v.01)": {
+            "Estimate (Estimate.v.01)": {
+              "Quote (Quote.v.02)": {}
+            },
+            "Count (Count.v.01)": {},
+            "Balance (Balance.v.02)": {}
+          },
+          "Solve (Solve.v.01)": {
+            "Address (Address.v.02, Deliver.v.01)": {},
+            "Resolve (Decide.v.02)": {}
+          },
+          "Express information": {
+            "Express Live": {
+              "Talk (Talk.v.02)": {
+                "Address (Address.v.02, Deliver.v.01)": {}
+              },
+              "Sign (Sign.v.05)": {},
+              "Act (Perform, e.g. in a play)": {},
+              "Read (Read.v.03)": {},
+              "Express using instruments (Play.v.07)": {}
+            },
+            "Record (Record.v.01)": {
+              "Write (Write.v.01, Write.v.02)": {
+                "Complete (Complete.v.05)": {},
+                "Input into computer (Input.v.01, Write.v.08)": {
+                  "Type (Type.v.01)": {}
+                },
+                "Program (computer) (Program.v.02, Write.v.10)": {},
+                "Draft (Draft.v.01)": {}
+              },
+              "Compose (Compose.v.02)": {},
+              "Copy (Copy.v.04, Twin.v.01)": {
+                "Model (Model.v.01, Model.v.05)": {},
+                "Trace (drawing) (Trace.v.07)": {}
+              },
+              "Record sound": {},
+              "Create static image": {
+                "Generate image using computer": {},
+                "Draw (drawing) (Draw.v.06)": {},
+                "Photograph (Photograph.v.01)": {},
+                "Paint (Paint.v.02)": {}
+              },
+              "Create moving image (w/ or w/o sound)": {
+                "Create video": {},
+                "Film (Film.v.01)": {}
+              },
+              "Document (Document.v.01, Keep.v.08, Register.v.01, Inventory.v.01, Log.v.01)": {
+                "Transcribe (Transcribe.v.01)": {}
+              },
+              "Mark (Mark.v.02, Tag.v.01, Code.v.01)": {},
+              "Print (Print.v.04)": {}
+            }
+          }
+        },
+        "Modify information": {
+          "Move information": {
+            "Transport information": {}
+          },
+          "Revise (Revise.v.01)": {
+            "Update information (Update.v.02)": {},
+            "Edit (Edit.v.01)": {},
+            "Convert (Convert.v.02)": {}, 
+            "Summarize (Sum_up.v.01)": {}
+          },
+          "Encode (Encode.v.01, code.v.02)": {}
+        },
+        "Store information (Store.v.01, Store.v.02, Conserve.v.02)": {
+          "Upload (Upload.v.01)": {},
+          "File (information) (File.v.05)": {}
+        }
+      },
+      "Act on physical objects (“Do”)": {
+        "Create physical objects": {
+          "Fabricate (Manufacture.v.01)": {},
+          "Assemble (Assemble.v.01)": {
+            "Construct (Construct.v.01, Raise.v.09)": {
+              "Rebuild (Rebuild.v.01)": {}
+            },
+            "Configure (Configure.v.01)": {},
+            "Reassemble (Reassemble.v.01)": {}
+          }
+        },
+        "Modify physical objects": {
+          "Move physical objects (Move.v.02, Transmit.v.04)": {
+            "Transport physical objects (Transport.v.04, Transfer.v.02, Transport.v.01)": {
+              "[Transport physical objects how?]": {
+                "Carry physical objects (Transport.v.02)": {
+                  "Haul (Haul.v.02)": {}
+                },
+                "Pull physical objects": {
+                  "Draw (extract) (Draw.v.05)": {}
+                },
+                "Push physical objects": {}
+              },
+              "[Transport physical objects for what purpose?]": {
+                "Load physical objects": {
+                  "Carry physical objects (Transport.v.02)": {
+                    "Haul (Haul.v.02)": {}
+                  },
+                  "Pull physical objects": {
+                    "Draw (extract) (Draw.v.05)": {}
+                  },
+                  "Push physical objects": {}
+                },
+                "Unload physical objects": {
+                  "Carry physical objects (Transport.v.02)": {
+                    "Haul (Haul.v.02)": {}
+                  },
+                  "Pull physical objects": {
+                    "Draw (extract) (Draw.v.05)": {}
+                  },
+                  "Push physical objects": {}
+                }
+              }
+            },
+            "Put physical objects (Put.v.01)": {
+              "Arrange (put in proper or systematic order) (Arrange.v.01)": {
+                "Stack (Stack.v.02)": {},
+                "String (String.v.01)": {}
+              },
+              "Insert (Insert.v.01, Feed.v.04)": {
+                "Wedge (Wedge.v.02)": {}
+              },
+              "Install (Install.v.01)": {},
+              "Immerse (Immerse.v.01)": {},
+              "Plant (Plant.v.01)": {
+                "Transplant (Transplant.v.01)": {}
+              },
+              "Raise (Raise.v.02)": {
+                "Hoist (Hoist.v.01)": {}
+              },
+              "Lower (Lower.v.01, Lower.v.04)": {
+                "Pour (Pour.v.01)": {},
+                "Drop (Drop.v.01)": {
+                  "Dump (Dump.v.04)": {}
+                }
+              },
+              "Handle (Handle.v.04)": {}
+            },
+            "Reorient physical objects": {
+              "Engage (Engage.v.10)": {},
+              "Manipulate (Manipulate.v.02)": {},
+              "Close (Close.v.01)": {},
+              "Seal (Seal.v.01)": {},
+              "Turn (rotate) (Turn.v.01, Turn.v.17)": {
+                "Roll (Roll.v.01)": {},
+                "Unwind (Unwind.v.01)": {},
+                "Wind (Weave.v.04)": {}
+              },
+              "Aim (Aim.v.01)": {}
+            },
+            "Move physical objects in other ways": {
+              "Exercise (Exercise.v.04, Exercise.v.03)": {},
+              "Enter (Enter.v.01)": {},
+              "Touch (Touch.v.01)": {
+                "Brush (Brush.v.04)": {},
+                "Slide (Slide.v.03)": {},
+                "Pat (Dab.v.02)": {},
+                "Press (down) (Press.v.01)": {},
+                "Massage (Massage.v.01)": {}
+              }
+            }
+          },
+          "Separate physical objects (Separate.v.02)": {
+            "Unpack": {},
+            "Cut (Cut.v.01)": {
+              "Bore (Bore.v.02)": {},
+              "Slit (Slit.v.01)": {},
+              "Snip (Snip.v.02)": {},
+              "Carve (Carve.v.02, Carve.v.03)": {
+                "Scratch (Scratch.v.07, Scratch.v.02)": {},
+                "Scribe (Scribe.v.01)": {}
+              },
+              "Perforate (Penetrate.v.01)": {
+                "Punch (Punch.v.03, Tap.v.01)": {}
+              },
+              "Butcher (Butcher.v.01)": {}
+            },
+            "Break (Break.v.02, Sever.v.01)": {
+              "Grind (Grind.v.05)": {},
+              "Chip (Chip.v.01)": {}
+            },
+            "Terminate (End.v.02)": {},
+            "Disconnect (Disconnect.v.02)": {},
+            "Disassemble (Disassemble.v.01)": {},
+            "Scatter (Scatter.v.03)": {
+              "Spray (Spray.v.02)": {}
+            },
+            "Remove (Remove.v.01)": {
+              "Shed (Shed.v.01)": {},
+              "Discard (Discard.v.01)": {},
+              "Dig (Dig.v.01)": {
+                "Shovel (Shovel.v.01)": {}
+              },
+              "Clear (Clear.v.05, Clear.v.22)": {},
+              "Extract (Draw.v.07)": {
+                "Tap (Tap.v.02)": {},
+                "Pump (Pump.v.03)": {}
+              },
+              "Seed (Seed.v.08)": {},
+              "Pull (Pull.v.17)": {},
+              "Strip (Strip.v.03)": {
+                "Pry (Pry.v.01)": {},
+                "Skin (Skin.v.04)": {},
+                "Skim (Skim.v.06)": {}
+              },
+              "Ream (Ream.v.02)": {},
+              "Sweep (Sweep.v.03)": {}
+            }
+          },
+          "Combine physical objects (Create_from_raw_material.v.01)": {
+            "Cover (Cover.v.01)": {
+              "Envelop (Envelop.v.01)": {},
+              "Put On (Put_on.v.07)": {},
+              "Spread (Spread.v.03)": {}
+            },
+            "Add (Add.v.01, Include.v.01, Incorporate.v.01)": {
+              "Extend (Extend.v.17)": {}
+            },
+            "Synthesize (Synthesize.v.01)": {
+              "Blend (Blend.v.03)": {}
+            },
+            "Pack (Pack.v.01)": {
+              "Box (Box.v.01)": {}
+            },
+            "Gather (Gather.v.01)": {},
+            "Connect (Connect.v.01, Attach.v.01, Join.v.02, Affix.v.01)": {
+              "Hang up (Hang.v.02)": {},
+              "Splice (Splice.v.04)": {},
+              "Fasten (Fasten.v.01)": {},
+              "Bolt (Bolt.v.02)": {},
+              "Sew (Sew.v.01)": {},
+              "Clamp (Clamp.v.01)": {},
+              "Tie (Tie.v.01)": {},
+              "Mount (Mount.v.01)": {},
+              "Nail (Nail.v.01)": {},
+              "Glue (Glue.v.01)": {},
+              "Solder (Solder.v.01)": {},
+              "Weld (Weld.v.01)": {},
+              "Thread (Thread.v.04)": {},
+              "Wire (Wire.v.01)": {}
+            },
+            "Line (Line.v.02)": {}
+          },
+          "Transform physical objects (Change.v.01, Transform.v.02, Work.v.05, Rework.v.01)": {
+            "Prepare (Fix.v.12)": {},
+            "Change surface (Change_surface.v.01)": {
+              "Paint (Paint.v.02)": {},
+              "Smooth (Smooth.v.01)": {
+                "Sandpaper (Sandpaper.v.01)": {},
+                "File (surface) (File.v.02)": {},
+                "Flush (Flush.v.04)": {},
+                "Iron (Iron.v.01)": {}
+              },
+              "Impress (Impress.v.04)": {
+                "Stamp (Stamp.v.02)": {},
+                "Emboss (Emboss.v.01)": {}
+              },
+              "Polish (Polish.v.01)": {
+                "Buff (Buff.v.02)": {}
+              },
+              "Refinish (Refinish.v.01)": {},
+              "Decorate (Decorate.v.01)": {},
+              "Oil (Oil.v.01)": {}
+            },
+            "Service (Service.v.02)": {
+              "Maintain (Conserve.v.02)": {},
+              "Repair (Repair.v.01, Correct.v.01, Correct.v.08)": {
+                "Troubleshoot (Trouble-shoot.v.01)": {}
+              },
+              "Replace (Replace.v.01, Change.v.06)": {
+                "Rewire (Rewire.v.01)": {}
+              },
+              "Overhaul (Overhaul.v.02)": {},
+              "Lubricate (Lubricate.v.02)": {}
+            },
+            "Adjust (Adjust.v.01)": {
+              "Regulate (modulate) (Regulate.v.01)": {},
+              "Update (physical) (Update.v.01)": {},
+              "Calibrate (Calibrate.v.01)": {},
+              "Harmonize (Harmonize.v.05)": {},
+              "Alter (Alter.v.03)": {},
+              "Tighten (Tighten.v.01)": {},
+              "Align (Align.v.01)": {},
+              "Adapt (Adapt.v.01)": {},
+              "Customize (Customize.v.02)": {}
+            },
+            "Fill (Fill.v.01)": {
+              "Load (Load.v.01)": {},
+              "Replenish (Replenish.v.01)": {}
+            },
+            "Clean (Clean.v.01)": {
+              "Wash (Wash.v.03)": {
+                "Rinse (Rinse.v.01)": {},
+                "Bathe (Bathe.v.01)": {}
+              },
+              "Decontaminate (Decontaminate.v.01)": {},
+              "Disinfect (Disinfect.v.01, Sterilize.v.01)": {},
+              "Sanitize (Sanitize.v.01)": {},
+              "Vacuum (Vacuum.v.01)": {}
+            },
+            "Shape (Shape.v.03, Shape.v.02, Change_shape.v.01)": {
+              "Sharpen (Sharpen.v.01)": {},
+              "Straighten (Straighten.v.02)": {},
+              "Fit (Fit.v.04)": {},
+              "Fold (Fold.v.04, Fold.v.01)": {},
+              "Bend (Bend.v.01)": {},
+              "Hammer (Hammer.v.01)": {},
+              "Unwind (Unwind.v.01)": {},
+              "Unfold (Unfold.v.03)": {}
+            },
+            "Heat (Heat.v.01)": {
+              "Preheat (Preheat.v.01)": {},
+              "Cook (Cook.v.02, Cook.v.03)": {
+                "Bake (Bake.v.01)": {}
+              },
+              "Cure (Cure.v.02)": {},
+              "Melt (Melt.v.01)": {},
+              "Ignite (Ignite.v.01)": {}
+            },
+            "Wet (Wet.v.01)": {
+              "Water (Water.v.01)": {}
+            },
+            "Dress (clothes) (Dress.v.02)": {}
+          }
+        },
+        "Transfer physical objects": {
+          "Get physical objects": {},
+          "Provide physical objects": {
+            "Provide food (Feed.v.02, Feed.v.01)": {}
+          },
+          "Exchange physical objects": {}
+        },
+        "Store physical objects (Store.v.01, Store.v.02, Conserve.v.02)": {
+          "Keep (Keep.v.01)": {}
+        }
+      },
+      "Act with other activities and actors (“Interact”)": {
+        "Transfer between actors": {
+          "Transfer information": {
+            "Get information": {
+              "[Get information how?]": {
+                "Learn (Learn.v.01, Continue.v.01)": {},
+                "Perceive (Perceive.v.01)": {
+                  "Observe (Observe.v.04, Detect.v.01)": {},
+                  "Monitor (Monitor.v.01)": {
+                    "Track (Track.v.02)": {},
+                    "Surveil (Surveil.v.01)": {}
+                  },
+                  "Check (Check.v.01, watch.v.02, guard.v.01, patrol.v.01)": {},
+                  "Survey (Survey.v.05)": {},
+                  "Search (Search.v.01)": {},
+                  "Find (Find.v.03, name.v.02, locate.v.01)": {},
+                  "Examine (Examine.v.02)": {
+                    "Scan (Scan.v.01)": {},
+                    "Inspect (Inspect.v.01)": {}
+                  }
+                },
+                "Evaluate (Evaluate.v.02)": {
+                  "Measure (Measure.v.04)": {},
+                  "Weigh (Weigh.v.03)": {},
+                  "Test (Test.v.01)": {},
+                  "Rate (Rate.v.01)": {
+                    "Grade (Grade.v.03)": {}
+                  },
+                  "Review (Review.v.02, Review.v.01)": {
+                    "Proofread (Proofread.v.01)": {}
+                  },
+                  "Screen (Screen.v.02)": {},
+                  "Audit (Audit.v.01)": {}
+                },
+                "Understand (Understand.v.01, Interpret.v.01)": {
+                  "Read (something written or printed) (Read.v.01)": {},
+                  "Read (gauges, instruments, etc.) (Read.v.08)": {},
+                  "Watch (Watch.v.01)": {},
+                  "Listen (Heed.v.01)": {}
+                }
+              },
+              "[Get what kind of information?]": {
+                "Get information for decision-making": {}
+              },
+              "[Get access to information - how?]": {
+                "Buy information": {},
+                "Receive information": {},
+                "Take information": {}
+              }
+            },
+            "Provide information": {
+              "[Provide what kind of information?]": {
+                "Provide money (Pay.v.01)": {
+                  "Disburse (Disburse.v.01)": {}
+                },
+                "Provide decision": {}
+              },
+              "[Provide information how?]": {
+                "Send information (Send.v.02)": {
+                  "Talk (Talk.v.02)": {
+                    "Address (Address.v.02, Deliver.v.01)": {}
+                  },
+                  "Greet (Greet.v.01)": {},
+                  "Answer (Answer.v.01)": {},
+                  "Inform (Inform.v.01, Advise.v.02)": {
+                    "Describe (Describe.v.01)": {},
+                    "Explain (Explain.v.01, Rede.v.01)": {},
+                    "Publish (Publish.v.02)": {},
+                    "Serve (deliver) (Serve.v.11)": {},
+                    "Report (Report.v.01, Report.v.04)": {},
+                    "Announce (Announce.v.01)": {
+                      "Advertise (Advertise.v.02)": {},
+                      "Post (Post.v.01)": {}
+                    },
+                    "Mention (Mention.v.01, Note.v.01)": {},
+                    "Testify (Testify.v.02)": {},
+                    "Sign (Sign.v.05)": {},
+                    "Refer (Refer.v.04)": {},
+                    "Seat (Seat.v.01)": {}
+                  },
+                  "Show (Show.v.04, Expose.v.03)": {
+                    "Present (Present.v.02, Show.v.01)": {},
+                    "Perform (artistic) (Perform.v.03)": {
+                      "Interpret (Interpret.v.03)": {},
+                      "Audition (Audition.v.01)": {}
+                    }
+                  },
+                  "Advise (Rede.v.02)": {},
+                  "Request (Request.v.01, Ask.v.02, Request.v.02)": {
+                    "Call (Call.v.05)": {},
+                    "Requisition (Requisition.v.01)": {},
+                    "Solicit (Solicit.v.01)": {},
+                    "Reserve (Reserve.v.04)": {}
+                  },
+                  "Ask (Ask.v.01, Ask.v.02)": {},
+                  "Respond (React.v.01)": {},
+                  "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {},
+                  "Promise (Promise.v.01)": {},
+                  "Relay (Relay.v.01)": {},
+                  "Assure (Assure.v.03)": {
+                    "Reassure (Reassure.v.02)": {}
+                  },
+                  "Load (digital) (Load.v.03)": {},
+                  "Upload (Upload.v.01)": {}
+                },
+                "Express Live": {
+                  "Talk (Talk.v.02)": {
+                    "Address (Address.v.02, Deliver.v.01)": {}
+                  },
+                  "Sign (Sign.v.05)": {},
+                  "Act (Perform, e.g. in a play)": {},
+                  "Read (Read.v.03)": {},
+                  "Express using instruments (Play.v.07)": {}
+                }
+              }
+            },
+            "Exchange information": {
+              "Interview (Interview.v.02, Interview.v.01)": {},
+              "Confer (Confer.v.01)": {},
+              "Correspond (Correspond.v.03)": {},
+              "Meet (Meet.v.01)": {},
+              "Reach (Reach.v.04)": {},
+              "Teach (Teach.v.01, Educate.v.01, Prepare.v.05)": {
+                "Train (Train.v.01)": {},
+                "Mentor (Mentor.v.01)": {},
+                "Tutor (Tutor.v.01)": {},
+                "Coach (Coach.v.01)": {}
+              },
+              "Agree (Agree.v.01)": {},
+              "Negotiate (Negociate.v.06)": {},
+              "Mediate (Intercede.v.01)": {},
+              "Hash out (Hash_out.v.01)": {}
+            }
+          },
+          "Transfer physical objects": {
+            "Get physical objects": {},
+            "Provide physical objects": {
+              "Provide food (Feed.v.02, Feed.v.01)": {}
+            },
+            "Exchange physical objects": {}
+          },
+          "Transfer service": {
+            "Get service": {
+              "Lead (Lead.v.05, Lead.v.01, Induce.v.02)": {
+                "Persuade (Persuade.v.02)": {},
+                "Control (Control.v.01)": {
+                  "Manage (Manage.v.02, Treat.v.01)": {
+                    "Implement (Follow_through.v.02)": {},
+                    "Improve (Better.v.02)": {},
+                    "Conduct (Conduct.v.02, Conduct.v.01)": {},
+                    "Direct (Direct.v.04)": {},
+                    "Administer (manage) (Administer.v.01)": {},
+                    "Oversee (Oversee.v.01)": {}
+                  },
+                  "Organize (people or events) (Organize.v.05, Hold.v.03)": {},
+                  "Order (Order.v.01)": {
+                    "Regulate (authoritative) (Regulate.v.02)": {},
+                    "Enforce (Enforce.v.01, Enforce.v.02)": {},
+                    "Compel (Compel.v.01)": {},
+                    "Establish (Lay_down.v.01)": {},
+                    "Standardize (Standardize.v.01)": {},
+                    "Dispatch (Dispatch.v.01)": {
+                      "Route (Route.v.01)": {}
+                    }
+                  },
+                  "Authorize (Authorize.v.01, Approve.v.01)": {},
+                  "Start (Start.v.08, Trip.v.04, Lead_up.v.01)": {},
+                  "Prevent (Prevent.v.02)": {
+                    "Defend (Defend.v.02)": {
+                      "Protect (Protect.v.01)": {}
+                    },
+                    "Restrain (Restrain.v.01)": {},
+                    "Stop (Stop.v.01)": {}
+                  },
+                  "Punish (Punish.v.01)": {
+                    "Discipline (Discipline.v.02)": {}
+                  },
+                  "Steer (Steer.v.01)": {},
+                  "Operate (Operate.v.03)": {
+                    "[Operate how?]": {
+                      "Pilot": {},
+                      "Drive (Drive.v.01, Drive.v.03)": {},
+                      "Fly (Fly.v.03)": {},
+                      "Turn (on/off) (Turn.v.22)": {},
+                      "Reset (Reset.v.01)": {}
+                    },
+                    "[Operate what?]": {
+                      "Operate transport": {
+                        "Operate transport for physical objects": {},
+                        "[Operate transport how?]": {
+                          "Transport by mechanical vehicle": {},
+                          "Transport by animal": {}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Provide service": {
+              "Respond (React.v.01)": {},
+              "Follow (Follow.v.01)": {
+                "Comply (Comply.v.01, Obey.v.01)": {}
+              },
+              "Assist (Support.v.02, Support.v.01, Help.v.01)": {
+                "Serve (role) (Serve.v.02)": {
+                  "Act As (Act_as.v.01)": {}
+                },
+                "Care (Care.v.02)": {
+                  "Attend (care) (Attend.v.02)": {
+                    "Tend (Tend.v.02)": {}
+                  },
+                  "Cultivate (Cultivate.v.01)": {}
+                },
+                "facilitate (facilitate.v.01)": {},
+                "Escort (Escort.v.01, Accompany.v.02)": {},
+                "Encourage (Encourage.v.02, Promote.v.01)": {},
+                "Treat (Treat.v.03)": {
+                  "Dress (wound) (Dress.v.14)": {},
+                  "Operate on (Operate_on.v.01)": {},
+                  "Administer (treat) (Administer.v.04)": {}
+                },
+                "Represent (Represent.v.04)": {}
+              }
+            },
+            "Exchange service": {
+              "Work (Work.v.01)": {
+                "Specialize (Specialize.v.04)": {}
+              },
+              "Collaborate (Collaborate.v.01)": {
+                "Agree (Agree.v.01)": {},
+                "Arrange (make arrangements for) (Arrange.v.02)": {
+                  "Settle (Settle.v.14)": {}
+                },
+                "Participate (Enter.v.02)": {
+                  "Attend (go to) (Attend.v.01)": {}
+                }
+              }
+            }
+          }
+        },
+        "Act on activities": {
+          "Continue (Continue.v.01)": {},
+          "Implement (Follow_through.v.02)": {},
+          "Complete (Complete.v.01)": {},
+          "Improve (Better.v.02)": {},
+          "Perform (action) (Perform.v.01, Take.v.01, Prosecute.v.03, Do.v.03)": {
+            "Make (Make.v.01)": {},
+            "Conduct (Conduct.v.02, Conduct.v.01)": {}
+          }
+        }
+      }
+    },
+    "[Act how?]": {
+      "Create (Make.v.03, Create.v.03, Generate.v.01, Form.v.01, Develop.v.01)": {
+        "[Create what]": {
+          "Create information": {
+            "Decide (Decide.v.01)": {
+              "[Decide how?]": {
+                "Select (Choose.v.01)": {
+                  "[Select with what method?]": {
+                    "Select analytically": {},
+                    "Select by explicit (human-understandable) formulas or rules": {},
+                    "Select holistically": {
+                      "Select based on emotion": {},
+                      "Select based on intuition": {},
+                      "Select by machine learning (or other opaque algorithms)": {}
+                    },
+                    "Select socially (based on what others do)": {},
+                    "Select by negotiation": {
+                      "Select by negotiation in selling": {},
+                      "Select by negotiation in buying": {}
+                    },
+                    "Select randomly": {}
+                  },
+                  "[Select for what purpose?]": {
+                    "Categorize (Categorize.v.01)": {},
+                    "Diagnose (Diagnose.v.01)": {},
+                    "Classify (Classify.v.01, Code.v.01)": {},
+                    "Compare (Compare.v.01)": {},
+                    "Validate (Validate.v.04, Confirm.v.01, Verify.v.01, See.v.10)": {}
+                  }
+                },
+                "Estimate (Estimate.v.01)": {
+                  "Quote (Quote.v.02)": {}
+                }
+              },
+              "[Decide what?]": {
+                "Make final choice": {}
+              }
+            },
+            "Plan (Plan.v.02, Plan.v.03, Mastermind.v.01)": {
+              "Schedule (Schedule.v.02)": {
+                "Book (Book.v.01)": {}
+              },
+              "Design (Design.v.02)": {
+                "Specify (Specify.v.02, Specify.v.03)": {},
+                "Lay (Lay.v.03)": {},
+                "Lay out (Lay_out.v.05)": {}
+              },
+              "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {}
+            },
+            "Analyze (Analyze.v.01)": {
+              "Investigate (Investigate.v.01)": {
+                "Research (Research.v.01, Research.v.02)": {}
+              },
+              "Determine (Determine.v.01, Determine.v.08)": {
+                "Identify (Name.v.02)": {}
+              },
+              "Trace (analytically) (Trace.v.01)": {}
+            },
+            "Calculate (Calculate.v.02, Calculate.v.01)": {
+              "Count (Count.v.01)": {},
+              "Balance (Balance.v.02)": {},
+              "Estimate (Estimate.v.01)": {
+                "Quote (Quote.v.02)": {}
+              }
+            },
+            "Solve (Solve.v.01)": {
+              "Address (Address.v.02, Deliver.v.01)": {},
+              "Resolve (Decide.v.02)": {}
+            },
+            "Reason (Reason.v.03)": {
+              "Consider (Consider.v.05)": {},
+              "Organize (analytically) (Organize.v.04)": {},
+              "Develop (idea) (Explicate.v.02)": {}
+            },
+            "Express information": {
+              "Record (Record.v.01)": {
+                "Write (Write.v.01, Write.v.02)": {
+                  "Draft (Draft.v.01)": {},
+                  "Input into computer (Input.v.01, Write.v.08)": {
+                    "Type (Type.v.01)": {}
+                  },
+                  "Program (computer) (Program.v.02, Write.v.10)": {}
+                },
+                "Document (Document.v.01, Keep.v.08, Register.v.01, Inventory.v.01, Log.v.01)": {
+                  "Transcribe (Transcribe.v.01)": {}
+                },
+                "Mark (Mark.v.02, Tag.v.01, Code.v.01)": {},
+                "Print (Print.v.04)": {},
+                "Record sound": {},
+                "Create static image": {
+                  "Draw (drawing) (Draw.v.06)": {},
+                  "Photograph (Photograph.v.01)": {},
+                  "Paint (Paint.v.02)": {},
+                  "Generate image using computer": {}
+                },
+                "Create moving image (w/ or w/o sound)": {
+                  "Film (Film.v.01)": {},
+                  "Create video": {}
+                },
+                "Compose (Compose.v.02)": {},
+                "Copy (Copy.v.04, Twin.v.01)": {
+                  "Model (Model.v.01, Model.v.05)": {},
+                  "Trace (drawing) (Trace.v.07)": {}
+                }
+              },
+              "Express Live": {
+                "Talk (Talk.v.02)": {
+                  "Address (Address.v.02, Deliver.v.01)": {}
+                },
+                "Sign (Sign.v.05)": {},
+                "Act (Perform, e.g. in a play)": {},
+                "Read (Read.v.03)": {},
+                "Express using instruments (Play.v.07)": {}
+              }
+            }
+          },
+          "Create physical objects": {
+            "Assemble (Assemble.v.01)": {
+              "Construct (Construct.v.01, Raise.v.09)": {
+                "Rebuild (Rebuild.v.01)": {}
+              },
+              "Configure (Configure.v.01)": {},
+              "Reassemble (Reassemble.v.01)": {}
+            },
+            "Fabricate (Manufacture.v.01)": {}
+          }
+        }
+      },
+      "Modify": {
+        "[Modify how?]": {
+          "Move (Act.v.01)": {
+            "[Move how?]": {
+              "Transport": {
+                "[Transport what?]": {
+                  "Transport information": {},
+                  "Transport physical objects (Transport.v.04, Transfer.v.02, Transport.v.01)": {
+                    "[Transport physical objects how?]": {
+                      "Carry physical objects (Transport.v.02)": {
+                        "Haul (Haul.v.02)": {}
+                      },
+                      "Pull physical objects": {
+                        "Draw (extract) (Draw.v.05)": {}
+                      },
+                      "Push physical objects": {}
+                    },
+                    "[Transport physical objects for what purpose?]": {
+                      "Load physical objects": {
+                        "Carry physical objects (Transport.v.02)": {},
+                        "Pull physical objects": {
+                          "Draw (extract) (Draw.v.05)": {}
+                        },
+                        "Push physical objects": {}
+                      },
+                      "Unload physical objects": {
+                        "Carry physical objects (Transport.v.02)": {},
+                        "Pull physical objects": {
+                          "Draw (extract) (Draw.v.05)": {}
+                        },
+                        "Push physical objects": {}
+                      }
+                    }
+                  },
+                  "Transport self (Travel)": {
+                    "[Move self how?]": {
+                      "Walk": {},
+                      "Run": {},
+                      "Crawl": {},
+                      "Transport self as passenger": {
+                        "Fly (Fly.v.03)": {},
+                        "Ride (Ride.v.02, Ride.v.01)": {}
+                      },
+                      "Climb (Climb.v.01)": {},
+                      "Dismount (Unhorse.v.01)": {}
+                    }
+                  }
+                },
+                "[Transport for what purpose?]": {
+                  "Load (physical) (Load.v.01)": {},
+                  "Unload": {},
+                  "Deliver (Deliver.v.02, Drop.v.08)": {},
+                  "Retrieve (Retrieve.v.02)": {},
+                  "Travel (Travel.v.01)": {
+                    "Advance (Advance.v.01)": {},
+                    "Visit (Visit.v.01)": {},
+                    "Accompany (Accompany.v.02)": {},
+                    "Puruse (Puruse.v.02)": {}
+                  },
+                  "Mail (Mail.v.01)": {}
+                },
+                "[Transport how?]": {
+                  "Carry": {},
+                  "Pull (Pull.v.17)": {},
+                  "Push": {},
+                  "Release": {}
+                }
+              },
+              "Put": {
+                "Put physical objects (Put.v.01)": {
+                  "Hold (Hold.v.02)": {},
+                  "Raise (Raise.v.02)": {
+                    "Hoist (Hoist.v.01)": {}
+                  },
+                  "Lower (Lower.v.01, Lower.v.04)": {
+                    "Drop (Drop.v.01)": {
+                      "Dump (Dump.v.04)": {}
+                    },
+                    "Pour (Pour.v.01)": {}
+                  },
+                  "Arrange (put in proper or systematic order) (Arrange.v.01)": {
+                    "Stack (Stack.v.02)": {},
+                    "String (String.v.01)": {}
+                  },
+                  "Insert (Insert.v.01, Feed.v.04)": {
+                    "Wedge (Wedge.v.02)": {}
+                  },
+                  "Install (Install.v.01)": {},
+                  "Immerse (Immerse.v.01)": {},
+                  "Plant (Plant.v.01)": {
+                    "Transplant (Transplant.v.01)": {}
+                  }
+                }
+              },
+              "Reorient": {
+                "Reorient physical objects": {
+                  "Close (Close.v.01)": {},
+                  "Seal (Seal.v.01)": {},
+                  "Engage (Engage.v.10)": {},
+                  "Turn (rotate) (Turn.v.01, Turn.v.17)": {
+                    "Roll (Roll.v.01)": {},
+                    "Unwind (Unwind.v.01)": {},
+                    "Wind (Weave.v.04)": {}
+                  },
+                  "Aim (Aim.v.01)": {},
+                  "Manipulate (Manipulate.v.02)": {},
+                  "Brush (Brush.v.04)": {}
+                }
+              },
+              "Exercise (Exercise.v.04, Exercise.v.03)": {}
+            },
+            "[Move what?]": {
+              "Move information": {
+                "Transport information": {}
+              },
+              "Move physical objects (Move.v.02, Transmit.v.04)": {
+                "Transport physical objects (Transport.v.04, Transfer.v.02, Transport.v.01)": {
+                  "[Transport physical objects how?]": {
+                    "Carry physical objects (Transport.v.02)": {},
+                    "Pull physical objects": {
+                      "Draw (extract) (Draw.v.05)": {}
+                    },
+                    "Push physical objects": {}
+                  },
+                  "[Transport physical objects for what purpose?]": {
+                    "Load physical objects": {
+                      "Carry physical objects (Transport.v.02)": {
+                        "Haul (Haul.v.02)": {}
+                      },
+                      "Pull physical objects": {
+                        "Draw (extract) (Draw.v.05)": {}
+                      },
+                      "Push physical objects": {}
+                    },
+                    "Unload physical objects": {
+                      "Carry physical objects (Transport.v.02)": {
+                        "Haul (Haul.v.02)": {}
+                      },
+                      "Pull physical objects": {
+                        "Draw (extract) (Draw.v.05)": {}
+                      },
+                      "Push physical objects": {}
+                    }
+                  }
+                },
+                "Put physical objects (Put.v.01)": {
+                  "Raise (Raise.v.02)": {
+                    "Hoist (Hoist.v.01)": {}
+                  },
+                  "Lower (Lower.v.01, Lower.v.04)": {
+                    "Drop (Drop.v.01)": {
+                      "Dump (Dump.v.04)": {}
+                    },
+                    "Pour (Pour.v.01)": {}
+                  },
+                  "Arrange (put in proper or systematic order) (Arrange.v.01)": {
+                    "Stack (Stack.v.02)": {},
+                    "String (String.v.01)": {}
+                  },
+                  "Insert (Insert.v.01, Feed.v.04)": {
+                    "Wedge (Wedge.v.02)": {}
+                  },
+                  "Install (Install.v.01)": {},
+                  "Immerse (Immerse.v.01)": {},
+                  "Plant (Plant.v.01)": {
+                    "Transplant (Transplant.v.01)": {}
+                  }
+                },
+                "Reorient physical objects": {
+                  "Close (Close.v.01)": {},
+                  "Open (Open.v.01)": {},
+                  "Seal (Seal.v.01)": {},
+                  "Engage (Engage.v.10)": {},
+                  "Turn (rotate) (Turn.v.01, Turn.v.17)": {
+                    "Roll (Roll.v.01)": {},
+                    "Unwind (Unwind.v.01)": {},
+                    "Wind (Weave.v.04)": {}
+                  },
+                  "Aim (Aim.v.01)": {},
+                  "Manipulate (Manipulate.v.02)": {},
+                  "Brush (Brush.v.04)": {}
+                },
+                "Move physical objects in other ways": {}
+              },
+              "Move actors [omit?]": {},
+              "Move self": {
+                "Transport self (Travel)": {
+                  "[Move self how?]": {
+                    "Walk": {},
+                    "Run": {},
+                    "Crawl": {},
+                    "Climb (Climb.v.01)": {},
+                    "Transport self as passenger": {
+                      "Fly (Fly.v.03)": {},
+                      "Ride (Ride.v.02, Ride.v.01)": {}
+                    },
+                    "Dismount (Unhorse.v.01)": {}
+                  }
+                }
+              }
+            },
+            "[Move for what purpose?]": {}
+          },
+          "Combine": {
+            "(SECTION NEEDS EDIITNG TO MAKE OBJECT-AGNOSTIC) Incorporate (Incorporate.v.02)": {},
+            "Combine physical objects (Create_from_raw_material.v.01)": {
+              "Add (Add.v.01, Include.v.01, Incorporate.v.01)": {
+                "Extend (Extend.v.17)": {}
+              },
+              "Synthesize (Synthesize.v.01)": {
+                "Blend (Blend.v.03)": {}
+              },
+              "Cover (Cover.v.01)": {
+                "Envelop (Envelop.v.01)": {},
+                "Put On (Put_on.v.07)": {},
+                "Spread (Spread.v.03)": {}
+              },
+              "Pack (Pack.v.01)": {
+                "Box (Box.v.01)": {}
+              },
+              "Gather (Gather.v.01)": {
+                "Collect (Roll_up.v.02)": {}
+              },
+              "Connect (Connect.v.01, Attach.v.01, Join.v.02, Affix.v.01)": {
+                "Splice (Splice.v.04)": {},
+                "Fasten (Fasten.v.01)": {},
+                "Bolt (Bolt.v.02)": {},
+                "Sew (Sew.v.01)": {},
+                "Clamp (Clamp.v.01)": {},
+                "Tie (Tie.v.01)": {},
+                "Mount (Mount.v.01)": {},
+                "Nail (Nail.v.01)": {},
+                "Glue (Glue.v.01)": {},
+                "Solder (Solder.v.01)": {},
+                "Weld (Weld.v.01)": {},
+                "Thread (Thread.v.04)": {},
+                "Wire (Wire.v.01)": {},
+                "Hang up (Hang.v.02)": {}
+              }
+            }
+          },
+          "Separate": {
+            "Separate physical objects (Separate.v.02)": {
+              "Cut (Cut.v.01)": {
+                "Slit (Slit.v.01)": {},
+                "Snip (Snip.v.02)": {},
+                "Carve (Carve.v.02, Carve.v.03)": {
+                  "Scratch (Scratch.v.07, Scratch.v.02)": {},
+                  "Scribe (Scribe.v.01)": {}
+                },
+                "Perforate (Penetrate.v.01)": {},
+                "Butcher (Butcher.v.01)": {},
+                "Bore (Bore.v.02)": {}
+              },
+              "Break (Break.v.02, Sever.v.01)": {
+                "Grind (Grind.v.05)": {},
+                "Chip (Chip.v.01)": {}
+              },
+              "Terminate (End.v.02)": {},
+              "Disconnect (Disconnect.v.02)": {},
+              "Disassemble (Disassemble.v.01)": {},
+              "Unpack": {},
+              "Scatter (Scatter.v.03)": {
+                "Spray (Spray.v.02)": {}
+              },
+              "Remove (Remove.v.01)": {
+                "Discard (Discard.v.01)": {},
+                "Dig (Dig.v.01)": {
+                  "Shovel (Shovel.v.01)": {}
+                },
+                "Clear (Clear.v.05, Clear.v.22)": {},
+                "Extract (Draw.v.07)": {
+                  "Tap (Tap.v.02)": {},
+                  "Pump (Pump.v.03)": {}
+                },
+                "Pull (Pull.v.17)": {},
+                "Strip (Strip.v.03)": {
+                  "Skin (Skin.v.04)": {}
+                },
+                "Ream (Ream.v.02)": {},
+                "Sweep (Sweep.v.03)": {},
+                "Seed (Seed.v.08)": {},
+                "Shed (Shed.v.01)": {}
+              }
+            }
+          },
+          "Transform": {
+            "Process (Process.v.01, Process.v.03)": {},
+            "Change Apperance (Make.v.02)": {},
+            "Improve (Better.v.02)": {},
+            "Transform physical objects ()": {
+              "Prepare (Fix.v.12)": {},
+              "Develop (chemically) (Develop.v.15)": {},
+              "Service (Service.v.02)": {
+                "Maintain (Conserve.v.02)": {},
+                "Repair (Repair.v.01, Correct.v.01, Correct.v.08)": {
+                  "Troubleshoot (Trouble-shoot.v.01)": {}
+                },
+                "Replace (Replace.v.01, Change.v.06)": {
+                  "Rewire (Rewire.v.01)": {}
+                },
+                "Overhaul (Overhaul.v.02)": {},
+                "Lubricate (Lubricate.v.02)": {}
+              },
+              "Adjust (Adjust.v.01)": {
+                "Regulate (modulate) (Regulate.v.01)": {},
+                "Calibrate (Calibrate.v.01)": {},
+                "Harmonize (Harmonize.v.05)": {},
+                "Update (physical) (Update.v.01)": {},
+                "Alter (Alter.v.03)": {},
+                "Touch Up (Touch_up.v.01)": {},
+                "Tighten (Tighten.v.01)": {},
+                "Align (Align.v.01)": {},
+                "Adapt (Adapt.v.01)": {},
+                "Customize (Customize.v.02)": {}
+              },
+              "Fill (Fill.v.01)": {
+                "Replenish (Replenish.v.01)": {},
+                "Load (physical) (Load.v.01)": {}
+              },
+              "Clean (Clean.v.01)": {
+                "Wash (Wash.v.03)": {
+                  "Rinse (Rinse.v.01)": {},
+                  "Bathe (Bathe.v.01)": {}
+                },
+                "Decontaminate (Decontaminate.v.01)": {},
+                "Disinfect (Disinfect.v.01, Sterilize.v.01)": {},
+                "Sanitize (Sanitize.v.01)": {},
+                "Vacuum (Vacuum.v.01)": {}
+              },
+              "Shape (Shape.v.03, Shape.v.02, Change_shape.v.01)": {
+                "Sharpen (Sharpen.v.01)": {},
+                "Straighten (Straighten.v.02)": {},
+                "Fit (Fit.v.04)": {},
+                "Fold (Fold.v.04, Fold.v.01)": {},
+                "Bend (Bend.v.01)": {},
+                "Hammer (Hammer.v.01)": {},
+                "Press (flatten) (Press.v.04)": {},
+                "Unwind (Unwind.v.01)": {},
+                "Unfold (Unfold.v.03)": {}
+              },
+              "Heat (Heat.v.01)": {
+                "Preheat (Preheat.v.01)": {},
+                "Cook (Cook.v.02, Cook.v.03)": {
+                  "Bake (Bake.v.01)": {}
+                },
+                "Melt (Melt.v.01)": {},
+                "Cure (Cure.v.02)": {},
+                "Ignite (Ignite.v.01)": {}
+              },
+              "Wet (Wet.v.01)": {
+                "Water (Water.v.01)": {}
+              },
+              "Change surface (Change_surface.v.01)": {
+                "Smooth (Smooth.v.01)": {
+                  "Sandpaper (Sandpaper.v.01)": {},
+                  "File (surface) (File.v.02)": {},
+                  "Flush (Flush.v.04)": {},
+                  "Iron (Iron.v.01)": {}
+                },
+                "Impress (Impress.v.04)": {
+                  "Stamp (Stamp.v.02)": {},
+                  "Emboss (Emboss.v.01)": {}
+                },
+                "Paint (Paint.v.02)": {},
+                "Polish (Polish.v.01)": {
+                  "Buff (Buff.v.02)": {}
+                },
+                "Refinish (Refinish.v.01)": {},
+                "Decorate (Decorate.v.01)": {},
+                "Oil (Oil.v.01)": {}
+              }
+            }
+          }
+        },
+        "[Modify what]": {
+          "Modify information": {
+            "Move information": {
+              "Transport information": {}
+            },
+            "Revise (Revise.v.01)": {
+              "Edit (Edit.v.01)": {},
+              "Update (information) (Update.v.02)": {},
+              "Convert (Convert.v.02)": {}, 
+              "Summarize (Sum_up.v.01)": {}
+            },
+            "Encode (Encode.v.01, code.v.02)": {}
+          },
+          "Modify physical objects": {
+            "Move physical objects (Move.v.02, Transmit.v.04)": {
+              "Transport physical objects (Transport.v.04, Transfer.v.02, Transport.v.01)": {
+                "[Transport physical objects how?]": {
+                  "Carry physical objects (Transport.v.02)": {
+                    "Haul (Haul.v.02)": {}
+                  },
+                  "Pull physical objects": {
+                    "Draw (extract) (Draw.v.05)": {}
+                  },
+                  "Push physical objects": {}
+                },
+                "[Transport physical objects for what purpose?]": {
+                  "Load physical objects": {
+                    "Carry physical objects (Transport.v.02)": {},
+                    "Pull physical objects": {
+                      "Draw (extract) (Draw.v.05)": {}
+                    },
+                    "Push physical objects": {}
+                  },
+                  "Unload physical objects": {
+                    "Carry physical objects (Transport.v.02)": {},
+                    "Pull physical objects": {
+                      "Draw (extract) (Draw.v.05)": {}
+                    },
+                    "Push physical objects": {}
+                  }
+                }
+              },
+              "Put physical objects (Put.v.01)": {
+                "Raise (Raise.v.02)": {
+                  "Hoist (Hoist.v.01)": {}
+                },
+                "Lower (Lower.v.01, Lower.v.04)": {
+                  "Drop (Drop.v.01)": {
+                    "Dump (Dump.v.04)": {}
+                  },
+                  "Pour (Pour.v.01)": {}
+                },
+                "Arrange (put in proper or systematic order) (Arrange.v.01)": {
+                  "Stack (Stack.v.02)": {},
+                  "String (String.v.01)": {}
+                },
+                "Insert (Insert.v.01, Feed.v.04)": {
+                  "Wedge (Wedge.v.02)": {}
+                },
+                "Install (Install.v.01)": {},
+                "Immerse (Immerse.v.01)": {},
+                "Plant (Plant.v.01)": {
+                  "Transplant (Transplant.v.01)": {}
+                },
+                "Float (Float.v.03)": {},
+                "Hold (Hold.v.02)": {}
+              },
+              "Reorient physical objects": {
+                "Close (Close.v.01)": {},
+                "Seal (Seal.v.01)": {},
+                "Engage (Engage.v.10)": {},
+                "Turn (rotate) (Turn.v.01, Turn.v.17)": {
+                  "Roll (Roll.v.01)": {},
+                  "Unwind (Unwind.v.01)": {},
+                  "Wind (Weave.v.04)": {}
+                },
+                "Aim (Aim.v.01)": {},
+                "Manipulate (Manipulate.v.02)": {},
+                "Brush (Brush.v.04)": {},
+                "Open (Open.v.01)": {}
+              }
+            },
+            "Separate physical objects (Separate.v.02)": {
+              "Cut (Cut.v.01)": {
+                "Slit (Slit.v.01)": {},
+                "Snip (Snip.v.02)": {},
+                "Carve (Carve.v.02, Carve.v.03)": {
+                  "Scratch (Scratch.v.07, Scratch.v.02)": {},
+                  "Scribe (Scribe.v.01)": {}
+                },
+                "Perforate (Penetrate.v.01)": {},
+                "Butcher (Butcher.v.01)": {},
+                "Bore (Bore.v.02)": {}
+              },
+              "Break (Break.v.02, Sever.v.01)": {
+                "Grind (Grind.v.05)": {},
+                "Chip (Chip.v.01)": {}
+              },
+              "Terminate (End.v.02)": {},
+              "Disconnect (Disconnect.v.02)": {},
+              "Disassemble (Disassemble.v.01)": {},
+              "Unpack": {},
+              "Scatter (Scatter.v.03)": {
+                "Spray (Spray.v.02)": {}
+              },
+              "Remove (Remove.v.01)": {
+                "Discard (Discard.v.01)": {},
+                "Dig (Dig.v.01)": {
+                  "Shovel (Shovel.v.01)": {}
+                },
+                "Clear (Clear.v.05, Clear.v.22)": {},
+                "Extract (Draw.v.07)": {
+                  "Tap (Tap.v.02)": {},
+                  "Pump (Pump.v.03)": {}
+                },
+                "Pull (Pull.v.17)": {},
+                "Strip (Strip.v.03)": {
+                  "Skin (Skin.v.04)": {}
+                },
+                "Ream (Ream.v.02)": {},
+                "Sweep (Sweep.v.03)": {},
+                "Seed (Seed.v.08)": {},
+                "Shed (Shed.v.01)": {}
+              }
+            },
+            "Combine physical objects (Create_from_raw_material.v.01)": {
+              "Add (Add.v.01, Include.v.01, Incorporate.v.01)": {
+                "Extend (Extend.v.17)": {}
+              },
+              "Synthesize (Synthesize.v.01)": {
+                "Blend (Blend.v.03)": {}
+              },
+              "Cover (Cover.v.01)": {
+                "Envelop (Envelop.v.01)": {},
+                "Put On (Put_on.v.07)": {},
+                "Spread (Spread.v.03)": {}
+              },
+              "Line (Line.v.02)": {},
+              "Pack (Pack.v.01)": {
+                "Box (Box.v.01)": {}
+              },
+              "Gather (Gather.v.01)": {},
+              "Connect (Connect.v.01, Attach.v.01, Join.v.02, Affix.v.01)": {
+                "Splice (Splice.v.04)": {},
+                "Fasten (Fasten.v.01)": {},
+                "Bolt (Bolt.v.02)": {},
+                "Sew (Sew.v.01)": {},
+                "Clamp (Clamp.v.01)": {},
+                "Tie (Tie.v.01)": {},
+                "Mount (Mount.v.01)": {},
+                "Nail (Nail.v.01)": {},
+                "Glue (Glue.v.01)": {},
+                "Solder (Solder.v.01)": {},
+                "Weld (Weld.v.01)": {},
+                "Thread (Thread.v.04)": {},
+                "Wire (Wire.v.01)": {},
+                "Hang up (Hang.v.02)": {}
+              }
+            },
+            "Transform physical objects (Change.v.01, Transform.v.02, Work.v.05, Rework.v.01)": {
+              "Prepare (Fix.v.12)": {},
+              "Dress (clothes) (Dress.v.02)": {},
+              "Service (Service.v.02)": {
+                "Maintain (Conserve.v.02)": {},
+                "Repair (Repair.v.01, Correct.v.01, Correct.v.08)": {
+                  "Troubleshoot (Trouble-shoot.v.01)": {}
+                },
+                "Replace (Replace.v.01, Change.v.06)": {
+                  "Rewire (Rewire.v.01)": {}
+                },
+                "Overhaul (Overhaul.v.02)": {},
+                "Lubricate (Lubricate.v.02)": {}
+              },
+              "Adjust (Adjust.v.01)": {
+                "Regulate (modulate) (Regulate.v.01)": {},
+                "Calibrate (Calibrate.v.01)": {},
+                "Harmonize (Harmonize.v.05)": {},
+                "Update (physical) (Update.v.01)": {},
+                "Alter (Alter.v.03)": {},
+                "Tighten (Tighten.v.01)": {},
+                "Align (Align.v.01)": {},
+                "Adapt (Adapt.v.01)": {},
+                "Customize (Customize.v.02)": {},
+                "Touch Up (Touch_up.v.01)": {}
+              },
+              "Fill (Fill.v.01)": {
+                "Replenish (Replenish.v.01)": {},
+                "Load (physical)(Load.v.01)": {}
+              },
+              "Clean (Clean.v.01)": {
+                "Wash (Wash.v.03)": {
+                  "Rinse (Rinse.v.01)": {},
+                  "Bathe (Bathe.v.01)": {}
+                },
+                "Decontaminate (Decontaminate.v.01)": {},
+                "Disinfect (Disinfect.v.01, Sterilize.v.01)": {},
+                "Sanitize (Sanitize.v.01)": {},
+                "Vacuum (Vacuum.v.01)": {}
+              },
+              "Shape (Shape.v.03, Shape.v.02, Change_shape.v.01)": {
+                "Sharpen (Sharpen.v.01)": {},
+                "Straighten (Straighten.v.02)": {},
+                "Fit (Fit.v.04)": {},
+                "Fold (Fold.v.04, Fold.v.01)": {},
+                "Bend (Bend.v.01)": {},
+                "Hammer (Hammer.v.01)": {},
+                "Press (flatten) (Press.v.04)": {},
+                "Unwind (Unwind.v.01)": {},
+                "Unfold (Unfold.v.03)": {}
+              },
+              "Heat (Heat.v.01)": {
+                "Preheat (Preheat.v.01)": {},
+                "Cook (Cook.v.02, Cook.v.03)": {
+                  "Bake (Bake.v.01)": {}
+                },
+                "Melt (Melt.v.01)": {},
+                "Cure (Cure.v.02)": {},
+                "Ignite (Ignite.v.01)": {}
+              },
+              "Wet (Wet.v.01)": {
+                "Water (Water.v.01)": {}
+              },
+              "Change surface (Change_surface.v.01)": {
+                "Smooth (Smooth.v.01)": {
+                  "Sandpaper (Sandpaper.v.01)": {},
+                  "File (surface) (File.v.02)": {},
+                  "Flush (Flush.v.04)": {},
+                  "Iron (Iron.v.01)": {}
+                },
+                "Impress (Impress.v.04)": {
+                  "Stamp (Stamp.v.02)": {},
+                  "Emboss (Emboss.v.01)": {}
+                },
+                "Paint (Paint.v.02)": {},
+                "Polish (Polish.v.01)": {},
+                "Refinish (Refinish.v.01)": {},
+                "Decorate (Decorate.v.01)": {},
+                "Oil (Oil.v.01)": {}
+              }
+            }
+          }
+        }
+      },
+      "Store": {
+        "Store information (Store.v.01, Store.v.02, Conserve.v.02)": {},
+        "Store physical objects (Store.v.01, Store.v.02, Conserve.v.02)": {}
+      },
+      "Transfer (Transfer.v.05, Transfer.v.02)": {
+        "[Transfer what direction?]": {
+          "Transfer in": {
+            "Find inputs needed": {},
+            "Get (Get.v.01, Obtain.v.01, Procure.v.01)": {
+              "[Get what kind of access]": {
+                "Get right to access input": {
+                  "Get right to access by buying": {},
+                  "Get right to access as a gift": {},
+                  "Get right to access by taking": {},
+                  "Get right to access in order to provide service": {},
+                  "Get right to access to prepare for other activity (like Move)": {}
+                },
+                "Get physical access to input": {},
+                "Get mental access to input": {}
+              },
+              "[Get how?]": {
+                "Buy (Buy.v.01, Cash.v.01)": {
+                  "[Buy how?]": {
+                    "Rent (pay for time-limited use)": {
+                      "[Rent how?]": {
+                        "Hire (Hire.v.01, Engage.v.08)": {
+                          "[Hire how?]": {
+                            "Recruit (Recruit.v.02)": {},
+                            "Permanent worker": {},
+                            "Part-time worker": {},
+                            "Temporary worker": {}
+                          },
+                          "[Get what kind of service?]": {}
+                        },
+                        "Lease (Lease.v.03)": {}
+                      },
+                      "[Rent what kind of input?]": {
+                        "Rent information": {},
+                        "Rent physical object": {},
+                        "Rent service": {}
+                      }
+                    }
+                  },
+                  "[Buy what kind of input?]": {
+                    "Buy information": {},
+                    "Buy physical object": {},
+                    "Buy service": {}
+                  }
+                },
+                "Take (Take.v.04, Take.v.08)": {
+                  "Recover (Recover.v.01)": {},
+                  "Impound (Impound.v.01)": {}
+                },
+                "Receive (Receive.v.01, Accept.v.02, Stock.v.05)": {}
+              },
+              "[Get what?]": {
+                "Get information": {
+                  "[Get information how?]": {
+                    "Perceive (Perceive.v.01)": {
+                      "Observe (Observe.v.04, Detect.v.01)": {},
+                      "Monitor (Monitor.v.01)": {
+                        "Track (Track.v.02)": {},
+                        "Surveil (Surveil.v.01)": {}
+                      },
+                      "Check (Check.v.01, watch.v.02, guard.v.01, patrol.v.01)": {},
+                      "Survey (Survey.v.05)": {},
+                      "Search (Search.v.01)": {},
+                      "Find (Find.v.03, name.v.02, locate.v.01)": {
+                        "Spot (Spot.v.02)": {}
+                      },
+                      "Examine (Examine.v.02)": {
+                        "Scan (Scan.v.01)": {},
+                        "Inspect (Inspect.v.01)": {}
+                      }
+                    },
+                    "Evaluate (Evaluate.v.02)": {
+                      "Measure (Measure.v.04)": {},
+                      "Weigh (Weigh.v.03)": {},
+                      "Test (Test.v.01)": {},
+                      "Rate (Rate.v.01)": {
+                        "Grade (Grade.v.03)": {}
+                      },
+                      "Review (Review.v.02, Review.v.01)": {
+                        "Proofread (Proofread.v.01)": {}
+                      },
+                      "Screen (Screen.v.02)": {},
+                      "Audit (Audit.v.01)": {}
+                    },
+                    "Understand (Understand.v.01, Interpret.v.01)": {
+                      "Read (something written or printed) (Read.v.01)": {},
+                      "Read (gauges, instruments, etc.) (Read.v.08)": {},
+                      "Watch (Watch.v.01)": {
+                        "Preview (Preview.v.01)": {}
+                      },
+                      "Listen (Heed.v.01)": {}
+                    },
+                    "Import (Import.v.02)": {}
+                  },
+                  "[Get what kind of information?]": {
+                    "Get information for decision-making": {}
+                  },
+                  "[Get access to information - how?]": {
+                    "Buy information": {},
+                    "Receive information": {},
+                    "Take information": {}
+                  }
+                },
+                "Get physical objects": {},
+                "Get service": {
+                  "Lead (Lead.v.05, Lead.v.01, Induce.v.02)": {
+                    "Persuade (Persuade.v.02)": {},
+                    "Control (Control.v.01)": {
+                      "Manage (Manage.v.02, Treat.v.01)": {
+                        "Implement (Follow_through.v.02)": {},
+                        "Improve (Better.v.02)": {},
+                        "Conduct (Conduct.v.02, Conduct.v.01)": {},
+                        "Direct (Direct.v.04)": {},
+                        "Administer (manage) (Administer.v.01)": {},
+                        "Oversee (Oversee.v.01)": {}
+                      },
+                      "Order (Order.v.01)": {
+                        "Compel (Compel.v.01)": {},
+                        "Regulate (authoritative) (Regulate.v.02)": {},
+                        "Establish (Lay_down.v.01)": {},
+                        "Standardize (Standardize.v.01)": {},
+                        "Enforce (Enforce.v.01, Enforce.v.02)": {},
+                        "Dispatch (Dispatch.v.01)": {
+                          "Route (Route.v.01)": {}
+                        }
+                      },
+                      "Authorize (Authorize.v.01, Approve.v.01)": {},
+                      "Start (Start.v.08, Trip.v.04, Lead_up.v.01)": {},
+                      "Prevent (Prevent.v.02)": {
+                        "Defend (Defend.v.02)": {
+                          "Protect (Protect.v.01)": {}
+                        },
+                        "Restrain (Restrain.v.01)": {},
+                        "Stop (Stop.v.01)": {}
+                      },
+                      "Punish (Punish.v.01)": {
+                        "Discipline (Discipline.v.02)": {}
+                      },
+                      "Organize (people or events) (Organize.v.05, Hold.v.03)": {},
+                      "Steer (Steer.v.01)": {},
+                      "Operate (Operate.v.03)": {
+                        "[Operate how?]": {
+                          "Drive (Drive.v.01, Drive.v.03)": {},
+                          "Pilot": {},
+                          "Reset (Reset.v.01)": {},
+                          "Fly (Fly.v.03)": {},
+                          "Turn (on/off) (Turn.v.22)": {}
+                        },
+                        "[Operate what?]": {
+                          "Operate transport": {
+                            "Operate transport for physical objects": {},
+                            "[Operate transport how?]": {
+                              "Transport by mechanical vehicle": {},
+                              "Transport by animal": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Get input": {}
+            }
+          },
+          "Transfer out": {
+            "Provide": {
+              "[Provide what?]": {
+                "Provide information": {
+                  "[Provide what kind of information?]": {
+                    "Provide money (Pay.v.01)": {
+                      "Disburse (Disburse.v.01)": {}
+                    },
+                    "Provide decision": {}
+                  },
+                  "[Provide information how?]": {
+                    "Send information (Send.v.02)": {
+                      "Talk (Talk.v.02)": {
+                        "Address (Address.v.02, Deliver.v.01)": {}
+                      },
+                      "Greet (Greet.v.01)": {},
+                      "Answer (Answer.v.01)": {},
+                      "Inform (Inform.v.01, Advise.v.02)": {
+                        "Describe (Describe.v.01)": {},
+                        "Explain (Explain.v.01, Rede.v.01)": {},
+                        "Publish (Publish.v.02)": {},
+                        "Announce (Announce.v.01)": {
+                          "Advertise (Advertise.v.02)": {},
+                          "Post (Post.v.01)": {}
+                        },
+                        "Alert (Alarm.v.02)": {},
+                        "Mention (Mention.v.01, Note.v.01)": {},
+                        "Testify (Testify.v.02)": {},
+                        "Sign (Sign.v.05)": {},
+                        "Refer (Refer.v.04)": {},
+                        "Seat (Seat.v.01)": {}
+                      },
+                      "Show (Show.v.04, Expose.v.03)": {
+                        "Present (Present.v.02, Show.v.01)": {},
+                        "Perform (artistic) (Perform.v.03)": {
+                          "Interpret (Interpret.v.03)": {},
+                          "Audition (Audition.v.01)": {}
+                        }
+                      },
+                      "Advise (Rede.v.02)": {},
+                      "Request (Request.v.01, Ask.v.02, Request.v.02)": {
+                        "Call (Call.v.05)": {},
+                        "Requisition (Requisition.v.01)": {},
+                        "Solicit (Solicit.v.01)": {},
+                        "Reserve (Reserve.v.04)": {}
+                      },
+                      "Ask (Ask.v.01, Ask.v.02)": {},
+                      "Respond (React.v.01)": {},
+                      "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {},
+                      "Promise (Promise.v.01)": {},
+                      "Relay (Relay.v.01)": {},
+                      "Assure (Assure.v.03)": {
+                        "Reassure (Reassure.v.02)": {}
+                      },
+                      "Load (digital) (Load.v.03)": {},
+                      "Upload (Upload.v.01)": {}
+                    },
+                    "Express Live": {
+                      "Talk (Talk.v.02)": {
+                        "Address (Address.v.02, Deliver.v.01)": {}
+                      },
+                      "Sign (Sign.v.05)": {},
+                      "Act (Perform, e.g. in a play)": {},
+                      "Read (out loud) (Read.v.03)": {},
+                      "Express using instruments (Play.v.07)": {}
+                    }
+                  }
+                },
+                "Provide physical objects": {
+                  "Provide food (Feed.v.02, Feed.v.01)": {}
+                },
+                "Provide service": {
+                  "Follow (Follow.v.01)": {
+                    "Comply (Comply.v.01, Obey.v.01)": {}
+                  },
+                  "Assist (Support.v.02, Support.v.01, Help.v.01)": {
+                    "Care (Care.v.02)": {
+                      "Attend (care) (Attend.v.02)": {
+                        "Tend (Tend.v.02)": {}
+                      },
+                      "Cultivate (Cultivate.v.01)": {}
+                    },
+                    "Facilitate": {},
+                    "Escort (Escort.v.01, Accompany.v.02)": {},
+                    "Encourage (Encourage.v.02, Promote.v.01)": {},
+                    "Treat (Treat.v.03)": {
+                      "Administer (treat) (Administer.v.04)": {},
+                      "Dress (wound) (Dress.v.14)": {},
+                      "Operate on (Operate_on.v.01)": {}
+                    },
+                    "Represent (Represent.v.04)": {},
+                    "Serve (role) (Serve.v.02)": {
+                      "Act As (Act_as.v.01)": {}
+                    }
+                  },
+                  "Respond (React.v.01)": {}
+                }
+              },
+              "[Provide how?]": {
+                "Give (Give.v.03)": {
+                  "Contribute (Contribute.v.02)": {}
+                },
+                "Lend (Lend.v.02)": {},
+                "Pass (Pass.v.05, Present.v.04)": {},
+                "Return (Return.v.01)": {},
+                "Sell (Sell.v.01, Market.v.01)": {
+                  "[Sell what?]": {
+                    "Sell information": {},
+                    "Sell physical objects": {},
+                    "Sell service": {}
+                  },
+                  "Lease out (Lease.v.03)": {},
+                  "Rent out": {}
+                },
+                "Supply (Supply.v.01)": {
+                  "Ticket (Ticket.v.02)": {},
+                  "Stock (Stock.v.06, Stock.v.05)": {
+                    "Restock (Restock.v.01)": {}
+                  },
+                  "Make available (Yield.v.01, open.v.06, Distribute.v.03, Issue.v.02)": {},
+                  "Equip (Equip.v.01)": {
+                    "Patch (Patch.v.02)": {},
+                    "Wire (Wire.v.01)": {}
+                  }
+                },
+                "Distribute (Distribute.v.01)": {
+                  "Deal (Deal.v.09)": {},
+                  "Circulate (Circulate.v.03)": {},
+                  "Assign (Assign.v.02)": {
+                    "Allocate (Allocate.v.01)": {}
+                  }
+                }
+              },
+              "[Provide what kind of access?]": {
+                "Provide right to access output": {
+                  "Provide right to use by selling": {},
+                  "Provide right to use as a gift": {}
+                },
+                "Provide physical access to output": {},
+                "Provide mental access to output": {}
+              },
+              "Provide input": {}
+            }
+          },
+          "Transfer end-to-end": {
+            "Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {
+              "Send information (Send.v.02)": {
+                "Talk (Talk.v.02)": {
+                  "Address (Address.v.02, Deliver.v.01)": {}
+                },
+                "Greet (Greet.v.01)": {},
+                "Answer (Answer.v.01)": {},
+                "Inform (Inform.v.01, Advise.v.02)": {
+                  "Describe (Describe.v.01)": {},
+                  "Explain (Explain.v.01, Rede.v.01)": {},
+                  "Publish (Publish.v.02)": {},
+                  "Announce (Announce.v.01)": {
+                    "Advertise (Advertise.v.02)": {},
+                    "Post (Post.v.01)": {}
+                  },
+                  "Disseminate (Circulate.v.02)": {},
+                  "Mention (Mention.v.01, Note.v.01)": {},
+                  "Testify (Testify.v.02)": {},
+                  "Sign (Sign.v.05)": {},
+                  "Refer (Refer.v.04)": {},
+                  "Seat (Seat.v.01)": {},
+                  "Alert (Alarm.v.02)": {},
+                  "Serve (deliver) (Serve.v.11)": {},
+                  "Report (Report.v.01, Report.v.04)": {}
+                },
+                "Show (Show.v.04, Expose.v.03)": {
+                  "Present (Present.v.02, Show.v.01)": {},
+                  "Perform (artistic) (Perform.v.03)": {
+                    "Interpret (Interpret.v.03)": {},
+                    "Audition (Audition.v.01)": {}
+                  }
+                },
+                "Advise (Rede.v.02)": {
+                  "Preach (Preach.v.02)": {}
+                },
+                "Request (Request.v.01, Ask.v.02, Request.v.02)": {
+                  "Call (Call.v.05)": {},
+                  "Requisition (Requisition.v.01)": {},
+                  "Solicit (Solicit.v.01)": {},
+                  "Reserve (Reserve.v.04)": {}
+                },
+                "Ask (Ask.v.01, Ask.v.02)": {},
+                "Respond (React.v.01)": {},
+                "Propose (Propose.v.01, Project.v.08, Offer.v.04)": {},
+                "Promise (Promise.v.01)": {},
+                "Relay (Relay.v.01)": {},
+                "Assure (Assure.v.03)": {
+                  "Reassure (Reassure.v.02)": {}
+                }
+              },
+              "Receive information": {}
+            },
+            "Ship (transfer physical object end-to-end)": {}
+          },
+          "Transfer both ways (Exchange.v.01, Trade.v.01)": {
+            "Transact (Transact.v.01)": {},
+            "Exchange information": {
+              "Interview (Interview.v.02, Interview.v.01)": {},
+              "Confer (Confer.v.01)": {},
+              "Correspond (Correspond.v.03)": {},
+              "Meet (Meet.v.01)": {},
+              "Reach (Reach.v.04)": {},
+              "Teach (Teach.v.01, Educate.v.01, Prepare.v.05)": {
+                "Train (Train.v.01)": {},
+                "Mentor (Mentor.v.01)": {},
+                "Tutor (Tutor.v.01)": {},
+                "Coach (Coach.v.01)": {}
+              },
+              "Agree (Agree.v.01)": {},
+              "Negotiate (Negociate.v.06)": {},
+              "Mediate (Intercede.v.01)": {
+                "Defuse (Defuse.v.01)": {}
+              },
+              "Hash out (Hash_out.v.01)": {}
+            },
+            "Exchange physical objects": {}
+          }
+        },
+        "[Transfer what?]": {
+          "Transfer physical objects": {
+            "Get physical objects": {},
+            "Provide physical objects": {
+              "Provide food (Feed.v.02, Feed.v.01)": {}
+            },
+            "Exchange physical objects": {}
+          }
+        }
+      }
+    },
+    "unclassified": {
+      "Identify goals": {},
+      "Identify alternatives": {},
+      "Analyze alternatives (“weigh the evidence”)": {},
+      "Package input": {},
+      "Load input": {},
+      "Remove packaging": {},
+      "Move self near input": {},
+      "Connect input (to Transporter)": {},
+      "Disconnect input (from Transporter)": {},
+      "Move self behind input": {},
+      "Get vehicle": {},
+      "Get resources needed to operate vehicle": {},
+      "Get resources needed to care for contents of vehicle": {},
+      "Control vehicle": {},
+      "Operate other aspects of vehicle": {},
+      "Maintain vehicle": {},
+      "Care for contents of vehicle": {},
+      "Provide vehicle": {},
+      "Get information about time and place to board vehicle": {},
+      "Move to vehicle": {},
+      "Load self onto vehicle": {},
+      "Ride as passenger": {},
+      "Unload self from vehicle": {},
+      "Move to final destination": {},
+      "Identify needs for this type of service provider": {},
+      "Find potential sources": {},
+      "Find potential service providers": {},
+      "Select source": {},
+      "Select service provider": {},
+      "Get right to use service provider": {},
+      "Get physical access to service provider": {},
+      "Direct service provider": {},
+      "Provide other inputs": {},
+      "Receive service": {},
+      "Agree with provider (or other user who shares access) to get input": {},
+      "Receive delivery": {},
+      "Retrieve input": {},
+      "Move to input": {},
+      "Get physical keys": {},
+      "Get information keys": {},
+      "Identify needs for this type of worker": {},
+      "Find potential workers": {},
+      "Select worker": {},
+      "Get right to use by hiring": {},
+      "Get right to access by renting each input": {},
+      "Get physical access to each input": {},
+      "Get mental access to each input": {},
+      "Get right to access by buying each input": {},
+      "Identify types of input needed": {},
+      "Find potential sources for each input": {},
+      "Find potential inputs": {},
+      "Select source for each input": {},
+      "Select each input": {},
+      "Agree to buy": {},
+      "Pay": {},
+      "Inform potential buyers about outputs to be provided": {},
+      "Agree to sell": {},
+      "Receive payment": {},
+      "Deliver output to customer": {},
+      "Make output available for receiver to pick up": {},
+      "Make output available for receiver to use without moving output": {},
+      "Provide physical keys": {},
+      "Provide information keys": {},
+      "Identify potential buyers": {},
+      "Identify potential buyers’ needs": {},
+      "Identify potential recipients": {},
+      "Provide right to use output": {}
+    }
+  }
+}
