@@ -32,6 +32,7 @@ class ONetHierarchyMapper:
         print(f"   Output structure: Atomic Tasks + Specializations")
         
     def load_onet_data(self, csv_path: str = None):
+
         """Load and process O*Net CSV data."""
         if csv_path is None:
             csv_path = self.input_csv_file
@@ -50,8 +51,18 @@ class ONetHierarchyMapper:
                 
                 if not all([task_id, task, verb, obj_singularized, synset]):
                     continue
-                
-                # Create verb-object pair using singularized object
+
+                # Prefer corrected atomic-task label if present & sane
+                fixed = (row.get('Fix_Direct_Obj') or "").strip()
+                if fixed:
+                    parts = fixed.split()
+                    if parts:
+                        fixed_verb = parts[0].strip()
+                        fixed_obj  = " ".join(parts[1:]).strip()
+                        if fixed_verb.lower() == verb.lower() and fixed_obj:
+                            obj_singularized = fixed_obj
+
+                # Create verb-object pair
                 verb_object = f"{verb.title()} {obj_singularized.title()}"
                 
                 # Store task under synset and verb-object
@@ -498,7 +509,7 @@ def main():
     config = {
         'input_csv_file': '0926_onet_classifications.csv',      # Input CSV file with O*Net classifications
         'hierarchy_file': '0926_hierarchy.json',  # Input hierarchy JSON file
-        'output_file': '0926_hierarchy_with_onet.json'    # Output integrated hierarchy
+        'output_file': '0926_hierarchy_with_onet_fix_direct_obj.json'    # Output integrated hierarchy
     }
     
     # Validate input files exist

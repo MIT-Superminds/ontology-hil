@@ -117,71 +117,34 @@ class CSVRowProcessor:
             Dictionary with 'system' and 'user' keys for the prompt
         """
         
-        # EXAMPLE 1: Simple classification based on task description
-        # Uncomment and modify this example:
-        """
-        task = row.get('Task', '')
-        system_prompt = '''You are an expert at classifying work tasks.
-        Analyze the given task and classify it into one of these categories:
-        - Physical: Tasks involving physical objects or manual work
-        - Information: Tasks involving data, analysis, or information processing
-        - Communication: Tasks involving interaction with people
-        - Creative: Tasks involving design, planning, or creative work
-        
-        Respond with just the category name.'''
-        
-        user_prompt = f"Classify this task: {task}"
-        """
-        
-        # EXAMPLE 2: Extract specific information from text
-        # Uncomment and modify this example:
-        """
-        task = row.get('Task', '')
-        verb = row.get('Verb', '')
-        
-        system_prompt = '''You are an expert at analyzing work tasks.
-        Given a task description and its main verb, identify the primary object 
-        that the verb acts upon. Respond with just the object name.'''
-        
-        user_prompt = f"Task: {task}\nVerb: {verb}\n\nWhat object does the verb act upon?"
-        """
-        
-        # EXAMPLE 3: Multi-column analysis
-        # Uncomment and modify this example:
-        """
         task = row.get('Task', '')
         verb = row.get('Verb', '')
         obj = row.get('Object', '')
         
-        system_prompt = '''You are an expert at work task analysis.
-        Rate how well the verb-object pair matches the task description.
-        Respond with a score from 1-10 and a brief explanation.
-        Format: "Score: X - Explanation"'''
-        
-        user_prompt = f'''Task: {task}
-        Verb: {verb}
-        Object: {obj}
-        
-        How well does "{verb} {obj}" represent this task?'''
-        """
-        
-        # DEFAULT TEMPLATE - Replace this with your specific logic
-        # This example analyzes task complexity
-        task = row.get('Task', '')
-        task_id = row.get('Task ID', row_index)
-        
-        system_prompt = '''You are an expert at analyzing work task complexity.
-        Analyze the given task and rate its complexity on a scale of 1-5:
-        1 = Very Simple (routine, repetitive)
-        2 = Simple (basic skills required)
-        3 = Moderate (some training/experience needed)
-        4 = Complex (significant expertise required)
-        5 = Very Complex (highly specialized knowledge)
-        
-        Respond with just the number (1-5).'''
-        
-        user_prompt = f"Rate the complexity of this task: {task}"
-        
+        system_prompt = (
+        "You are an expert in analyzing O*NET-style verb-object atomic tasks and correcting "
+        "cases where the direct object has been misidentified or is too vague.\n\n"
+        "Your goal is to identify when the object in a task should be replaced with a more accurate, "
+        "concrete noun phrase that is clearly implied by the task text.\n\n"
+        "Rules:\n"
+        "- Only adjust the OBJECT; keep the VERB exactly as given (same word form/casing).\n"
+        "- Make the object a concrete noun or noun phrase implied by the task text.\n"
+        "- Prefer established terminology (e.g., 'Work Order', 'Order Slip').\n"
+        "- Make the final pair Title Case: '<Verb> <Object>' (e.g., 'Read Work Order').\n"
+        "- If no change is required, return the original pair as is.\n\n"
+        "- Do NOT add extra context, merge tasks, or invent entities.\n\n"
+        "Output format (STRICT): return only a single JSON object (no prose, no backticks):\n"
+        '{\"action\":\"correct_object\"|\"no_change\",\"final_verb_object\":\"<Verb> <Object>\",\"reason\":\"<≤20 words>\"}'  # noqa: E501
+        )
+
+        user_prompt = (
+        f"Correct this row:\n"
+        f"Task: {task}\n"
+        f"Verb: {verb}\n"
+        f"Object: {obj}\n"
+        "Return ONLY the JSON as specified by the system message."
+    )
+    
         return {
             'system': system_prompt,
             'user': user_prompt
@@ -256,6 +219,23 @@ class CSVRowProcessor:
             
             # Call the LLM
             result = self.call_llm(prompt_data['system'], prompt_data['user'])
+
+            # If direct-obj changed, extract final string. If not, return original result.
+            try:
+                import json
+                data = json.loads(result)
+                final = data.get("final_verb_object") or result
+                # Log action and reason
+                if isinstance(data, dict):
+                    if 'action' in data:
+                        print(f"      • Action: {data['action']}")
+                    if 'reason' in data:
+                        print(f"      • Reason: {data['reason']}")
+                print(f"      ✅ Final: {final}")
+                return final
+            except Exception:
+                print(f"      ✅ Result: {result}")
+                return result
             
             print(f"      ✅ Result: {result}")
             return result
@@ -291,6 +271,11 @@ class CSVRowProcessor:
             # Find rows that need processing (empty or null in output column)
             mask = df[self.output_column_name].isna() | (df[self.output_column_name] == "")
             rows_to_process = df[mask]
+
+            # Test: Limit number of rows processed
+            # test_limit = 10
+            # print(f"💡 Test: only processing {test_limit} rows")
+            # rows_to_process = rows_to_process.head(test_limit)
             
             if len(rows_to_process) == 0:
                 print("✅ All rows already processed!")
@@ -387,7 +372,7 @@ def main():
     # CONFIGURATION - Modify these parameters for your use case
     config = {
         'input_file': '0926_onet_classifications.csv',  # Input CSV file
-        'output_column_name': 'LLM_Analysis',           # Name of new column to add
+        'output_column_name': 'Fix_Direct_Obj',           # Name of new column to add
         'llm_model': 'gpt-4o',                          # OpenAI model to use
         'batch_size': 1,                                # Save after each row (live updates)
         'delay_between_calls': 1.0,                     # Delay between API calls (seconds)
