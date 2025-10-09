@@ -122,28 +122,44 @@ class CSVRowProcessor:
         obj = row.get('Object', '')
         
         system_prompt = (
-        "You are an expert in analyzing O*NET-style verb-object atomic tasks and correcting "
-        "cases where the direct object has been misidentified or is too vague.\n\n"
-        "Your goal is to identify when the object in a task should be replaced with a more accurate, "
-        "concrete noun phrase that is clearly implied by the task text.\n\n"
-        "Rules:\n"
-        "- Only adjust the OBJECT; keep the VERB exactly as given (same word form/casing).\n"
-        "- Make the object a concrete noun or noun phrase implied by the task text.\n"
-        "- Prefer established terminology (e.g., 'Work Order', 'Order Slip').\n"
-        "- Make the final pair Title Case: '<Verb> <Object>' (e.g., 'Read Work Order').\n"
-        "- If no change is required, return the original pair as is.\n\n"
-        "- Do NOT add extra context, merge tasks, or invent entities.\n\n"
-        "Output format (STRICT): return only a single JSON object (no prose, no backticks):\n"
-        '{\"action\":\"correct_object\"|\"no_change\",\"final_verb_object\":\"<Verb> <Object>\",\"reason\":\"<≤20 words>\"}'  # noqa: E501
+        "You are an expert at correcting O*NET-style ATOMIC tasks of the form VERB + OBJECT.\n\n"
+        "Primary Goal:\n"
+        "- Produce ONE concrete OBJECT head noun (or very short noun phrase) that makes the task atomic.\n"
+        "- Do NOT change the VERB text, casing, or morphology.\n\n"
+        "Hard Constraints (enforced):\n"
+        "- OBJECT must NOT contain coordination or lists: no commas, 'and', 'or', '/', or '&'.\n"
+        "- Prefer 1–2 words (e.g., 'Read Diagram'). Use 3+ words ONLY when REQUIRED to preserve meaning.\n"
+        "- Use singular nouns (Blueprint, Diagram, Specification).\n"
+        "- Title Case the final pair: '<Verb> <Object>'.\n\n"
+        "Atomicity:\n"
+        "- Each CSV row denotes ONE atomic task. An atomic task is a single verb-object pair. Even if the whole O*Net task has more than one object, your job is to focus on the single verb-object pair in the row.\n"
+        "Normalization (prevent duplicates):\n"
+        "- Collapse near-duplicates under umbrella heads when specificity is not essential:\n"
+        "  -- scientific/current/technical Literature → Literature\n"
+        "  -- operating/technical/repair Manual → Manual\n"
+        "  -- engineering/technical Drawing → Drawing (or Diagram if clearer)\n"
+        "- Prefer these canonical heads where applicable: Blueprint, Drawing, Diagram, Schematic, Specification, Work Order, Manual, Plan, Map, Chart, Report, Literature, Instruction, Procedure, Policy, Order, Invoice, Prescription, Schedule.\n\n"
+        "Role Complements (rare, allowed):\n"
+        "- Some verbs encode roles, not objects (Serve/Act/Work). For these, you MAY use 'as <Role>' to preserve meaning:\n"
+        "  -- 'Serve as Advisor' (correct) vs 'Serve Advisor' (incorrect).\n"
+        "- Do NOT introduce other prepositions or clauses.\n\n"
+        "Output Format (STRICT):\n"
+        "Return ONLY a single JSON object (no extra text, no code fences):\n"
+        '{\"action\":\"correct_object\"|\"no_change\",\"final_verb_object\":\"<Verb> <Object>\",\"reason\":\"<≤20 words>\"}'  # noqa: E501\n\n"
+        "Examples (correct → incorrect):\n"
+        "Read Diagram → Read Schematics, Diagrams, or Technical Orders\n"
+        "Read Literature → Read Scientific Literature, Read Current Literature\n"
+        "Interpret Blueprint → Interpret Blueprints and Drawings\n"
+        "Review Report → Review Reports/Documentation\n"
+        "Serve as Advisor → Serve Advisor\n"
         )
 
         user_prompt = (
-        f"Correct this row:\n"
+        f"Correct this atomic task row.\n\n"
         f"Task: {task}\n"
         f"Verb: {verb}\n"
-        f"Object: {obj}\n"
-        "Return ONLY the JSON as specified by the system message."
-    )
+        f"Object: {obj}\n\n"
+        "Return ONLY the JSON as specified by the system message.")
     
         return {
             'system': system_prompt,
@@ -372,7 +388,7 @@ def main():
     # CONFIGURATION - Modify these parameters for your use case
     config = {
         'input_file': '0926_onet_classifications.csv',  # Input CSV file
-        'output_column_name': 'Fix_Direct_Obj',           # Name of new column to add
+        'output_column_name': 'v2.2',           # Name of new column to add
         'llm_model': 'gpt-4o',                          # OpenAI model to use
         'batch_size': 1,                                # Save after each row (live updates)
         'delay_between_calls': 1.0,                     # Delay between API calls (seconds)
