@@ -25,6 +25,13 @@ class ONetHierarchyMapper:
         self.hierarchy = {}
         self.task_description_to_id = {}
         self.integrated_tasks = set()
+
+        # D.O. and Verb Complement - Tracking changes
+        self.label_changes = []  # list of dicts with details per change
+        self.fix_proposed_count = 0
+        self.fix_applied_count = 0
+        self.fix_ignored_count = 0  # e.g., verb mismatch or empty obj
+
         
         print(f"🔧 O*Net Hierarchy Mapper initialized")
         print(f"   Input CSV file: {self.input_csv_file}")
@@ -52,15 +59,48 @@ class ONetHierarchyMapper:
                 if not all([task_id, task, verb, obj_singularized, synset]):
                     continue
 
-                # Prefer corrected atomic-task label if present & sane
-                fixed = (row.get('Fix_Direct_Obj') or "").strip()
+                # D.O. and Verb Complement - Track original
+                orig_obj = obj_singularized
+                orig_label = f"{verb.title()} {orig_obj.title()}"
+
+                # D.O. and Verb Complement - Prefer corrected atomic-task label if present & sane
+                fixed = (row.get('v2.2') or "").strip()
                 if fixed:
+                    self.fix_proposed_count += 1
                     parts = fixed.split()
                     if parts:
                         fixed_verb = parts[0].strip()
                         fixed_obj  = " ".join(parts[1:]).strip()
                         if fixed_verb.lower() == verb.lower() and fixed_obj:
+                            # Apply fix
                             obj_singularized = fixed_obj
+                            self.fix_applied_count += 1
+
+                            new_label = f"{verb.title()} {obj_singularized.title()}"
+                            if new_label != orig_label:
+                                self.label_changes.append({
+                                    "task_id": task_id,
+                                    "task": task,
+                                    "verb": verb,
+                                    "old_object": orig_obj,
+                                    "new_object": obj_singularized,
+                                    "old_label": orig_label,
+                                    "new_label": new_label,
+                                    "reason": "v2.2"
+                                })
+                                print(f"✏️  Label fix: {orig_label}  →  {new_label}  (Task {task_id})")
+                        else:
+                            self.fix_ignored_count += 1  # verb mismatch or empty obj
+
+                # Prefer corrected atomic-task label if present & sane
+                #fixed = (row.get('Fix_Direct_Obj') or "").strip()
+                #if fixed:
+                #    parts = fixed.split()
+                #    if parts:
+                #        fixed_verb = parts[0].strip()
+                #        fixed_obj  = " ".join(parts[1:]).strip()
+               #         if fixed_verb.lower() == verb.lower() and fixed_obj:
+                #            obj_singularized = fixed_obj
 
                 # Create verb-object pair
                 verb_object = f"{verb.title()} {obj_singularized.title()}"
@@ -84,6 +124,19 @@ class ONetHierarchyMapper:
                          for tasks in vo_dict.values())
         
         print(f"✅ Loaded {total_tasks} tasks across {total_verb_objects} verb-object pairs in {total_synsets} synsets")
+
+        # D.O. and Verb Complement - label-fix summary
+        if self.fix_proposed_count > 0:
+            print("\n✳️  Label Correction Summary (from v2.2)")
+            print(f"- Proposed fixes in CSV: {self.fix_proposed_count}")
+            print(f"- Applied fixes: {self.fix_applied_count}")
+            print(f"- Ignored fixes (verb mismatch/empty): {self.fix_ignored_count}")
+            # Unique (old_label -> new_label) pairs
+            unique_pairs = {(c['old_label'], c['new_label']) for c in self.label_changes}
+            print(f"- Unique label changes: {len(unique_pairs)}")
+            print("- Examples:")
+            for i, (old_lbl, new_lbl) in enumerate(list(unique_pairs)[:10], start=1):
+                print(f"  {i:>2}. {old_lbl} → {new_lbl}")
     
     def load_hierarchy(self, hierarchy_path: str):
         """Load the hierarchy JSON file."""
@@ -360,6 +413,23 @@ class ONetHierarchyMapper:
         report_lines.append(f"- **Missing atomic tasks (Verb-Object pairs):** {len(missing_atomic_tasks):,} unique combinations")
         report_lines.append(f"- **Missing task descriptions:** {len(missing_full_tasks):,} unique descriptions")
         report_lines.append("")
+
+        # Direct Obj and Verb Complement - Fixes Summary
+        report_lines.append("## Label Correction Stats")
+        report_lines.append("")
+        report_lines.append(f"- **Proposed fixes in CSV (`v2.2`)**: {self.fix_proposed_count:,}")
+        report_lines.append(f"- **Applied fixes**: {self.fix_applied_count:,}")
+        report_lines.append(f"- **Ignored fixes (verb mismatch/empty)**: {self.fix_ignored_count:,}")
+        unique_pairs = {(c['old_label'], c['new_label']) for c in self.label_changes}
+        unique_tasks_changed = len({c['task_id'] for c in self.label_changes})
+        report_lines.append(f"- **Unique label changes (old→new)**: {len(unique_pairs):,}")
+        report_lines.append(f"- **Distinct tasks affected**: {unique_tasks_changed:,}")
+        if unique_pairs:
+            report_lines.append("")
+            report_lines.append("### Examples of Old → New Label Changes")
+            for i, (old_lbl, new_lbl) in enumerate(list(unique_pairs)[:25], start=1):
+                report_lines.append(f"{i}. `{old_lbl}` → `{new_lbl}`")
+            report_lines.append("")
         
         # Understanding the relationship
         # Check for task descriptions that appear with both missing and available synsets
@@ -509,7 +579,7 @@ def main():
     config = {
         'input_csv_file': '0926_onet_classifications.csv',      # Input CSV file with O*Net classifications
         'hierarchy_file': '0926_hierarchy.json',  # Input hierarchy JSON file
-        'output_file': '0926_hierarchy_with_onet_fix_direct_obj.json'    # Output integrated hierarchy
+        'output_file': '0926_hierarchy_with_onet_v2.2'    # Output integrated hierarchy
     }
     
     # Validate input files exist
