@@ -10,7 +10,7 @@ from collections import defaultdict, OrderedDict
 from typing import Dict, List, Tuple, Any, Optional
 from nltk.corpus import wordnet as wn
 
-CSV_PATH = "missing verbs/finalmissingsynsets.csv"                 # your 'missingtasks.csv'
+CSV_PATH = "missing verbs/finalmissingsynsets.csv"
 HIERARCHY_PATH = "missing verbs/1121_finalhierarchy.json"  # verbs-only hierarchy json
 OUT_CSV_PATH = "missing verbs/1122placements.csv"             # final recommendations (authoritative)
 LIMIT_SYNSETS: Optional[int] = None                      # set None to run all synsets
