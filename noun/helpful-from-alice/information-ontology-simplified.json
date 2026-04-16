@@ -1,0 +1,1780 @@
+{
+  "Information": {
+    "Data": {
+      "[virtual] array": {
+        "table": {}
+      },
+      "measure": {
+        "[virtual] indefinite_quantity": {
+          "supply": {},
+          "load": {},
+          "limit": {},
+          "output": {},
+          "catch": {},
+          "correction": {},
+          "dose": {},
+          "addition": {},
+          "run": {},
+          "[virtual] small_indefinite_quantity": {
+            "helping": {},
+            "spot": {}
+          },
+          "spillage": {}
+        },
+        "[virtual] fundamental_quantity": {
+          "time_period": {
+            "run": {},
+            "time": {},
+            "watch": {},
+            "duration": {},
+            "life": {},
+            "phase": {},
+            "[virtual] work_time": {
+              "[virtual] hours": {
+                "shift": {}
+              }
+            }
+          },
+          "temperature": {},
+          "length": {
+            "radius": {}
+          }
+        },
+        "volume": {
+          "capacity": {}
+        },
+        "count": {},
+        "coordinate": {},
+        "score": {},
+        "[virtual] time_unit": {
+          "[virtual] day": {
+            "date": {}
+          },
+          "hour": {}
+        },
+        "value": {},
+        "system_of_measurement": {
+          "standard": {
+            "[virtual] medium_of_exchange": {
+              "currency": {
+                "cash": {
+                  "change": {}
+                },
+                "[virtual] coinage": {
+                  "coin": {}
+                },
+                "money": {}
+              },
+              "money": {
+                "fund": {
+                  "deposit": {}
+                },
+                "appropriation": {}
+              }
+            }
+          }
+        },
+        "[virtual] time_interval": {
+          "[virtual] pause": {
+            "delay": {
+              "extension": {}
+            }
+          }
+        },
+        "[virtual] point": {
+          "deadline": {},
+          "[virtual] moment": {
+            "time": {}
+          }
+        },
+        "unit_of_measurement": {
+          "[virtual] electromagnetic_unit": {
+            "[virtual] power_unit": {
+              "horsepower": {}
+            }
+          }
+        },
+        "number": {}
+      }
+    },
+    "Documents/Records": {
+      "magazine": {},
+      "paper": {},
+      "film": {}
+    },
+    "Communication": {
+      "[virtual] written_communication": {
+        "[virtual] writing": {
+          "[virtual] coding_system": {
+            "code": {
+              "software": {
+                "program": {
+                  "application": {},
+                  "patch": {}
+                },
+                "software_documentation": {},
+                "routine": {}
+              },
+              "instruction": {
+                "link": {}
+              }
+            }
+          },
+          "notation": {},
+          "[virtual] orthography": {
+            "spelling": {}
+          }
+        },
+        "correspondence": {},
+        "code": {},
+        "prescription": {},
+        "transcription": {},
+        "[virtual] documentation": {
+          "record": {
+            "ledger": {},
+            "[virtual] register": {
+              "[virtual] accounting": {
+                "audited_account": {},
+                "entry": {}
+              }
+            }
+          },
+          "[virtual] debt_instrument": {
+            "bond": {},
+            "note": {}
+          }
+        }
+      },
+      "[virtual] auditory_communication": {
+        "[virtual] speech": {
+          "discussion": {
+            "[virtual] conference": {
+              "consultation": {}
+            },
+            "[virtual] negotiation": {
+              "mediation": {}
+            }
+          },
+          "dictation": {},
+          "[virtual] saying": {
+            "motto": {}
+          }
+        },
+        "music": {
+          "musical_composition": {
+            "[virtual] sheet_music": {
+              "score": {}
+            },
+            "passage": {},
+            "song": {}
+          },
+          "[virtual] tune": {
+            "part": {}
+          },
+          "[virtual] section": {
+            "[virtual] passage": {
+              "excerpt": {}
+            }
+          },
+          "vocal_music": {}
+        },
+        "audio": {},
+        "language": {},
+        "[virtual] telecommunication": {
+          "[virtual] telephone": {
+            "call": {}
+          }
+        }
+      },
+      "[virtual] visual_communication": {
+        "chart": {
+          "plot": {}
+        },
+        "graph": {},
+        "presentation": {
+          "production": {},
+          "demonstration": {
+            "display": {}
+          }
+        },
+        "artwork": {
+          "illustration": {
+            "picture": {}
+          }
+        },
+        "[virtual] gesture": {
+          "[virtual] facial_expression": {
+            "grimace": {}
+          }
+        },
+        "screening": {}
+      },
+      "signal": {
+        "[virtual] visual_signal": {
+          "light": {
+            "traffic_light": {}
+          },
+          "flag": {},
+          "post": {}
+        },
+        "symbol": {
+          "[virtual] token": {
+            "postage": {}
+          },
+          "marker": {
+            "label": {
+              "tag": {}
+            },
+            "trademark": {}
+          },
+          "identifier": {}
+        },
+        "alarm": {
+          "torpedo": {}
+        },
+        "input_signal": {},
+        "output_signal": {
+          "printout": {}
+        },
+        "recording": {}
+      },
+      "sign": {
+        "poster": {}
+      },
+      "message": {
+        "mail": {},
+        "broadcast": {}
+      },
+      "[virtual] indication": {
+        "[virtual] evidence": {
+          "identification": {
+            "[virtual] positive_identification": {
+              "number": {},
+              "card": {}
+            }
+          },
+          "[virtual] record": {
+            "history": {
+              "[virtual] biography": {
+                "profile": {}
+              }
+            },
+            "file": {
+              "[virtual] computer_file": {
+                "text_file": {}
+              }
+            },
+            "[virtual] written_record": {
+              "log": {},
+              "note": {
+                "memo": {}
+              },
+              "entry": {},
+              "[virtual] chronology": {
+                "timeline": {}
+              },
+              "transcript": {},
+              "translation": {}
+            }
+          },
+          "argument": {
+            "case": {}
+          },
+          "[virtual] clue": {
+            "sign": {}
+          }
+        },
+        "mark": {
+          "fingerprint": {},
+          "[virtual] line": {
+            "guideline": {}
+          }
+        }
+      },
+      "expressive_style": {
+        "jargon": {},
+        "[virtual] writing_style": {
+          "poetry": {},
+          "prose": {}
+        }
+      }
+    },
+    "Concepts": {
+      "phenomenon": {},
+      "operation": {}
+    },
+    "attribute": {
+      "[virtual] arrangement": {
+        "classification": {},
+        "[virtual] ordering": {
+          "[virtual] series": {
+            "sequence": {},
+            "chain": {}
+          }
+        }
+      },
+      "[virtual] relation": {
+        "part": {
+          "substance": {
+            "material": {
+              "waste": {
+                "rubbish": {
+                  "debris": {},
+                  "litter": {}
+                },
+                "impurity": {},
+                "[virtual] body_waste": {
+                  "fecal_matter": {},
+                  "urine": {}
+                },
+                "garbage": {}
+              },
+              "chemical": {
+                "compound": {
+                  "[virtual] organic_compound": {
+                    "[virtual] macromolecule": {
+                      "[virtual] lipid": {
+                        "oil": {
+                          "petroleum": {}
+                        },
+                        "wax": {}
+                      },
+                      "protein": {}
+                    },
+                    "resin": {},
+                    "[virtual] hydrocarbon": {
+                      "[virtual] bitumen": {
+                        "pitch": {}
+                      }
+                    },
+                    "[virtual] ester": {
+                      "urethane": {}
+                    }
+                  },
+                  "acid": {},
+                  "[virtual] polymer": {
+                    "deoxyribonucleic_acid": {}
+                  },
+                  "oxide": {
+                    "[virtual] ferric_oxide": {
+                      "rust": {}
+                    }
+                  },
+                  "formulation": {
+                    "[virtual] cleansing_agent": {
+                      "detergent": {}
+                    },
+                    "polish": {}
+                  },
+                  "[virtual] salt": {
+                    "[virtual] halide": {
+                      "fluoride": {}
+                    },
+                    "[virtual] calcium_sulphate": {
+                      "plaster_of_paris": {}
+                    }
+                  }
+                },
+                "flux": {},
+                "herbicide": {},
+                "pesticide": {
+                  "insecticide": {}
+                },
+                "explosive": {
+                  "charge": {}
+                },
+                "fertilizer": {},
+                "fumigant": {}
+              },
+              "adhesive_material": {
+                "cement": {
+                  "glue": {},
+                  "mastic": {}
+                },
+                "paste": {}
+              },
+              "[virtual] raw_material": {
+                "feedstock": {}
+              },
+              "paper": {
+                "sheet": {
+                  "slip": {},
+                  "[virtual] leaf": {
+                    "page": {}
+                  },
+                  "signature": {}
+                },
+                "card": {},
+                "[virtual] cardboard": {
+                  "[virtual] card": {
+                    "timecard": {}
+                  }
+                }
+              },
+              "[virtual] filling": {
+                "cement": {}
+              },
+              "earth": {
+                "soil": {
+                  "clay": {},
+                  "sand": {},
+                  "topsoil": {},
+                  "mud": {}
+                }
+              },
+              "rock": {
+                "gravel": {
+                  "ballast": {}
+                },
+                "marble": {},
+                "[virtual] igneous_rock": {
+                  "[virtual] batholith": {
+                    "granite": {}
+                  }
+                }
+              },
+              "[virtual] animal_material": {
+                "[virtual] animal_product": {
+                  "[virtual] animal_skin": {
+                    "hide": {},
+                    "fur": {}
+                  }
+                }
+              },
+              "[virtual] plant_material": {
+                "wood": {
+                  "log": {},
+                  "[virtual] softwood": {
+                    "pulpwood": {}
+                  }
+                },
+                "[virtual] plant_product": {
+                  "tobacco": {}
+                }
+              },
+              "[virtual] sealing_material": {
+                "sealant": {
+                  "caulk": {}
+                },
+                "[virtual] filler": {
+                  "size": {}
+                }
+              },
+              "abrasive": {
+                "emery_paper": {}
+              },
+              "[virtual] mineral": {
+                "[virtual] amphibole": {
+                  "asbestos": {}
+                },
+                "asphalt": {}
+              },
+              "insulator": {
+                "bushing": {}
+              },
+              "fiber": {
+                "[virtual] natural_fiber": {
+                  "[virtual] plant_fiber": {
+                    "cotton": {}
+                  }
+                },
+                "fibril": {}
+              },
+              "[virtual] coloring_material": {
+                "dye": {},
+                "pigment": {}
+              },
+              "[virtual] discharge": {
+                "[virtual] exudate": {
+                  "[virtual] latex": {
+                    "rubber": {}
+                  }
+                }
+              },
+              "[virtual] sorbent": {
+                "[virtual] absorbent_material": {
+                  "sponge": {}
+                }
+              }
+            },
+            "mixture": {
+              "solution": {},
+              "plaster": {
+                "grout": {}
+              },
+              "alloy": {
+                "solder": {},
+                "[virtual] copper-base_alloy": {
+                  "brass": {}
+                },
+                "steel": {}
+              },
+              "composition": {
+                "paste": {}
+              }
+            },
+            "[virtual] fluid": {
+              "[virtual] liquid": {
+                "beverage": {
+                  "coffee": {}
+                },
+                "alcohol": {},
+                "ink": {}
+              }
+            },
+            "[virtual] body_substance": {
+              "[virtual] liquid_body_substance": {
+                "blood": {},
+                "[virtual] extracellular_fluid": {
+                  "plasma": {}
+                },
+                "semen": {},
+                "serum": {}
+              }
+            },
+            "chemical_element": {
+              "metallic_element": {
+                "iron": {},
+                "lead": {}
+              },
+              "carbon": {
+                "diamond": {}
+              }
+            },
+            "[virtual] activator": {
+              "catalyst": {}
+            },
+            "[virtual] atom": {
+              "[virtual] isotope": {
+                "radioisotope": {}
+              }
+            },
+            "[virtual] medium": {
+              "solvent": {}
+            }
+          },
+          "detail": {},
+          "unit": {},
+          "[virtual] language_unit": {
+            "name": {
+              "signature": {},
+              "title": {}
+            },
+            "word": {
+              "[virtual] form": {
+                "abbreviation": {}
+              },
+              "homonym": {},
+              "terminology": {}
+            }
+          },
+          "member": {},
+          "basis": {},
+          "[virtual] remainder": {
+            "leftover": {}
+          }
+        },
+        "possession": {
+          "[virtual] transferred_property": {
+            "outgo": {
+              "cost": {
+                "charge": {
+                  "[virtual] fixed_charge": {
+                    "fee": {
+                      "commission": {}
+                    },
+                    "interest": {}
+                  },
+                  "fare": {},
+                  "rate": {}
+                },
+                "payment": {
+                  "premium": {},
+                  "[virtual] recompense": {
+                    "allowance": {},
+                    "compensation": {
+                      "[virtual] reimbursement": {
+                        "allowance": {}
+                      }
+                    }
+                  },
+                  "credit": {},
+                  "[virtual] penalty": {
+                    "fine": {}
+                  },
+                  "refund": {},
+                  "[virtual] regular_payment": {
+                    "[virtual] annuity": {
+                      "[virtual] annuity_in_advance": {
+                        "rent": {}
+                      }
+                    },
+                    "wage": {}
+                  },
+                  "repayment": {},
+                  "royalty": {}
+                },
+                "price": {},
+                "expense": {}
+              }
+            },
+            "acquisition": {
+              "gift": {
+                "contribution": {},
+                "[virtual] prize": {
+                  "jackpot": {}
+                }
+              },
+              "purchase": {}
+            },
+            "[virtual] loss": {
+              "[virtual] financial_loss": {
+                "[virtual] depreciation": {
+                  "[virtual] write-off": {
+                    "tax_write-off": {}
+                  }
+                }
+              }
+            }
+          },
+          "property": {
+            "[virtual] wealth": {
+              "money": {}
+            },
+            "[virtual] real_property": {
+              "land": {},
+              "estate": {}
+            }
+          },
+          "[virtual] assets": {
+            "sum": {
+              "[virtual] gain": {
+                "[virtual] financial_gain": {
+                  "income": {
+                    "[virtual] net_income": {
+                      "[virtual] accumulation": {
+                        "store": {
+                          "infrastructure": {}
+                        },
+                        "reserve": {}
+                      },
+                      "dividend": {}
+                    }
+                  }
+                }
+              },
+              "coverage": {},
+              "gross": {},
+              "advance": {},
+              "figure": {}
+            },
+            "investment": {
+              "[virtual] speculation": {
+                "[virtual] gamble": {
+                  "stake": {}
+                }
+              }
+            },
+            "resource": {
+              "support": {}
+            },
+            "capital": {},
+            "[virtual] share": {
+              "interest": {
+                "[virtual] security_interest": {
+                  "collateral": {}
+                }
+              }
+            },
+            "credit": {},
+            "[virtual] security": {
+              "[virtual] insurance": {
+                "reinsurance": {}
+              }
+            },
+            "[virtual] material_resource": {
+              "[virtual] wealth": {
+                "[virtual] treasure": {
+                  "valuable": {}
+                }
+              }
+            }
+          },
+          "[virtual] liabilities": {
+            "[virtual] charge": {
+              "[virtual] levy": {
+                "tax": {
+                  "[virtual] indirect_tax": {
+                    "duty": {}
+                  }
+                }
+              },
+              "assessment": {}
+            },
+            "[virtual] debt": {
+              "loan": {}
+            }
+          }
+        },
+        "position": {
+          "[virtual] placement": {
+            "spacing": {
+              "distance": {
+                "[virtual] interval": {
+                  "clearance": {}
+                },
+                "[virtual] elevation": {
+                  "altitude": {}
+                }
+              },
+              "distribution": {}
+            },
+            "alignment": {},
+            "proportion": {}
+          },
+          "direction": {
+            "orientation": {}
+          },
+          "occlusion": {},
+          "[virtual] room": {
+            "seating": {}
+          },
+          "gradient": {}
+        },
+        "change": {},
+        "[virtual] magnitude_relation": {
+          "rate": {
+            "flow": {},
+            "speed": {},
+            "frequency": {
+              "attendance": {},
+              "[virtual] radio_frequency": {
+                "station": {}
+              }
+            }
+          },
+          "ratio": {
+            "[virtual] quotient": {
+              "[virtual] proportion": {
+                "content": {},
+                "rate": {}
+              }
+            },
+            "efficiency": {}
+          }
+        },
+        "[virtual] relationship": {
+          "partnership": {}
+        },
+        "[virtual] connection": {
+          "[virtual] linkage": {
+            "link": {}
+          }
+        },
+        "ownership": {}
+      },
+      "[virtual] state": {
+        "condition": {
+          "[virtual] fortune": {
+            "[virtual] good_fortune": {
+              "[virtual] prosperity": {
+                "wellbeing": {}
+              }
+            }
+          }
+        },
+        "being": {
+          "possibility": {
+            "opportunity": {},
+            "potential": {}
+          }
+        },
+        "relationship": {},
+        "[virtual] skillfulness": {
+          "expertness": {},
+          "efficiency": {}
+        },
+        "order": {
+          "[virtual] harmony": {
+            "agreement": {
+              "consensus": {}
+            }
+          }
+        },
+        "imperfection": {
+          "defect": {},
+          "failing": {}
+        },
+        "[virtual] situation": {
+          "environment": {
+            "sphere": {},
+            "setting": {}
+          },
+          "challenge": {},
+          "picture": {}
+        },
+        "[virtual] status": {
+          "[virtual] high_status": {
+            "precedence": {}
+          },
+          "[virtual] rank": {
+            "grade": {}
+          },
+          "standing": {
+            "rating": {}
+          }
+        },
+        "[virtual] relationship": {
+          "account": {},
+          "[virtual] friendship": {
+            "company": {}
+          },
+          "membership": {},
+          "affiliation": {},
+          "[virtual] subjugation": {
+            "[virtual] confinement": {
+              "detention": {}
+            }
+          }
+        },
+        "conflict": {},
+        "degree": {
+          "extent": {}
+        },
+        "[virtual] feeling": {
+          "[virtual] emotion": {
+            "[virtual] emotional_state": {
+              "[virtual] gratification": {
+                "comfort": {}
+              }
+            }
+          },
+          "[virtual] sympathy": {
+            "concern": {}
+          },
+          "[virtual] happiness": {
+            "[virtual] contentment": {
+              "satisfaction": {}
+            }
+          },
+          "[virtual] desire": {
+            "wish": {}
+          }
+        },
+        "integrity": {
+          "completeness": {}
+        },
+        "[virtual] disorder": {
+          "[virtual] disturbance": {
+            "incident": {}
+          }
+        },
+        "obligation": {
+          "indebtedness": {}
+        },
+        "[virtual] union": {
+          "connection": {}
+        },
+        "ownership": {},
+        "readiness": {},
+        "[virtual] illumination": {
+          "[virtual] dark": {
+            "[virtual] semidarkness": {
+              "[virtual] shade": {
+                "shadow": {}
+              }
+            }
+          }
+        }
+      },
+      "property": {
+        "[virtual] magnitude": {
+          "dimension": {
+            "length": {
+              "diameter": {}
+            },
+            "thickness": {},
+            "height": {},
+            "width": {}
+          },
+          "size": {},
+          "[virtual] extent": {
+            "area": {
+              "space": {}
+            },
+            "depth": {}
+          },
+          "[virtual] amount": {
+            "[virtual] insufficiency": {
+              "deficit": {}
+            },
+            "number": {},
+            "[virtual] increase": {
+              "supplement": {}
+            }
+          },
+          "intensity": {}
+        },
+        "degree": {
+          "quality": {}
+        },
+        "characteristic": {},
+        "[virtual] temporal_property": {
+          "pace": {
+            "speed": {}
+          },
+          "[virtual] temporal_arrangement": {
+            "[virtual] sequence": {
+              "rotation": {}
+            },
+            "timing": {}
+          },
+          "[virtual] duration": {
+            "[virtual] permanence": {
+              "lastingness": {}
+            }
+          }
+        },
+        "constitution": {
+          "structure": {
+            "infrastructure": {}
+          }
+        },
+        "[virtual] physical_property": {
+          "weight": {},
+          "luminosity": {},
+          "sensitivity": {}
+        },
+        "[virtual] visual_property": {
+          "color": {
+            "shade": {}
+          },
+          "light": {},
+          "texture": {}
+        },
+        "[virtual] spatial_property": {
+          "shape": {
+            "curvature": {}
+          },
+          "[virtual] asymmetry": {
+            "irregularity": {}
+          }
+        },
+        "manner": {
+          "drape": {},
+          "fit": {},
+          "setup": {}
+        },
+        "[virtual] consistency": {
+          "[virtual] thinness": {
+            "fluidity": {}
+          },
+          "viscosity": {}
+        },
+        "[virtual] age": {
+          "[virtual] newness": {
+            "freshness": {}
+          }
+        },
+        "[virtual] bodily_property": {
+          "physiology": {},
+          "[virtual] position": {
+            "pose": {}
+          }
+        },
+        "[virtual] sound_property": {
+          "pitch": {},
+          "volume": {}
+        },
+        "size": {},
+        "strength": {},
+        "sustainability": {},
+        "[virtual] tactile_property": {
+          "texture": {}
+        }
+      },
+      "[virtual] quality": {
+        "characteristic": {
+          "aspect": {},
+          "[virtual] compatibility": {
+            "[virtual] agreement": {
+              "conformity": {}
+            }
+          }
+        },
+        "[virtual] power": {
+          "effectiveness": {
+            "efficacy": {}
+          },
+          "control": {
+            "authority": {}
+          },
+          "[virtual] influence": {
+            "[virtual] force": {
+              "pressure": {}
+            }
+          }
+        },
+        "appearance": {
+          "[virtual] decorativeness": {
+            "coating": {
+              "glaze": {}
+            }
+          },
+          "color": {},
+          "blemish": {
+            "dent": {},
+            "crack": {},
+            "smudge": {},
+            "mole": {},
+            "scratch": {},
+            "wart": {}
+          },
+          "form": {},
+          "[virtual] impression": {
+            "image": {}
+          },
+          "look": {},
+          "stain": {}
+        },
+        "accuracy": {
+          "fidelity": {},
+          "[virtual] exactness": {
+            "preciseness": {},
+            "trueness": {}
+          }
+        },
+        "[virtual] asset": {
+          "resource": {},
+          "[virtual] advantage": {
+            "[virtual] handicap": {
+              "penalty": {}
+            }
+          },
+          "forte": {}
+        },
+        "ability": {
+          "capability": {},
+          "adaptability": {},
+          "competence": {}
+        },
+        "utility": {
+          "[virtual] practicability": {
+            "feasibility": {}
+          },
+          "function": {},
+          "practicality": {
+            "functionality": {},
+            "viability": {}
+          },
+          "serviceability": {}
+        },
+        "suitability": {
+          "[virtual] convenience": {
+            "handiness": {}
+          },
+          "[virtual] fitness": {
+            "qualification": {
+              "eligibility": {}
+            }
+          }
+        },
+        "[virtual] good": {
+          "benefit": {
+            "advantage": {}
+          }
+        },
+        "difference": {
+          "discrepancy": {
+            "allowance": {}
+          },
+          "[virtual] dissimilarity": {
+            "[virtual] nonuniformity": {
+              "inconsistency": {}
+            }
+          }
+        },
+        "nature": {},
+        "[virtual] fruitfulness": {
+          "productiveness": {}
+        },
+        "sufficiency": {},
+        "[virtual] satisfactoriness": {
+          "[virtual] acceptability": {
+            "admissibility": {}
+          }
+        },
+        "[virtual] credibility": {
+          "authenticity": {}
+        },
+        "[virtual] sameness": {
+          "[virtual] equality": {
+            "balance": {}
+          }
+        },
+        "[virtual] clearness": {
+          "[virtual] distinctness": {
+            "focus": {}
+          },
+          "transparency": {}
+        },
+        "inaccuracy": {},
+        "[virtual] worth": {
+          "value": {
+            "[virtual] importance": {
+              "significance": {}
+            }
+          }
+        },
+        "[virtual] immobility": {
+          "[virtual] immovability": {
+            "[virtual] steadiness": {
+              "stability": {}
+            }
+          }
+        },
+        "tone": {}
+      },
+      "[virtual] shape": {
+        "[virtual] solid": {
+          "[virtual] concave_shape": {
+            "depression": {
+              "crevice": {},
+              "groove": {},
+              "dimple": {}
+            }
+          },
+          "[virtual] cylinder": {
+            "roller": {},
+            "roll": {}
+          },
+          "[virtual] polyhedron": {
+            "pyramid": {}
+          }
+        },
+        "[virtual] line": {
+          "curve": {},
+          "boundary": {
+            "margin": {}
+          },
+          "centerline": {}
+        },
+        "[virtual] amorphous_shape": {
+          "space": {
+            "opening": {
+              "[virtual] hole": {
+                "leak": {}
+              },
+              "crack": {}
+            },
+            "compartment": {},
+            "angle": {
+              "[virtual] angular_distance": {
+                "latitude": {},
+                "longitude": {}
+              }
+            }
+          }
+        },
+        "[virtual] figure": {
+          "[virtual] plane_figure": {
+            "tree": {}
+          },
+          "[virtual] solid_figure": {
+            "sculpture": {
+              "statue": {}
+            }
+          }
+        },
+        "[virtual] round_shape": {
+          "[virtual] sphere": {
+            "[virtual] ball": {
+              "[virtual] globule": {
+                "bubble": {
+                  "[virtual] foam": {
+                    "soapsuds": {}
+                  }
+                }
+              }
+            }
+          },
+          "[virtual] cylinder": {
+            "barrel": {},
+            "brake_drum": {},
+            "pipe": {}
+          }
+        },
+        "column": {}
+      },
+      "[virtual] trait": {
+        "cleanliness": {},
+        "[virtual] individuality": {
+          "[virtual] peculiarity": {
+            "idiosyncrasy": {}
+          }
+        }
+      },
+      "[virtual] time": {
+        "[virtual] continuum": {
+          "history": {}
+        },
+        "[virtual] musical_time": {
+          "rhythm": {},
+          "tempo": {}
+        }
+      },
+      "measure": {
+        "[virtual] indefinite_quantity": {
+          "supply": {},
+          "load": {},
+          "limit": {},
+          "output": {},
+          "catch": {},
+          "correction": {},
+          "dose": {},
+          "addition": {},
+          "run": {},
+          "[virtual] small_indefinite_quantity": {
+            "helping": {},
+            "spot": {}
+          },
+          "spillage": {}
+        },
+        "[virtual] fundamental_quantity": {
+          "time_period": {
+            "run": {},
+            "time": {},
+            "watch": {},
+            "duration": {},
+            "life": {},
+            "phase": {},
+            "[virtual] work_time": {
+              "[virtual] hours": {
+                "shift": {}
+              }
+            }
+          },
+          "temperature": {},
+          "length": {
+            "radius": {}
+          }
+        },
+        "volume": {
+          "capacity": {}
+        },
+        "count": {},
+        "coordinate": {},
+        "score": {},
+        "[virtual] time_unit": {
+          "[virtual] day": {
+            "date": {}
+          },
+          "hour": {}
+        },
+        "value": {},
+        "system_of_measurement": {
+          "standard": {
+            "[virtual] medium_of_exchange": {
+              "currency": {
+                "cash": {
+                  "change": {}
+                },
+                "[virtual] coinage": {
+                  "coin": {}
+                },
+                "money": {}
+              },
+              "money": {
+                "fund": {
+                  "deposit": {}
+                },
+                "appropriation": {}
+              }
+            }
+          }
+        },
+        "[virtual] time_interval": {
+          "[virtual] pause": {
+            "delay": {
+              "extension": {}
+            }
+          }
+        },
+        "[virtual] point": {
+          "deadline": {},
+          "[virtual] moment": {
+            "time": {}
+          }
+        },
+        "unit_of_measurement": {
+          "[virtual] electromagnetic_unit": {
+            "[virtual] power_unit": {
+              "horsepower": {}
+            }
+          }
+        },
+        "number": {}
+      },
+      "base": {},
+      "[virtual] psychological_feature": {
+        "cognition": {
+          "information": {
+            "example": {
+              "sample": {},
+              "exception": {}
+            },
+            "[virtual] datum": {
+              "reading": {
+                "clock_time": {
+                  "hour": {}
+                }
+              },
+              "statistic": {}
+            },
+            "fact": {
+              "detail": {},
+              "observation": {},
+              "particular": {}
+            },
+            "[virtual] evidence": {
+              "sign": {
+                "[virtual] vital_sign": {
+                  "pulse": {}
+                }
+              },
+              "[virtual] symptom": {
+                "pain": {},
+                "syndrome": {}
+              },
+              "[virtual] proof": {
+                "confirmation": {}
+              }
+            },
+            "acquaintance": {},
+            "circumstance": {},
+            "[virtual] stimulation": {
+              "discriminative_stimulus": {}
+            }
+          },
+          "[virtual] cognitive_factor": {
+            "determinant": {
+              "[virtual] influence": {
+                "support": {}
+              }
+            },
+            "difficulty": {
+              "trouble": {},
+              "hindrance": {
+                "obstacle": {
+                  "barrier": {}
+                }
+              }
+            }
+          },
+          "ability": {
+            "[virtual] know-how": {
+              "method": {
+                "system": {
+                  "program": {},
+                  "discipline": {}
+                },
+                "solution": {},
+                "technique": {},
+                "methodology": {}
+              },
+              "[virtual] wisdom": {
+                "[virtual] sagacity": {
+                  "[virtual] discretion": {
+                    "confidentiality": {}
+                  }
+                }
+              }
+            },
+            "skill": {},
+            "capacity": {},
+            "[virtual] faculty": {
+              "[virtual] sense": {
+                "[virtual] modality": {
+                  "sight": {
+                    "acuity": {}
+                  },
+                  "hearing": {}
+                }
+              }
+            },
+            "[virtual] aptitude": {
+              "capability": {}
+            },
+            "[virtual] creativity": {
+              "[virtual] imagination": {
+                "[virtual] imaginary_being": {
+                  "fictional_character": {}
+                }
+              }
+            }
+          },
+          "[virtual] content": {
+            "idea": {
+              "plan": {
+                "[virtual] plan_of_action": {
+                  "scheme": {},
+                  "policy": {},
+                  "system": {},
+                  "travel_plan": {},
+                  "tactic": {}
+                },
+                "budget": {},
+                "project": {},
+                "agenda": {},
+                "blueprint": {},
+                "outline": {},
+                "regimen": {}
+              },
+              "[virtual] ideal": {
+                "criterion": {
+                  "control_condition": {}
+                },
+                "[virtual] value": {
+                  "principle": {}
+                }
+              },
+              "concept": {
+                "rule": {
+                  "restriction": {}
+                },
+                "part": {
+                  "component": {}
+                },
+                "[virtual] hypothesis": {
+                  "model": {},
+                  "[virtual] assumption": {
+                    "basis": {}
+                  }
+                },
+                "[virtual] property": {
+                  "feature": {},
+                  "quality": {}
+                },
+                "[virtual] law": {
+                  "principle": {}
+                },
+                "[virtual] category": {
+                  "kind": {
+                    "style": {},
+                    "type": {}
+                  }
+                },
+                "[virtual] abstraction": {
+                  "[virtual] right": {
+                    "access": {},
+                    "[virtual] prerogative": {
+                      "easement": {}
+                    }
+                  }
+                },
+                "law": {},
+                "[virtual] quantity": {
+                  "[virtual] sum": {
+                    "subtotal": {}
+                  },
+                  "[virtual] numerical_quantity": {
+                    "value": {}
+                  }
+                }
+              },
+              "[virtual] generalization": {
+                "principle": {}
+              },
+              "[virtual] impression": {
+                "effect": {}
+              },
+              "[virtual] meaning": {
+                "significance": {}
+              },
+              "theme": {}
+            },
+            "goal": {
+              "aim": {},
+              "purpose": {}
+            },
+            "topic": {
+              "area": {}
+            },
+            "belief": {
+              "[virtual] opinion": {
+                "[virtual] judgment": {
+                  "decision": {}
+                }
+              },
+              "doctrine": {}
+            },
+            "[virtual] knowledge_domain": {
+              "discipline": {
+                "engineering": {
+                  "nanotechnology": {},
+                  "[virtual] computer_science": {
+                    "object": {},
+                    "[virtual] artificial_intelligence": {
+                      "robotics": {}
+                    }
+                  }
+                },
+                "[virtual] humanistic_discipline": {
+                  "[virtual] performing_arts": {
+                    "[virtual] acting": {
+                      "portrayal": {
+                        "character": {}
+                      },
+                      "skit": {}
+                    }
+                  }
+                },
+                "science": {
+                  "[virtual] natural_science": {
+                    "[virtual] physics": {
+                      "astronomy": {
+                        "astrophysics": {}
+                      }
+                    },
+                    "chemistry": {},
+                    "[virtual] earth_science": {
+                      "geography": {}
+                    },
+                    "[virtual] life_science": {
+                      "[virtual] medical_science": {
+                        "[virtual] medicine": {
+                          "prosthetics": {}
+                        }
+                      }
+                    }
+                  },
+                  "[virtual] social_science": {
+                    "sociology": {}
+                  }
+                }
+              }
+            },
+            "[virtual] representation": {
+              "[virtual] model": {
+                "template": {},
+                "original": {}
+              },
+              "[virtual] percept": {
+                "[virtual] visual_percept": {
+                  "[virtual] view": {
+                    "background": {},
+                    "[virtual] side_view": {
+                      "profile": {}
+                    }
+                  }
+                }
+              },
+              "interpretation": {}
+            },
+            "issue": {},
+            "[virtual] education": {
+              "experience": {}
+            },
+            "experience": {},
+            "tradition": {}
+          },
+          "[virtual] process": {
+            "[virtual] higher_cognitive_process": {
+              "[virtual] thinking": {
+                "[virtual] reasoning": {
+                  "analysis": {},
+                  "argumentation": {
+                    "policy": {
+                      "[virtual] economic_policy": {
+                        "[virtual] protectionism": {
+                          "[virtual] trade_barrier": {
+                            "quota": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "[virtual] explanation": {
+                  "theory": {}
+                },
+                "planning": {
+                  "agreement": {
+                    "[virtual] prearrangement": {
+                      "reservation": {}
+                    }
+                  }
+                },
+                "[virtual] problem_solving": {
+                  "calculation": {
+                    "estimate": {
+                      "credit_rating": {}
+                    }
+                  },
+                  "inquiry": {
+                    "poll": {},
+                    "[virtual] experiment": {
+                      "trial": {}
+                    }
+                  }
+                }
+              },
+              "[virtual] decision_making": {
+                "option": {},
+                "settlement": {},
+                "judgment": {}
+              },
+              "[virtual] knowing": {
+                "awareness": {},
+                "understanding": {}
+              }
+            },
+            "[virtual] basic_cognitive_process": {
+              "[virtual] classification": {
+                "appraisal": {
+                  "evaluation": {
+                    "mark": {},
+                    "pricing": {}
+                  }
+                }
+              },
+              "[virtual] perception": {
+                "[virtual] somesthesia": {
+                  "temperature": {},
+                  "pressure": {}
+                },
+                "[virtual] sensation": {
+                  "[virtual] sound": {
+                    "dub": {}
+                  },
+                  "taste": {
+                    "relish": {}
+                  }
+                }
+              },
+              "[virtual] representational_process": {
+                "symbol": {
+                  "[virtual] emblem": {
+                    "badge": {}
+                  }
+                }
+              },
+              "[virtual] memory": {
+                "[virtual] recognition": {
+                  "identity": {}
+                }
+              },
+              "[virtual] discrimination": {
+                "[virtual] taste": {
+                  "vogue": {}
+                }
+              }
+            }
+          },
+          "[virtual] structure": {
+            "[virtual] arrangement": {
+              "design": {
+                "layout": {},
+                "configuration": {}
+              }
+            },
+            "form": {
+              "grid": {}
+            }
+          },
+          "attitude": {
+            "[virtual] orientation": {
+              "position": {}
+            }
+          },
+          "[virtual] inability": {
+            "[virtual] unskillfulness": {
+              "inefficiency": {}
+            }
+          },
+          "level": {},
+          "[virtual] equivalent": {
+            "substitute": {}
+          }
+        },
+        "motivation": {
+          "[virtual] rational_motive": {
+            "incentive": {}
+          }
+        }
+      },
+      "location": {
+        "[virtual] line": {
+          "path": {}
+        },
+        "point": {
+          "position": {},
+          "beginning": {},
+          "[virtual] topographic_point": {
+            "stop": {}
+          },
+          "[virtual] geographic_point": {
+            "address": {
+              "[virtual] residence": {
+                "home": {}
+              }
+            },
+            "workplace": {
+              "lab": {},
+              "location": {},
+              "[virtual] central": {
+                "switchboard": {}
+              }
+            }
+          },
+          "corner": {}
+        },
+        "[virtual] region": {
+          "[virtual] geographical_area": {
+            "tract": {
+              "site": {
+                "cemetery": {}
+              },
+              "field": {
+                "lawn": {}
+              },
+              "[virtual] plot": {
+                "garden": {
+                  "landscaping": {}
+                },
+                "bed": {}
+              },
+              "park": {},
+              "range": {},
+              "yard": {}
+            },
+            "environment": {
+              "habitat": {},
+              "setting": {}
+            }
+          },
+          "area": {
+            "scene": {
+              "venue": {}
+            },
+            "space": {},
+            "section": {
+              "[virtual] vicinity": {
+                "[virtual] scenery": {
+                  "landscape": {}
+                }
+              }
+            }
+          }
+        },
+        "space": {
+          "angle": {},
+          "opening": {
+            "rip": {}
+          }
+        },
+        "base": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supersenses ontology report</title>
+<style>
+:root {
+  --bg: #0f172a;
+  --surface: #ffffff;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #38bdf8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(165deg, #0f172a 0%, #1e293b 42%, #f1f5f9 42%);
+  color: #1e293b;
+  min-height: 100vh;
+}
+.wrap { max-width: 920px; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+header.hero {
+  color: #f8fafc;
+  margin-bottom: 2rem;
+}
+header.hero h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+header.hero p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  max-width: 52ch;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+.stat {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(148,163,184,0.25);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  color: #f8fafc;
+}
+.stat b {
+  display: block;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+}
+.stat span {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+}
+.panel {
+  background: var(--surface);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(15,23,42,0.08);
+  padding: 1.5rem 1.35rem;
+  margin-bottom: 1.5rem;
+}
+.panel h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+.panel > .lead {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 700px) { .charts { grid-template-columns: 1fr; } }
+figure.chart {
+  margin: 0;
+  padding: 0.75rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+figure.chart figcaption {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.35rem;
+}
+.bar-svg { display: block; width: 100%; height: auto; max-width: 100%; }
+.legend {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+}
+.examples-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  margin: 0 0 0.75rem;
+}
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.85rem;
+  margin-bottom: 0.75rem;
+  background: #fff;
+}
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.65rem;
+}
+.item-title { font-size: 1rem; }
+.branch-tag {
+  font-size: 0.72rem;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-family: ui-monospace, monospace;
+}
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
+}
+.flow-col { flex: 1; min-width: 140px; }
+.flow-label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+.flow-arrow {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  flex-shrink: 0;
+}
+.pill-row { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.pill {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--pill-bg, #64748b);
+}
+.pill-muted { background: #e2e8f0; color: #475569; }
+.card-reason { font-size: 0.85rem; margin: 0.35rem 0 0.25rem; color: #475569; }
+.path-line, .ss-line { font-size: 0.72rem; color: #64748b; margin: 0.25rem 0; word-break: break-all; }
+.ss-label { color: #94a3b8; }
+.mono { font-family: ui-monospace, Consolas, monospace; font-size: 0.78rem; }
+.diff-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+@media (max-width: 560px) { .diff-grid { grid-template-columns: 1fr; } }
+.diff-detail { margin: 0.35rem 0; font-size: 0.85rem; }
+.tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  margin-right: 0.35rem;
+}
+.tag-add { background: #dcfce7; color: #166534; }
+.tag-drop { background: #fee2e2; color: #991b1b; }
+.empty { color: var(--muted); font-style: italic; }
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 1rem;
+}
+code { font-size: 0.88em; background: #f1f5f9; padding: 0.1em 0.35em; border-radius: 4px; }
+</style></head><body>
+<div class="wrap">
+<header class="hero">
+  <h1>Supersenses ontology report</h1>
+  <p>High-level view of how the noun tree lines up with supersense-based grouping. Full data lives in <code>supersenses-ontology.json</code>.</p>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>3630</b><span>Nodes in noun tree</span></div>
+  <div class="stat"><b>3623</b><span>Under main four branches</span></div>
+  <div class="stat"><b>623</b><span>Tree vs supersense flags</span></div>
+  <div class="stat"><b>893</b><span>Parent supersense diffs</span></div>
+</div>
+
+<section class="panel">
+  <h2>1. Tree branch vs supersense quadrants</h2>
+  <p class="lead">Each item sits under one of four children of <code>Entity</code> (Information, Actor, Activity via <code>process</code>, Physical Entity). Independently, its <code>noun.*</code> tags map into the same four quadrants using <code>supersenses-highlevel.json</code>. We flag items where the tree quadrant is not supported by any mapped supersense, or only unmapped tags (e.g. <code>noun.Tops</code>) appear. Items under <code>[added] Unclassified</code> are not scored here. <strong>3000</strong> nodes under the main four branches align (tree quadrant appears in the supersense-derived set).</p>
+  <div class="charts">
+    <figure class="chart"><figcaption>Flagged items by reason</figcaption>
+<svg class="bar-svg" width="640" height="88" viewBox="0 0 640 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flagged items by reason">
+<rect width="100%" height="100%" fill="#f8fafc" rx="6"/>
+<text x="8" y="42" font-size="12" fill="#334155" font-family="system-ui,sans-serif">Supersenses map to other quadrant(s), not the tree branch</text>
+<rect x="160" y="28" width="456" height="18" fill="#94a3b8" rx="3"/>
+<text x="622" y="42" font-size="12" fill="#475569" font-family="ui-monospace,monospace">606</text>
+<text x="8" y="68" font-size="12" fill="#334155" font-family="system-ui,sans-serif">No mappable supersense (e.g. only noun.Tops)</text>
+<rect x="160" y="54" width="12" height="18" fill="#94a3b8" rx="3"/>
+<text x="178" y="68" font-size="12" fill="#475569" font-family="ui-monospace,monospace">17</text>
+</svg></figure>
+    <figure class="chart"><figcaption>Flagged items by tree quadrant</figcaption>
+<svg class="bar-svg" width="640" height="140" viewBox="0 0 640 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flagged items by tree quadrant">
+<rect width="100%" height="100%" fill="#f8fafc" rx="6"/>
+<text x="8" y="42" font-size="12" fill="#334155" font-family="system-ui,sans-serif">Information</text>
+<rect x="160" y="28" width="456" height="18" fill="#2563eb" rx="3"/>
+<text x="622" y="42" font-size="12" fill="#475569" font-family="ui-monospace,monospace">450</text>
+<text x="8" y="68" font-size="12" fill="#334155" font-family="system-ui,sans-serif">Activity</text>
+<rect x="160" y="54" width="98" height="18" fill="#ea580c" rx="3"/>
+<text x="264" y="68" font-size="12" fill="#475569" font-family="ui-monospace,monospace">97</text>
+<text x="8" y="94" font-size="12" fill="#334155" font-family="system-ui,sans-serif">Physical Entity</text>
+<rect x="160" y="80" width="63" height="18" fill="#059669" rx="3"/>
+<text x="229" y="94" font-size="12" fill="#475569" font-family="ui-monospace,monospace">63</text>
+<text x="8" y="120" font-size="12" fill="#334155" font-family="system-ui,sans-serif">Actor</text>
+<rect x="160" y="106" width="13" height="18" fill="#7c3aed" rx="3"/>
+<text x="179" y="120" font-size="12" fill="#475569" font-family="ui-monospace,monospace">13</text>
+</svg></figure>
+  </div>
+  <p class="legend"><strong>Examples below</strong> (sample of 14; total flagged: 623). Scan cards to see typical mismatch shapes.</p>
+  <p class="examples-title">Sample mismatches</p>
+  <article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Human process</strong>
+<span class="branch-tag">process</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#ea580c">Activity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Changes</strong>
+<span class="branch-tag">process</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#ea580c">Activity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Body</strong>
+<span class="branch-tag">[edited] Actor</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Organization</strong>
+<span class="branch-tag">[edited] Actor</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Data</strong>
+<span class="branch-tag">[edited] Information</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#2563eb">Information</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Documents/Records</strong>
+<span class="branch-tag">[edited] Information</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#2563eb">Information</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] infrastructure</strong>
+<span class="branch-tag">[virtual] physical_entity</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#059669">Physical Entity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[added] Substance</strong>
+<span class="branch-tag">[virtual] physical_entity</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#059669">Physical Entity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill pill-muted">(none from high-level map)</span></div></div>
+</div>
+<p class="card-reason">Supersense labels do not map to any of the four high-level quadrants.</p>
+<p class="mono path-line"></p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> —</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[virtual] rule</strong>
+<span class="branch-tag">process</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#ea580c">Activity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#2563eb">Information</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">- Example:</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.cognition</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">algorithm</strong>
+<span class="branch-tag">process</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#ea580c">Activity</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#2563eb">Information</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">entity.n.01 &gt; abstraction.n.06 &gt; psychological_feature.n.01 &gt; event.n.01 &gt; act.n.02 &gt; activity.n.01 &gt; procedure.n.01 &gt; rule.n.11 &gt; algorithm</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.cognition</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[virtual] line</strong>
+<span class="branch-tag">[edited] Actor</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#059669">Physical Entity</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">- Example:</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.artifact</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[virtual] railway</strong>
+<span class="branch-tag">[edited] Actor</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#059669">Physical Entity</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">- Example:</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.artifact</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">[virtual] array</strong>
+<span class="branch-tag">[edited] Information</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#2563eb">Information</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">- Example:</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.group</p>
+</article>
+<article class="card card-mm">
+<div class="card-head"><strong class="item-title">table</strong>
+<span class="branch-tag">[edited] Information</span></div>
+<div class="flow">
+  <div class="flow-col"><span class="flow-label">Where it lives in the tree</span><span class="pill" style="--pill-bg:#2563eb">Information</span></div>
+  <span class="flow-arrow" aria-hidden="true">&#8596;</span>
+  <div class="flow-col"><span class="flow-label">What supersenses imply</span><div class="pill-row"><span class="pill" style="--pill-bg:#7c3aed">Actor</span></div></div>
+</div>
+<p class="card-reason">Mapped quadrants from supersenses do not include this item's tree branch.</p>
+<p class="mono path-line">entity.n.01 &gt; abstraction.n.06 &gt; group.n.01 &gt; arrangement.n.02 &gt; array.n.01 &gt; table.n.01</p>
+<p class="mono ss-line"><span class="ss-label">Supersenses:</span> noun.group</p>
+</article>
+</section>
+
+<section class="panel">
+  <h2>2. Supersenses differ from immediate tree parent</h2>
+  <p class="lead">Compared to the parent node in the <code>specializations</code> tree. Any difference in the supersense set is listed; most of the ontology repeats parent tags, so the total count is a minority of nodes.</p>
+  <p class="legend"><strong>Examples</strong> (sample of 14 of 893). Each card shows what changed between parent and child.</p>
+  <p class="examples-title">Sample parent/child differences</p>
+  <article class="card card-pd">
+<strong class="item-title">[virtual] living_thing</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.animal, noun.group, noun.plant</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.Tops, noun.animal, noun.group, noun.plant</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">- Example:</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">matter</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.artifact, noun.food, noun.object, noun.substance</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.Tops, noun.artifact, noun.food, noun.object, noun.substance</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; matter.n.03</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">[moved] measure</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.attribute, noun.cognition, noun.communication, noun.food, noun.possession, noun.quantity, noun.time</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.Tops, noun.attribute, noun.cognition, noun.communication, noun.food, noun.possession, noun.quantity, noun.time</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; abstraction.n.06 &gt; measure.n.02</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">phenomenon</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.phenomenon, noun.state</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.Tops, noun.phenomenon, noun.state</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; process.n.06 &gt; phenomenon.n.01</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">article</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.artifact</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.artifact</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.Tops</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; object.n.01 &gt; whole.n.02 &gt; artifact.n.01 &gt; article.n.02</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">facility</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.act, noun.artifact</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.act, noun.artifact</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; object.n.01 &gt; whole.n.02 &gt; artifact.n.01 &gt; facility.n.04</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">group</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.act, noun.artifact, noun.communication, noun.group</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.Tops, noun.artifact, noun.food, noun.person, noun.state, noun.substance</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.act, noun.communication, noun.group</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">noun.food, noun.person, noun.state, noun.substance</span></p>
+<p class="mono path-line">entity.n.01 &gt; abstraction.n.06 &gt; group.n.01</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">collection</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.act, noun.communication, noun.group</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.act, noun.communication, noun.group</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; abstraction.n.06 &gt; group.n.01 &gt; collection.n.01</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">[virtual] psychological_feature</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.act, noun.attribute, noun.cognition, noun.communication, noun.event, noun.food, noun.location, noun.motive, noun.person, noun.plant, noun.possession, noun.state, noun.time</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.Tops, noun.artifact, noun.attribute, noun.cognition, noun.communication, noun.feeling, noun.location, noun.object, noun.possession, noun.shape, noun.state, noun.time</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.act, noun.event, noun.food, noun.motive, noun.person, noun.plant</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">noun.artifact, noun.feeling, noun.object, noun.shape</span></p>
+<p class="mono path-line">- Example:</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">[virtual] organic_process</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.act, noun.process</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.process</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.act</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">- Example:</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">object</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.Tops, noun.act, noun.animal, noun.artifact, noun.attribute, noun.body, noun.communication, noun.food, noun.group, noun.location, noun.object, noun.plant, noun.possession, noun.shape, noun.substance</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.Tops, noun.act, noun.artifact, noun.attribute, noun.communication, noun.food, noun.possession, noun.substance</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.animal, noun.body, noun.group, noun.location, noun.object, noun.plant, noun.shape</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; object.n.01</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">[edited] part (natural)</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.animal, noun.body, noun.object</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.animal, noun.body, noun.object</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; thing.n.12 &gt; part.n.03</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">[virtual] natural_object</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.animal, noun.body, noun.object, noun.plant</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono"></p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.animal, noun.body, noun.object, noun.plant</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">—</span></p>
+<p class="mono path-line">- Example:</p>
+</article>
+<article class="card card-pd">
+<strong class="item-title">tail</strong>
+<div class="diff-grid">
+  <div><span class="flow-label">Child</span><p class="mono">noun.animal</p></div>
+  <div><span class="flow-label">Parent</span><p class="mono">noun.body</p></div>
+</div>
+<p class="diff-detail"><span class="tag tag-add">only on child</span> <span class="mono">noun.animal</span></p>
+<p class="diff-detail"><span class="tag tag-drop">only on parent</span> <span class="mono">noun.body</span></p>
+<p class="mono path-line">entity.n.01 &gt; physical_entity.n.01 &gt; thing.n.12 &gt; part.n.03 &gt; body_part.n.01 &gt; process.n.05 &gt; tail.n.01</p>
+</article>
+</section>
+
+<footer>Regenerate with <code>python build_supersenses_ontology.py</code></footer>
+</div>
+</body></html>

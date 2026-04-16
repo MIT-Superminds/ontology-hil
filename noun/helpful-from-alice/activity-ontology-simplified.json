@@ -1,0 +1,1080 @@
+{
+  "process (process.n.06)": {
+    "event (event.n.01)": {
+      "[virtual] act (act.n.02)": {
+        "activity (activity.n.01)": {
+          "aid (aid.n.02)": {
+            "support (support.n.02)": {
+              "blessing (blessing.n.01)": {
+                "adoption (adoption.n.01)": {}
+              },
+              "attachment (attachment.n.05)": {},
+              "sponsorship (sponsorship.n.01)": {}
+            },
+            "[virtual] relief (relief.n.05)": {
+              "consolation (consolation.n.02)": {}
+            },
+            "accommodation (accommodation.n.05)": {
+              "service (service.n.15)": {}
+            }
+          },
+          "work (work.n.01)": {
+            "investigation (investigation.n.02)": {
+              "research (research.n.01)": {
+                "[virtual] scientific_research (scientific_research.n.01)": {
+                  "experiment (experiment.n.01)": {
+                    "testing (testing.n.01)": {}
+                  }
+                },
+                "microscopy (microscopy.n.01)": {}
+              },
+              "examination (examination.n.01)": {
+                "survey (survey.n.01)": {},
+                "audit (audit.n.02)": {},
+                "inspection (inspection.n.01)": {
+                  "check (check.n.06)": {}
+                },
+                "autopsy (autopsy.n.01)": {},
+                "testing (testing.n.02)": {
+                  "screening (screening.n.04)": {}
+                }
+              },
+              "[virtual] police_work (police_work.n.01)": {
+                "surveillance (surveillance.n.01)": {
+                  "watch (watch.n.03)": {}
+                }
+              },
+              "search (search.n.02)": {},
+              "inquiry (inquiry.n.03)": {},
+              "[virtual] analysis (analysis.n.01)": {
+                "[virtual] chemical_analysis (chemical_analysis.n.01)": {
+                  "spectroscopy (spectroscopy.n.01)": {}
+                }
+              },
+              "count (count.n.02)": {}
+            },
+            "duty (duty.n.02)": {
+              "job (job.n.02)": {},
+              "assignment (assignment.n.01)": {
+                "mission (mission.n.03)": {}
+              },
+              "function (function.n.03)": {}
+            },
+            "operation (operation.n.07)": {},
+            "care (care.n.01)": {
+              "treatment (treatment.n.01)": {
+                "massage (massage.n.01)": {},
+                "[virtual] medical_care (medical_care.n.01)": {
+                  "[virtual] irrigation (irrigation.n.02)": {
+                    "enema (enema.n.01)": {},
+                    "douche (douche.n.02)": {}
+                  },
+                  "[virtual] therapy (therapy.n.01)": {
+                    "[virtual] medication (medication.n.02)": {
+                      "administration (administration.n.03)": {
+                        "sedation (sedation.n.02)": {}
+                      }
+                    },
+                    "psychotherapy (psychotherapy.n.02)": {},
+                    "radiotherapy (radiotherapy.n.01)": {}
+                  },
+                  "injection (injection.n.03)": {}
+                }
+              }
+            },
+            "service (service.n.01)": {
+              "facility (facility.n.05)": {}
+            },
+            "labor (labor.n.02)": {
+              "[virtual] manual_labor (manual_labor.n.01)": {
+                "wiring (wiring.n.02)": {},
+                "handling (handling.n.01)": {
+                  "loading (loading.n.05)": {},
+                  "unloading (unloading.n.01)": {}
+                },
+                "application (application.n.03)": {
+                  "lubrication (lubrication.n.02)": {}
+                }
+              },
+              "[virtual] effort (effort.n.02)": {
+                "exercise (exercise.n.01)": {}
+              }
+            },
+            "[virtual] undertaking (undertaking.n.01)": {
+              "assignment (assignment.n.05)": {
+                "[virtual] school_assignment (school_assignment.n.01)": {
+                  "homework (homework.n.01)": {}
+                }
+              },
+              "[virtual] enterprise (enterprise.n.01)": {
+                "[virtual] business_activity (business_activity.n.01)": {
+                  "operation (operation.n.02)": {},
+                  "[virtual] business (business.n.06)": {
+                    "trade (trade.n.03)": {}
+                  }
+                }
+              },
+              "[virtual] venture (venture.n.01)": {
+                "campaign (campaign.n.02)": {}
+              }
+            },
+            "paperwork (paperwork.n.01)": {},
+            "housework (housework.n.01)": {},
+            "job (job.n.06)": {}
+          },
+          "procedure (procedure.n.01)": {
+            "routine (routine.n.01)": {},
+            "calculation (calculation.n.01)": {},
+            "[virtual] rule (rule.n.11)": {
+              "algorithm (algorithm.n.01)": {}
+            },
+            "[virtual] medical_procedure (medical_procedure.n.01)": {
+              "operation (operation.n.06)": {
+                "catheterization (catheterization.n.01)": {}
+              }
+            }
+          },
+          "occupation (occupation.n.01)": {
+            "[virtual] profession (profession.n.02)": {
+              "[virtual] education (education.n.04)": {
+                "[virtual] teaching (teaching.n.01)": {
+                  "lecture (lecture.n.03)": {
+                    "talk (talk.n.03)": {}
+                  },
+                  "lesson (lesson.n.01)": {}
+                }
+              },
+              "technology (technology.n.01)": {}
+            },
+            "accountancy (accountancy.n.01)": {},
+            "[virtual] employment (employment.n.02)": {
+              "engagement (engagement.n.05)": {},
+              "workload (workload.n.01)": {}
+            },
+            "[virtual] trade (trade.n.02)": {
+              "[virtual] interior_decoration (interior_decoration.n.02)": {
+                "lighting (lighting.n.03)": {}
+              },
+              "[virtual] handicraft (handicraft.n.02)": {
+                "sewing (sewing.n.01)": {}
+              }
+            },
+            "[virtual] career (career.n.01)": {
+              "specialization (specialization.n.02)": {}
+            }
+          },
+          "[virtual] attempt (attempt.n.01)": {
+            "test (test.n.04)": {}
+          },
+          "training (training.n.01)": {
+            "exercise (exercise.n.03)": {
+              "rehearsal (rehearsal.n.01)": {}
+            }
+          },
+          "[virtual] calibration (calibration.n.01)": {
+            "adjustment (adjustment.n.03)": {
+              "alignment (alignment.n.04)": {}
+            }
+          },
+          "education (education.n.01)": {
+            "course (course.n.01)": {
+              "workshop (workshop.n.02)": {},
+              "orientation_course (orientation_course.n.01)": {}
+            }
+          },
+          "[virtual] creation (creation.n.01)": {
+            "art (art.n.02)": {
+              "drawing (drawing.n.03)": {}
+            },
+            "[virtual] creating_by_mental_acts (creating_by_mental_acts.n.01)": {
+              "design (design.n.01)": {
+                "planning (planning.n.02)": {}
+              },
+              "programming (programming.n.02)": {},
+              "[virtual] conceptualization (conceptualization.n.01)": {
+                "approach (approach.n.01)": {}
+              }
+            },
+            "[virtual] creating_from_raw_materials (creating_from_raw_materials.n.01)": {
+              "construction (construction.n.01)": {
+                "fabrication (fabrication.n.04)": {}
+              },
+              "recording (recording.n.02)": {},
+              "fabrication (fabrication.n.03)": {
+                "[virtual] formation (formation.n.02)": {
+                  "forging (forging.n.01)": {}
+                }
+              }
+            },
+            "[virtual] creating_by_removal (creating_by_removal.n.01)": {
+              "excavation (excavation.n.01)": {},
+              "drilling (drilling.n.01)": {}
+            }
+          },
+          "[virtual] diversion (diversion.n.01)": {
+            "entertainment (entertainment.n.01)": {
+              "[virtual] show (show.n.01)": {
+                "presentation (presentation.n.02)": {
+                  "[virtual] performance (performance.n.02)": {
+                    "rendition (rendition.n.04)": {},
+                    "magic_trick (magic_trick.n.01)": {}
+                  }
+                },
+                "display (display.n.02)": {}
+              }
+            },
+            "dancing (dancing.n.01)": {},
+            "game (game.n.03)": {},
+            "sport (sport.n.01)": {}
+          },
+          "[virtual] wrongdoing (wrongdoing.n.02)": {
+            "violation (violation.n.02)": {},
+            "[virtual] transgression (transgression.n.01)": {
+              "[virtual] crime (crime.n.01)": {
+                "[virtual] felony (felony.n.01)": {
+                  "larceny (larceny.n.01)": {}
+                },
+                "misdemeanor (misdemeanor.n.01)": {}
+              }
+            },
+            "[virtual] misbehavior (misbehavior.n.01)": {
+              "abnormality (abnormality.n.04)": {}
+            }
+          },
+          "measurement (measurement.n.01)": {
+            "[virtual] mental_measurement (mental_measurement.n.01)": {
+              "test (test.n.02)": {}
+            },
+            "surveying (surveying.n.01)": {},
+            "dosimetry (dosimetry.n.01)": {},
+            "observation (observation.n.01)": {},
+            "sounding (sounding.n.02)": {}
+          },
+          "practice (practice.n.01)": {
+            "[virtual] custom (custom.n.01)": {
+              "habit (habit.n.02)": {}
+            }
+          },
+          "preparation (preparation.n.01)": {
+            "deployment (deployment.n.01)": {},
+            "planning (planning.n.01)": {
+              "scheduling (scheduling.n.01)": {}
+            }
+          },
+          "use (use.n.01)": {
+            "exploitation (exploitation.n.01)": {}
+          },
+          "[virtual] representation (representation.n.10)": {
+            "model (model.n.09)": {
+              "simulation (simulation.n.01)": {}
+            },
+            "[virtual] pictorial_representation (pictorial_representation.n.01)": {
+              "[virtual] photography (photography.n.01)": {
+                "[virtual] radiography (radiography.n.02)": {
+                  "[virtual] roentgenography (roentgenography.n.01)": {
+                    "angiography (angiography.n.01)": {}
+                  }
+                },
+                "[virtual] filming (filming.n.01)": {
+                  "animation (animation.n.05)": {}
+                },
+                "exposure (exposure.n.08)": {}
+              },
+              "[virtual] imaging (imaging.n.02)": {
+                "sonography (sonography.n.01)": {}
+              }
+            }
+          },
+          "[virtual] organization (organization.n.06)": {
+            "listing (listing.n.02)": {
+              "inventory (inventory.n.05)": {}
+            }
+          },
+          "search (search.n.01)": {
+            "exploration (exploration.n.02)": {},
+            "shakedown (shakedown.n.02)": {}
+          },
+          "protection (protection.n.01)": {
+            "escort (escort.n.02)": {},
+            "immunization (immunization.n.01)": {
+              "inoculation (inoculation.n.01)": {}
+            },
+            "[virtual] preservation (preservation.n.01)": {
+              "conservation (conservation.n.02)": {}
+            },
+            "patrol (patrol.n.02)": {},
+            "waterproofing (waterproofing.n.01)": {}
+          },
+          "operation (operation.n.03)": {},
+          "[virtual] grouping (grouping.n.02)": {
+            "collection (collection.n.04)": {
+              "compilation (compilation.n.02)": {},
+              "gather (gather.n.02)": {
+                "harvest (harvest.n.03)": {}
+              },
+              "pickup (pickup.n.08)": {}
+            },
+            "categorization (categorization.n.03)": {},
+            "[virtual] sorting (sorting.n.03)": {
+              "separation (separation.n.04)": {},
+              "triage (triage.n.01)": {}
+            }
+          },
+          "behavior (behavior.n.01)": {},
+          "control (control.n.05)": {
+            "[virtual] possession (possession.n.01)": {
+              "[virtual] retention (retention.n.01)": {
+                "storage (storage.n.01)": {}
+              }
+            },
+            "[virtual] restraint (restraint.n.01)": {
+              "containment (containment.n.03)": {},
+              "[virtual] restriction (restriction.n.03)": {
+                "stipulation (stipulation.n.03)": {}
+              }
+            },
+            "[virtual] regulation (regulation.n.06)": {
+              "timing (timing.n.02)": {
+                "coordination (coordination.n.02)": {}
+              },
+              "limitation (limitation.n.05)": {}
+            }
+          },
+          "provision (provision.n.02)": {
+            "feeding (feeding.n.02)": {},
+            "irrigation (irrigation.n.01)": {},
+            "logistics (logistics.n.01)": {},
+            "fueling (fueling.n.01)": {}
+          },
+          "[virtual] sensory_activity (sensory_activity.n.01)": {
+            "[virtual] sensing (sensing.n.02)": {
+              "[virtual] look (look.n.02)": {
+                "observation (observation.n.02)": {
+                  "monitoring (monitoring.n.01)": {},
+                  "sighting (sighting.n.01)": {}
+                }
+              }
+            }
+          },
+          "placement (placement.n.03)": {},
+          "support (support.n.08)": {
+            "shoring (shoring.n.02)": {}
+          },
+          "[virtual] acting (acting.n.01)": {
+            "portrayal (portrayal.n.02)": {}
+          },
+          "dismantling (dismantling.n.01)": {},
+          "follow-up (follow-up.n.02)": {},
+          "game (game.n.01)": {},
+          "market (market.n.01)": {},
+          "negotiation (negotiation.n.02)": {},
+          "puncture (puncture.n.03)": {
+            "prick (prick.n.04)": {},
+            "venipuncture (venipuncture.n.01)": {}
+          },
+          "[virtual] operation (operation.n.05)": {
+            "[virtual] attack (attack.n.01)": {
+              "[virtual] penetration (penetration.n.01)": {
+                "foray (foray.n.01)": {}
+              }
+            }
+          },
+          "[virtual] ceremony (ceremony.n.03)": {
+            "[virtual] religious_ceremony (religious_ceremony.n.01)": {
+              "service (service.n.03)": {}
+            }
+          },
+          "writing (writing.n.05)": {}
+        },
+        "action (action.n.01)": {
+          "change (change.n.03)": {
+            "[virtual] change_of_state (change_of_state.n.01)": {
+              "improvement (improvement.n.02)": {
+                "repair (repair.n.01)": {
+                  "care (care.n.06)": {
+                    "overhaul (overhaul.n.01)": {}
+                  },
+                  "[virtual] restoration (restoration.n.02)": {
+                    "[virtual] reclamation (reclamation.n.01)": {
+                      "reforestation (reforestation.n.01)": {}
+                    },
+                    "rehabilitation (rehabilitation.n.01)": {}
+                  }
+                },
+                "development (development.n.01)": {
+                  "advancement (advancement.n.03)": {}
+                },
+                "upgrade (upgrade.n.06)": {},
+                "cleaning (cleaning.n.01)": {},
+                "correction (correction.n.01)": {
+                  "redress (redress.n.02)": {}
+                }
+              },
+              "[virtual] beginning (beginning.n.05)": {
+                "installation (installation.n.01)": {},
+                "first_step (first_step.n.01)": {}
+              },
+              "[virtual] soiling (soiling.n.01)": {
+                "contamination (contamination.n.03)": {}
+              },
+              "decoration (decoration.n.03)": {
+                "marking (marking.n.04)": {},
+                "ornamentation (ornamentation.n.03)": {},
+                "trimming (trimming.n.01)": {}
+              },
+              "[virtual] nullification (nullification.n.02)": {
+                "cancellation (cancellation.n.01)": {}
+              },
+              "[virtual] change_of_color (change_of_color.n.01)": {
+                "coloring (coloring.n.03)": {}
+              },
+              "termination (termination.n.05)": {
+                "completion (completion.n.02)": {
+                  "[virtual] consummation (consummation.n.02)": {
+                    "fulfillment (fulfillment.n.02)": {}
+                  }
+                },
+                "[virtual] destruction (destruction.n.01)": {
+                  "extermination (extermination.n.02)": {}
+                },
+                "closure (closure.n.07)": {}
+              },
+              "cooking (cooking.n.01)": {
+                "cuisine (cuisine.n.01)": {}
+              },
+              "[virtual] beautification (beautification.n.01)": {
+                "[virtual] beauty_treatment (beauty_treatment.n.01)": {
+                  "facial (facial.n.02)": {}
+                }
+              }
+            },
+            "motion (motion.n.03)": {
+              "disturbance (disturbance.n.05)": {
+                "disruption (disruption.n.04)": {}
+              },
+              "gesture (gesture.n.01)": {},
+              "vibration (vibration.n.01)": {}
+            },
+            "movement (movement.n.11)": {
+              "transportation (transportation.n.02)": {
+                "delivery (delivery.n.01)": {
+                  "service (service.n.13)": {}
+                }
+              },
+              "insertion (insertion.n.02)": {
+                "cannulation (cannulation.n.01)": {},
+                "transfusion (transfusion.n.01)": {}
+              }
+            },
+            "[virtual] change_of_magnitude (change_of_magnitude.n.01)": {
+              "[virtual] decrease (decrease.n.04)": {
+                "depletion (depletion.n.01)": {
+                  "consumption (consumption.n.04)": {}
+                },
+                "discount (discount.n.01)": {},
+                "easing (easing.n.02)": {},
+                "[virtual] shortening (shortening.n.02)": {
+                  "[virtual] cut (cut.n.18)": {
+                    "trim (trim.n.04)": {}
+                  }
+                }
+              },
+              "[virtual] increase (increase.n.05)": {
+                "addition (addition.n.02)": {},
+                "expansion (expansion.n.01)": {
+                  "[virtual] stretching (stretching.n.01)": {
+                    "tension (tension.n.06)": {}
+                  }
+                },
+                "[virtual] accumulation (accumulation.n.03)": {
+                  "[virtual] buildup (buildup.n.01)": {
+                    "[virtual] deposit (deposit.n.09)": {
+                      "repositing (repositing.n.01)": {}
+                    }
+                  }
+                }
+              }
+            },
+            "[virtual] change_of_integrity (change_of_integrity.n.01)": {
+              "damage (damage.n.03)": {},
+              "[virtual] burning (burning.n.01)": {
+                "[virtual] incineration (incineration.n.01)": {
+                  "cremation (cremation.n.01)": {}
+                }
+              },
+              "[virtual] separation (separation.n.09)": {
+                "removal (removal.n.01)": {
+                  "[virtual] emptying (emptying.n.01)": {
+                    "drain (drain.n.01)": {}
+                  },
+                  "dermabrasion (dermabrasion.n.01)": {},
+                  "extraction (extraction.n.03)": {}
+                },
+                "[virtual] division (division.n.03)": {
+                  "cut (cut.n.17)": {}
+                }
+              },
+              "[virtual] transformation (transformation.n.05)": {
+                "revision (revision.n.01)": {}
+              },
+              "combination (combination.n.07)": {
+                "blend (blend.n.03)": {},
+                "consolidation (consolidation.n.02)": {},
+                "mix (mix.n.03)": {}
+              },
+              "[virtual] explosion (explosion.n.02)": {
+                "detonation (detonation.n.02)": {}
+              },
+              "[virtual] breakage (breakage.n.03)": {
+                "fracture (fracture.n.03)": {}
+              },
+              "[virtual] opening (opening.n.03)": {
+                "[virtual] cut (cut.n.16)": {
+                  "incision (incision.n.02)": {}
+                }
+              }
+            },
+            "alteration (alteration.n.02)": {},
+            "[virtual] substitution (substitution.n.02)": {
+              "replacement (replacement.n.01)": {}
+            },
+            "promotion (promotion.n.02)": {},
+            "updating (updating.n.01)": {}
+          },
+          "performance (performance.n.03)": {},
+          "choice (choice.n.02)": {
+            "decision (decision.n.01)": {
+              "[virtual] move (move.n.01)": {
+                "[virtual] maneuver (maneuver.n.04)": {
+                  "measure (measure.n.01)": {
+                    "precaution (precaution.n.01)": {
+                      "security (security.n.09)": {}
+                    }
+                  },
+                  "parking (parking.n.02)": {}
+                }
+              },
+              "appointment (appointment.n.01)": {}
+            },
+            "sampling (sampling.n.01)": {}
+          },
+          "[virtual] employment (employment.n.03)": {
+            "booking (booking.n.02)": {}
+          },
+          "application (application.n.07)": {},
+          "[virtual] aggression (aggression.n.03)": {
+            "violence (violence.n.01)": {}
+          },
+          "accomplishment (accomplishment.n.01)": {
+            "recruitment (recruitment.n.01)": {},
+            "liberation (liberation.n.01)": {},
+            "[virtual] feat (feat.n.01)": {
+              "stunt (stunt.n.01)": {}
+            },
+            "[virtual] attainment (attainment.n.01)": {
+              "success (success.n.02)": {}
+            }
+          },
+          "economy (economy.n.04)": {},
+          "arrival (arrival.n.02)": {
+            "appearance (appearance.n.05)": {},
+            "entrance (entrance.n.03)": {
+              "registration (registration.n.01)": {}
+            }
+          },
+          "interaction (interaction.n.01)": {
+            "[virtual] interchange (interchange.n.02)": {
+              "[virtual] dealings (dealings.n.01)": {
+                "relation (relation.n.06)": {}
+              }
+            }
+          }
+        },
+        "[virtual] speech_act (speech_act.n.01)": {
+          "request (request.n.02)": {
+            "order (order.n.13)": {},
+            "[virtual] questioning (questioning.n.01)": {
+              "question (question.n.01)": {},
+              "[virtual] interrogation (interrogation.n.03)": {
+                "interview (interview.n.01)": {},
+                "deposition (deposition.n.02)": {}
+              }
+            },
+            "call (call.n.09)": {},
+            "charge (charge.n.11)": {}
+          },
+          "[virtual] objection (objection.n.02)": {
+            "complaint (complaint.n.03)": {
+              "grievance (grievance.n.03)": {}
+            }
+          },
+          "[virtual] disagreement (disagreement.n.03)": {
+            "dispute (dispute.n.01)": {
+              "[virtual] quarrel (quarrel.n.01)": {
+                "affray (affray.n.01)": {}
+              },
+              "gap (gap.n.05)": {}
+            }
+          },
+          "[virtual] description (description.n.02)": {
+            "label (label.n.01)": {},
+            "characterization (characterization.n.02)": {}
+          },
+          "address (address.n.03)": {
+            "[virtual] public_speaking (public_speaking.n.01)": {
+              "recitation (recitation.n.02)": {}
+            },
+            "sermon (sermon.n.01)": {},
+            "lecture (lecture.n.01)": {}
+          },
+          "[virtual] informing (informing.n.02)": {
+            "briefing (briefing.n.01)": {},
+            "[virtual] report (report.n.02)": {
+              "narration (narration.n.02)": {}
+            },
+            "telling (telling.n.02)": {
+              "warning (warning.n.03)": {}
+            },
+            "[virtual] warning (warning.n.01)": {
+              "threat (threat.n.02)": {}
+            }
+          },
+          "denial (denial.n.01)": {},
+          "disclosure (disclosure.n.01)": {
+            "discovery (discovery.n.04)": {}
+          },
+          "command (command.n.01)": {
+            "[virtual] order (order.n.01)": {
+              "summons (summons.n.02)": {}
+            }
+          },
+          "rejection (rejection.n.04)": {}
+        },
+        "implementation (implementation.n.02)": {
+          "means (means.n.01)": {
+            "instrument (instrument.n.02)": {}
+          },
+          "practice (practice.n.03)": {}
+        },
+        "communication (communication.n.01)": {
+          "contact (contact.n.08)": {},
+          "examination (examination.n.02)": {},
+          "[virtual] channel (channel.n.05)": {
+            "liaison (liaison.n.02)": {}
+          },
+          "discussion (discussion.n.01)": {
+            "detail (detail.n.03)": {}
+          },
+          "mail (mail.n.02)": {},
+          "traffic (traffic.n.03)": {},
+          "transmission (transmission.n.02)": {}
+        },
+        "judgment (judgment.n.02)": {
+          "adjudication (adjudication.n.01)": {},
+          "[virtual] estimate (estimate.n.02)": {
+            "appraisal (appraisal.n.03)": {}
+          }
+        },
+        "[virtual] discovery (discovery.n.01)": {
+          "determination (determination.n.01)": {
+            "designation (designation.n.03)": {
+              "diagnosis (diagnosis.n.01)": {
+                "[virtual] medical_diagnosis (medical_diagnosis.n.01)": {
+                  "prognosis (prognosis.n.02)": {}
+                }
+              }
+            },
+            "resolution (resolution.n.04)": {},
+            "validation (validation.n.01)": {}
+          }
+        },
+        "[virtual] acquiring (acquiring.n.01)": {
+          "acquisition (acquisition.n.01)": {
+            "purchase (purchase.n.01)": {
+              "buying (buying.n.01)": {}
+            }
+          },
+          "[virtual] capture (capture.n.01)": {
+            "apprehension (apprehension.n.04)": {}
+          },
+          "reception (reception.n.04)": {}
+        },
+        "[virtual] nonaccomplishment (nonaccomplishment.n.01)": {
+          "mistake (mistake.n.01)": {
+            "omission (omission.n.01)": {
+              "[virtual] failure (failure.n.05)": {
+                "breach (breach.n.01)": {}
+              }
+            }
+          }
+        },
+        "departure (departure.n.01)": {
+          "dispatch (dispatch.n.02)": {}
+        },
+        "disposal (disposal.n.03)": {},
+        "distribution (distribution.n.03)": {
+          "allotment (allotment.n.02)": {
+            "grant (grant.n.02)": {}
+          }
+        },
+        "[virtual] propulsion (propulsion.n.02)": {
+          "[virtual] push (push.n.01)": {
+            "[virtual] press (press.n.09)": {
+              "impression (impression.n.09)": {}
+            }
+          }
+        },
+        "[virtual] causing (causing.n.01)": {
+          "[virtual] sending (sending.n.01)": {
+            "[virtual] transmission (transmission.n.01)": {
+              "[virtual] forwarding (forwarding.n.01)": {
+                "referral (referral.n.03)": {}
+              }
+            }
+          }
+        },
+        "[virtual] inactivity (inactivity.n.03)": {
+          "delay (delay.n.02)": {}
+        },
+        "[virtual] egress (egress.n.03)": {
+          "emission (emission.n.01)": {}
+        },
+        "motivation (motivation.n.03)": {},
+        "production (production.n.01)": {},
+        "[virtual] recovery (recovery.n.03)": {
+          "repossession (repossession.n.01)": {}
+        },
+        "[virtual] hindrance (hindrance.n.03)": {
+          "[virtual] prevention (prevention.n.01)": {
+            "suppression (suppression.n.03)": {}
+          }
+        }
+      },
+      "[virtual] group_action (group_action.n.01)": {
+        "[virtual] assembly (assembly.n.06)": {
+          "[virtual] meeting (meeting.n.04)": {
+            "session (session.n.03)": {},
+            "visit (visit.n.01)": {}
+          },
+          "mobilization (mobilization.n.02)": {}
+        },
+        "transaction (transaction.n.01)": {
+          "transfer (transfer.n.06)": {
+            "[virtual] conveyance (conveyance.n.04)": {
+              "delivery (delivery.n.04)": {}
+            }
+          },
+          "[virtual] commerce (commerce.n.01)": {
+            "commercial_enterprise (commercial_enterprise.n.02)": {
+              "transportation (transportation.n.05)": {
+                "hauling (hauling.n.01)": {}
+              },
+              "construction (construction.n.07)": {},
+              "[virtual] finance (finance.n.01)": {
+                "financing (financing.n.01)": {}
+              },
+              "storage (storage.n.03)": {},
+              "advertising (advertising.n.02)": {},
+              "[virtual] industry (industry.n.02)": {
+                "[virtual] production (production.n.07)": {
+                  "breeding (breeding.n.04)": {},
+                  "[virtual] output (output.n.02)": {
+                    "crop (crop.n.01)": {}
+                  }
+                }
+              }
+            },
+            "payment (payment.n.02)": {
+              "spending (spending.n.01)": {}
+            },
+            "[virtual] selling (selling.n.01)": {
+              "sale (sale.n.02)": {
+                "auction (auction.n.02)": {}
+              },
+              "resale (resale.n.01)": {}
+            },
+            "distribution (distribution.n.04)": {}
+          },
+          "exchange (exchange.n.04)": {},
+          "deal (deal.n.01)": {}
+        },
+        "[virtual] cooperation (cooperation.n.01)": {
+          "conformity (conformity.n.02)": {},
+          "commitment (commitment.n.02)": {}
+        },
+        "[virtual] due_process (due_process.n.01)": {
+          "proceeding (proceeding.n.01)": {
+            "procedure (procedure.n.04)": {},
+            "legal_action (legal_action.n.01)": {
+              "prosecution (prosecution.n.01)": {}
+            },
+            "appeal (appeal.n.03)": {},
+            "lawsuit (lawsuit.n.01)": {},
+            "litigation (litigation.n.01)": {}
+          },
+          "[virtual] judgment (judgment.n.03)": {
+            "finding (finding.n.02)": {
+              "verdict (verdict.n.01)": {}
+            },
+            "opinion (opinion.n.05)": {}
+          }
+        },
+        "[virtual] social_control (social_control.n.01)": {
+          "management (management.n.01)": {
+            "supervision (supervision.n.01)": {},
+            "authorization (authorization.n.04)": {
+              "license (license.n.04)": {
+                "clearance (clearance.n.03)": {}
+              },
+              "commission (commission.n.03)": {}
+            },
+            "finance (finance.n.03)": {},
+            "treatment (treatment.n.02)": {},
+            "administration (administration.n.01)": {
+              "organization (organization.n.04)": {}
+            }
+          },
+          "enforcement (enforcement.n.01)": {
+            "execution (execution.n.06)": {}
+          },
+          "[virtual] government (government.n.02)": {
+            "legislation (legislation.n.02)": {}
+          }
+        },
+        "engagement (engagement.n.07)": {
+          "commitment (commitment.n.03)": {}
+        },
+        "action (action.n.09)": {},
+        "attendance (attendance.n.01)": {},
+        "competition (competition.n.03)": {}
+      },
+      "happening (happening.n.01)": {
+        "[virtual] trouble (trouble.n.03)": {
+          "[virtual] misfortune (misfortune.n.01)": {
+            "[virtual] mishap (mishap.n.02)": {
+              "accident (accident.n.01)": {
+                "injury (injury.n.02)": {}
+              }
+            }
+          }
+        },
+        "[virtual] change (change.n.01)": {
+          "[virtual] transformation (transformation.n.01)": {
+            "improvement (improvement.n.01)": {
+              "[virtual] revival (revival.n.01)": {
+                "resuscitation (resuscitation.n.01)": {
+                  "cardiopulmonary_resuscitation (cardiopulmonary_resuscitation.n.01)": {}
+                }
+              }
+            },
+            "conversion (conversion.n.01)": {}
+          },
+          "development (development.n.04)": {
+            "complication (complication.n.04)": {}
+          },
+          "death (death.n.01)": {},
+          "variation (variation.n.01)": {
+            "deviation (deviation.n.01)": {}
+          },
+          "[virtual] damage (damage.n.01)": {
+            "distortion (distortion.n.01)": {}
+          },
+          "mutation (mutation.n.02)": {},
+          "transition (transition.n.03)": {}
+        },
+        "failure (failure.n.02)": {
+          "malfunction (malfunction.n.01)": {}
+        },
+        "[virtual] beginning (beginning.n.01)": {
+          "[virtual] origin (origin.n.03)": {
+            "cause (cause.n.01)": {
+              "factor (factor.n.01)": {
+                "parameter (parameter.n.02)": {}
+              },
+              "etiology (etiology.n.01)": {}
+            }
+          }
+        },
+        "[virtual] juncture (juncture.n.01)": {
+          "[virtual] crisis (crisis.n.02)": {
+            "emergency (emergency.n.01)": {}
+          },
+          "milestone (milestone.n.02)": {}
+        },
+        "[virtual] ending (ending.n.04)": {
+          "result (result.n.03)": {},
+          "[virtual] victory (victory.n.01)": {
+            "win (win.n.01)": {}
+          }
+        },
+        "incident (incident.n.01)": {},
+        "[virtual] periodic_event (periodic_event.n.01)": {
+          "[virtual] repeat (repeat.n.01)": {
+            "cycle (cycle.n.03)": {}
+          }
+        },
+        "fire (fire.n.01)": {},
+        "case (case.n.01)": {},
+        "movement (movement.n.03)": {
+          "[virtual] turning (turning.n.04)": {
+            "rotation (rotation.n.03)": {}
+          },
+          "throw (throw.n.03)": {}
+        },
+        "success (success.n.01)": {}
+      },
+      "[virtual] social_event (social_event.n.01)": {
+        "show (show.n.03)": {
+          "attraction (attraction.n.02)": {},
+          "broadcast (broadcast.n.02)": {},
+          "performance (performance.n.01)": {
+            "act (act.n.04)": {}
+          }
+        },
+        "affair (affair.n.03)": {
+          "ceremony (ceremony.n.01)": {
+            "funeral (funeral.n.01)": {
+              "burial (burial.n.01)": {}
+            }
+          },
+          "fundraiser (fundraiser.n.02)": {},
+          "party (party.n.04)": {}
+        },
+        "contest (contest.n.01)": {
+          "race (race.n.02)": {},
+          "tournament (tournament.n.01)": {}
+        }
+      },
+      "practice (practice.n.05)": {
+        "[virtual] custom (custom.n.02)": {
+          "habit (habit.n.01)": {}
+        },
+        "convention (convention.n.02)": {
+          "[virtual] code_of_conduct (code_of_conduct.n.01)": {
+            "protocol (protocol.n.03)": {}
+          }
+        }
+      }
+    },
+    "Human process": {
+      "[virtual] economic_process (economic_process.n.01)": {
+        "supply (supply.n.02)": {},
+        "demand (demand.n.02)": {
+          "consumption (consumption.n.03)": {}
+        }
+      },
+      "photography (photography.n.02)": {},
+      "processing (processing.n.01)": {
+        "[virtual] data_processing (data_processing.n.01)": {
+          "[virtual] operation (operation.n.04)": {
+            "search (search.n.03)": {}
+          }
+        }
+      }
+    },
+    "natural_process (natural_process.n.01)": {
+      "[virtual] natural_phenomenon (natural_phenomenon.n.01)": {
+        "[virtual] physical_phenomenon (physical_phenomenon.n.01)": {
+          "pressure (pressure.n.01)": {
+            "suction (suction.n.01)": {}
+          },
+          "[virtual] energy (energy.n.01)": {
+            "[virtual] radiation (radiation.n.01)": {
+              "[virtual] electromagnetic_radiation (electromagnetic_radiation.n.01)": {
+                "beam (beam.n.03)": {}
+              }
+            },
+            "heat (heat.n.01)": {},
+            "[virtual] electricity (electricity.n.02)": {
+              "signal (signal.n.03)": {}
+            }
+          },
+          "[virtual] electrical_phenomenon (electrical_phenomenon.n.01)": {
+            "amperage (amperage.n.01)": {},
+            "charge (charge.n.04)": {},
+            "current (current.n.01)": {},
+            "electric_resistance (electric_resistance.n.01)": {},
+            "electric_potential (electric_potential.n.01)": {},
+            "voltage (voltage.n.01)": {}
+          },
+          "field (field.n.05)": {},
+          "[virtual] atmospheric_phenomenon (atmospheric_phenomenon.n.01)": {
+            "[virtual] weather (weather.n.01)": {
+              "wind (wind.n.01)": {}
+            }
+          }
+        },
+        "[virtual] organic_phenomenon (organic_phenomenon.n.01)": {
+          "death (death.n.02)": {}
+        },
+        "[virtual] chemical_phenomenon (chemical_phenomenon.n.01)": {
+          "[virtual] state_of_matter (state_of_matter.n.01)": {
+            "gas (gas.n.01)": {}
+          }
+        }
+      },
+      "[virtual] organic_process (organic_process.n.01)": {
+        "[virtual] bodily_process (bodily_process.n.01)": {
+          "reaction (reaction.n.03)": {},
+          "consumption (consumption.n.01)": {
+            "[virtual] eating (eating.n.01)": {
+              "graze (graze.n.02)": {}
+            }
+          },
+          "[virtual] healing (healing.n.01)": {
+            "convalescence (convalescence.n.01)": {}
+          },
+          "breathing (breathing.n.01)": {}
+        },
+        "[virtual] growth (growth.n.01)": {
+          "culture (culture.n.04)": {}
+        },
+        "[virtual] pathologic_process (pathologic_process.n.01)": {
+          "infection (infection.n.03)": {},
+          "pathogenesis (pathogenesis.n.01)": {}
+        }
+      },
+      "source (source.n.07)": {
+        "origin (origin.n.05)": {}
+      },
+      "hardening (hardening.n.02)": {},
+      "[virtual] chemical_process (chemical_process.n.01)": {
+        "chemical_reaction (chemical_reaction.n.01)": {
+          "[virtual] oxidation (oxidation.n.01)": {
+            "[virtual] combustion (combustion.n.01)": {
+              "fire (fire.n.03)": {}
+            }
+          }
+        }
+      },
+      "[virtual] flow (flow.n.04)": {
+        "outflow (outflow.n.02)": {}
+      },
+      "release (release.n.03)": {
+        "[virtual] emission (emission.n.03)": {
+          "radiation (radiation.n.04)": {}
+        }
+      }
+    },
+    "Changes": {
+      "[virtual] increase (increase.n.03)": {
+        "accretion (accretion.n.01)": {}
+      },
+      "[virtual] decrease (decrease.n.02)": {
+        "[virtual] decline (decline.n.01)": {
+          "loss (loss.n.02)": {}
+        }
+      },
+      "development (development.n.02)": {
+        "growth (growth.n.02)": {}
+      },
+      "consequence (consequence.n.01)": {
+        "change (change.n.04)": {},
+        "impact (impact.n.02)": {},
+        "response (response.n.01)": {
+          "reaction (reaction.n.05)": {}
+        }
+      }
+    }
+  }
+}

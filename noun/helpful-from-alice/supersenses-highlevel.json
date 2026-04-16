@@ -1,0 +1,55 @@
+[
+    {
+      "id": "information",
+      "label": "Information",
+      "description": "Cognition, communication & abstract form",
+      "subcategories": [
+        { "id": "noun.cognition", "description": "Cognitive processes & contents" },
+        { "id": "noun.communication", "description": "Communicative processes & contents" },
+        { "id": "noun.attribute", "description": "Attributes of people & objects" },
+        { "id": "noun.relation", "description": "Relations between people, things & ideas" },
+        { "id": "noun.quantity", "description": "Quantities & units of measure" },
+        { "id": "noun.shape", "description": "2D & 3D shapes" },
+        { "id": "noun.time", "description": "Time & temporal relations" },
+        { "id": "noun.motive", "description": "Goals & motivations" }
+      ]
+    },
+    {
+      "id": "actor",
+      "label": "Actor",
+      "description": "Entities that perceive & act",
+      "subcategories": [
+        { "id": "noun.person", "description": "People" },
+        { "id": "noun.animal", "description": "Animals" },
+        { "id": "noun.group", "description": "Groupings of people or objects" }
+      ]
+    },
+    {
+      "id": "physical_entity",
+      "label": "Physical Entity",
+      "description": "Tangible objects & matter",
+      "subcategories": [
+        { "id": "noun.object", "description": "Natural objects (not man-made)" },
+        { "id": "noun.artifact", "description": "Man-made objects" },
+        { "id": "noun.substance", "description": "Substances & matter" },
+        { "id": "noun.body", "description": "Body parts" },
+        { "id": "noun.plant", "description": "Plants" },
+        { "id": "noun.food", "description": "Foods & drinks" },
+        { "id": "noun.location", "description": "Spatial position & places" },
+        { "id": "noun.phenomenon", "description": "Natural phenomena" },
+        { "id": "noun.possession", "description": "Possession & transfer" }
+      ]
+    },
+    {
+      "id": "activity",
+      "label": "Activity",
+      "description": "Actions, processes & states",
+      "subcategories": [
+        { "id": "noun.act", "description": "Acts & actions" },
+        { "id": "noun.event", "description": "Natural events" },
+        { "id": "noun.process", "description": "Natural processes" },
+        { "id": "noun.state", "description": "Stable states of affairs" },
+        { "id": "noun.feeling", "description": "Feelings & emotions" }
+      ]
+    }
+  ]

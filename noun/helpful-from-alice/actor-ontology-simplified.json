@@ -1,0 +1,622 @@
+{
+  "Agent/Actor": {
+    "group": {
+      "Body": {
+        "people": {
+          "populace": {},
+          "[virtual] class": {
+            "market": {}
+          },
+          "population": {},
+          "clientele": {}
+        },
+        "[virtual] multitude": {
+          "audience": {}
+        },
+        "[virtual] system": {
+          "network": {},
+          "body": {},
+          "ecosystem": {},
+          "subsystem": {}
+        },
+        "[virtual] social_group": {
+          "organization": {
+            "force": {
+              "staff": {}
+            },
+            "unit": {
+              "[virtual] administrative_unit": {
+                "[virtual] division": {
+                  "department": {}
+                },
+                "agency": {
+                  "[virtual] law_enforcement_agency": {
+                    "police": {}
+                  }
+                },
+                "[virtual] committee": {
+                  "board": {}
+                }
+              },
+              "crew": {},
+              "gang": {},
+              "team": {},
+              "[virtual] military_unit": {
+                "command": {}
+              },
+              "family": {}
+            },
+            "institution": {
+              "company": {
+                "service": {}
+              },
+              "[virtual] financial_institution": {
+                "[virtual] nondepository_financial_institution": {
+                  "investment_company": {}
+                }
+              },
+              "[virtual] educational_institution": {
+                "school": {},
+                "university": {}
+              }
+            },
+            "[virtual] enterprise": {
+              "business": {
+                "firm": {
+                  "corporation": {},
+                  "publisher": {}
+                },
+                "carrier": {
+                  "[virtual] line": {
+                    "[virtual] railway": {
+                      "rail": {}
+                    }
+                  }
+                },
+                "manufacturer": {}
+              },
+              "[virtual] commercial_enterprise": {
+                "industry": {}
+              }
+            },
+            "association": {},
+            "alliance": {},
+            "[virtual] nongovernmental_organization": {
+              "committee": {}
+            },
+            "company": {},
+            "[virtual] polity": {
+              "government": {}
+            },
+            "[virtual] musical_organization": {
+              "orchestra": {}
+            },
+            "party": {}
+          },
+          "[virtual] gathering": {
+            "meeting": {
+              "conference": {},
+              "convention": {}
+            },
+            "[virtual] social_gathering": {
+              "[virtual] meeting": {
+                "date": {}
+              },
+              "party": {
+                "dinner": {},
+                "reception": {}
+              }
+            },
+            "community": {},
+            "table": {},
+            "audience": {},
+            "[virtual] assembly": {
+              "court": {
+                "court": {}
+              }
+            },
+            "fair": {},
+            "[virtual] class": {
+              "section": {}
+            }
+          },
+          "body": {
+            "[virtual] administration": {
+              "management": {}
+            },
+            "panel": {},
+            "staff": {},
+            "jury": {}
+          },
+          "[virtual] kin": {
+            "family": {}
+          },
+          "[virtual] set": {
+            "party": {}
+          },
+          "interest": {}
+        },
+        "[virtual] biological_group": {
+          "[virtual] animal_group": {
+            "herd": {}
+          },
+          "population": {}
+        },
+        "collection": {
+          "data": {},
+          "mail": {},
+          "law": {
+            "[virtual] civil_law": {
+              "legislation": {}
+            }
+          },
+          "content": {},
+          "traffic": {},
+          "library": {},
+          "package": {},
+          "set": {
+            "portfolio": {}
+          },
+          "vegetation": {
+            "brush": {
+              "underbrush": {}
+            },
+            "growth": {},
+            "shrubbery": {}
+          },
+          "[virtual] agglomeration": {
+            "ball": {}
+          },
+          "batch": {},
+          "procession": {
+            "cortege": {}
+          },
+          "class": {},
+          "pack": {},
+          "[virtual] assortment": {
+            "selection": {}
+          }
+        }
+      },
+      "Organization": {}
+    },
+    "person": {
+      "subjective identity": {
+        "[virtual] unfortunate": {
+          "[virtual] sick_person": {
+            "patient": {
+              "outpatient": {}
+            }
+          },
+          "prisoner": {
+            "convict": {}
+          },
+          "mourner": {
+            "pallbearer": {}
+          },
+          "victim": {
+            "prey": {}
+          }
+        },
+        "[virtual] good_person": {},
+        "[virtual] bad_person": {
+          "wrongdoer": {
+            "principal": {
+              "[virtual] criminal": {
+                "[virtual] fugitive": {
+                  "escapee": {}
+                },
+                "probationer": {},
+                "thief": {
+                  "booster": {}
+                },
+                "violator": {}
+              }
+            },
+            "perpetrator": {}
+          }
+        },
+        "[virtual] unskilled_person": {
+          "novice": {
+            "trainee": {}
+          }
+        },
+        "disputant": {}
+      },
+      "": {
+        "legal roles": {
+          "suspect": {},
+          "witness": {}
+        },
+        "case": {},
+        "operator": {
+          "driver": {
+            "motorist": {}
+          }
+        },
+        "[virtual] benefactor": {
+          "donor": {},
+          "provider": {},
+          "patron": {}
+        },
+        "[virtual] contestant": {
+          "candidate": {},
+          "athlete": {
+            "[virtual] swimmer": {
+              "diver": {}
+            }
+          },
+          "player": {
+            "[virtual] card_player": {
+              "dealer": {}
+            }
+          }
+        },
+        "[virtual] capitalist": {
+          "[virtual] businessperson": {
+            "merchant": {
+              "seller": {},
+              "butcher": {},
+              "[virtual] shopkeeper": {
+                "cleaner": {}
+              },
+              "trader": {},
+              "retailer": {}
+            },
+            "[virtual] businessman": {
+              "operator": {}
+            },
+            "supplier": {
+              "caterer": {},
+              "distributor": {},
+              "recruiter": {}
+            },
+            "agent": {
+              "insurance_broker": {}
+            },
+            "exporter": {},
+            "importer": {}
+          },
+          "creditor": {},
+          "investor": {
+            "lender": {}
+          }
+        },
+        "owner": {
+          "[virtual] holder": {
+            "tenant": {}
+          }
+        },
+        "[virtual] communicator": {
+          "[virtual] negotiator": {
+            "representative": {
+              "agent": {
+                "handler": {}
+              },
+              "contact": {}
+            },
+            "mediator": {
+              "interpreter": {}
+            }
+          },
+          "writer": {
+            "drafter": {}
+          },
+          "informant": {},
+          "[virtual] articulator": {
+            "speaker": {
+              "[virtual] inquirer": {
+                "interviewer": {}
+              }
+            }
+          },
+          "reporter": {}
+        },
+        "leader": {
+          "authority": {},
+          "[virtual] superior": {
+            "supervisor": {
+              "foreman": {}
+            }
+          },
+          "head": {
+            "administrator": {
+              "director": {},
+              "executive": {}
+            }
+          },
+          "employer": {
+            "[virtual] master": {
+              "postmaster": {}
+            }
+          },
+          "trainer": {},
+          "[virtual] politician": {
+            "campaigner": {}
+          },
+          "guide": {}
+        },
+        "worker": {
+          "planner": {
+            "coordinator": {}
+          },
+          "collector": {},
+          "[virtual] skilled_worker": {
+            "expert": {
+              "[virtual] entertainer": {
+                "performer": {
+                  "actor": {},
+                  "dancer": {},
+                  "[virtual] musician": {
+                    "soloist": {}
+                  }
+                }
+              },
+              "[virtual] creator": {
+                "farmer": {
+                  "agriculturist": {},
+                  "rancher": {}
+                },
+                "architect": {}
+              },
+              "programmer": {},
+              "[virtual] intellectual": {
+                "engineer": {
+                  "surveyor": {}
+                },
+                "scientist": {
+                  "psychologist": {},
+                  "research_worker": {},
+                  "physicist": {}
+                },
+                "[virtual] linguist": {
+                  "translator": {}
+                },
+                "forecaster": {},
+                "scholar": {}
+              },
+              "[virtual] authority": {
+                "adviser": {
+                  "counselor": {}
+                },
+                "[virtual] adjudicator": {
+                  "arbiter": {},
+                  "official": {},
+                  "juror": {}
+                }
+              },
+              "specialist": {
+                "interior_designer": {},
+                "graphic_designer": {},
+                "dietician": {}
+              },
+              "therapist": {},
+              "analyst": {},
+              "investigator": {
+                "adjuster": {},
+                "coroner": {},
+                "examiner": {}
+              },
+              "[virtual] geographer": {
+                "cartographer": {}
+              },
+              "observer": {}
+            },
+            "technician": {},
+            "official": {
+              "judge": {},
+              "officeholder": {}
+            },
+            "cook": {
+              "chef": {}
+            },
+            "[virtual] mender": {
+              "[virtual] repairman": {
+                "automobile_mechanic": {}
+              }
+            },
+            "[virtual] aviator": {
+              "pilot": {}
+            },
+            "cutter": {},
+            "[virtual] sailor": {
+              "[virtual] mariner": {
+                "deckhand": {},
+                "helmsman": {},
+                "[virtual] officer": {
+                  "master": {}
+                }
+              }
+            },
+            "editor": {},
+            "[virtual] craftsman": {
+              "hairdresser": {},
+              "machinist": {},
+              "welder": {}
+            },
+            "printer": {}
+          },
+          "employee": {
+            "[virtual] workman": {
+              "laborer": {}
+            },
+            "clerk": {},
+            "[virtual] salesperson": {
+              "demonstrator": {}
+            },
+            "dispatcher": {}
+          },
+          "volunteer": {},
+          "assistant": {
+            "subordinate": {
+              "associate": {}
+            },
+            "attendant": {
+              "escort": {}
+            },
+            "dresser": {},
+            "prompter": {}
+          },
+          "processor": {}
+        },
+        "[virtual] fiduciary": {
+          "administrator": {},
+          "executor": {}
+        },
+        "[virtual] acquirer": {
+          "recipient": {
+            "beneficiary": {},
+            "borrower": {},
+            "consignee": {}
+          }
+        },
+        "[virtual] money_handler": {
+          "[virtual] payer": {
+            "taxpayer": {}
+          }
+        },
+        "traveler": {
+          "visitor": {
+            "guest": {}
+          },
+          "passenger": {},
+          "arrival": {},
+          "pedestrian": {},
+          "tourist": {},
+          "[virtual] entrant": {
+            "intruder": {}
+          }
+        },
+        "[virtual] preserver": {
+          "defender": {
+            "fireman": {},
+            "[virtual] guard": {
+              "screener": {}
+            }
+          }
+        },
+        "[virtual] perceiver": {
+          "witness": {},
+          "spectator": {
+            "eyewitness": {}
+          }
+        },
+        "subject": {}
+      },
+      " (2)": {
+        "relative": {
+          "[virtual] ancestor": {
+            "[virtual] progenitor": {
+              "[virtual] genitor": {
+                "parent": {}
+              }
+            }
+          },
+          "[virtual] offspring": {
+            "[virtual] child": {
+              "baby": {}
+            }
+          },
+          "kin": {}
+        },
+        "user": {
+          "[virtual] consumer": {
+            "customer": {
+              "guest": {},
+              "buyer": {},
+              "policyholder": {}
+            }
+          }
+        },
+        "neighbor": {},
+        "[virtual] enrollee": {
+          "student": {}
+        },
+        "[virtual] peer": {
+          "associate": {
+            "colleague": {},
+            "member": {},
+            "participant": {},
+            "collaborator": {}
+          },
+          "stand-in": {}
+        },
+        "[virtual] adult": {
+          "professional": {
+            "[virtual] health_professional": {
+              "[virtual] medical_practitioner": {
+                "doctor": {
+                  "house_physician": {},
+                  "specialist": {
+                    "diagnostician": {},
+                    "anesthesiologist": {},
+                    "dermatologist": {},
+                    "oncologist": {},
+                    "ophthalmologist": {}
+                  },
+                  "veterinarian": {},
+                  "surgeon": {}
+                },
+                "dentist": {}
+              },
+              "nurse": {
+                "midwife": {}
+              },
+              "pharmacist": {}
+            },
+            "practitioner": {
+              "clinician": {}
+            },
+            "educator": {
+              "teacher": {
+                "coach": {}
+              }
+            },
+            "lawyer": {
+              "advocate": {}
+            },
+            "librarian": {}
+          },
+          "caregiver": {},
+          "[virtual] host": {
+            "hostess": {}
+          },
+          "woman": {}
+        },
+        "[virtual] juvenile": {
+          "child": {},
+          "adolescent": {}
+        },
+        "applicant": {
+          "claimant": {}
+        },
+        "[virtual] inhabitant": {
+          "resident": {}
+        },
+        "subject": {
+          "party": {
+            "[virtual] contractor": {
+              "[virtual] builder": {
+                "contractor": {
+                  "subcontractor": {}
+                }
+              }
+            },
+            "litigant": {
+              "defendant": {}
+            }
+          }
+        },
+        "acquaintance": {},
+        "[virtual] national": {
+          "citizen": {
+            "[virtual] voter": {
+              "constituent": {}
+            }
+          }
+        },
+        "dead_person": {}
+      }
+    }
+  }
+}

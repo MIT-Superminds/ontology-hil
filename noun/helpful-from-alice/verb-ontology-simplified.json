@@ -1,0 +1,1775 @@
+{
+  "Act": {
+    "[Act on what?]": {
+      "Act on information (“Think”)": {
+        "Create information": {
+          "Analyze": {
+            "Characterize": {},
+            "Correlate": {},
+            "Determine": {
+              "Identify": {},
+              "Predict": {}
+            },
+            "Experiment": {},
+            "Investigate": {
+              "Research": {}
+            },
+            "Trace (analytically)": {}
+          },
+          "Assemble information": {
+            "Configure (information)": {
+              "Collate": {}
+            },
+            "Construct (information)": {
+              "Reconstruct": {}
+            },
+            "Reassemble (information)": {}
+          },
+          "Calculate": {
+            "Account for": {},
+            "Balance (account)": {},
+            "Count": {},
+            "Estimate": {
+              "Price": {},
+              "Quote": {}
+            },
+            "Total": {}
+          },
+          "Decide": {
+            "[Decide how?]": {
+              "Estimate": {
+                "Price": {},
+                "Quote": {}
+              },
+              "Rule": {},
+              "Select": {
+                "[Select for what purpose?]": {
+                  "Categorize": {},
+                  "Classify": {
+                    "Catalogue": {}
+                  },
+                  "Compare": {},
+                  "Diagnose": {},
+                  "Match (align)": {},
+                  "Validate": {
+                    "Authenticate": {},
+                    "Qualify": {}
+                  }
+                },
+                "[Select with what method?]": {
+                  "Dial": {},
+                  "Select analytically": {},
+                  "Select by explicit (human-understandable) formulas or rules": {},
+                  "Select by negotiation": {
+                    "Select by negotiation in buying": {},
+                    "Select by negotiation in selling": {}
+                  },
+                  "Select holistically": {
+                    "Select based on emotion": {},
+                    "Select based on intuition": {},
+                    "Select by machine learning (or other opaque algorithms)": {}
+                  },
+                  "Select randomly": {},
+                  "Select socially (based on what others do)": {},
+                  "Vote": {}
+                },
+                "Appoint": {}
+              }
+            },
+            "[Decide what?]": {
+              "Accept": {},
+              "Reject": {},
+              "Sentence": {}
+            }
+          },
+          "Express information": {
+            "Argue": {
+              "Defend (verbally)": {}
+            },
+            "Conclude": {},
+            "Emphasize": {},
+            "Express Live": {
+              "Act (Perform, e.g. in a play)": {
+                "Impersonate": {},
+                "Improvise": {}
+              },
+              "Dance": {},
+              "Express using instruments": {
+                "Sight-read": {}
+              },
+              "Introduce": {},
+              "Read (out loud)": {},
+              "Sign (signal)": {
+                "Flag": {}
+              },
+              "Sing": {},
+              "Talk": {
+                "Address (express)": {},
+                "Call (out)": {},
+                "Comment": {},
+                "Praise": {},
+                "Tell": {}
+              }
+            },
+            "Record": {
+              "Compose": {},
+              "Create moving image (w/ or w/o sound)": {
+                "Create video": {},
+                "Film": {},
+                "Videotape": {}
+              },
+              "Create static image": {
+                "Draw (drawing)": {
+                  "Delineate": {},
+                  "Shade": {},
+                  "Sketch": {}
+                },
+                "Generate image using computer": {},
+                "Photograph": {},
+                "Visualize": {
+                  "Diagram": {},
+                  "Graph": {}
+                },
+                "Paint (information)": {}
+              },
+              "Document": {
+                "Chart": {},
+                "Enumerate": {},
+                "List": {},
+                "Map (out)": {},
+                "Transcribe (write)": {}
+              },
+              "Enroll": {},
+              "Mark (information)": {
+                "Address": {},
+                "Date": {},
+                "Designate": {},
+                "Stencil": {}
+              },
+              "Print": {
+                "Reprint": {}
+              },
+              "Record sound": {},
+              "Write": {
+                "Complete (information)": {},
+                "Draft": {},
+                "Enter (information)": {
+                  "Credit": {},
+                  "Debit": {},
+                  "Input into computer": {
+                    "Type": {}
+                  },
+                  "Post (financial)": {},
+                  "Re-enter": {},
+                  "Tabulate": {}
+                },
+                "Program (computer)": {},
+                "Script": {},
+                "Sign (signature)": {}
+              },
+              "Copy (information)": {
+                "Model (represent) (information)": {},
+                "Trace (drawing) (information)": {}
+              }
+            }
+          },
+          "Plan": {
+            "Anticipate": {},
+            "Budget": {},
+            "Conceptualize": {},
+            "Design": {
+              "Choreograph": {},
+              "Detail": {},
+              "Engineer": {},
+              "Frame (compositional)": {},
+              "Lay": {},
+              "Lay out": {},
+              "Redesign": {},
+              "Specify": {}
+            },
+            "Outline": {},
+            "Propose": {
+              "Nominate": {}
+            },
+            "Schedule": {
+              "Book": {}
+            },
+            "Stage": {}
+          },
+          "Reason": {
+            "Consider": {},
+            "Develop (idea)": {},
+            "Organize (analytically)": {
+              "Reorganize": {}
+            }
+          },
+          "Solve": {
+            "Address (solve)": {},
+            "Resolve": {}
+          }
+        },
+        "Modify information": {
+          "Combine information": {
+            "Add (information)": {
+              "Layer": {},
+              "Supplement": {},
+              "Extend (information)": {}
+            },
+            "Connect (information)": {
+              "Associate": {},
+              "Map (between)": {},
+              "Splice (information)": {}
+            },
+            "Gather (information)": {
+              "Collect (information)": {}
+            },
+            "Incorporate (information)": {},
+            "Pack (together) (information)": {},
+            "Synthesize (information)": {
+              "Blend (information)": {}
+            }
+          },
+          "Move information": {
+            "Put information": {
+              "Insert (information)": {},
+              "Install (information)": {}
+            },
+            "Redirect": {},
+            "Transport information": {}
+          },
+          "Separate information": {
+            "Break (into components)": {},
+            "Cut (information)": {
+              "Snip (information)": {}
+            },
+            "Disconnect (information)": {
+              "Interrupt": {}
+            },
+            "Remove (information)": {
+              "Clear (information)": {}
+            }
+          },
+          "Transform information": {
+            "Change Appearance": {},
+            "Decode": {},
+            "Encode": {},
+            "Equalize": {},
+            "Improve": {
+              "Optimize": {}
+            },
+            "Organize (analytically)": {
+              "Reorganize": {}
+            },
+            "Permute": {
+              "Transpose": {}
+            },
+            "Process (information)": {
+              "Abstract": {},
+              "Computerize": {}
+            },
+            "Revise": {
+              "Cancel": {},
+              "Convert": {},
+              "Edit": {},
+              "Refine (information)": {},
+              "Reformulate": {},
+              "Rewrite": {},
+              "Summarize": {
+                "Distill": {}
+              },
+              "Update information": {}
+            },
+            "Switch": {
+              "Unlock": {}
+            },
+            "Translate": {},
+            "Use": {},
+            "Adjust (information)": {
+              "Decrease": {},
+              "Increase": {},
+              "Resize": {},
+              "Scale": {
+                "Rescale": {}
+              },
+              "Vary": {},
+              "Adapt (information)": {
+                "Transcribe (music)": {}
+              },
+              "Align (information)": {},
+              "Alter (information)": {
+                "Format": {
+                  "Typeset": {}
+                }
+              },
+              "Customize (information)": {
+                "Personalize": {},
+                "Tailor (information)": {}
+              },
+              "Harmonize (information)": {},
+              "Regulate (modulate) (information)": {},
+              "Synchronize (information)": {},
+              "Touch Up (information)": {}
+            },
+            "Clean (information)": {},
+            "Fill (information)": {
+              "Populate": {}
+            },
+            "Finish (information)": {},
+            "Prepare (information)": {},
+            "Renew (information)": {},
+            "Service (information)": {
+              "Maintain (information)": {},
+              "Repair (information)": {
+                "Troubleshoot (information)": {
+                  "Debug": {}
+                }
+              },
+              "Replace (information)": {
+                "Substitute (replace)": {}
+              }
+            }
+          }
+        },
+        "Store information": {
+          "Back up": {},
+          "File (information)": {
+            "Archive": {}
+          },
+          "Upload (information)": {}
+        },
+        "Transfer information": {
+          "Communicate (transfer information end-to-end)": {},
+          "Exchange information": {
+            "Agree": {
+              "Contract": {}
+            },
+            "Confer": {},
+            "Converse": {},
+            "Correspond": {},
+            "Debate": {},
+            "Interview": {},
+            "Mediate": {
+              "Defuse": {}
+            },
+            "Meet": {},
+            "Negotiate": {
+              "Renegotiate": {}
+            },
+            "Network": {},
+            "Reach": {},
+            "Teach": {
+              "Coach": {},
+              "Drill": {},
+              "Mentor": {},
+              "Train": {
+                "Retrain": {}
+              },
+              "Tutor": {}
+            }
+          },
+          "Get information": {
+            "Access": {},
+            "Download": {},
+            "Evaluate": {
+              "Audit": {},
+              "Measure": {
+                "Gauge": {},
+                "Time": {}
+              },
+              "Rate": {
+                "Grade": {},
+                "Prioritize": {}
+              },
+              "Reevaluate": {},
+              "Review": {
+                "Proofread": {}
+              },
+              "Screen": {},
+              "Test": {},
+              "Weigh": {}
+            },
+            "Import": {},
+            "Learn": {
+              "Familiarize": {},
+              "Keep Up": {},
+              "Know": {},
+              "Memorize": {}
+            },
+            "Perceive": {
+              "Check": {},
+              "Examine": {
+                "Feel": {},
+                "Inspect": {},
+                "Probe": {},
+                "Scan": {}
+              },
+              "Find": {
+                "Spot": {}
+              },
+              "Keep Watch": {},
+              "Monitor": {
+                "Keep Track": {},
+                "Proctor": {},
+                "Surveil": {},
+                "Track": {}
+              },
+              "Observe": {},
+              "Orient (person)": {},
+              "Preview": {},
+              "Search": {
+                "Seek": {}
+              },
+              "Smell": {},
+              "Survey": {},
+              "Taste": {},
+              "View": {},
+              "Witness": {}
+            },
+            "Understand": {
+              "Listen": {},
+              "Read (gauges, instruments, etc.)": {},
+              "Read (something written or printed)": {},
+              "Watch": {}
+            },
+            "Gather (information)": {
+              "Collect (information)": {}
+            }
+          },
+          "Provide information": {
+            "[Provide information how?]": {
+              "Appear": {},
+              "Express Live": {
+                "Act (Perform, e.g. in a play)": {
+                  "Impersonate": {},
+                  "Improvise": {}
+                },
+                "Dance": {},
+                "Express using instruments": {
+                  "Sight-read": {}
+                },
+                "Introduce": {},
+                "Read (out loud)": {},
+                "Sign (signal)": {
+                  "Flag": {}
+                },
+                "Sing": {},
+                "Talk": {
+                  "Address (express)": {},
+                  "Call (out)": {},
+                  "Comment": {},
+                  "Praise": {},
+                  "Tell": {}
+                }
+              },
+              "Send information": {
+                "Advise": {
+                  "Preach": {}
+                },
+                "Answer": {},
+                "Ask": {
+                  "Question": {
+                    "Interrogate": {}
+                  }
+                },
+                "Assure": {
+                  "Reassure": {}
+                },
+                "Greet": {},
+                "Inform": {
+                  "Alert": {},
+                  "Announce": {
+                    "Advertise": {},
+                    "Post (announcement)": {},
+                    "Publicize": {
+                      "Broadcast": {}
+                    }
+                  },
+                  "Bring to attention": {},
+                  "Convey": {
+                    "Thank": {}
+                  },
+                  "Cue": {},
+                  "Describe": {},
+                  "Disclose": {},
+                  "Disseminate": {},
+                  "Explain": {
+                    "Brief": {},
+                    "Clarify": {}
+                  },
+                  "File (formal)": {},
+                  "Mention": {},
+                  "Publish": {},
+                  "Refer": {},
+                  "Remind": {},
+                  "Report": {},
+                  "Report (to authorities)": {},
+                  "Seat": {},
+                  "Serve (deliver)": {
+                    "Subpoena": {}
+                  },
+                  "Sign (signal)": {
+                    "Flag": {}
+                  },
+                  "Submit": {},
+                  "Testify": {},
+                  "Warn": {}
+                },
+                "Load (digital)": {},
+                "Page": {},
+                "Promise": {},
+                "Propose": {
+                  "Nominate": {}
+                },
+                "Radio": {},
+                "Relay": {
+                  "Fax": {},
+                  "Forward": {}
+                },
+                "Request": {
+                  "Apply (for)": {},
+                  "Call": {
+                    "Summon": {}
+                  },
+                  "Claim": {},
+                  "Invite": {},
+                  "Petition": {},
+                  "Requisition": {},
+                  "Reserve": {},
+                  "Solicit": {}
+                },
+                "Respond": {},
+                "Share": {},
+                "Show": {
+                  "Perform (artistic)": {
+                    "Audition": {},
+                    "Interpret": {},
+                    "Model": {}
+                  },
+                  "Present": {},
+                  "Replay": {}
+                },
+                "Talk": {
+                  "Address (express)": {},
+                  "Call (out)": {},
+                  "Comment": {},
+                  "Praise": {},
+                  "Tell": {}
+                },
+                "Upload (information)": {}
+              }
+            },
+            "[Provide what kind of information?]": {
+              "Charge (money)": {},
+              "Provide decision": {},
+              "Provide money": {
+                "Deposit (money)": {},
+                "Disburse": {}
+              }
+            }
+          }
+        }
+      },
+      "Act on physical objects (“Do”)": {
+        "Create physical objects": {
+          "Assemble": {
+            "Configure (physical)": {},
+            "Construct (physical)": {
+              "Rebuild": {}
+            },
+            "Copy (physical)": {
+              "Model (represent) (physical)": {},
+              "Trace (drawing) (physical)": {}
+            },
+            "Reassemble (physical)": {}
+          },
+          "Fabricate": {
+            "Cast": {}
+          },
+          "Remake": {}
+        },
+        "Modify physical objects": {
+          "Combine physical objects": {
+            "Consolidate": {},
+            "Cover": {
+              "Apply (physical)": {
+                "Caulk": {},
+                "Condition": {},
+                "Fume": {},
+                "Swab": {}
+              },
+              "Bind": {
+                "Rebind": {}
+              },
+              "Cap": {},
+              "Casket": {},
+              "Coat": {
+                "Glaze": {},
+                "Laminate": {},
+                "Plate": {
+                  "Tin": {}
+                }
+              },
+              "Conceal": {},
+              "Drape": {},
+              "Face": {},
+              "Line": {
+                "Pad": {},
+                "Reline": {}
+              },
+              "Mask": {},
+              "Spread": {},
+              "Wax": {},
+              "Wrap": {
+                "Wrap (gift)": {}
+              }
+            },
+            "Enclose": {
+              "Casket": {},
+              "Pack (together) (physical)": {
+                "Bag": {},
+                "Box": {}
+              }
+            },
+            "Add (physical)": {
+              "Add Bait": {},
+              "Season": {
+                "Salt": {}
+              },
+              "Extend (physical)": {}
+            },
+            "Connect (physical)": {
+              "Adhere": {},
+              "Bolt": {},
+              "Cement": {},
+              "Chain": {},
+              "Clamp": {},
+              "Couple": {},
+              "Dock": {},
+              "Fasten": {
+                "Anchor": {},
+                "Buckle": {},
+                "Cable": {},
+                "Lock": {},
+                "Rivet": {},
+                "Screw": {},
+                "Stake": {}
+              },
+              "Frame (physical)": {},
+              "Glue": {},
+              "Hang up": {
+                "Suspend": {}
+              },
+              "Hook": {},
+              "Knit": {},
+              "Mount": {
+                "Remount": {}
+              },
+              "Nail": {},
+              "Pin": {},
+              "Reinforce": {},
+              "Rig": {},
+              "Sew": {
+                "Baste": {},
+                "Hem": {}
+              },
+              "Solder": {
+                "Braze": {}
+              },
+              "Staple": {},
+              "Suture": {},
+              "Tack": {},
+              "Tape": {},
+              "Thread": {},
+              "Tie": {
+                "Band": {},
+                "Knot": {},
+                "Lace": {},
+                "Rope": {}
+              },
+              "Weave": {},
+              "Weld": {},
+              "Wire": {},
+              "Splice (physical)": {}
+            },
+            "Gather (physical)": {
+              "Bundle": {},
+              "Harvest": {},
+              "Pick": {},
+              "Collect (physical)": {}
+            },
+            "Incorporate (physical)": {},
+            "Synthesize (physical)": {
+              "Compound": {},
+              "Blend (physical)": {
+                "Homogenize": {},
+                "Stir": {}
+              }
+            }
+          },
+          "Move physical objects": {
+            "Move physical objects in other ways": {
+              "Access (physical)": {},
+              "Blow (air)": {},
+              "Enter": {},
+              "Exercise": {},
+              "Handle": {},
+              "Pull": {
+                "Draw (extract)": {},
+                "Retract": {}
+              },
+              "Push": {
+                "Drive (force)": {}
+              },
+              "Rake": {},
+              "Relocate": {},
+              "Shake": {},
+              "Touch": {
+                "Brush": {},
+                "Jab": {},
+                "Massage": {},
+                "Pat": {},
+                "Press (touch)": {},
+                "Rub": {},
+                "Slide": {},
+                "Strike (hit)": {
+                  "Beat": {}
+                },
+                "Tap (touch)": {}
+              },
+              "Ventilate": {}
+            },
+            "Put physical objects": {
+              "Admit (let in)": {},
+              "Arrange (put in proper or systematic order)": {
+                "Lay (physical)": {},
+                "Rack": {},
+                "Shelve": {},
+                "Stack": {},
+                "String": {},
+                "Tidy": {}
+              },
+              "Deposit (physical)": {},
+              "Float": {},
+              "Hold": {},
+              "Immerse": {
+                "Dunk": {},
+                "Soak": {}
+              },
+              "Leave": {},
+              "Load (physical)": {
+                "Pick up (for transport)": {}
+              },
+              "Lower": {
+                "Dip": {},
+                "Drop": {
+                  "Dump": {}
+                },
+                "Pour": {}
+              },
+              "Park": {},
+              "Plant": {
+                "Pot": {},
+                "Transplant": {}
+              },
+              "Raise (physical)": {
+                "Hoist": {},
+                "Pick Up (objects)": {}
+              },
+              "Run (placement)": {},
+              "Scoop": {},
+              "Space": {},
+              "Superimpose": {},
+              "Support": {},
+              "Unload": {},
+              "Insert (physical)": {
+                "Countersink": {},
+                "Embed": {},
+                "Inject": {},
+                "Wedge": {}
+              },
+              "Install (physical)": {
+                "Reinstall": {}
+              }
+            },
+            "Reorient physical objects": {
+              "Aim": {},
+              "Brush": {},
+              "Close": {},
+              "Engage (physical)": {},
+              "Focus": {},
+              "Manipulate": {},
+              "Open": {},
+              "Orient (physical)": {},
+              "Release": {},
+              "Reposition": {},
+              "Seal": {},
+              "Swing": {},
+              "Tilt": {},
+              "Turn (rotate)": {
+                "Crank": {},
+                "Roll": {},
+                "Unwind": {},
+                "Wind": {
+                  "Reel": {}
+                }
+              }
+            },
+            "Transport physical objects": {
+              "[Transport physical objects for what purpose?]": {
+                "Deliver": {},
+                "Mail": {},
+                "Retrieve": {},
+                "Travel": {
+                  "Accompany": {},
+                  "Advance": {},
+                  "Pursue": {
+                    "Hunt": {}
+                  },
+                  "Tour": {},
+                  "Visit": {
+                    "Revisit": {}
+                  }
+                }
+              },
+              "[Transport physical objects how?]": {
+                "Carry": {
+                  "Bring": {},
+                  "Haul": {}
+                },
+                "Divert": {},
+                "Herd": {},
+                "Tow": {},
+                "Travel (Transport self)": {
+                  "Climb": {},
+                  "Crawl": {},
+                  "Descend": {},
+                  "Dismount": {},
+                  "Run (movement)": {},
+                  "Transport self as passenger": {
+                    "Fly": {},
+                    "Ride": {},
+                    "Sail": {}
+                  },
+                  "Walk": {}
+                }
+              }
+            }
+          },
+          "Separate physical objects": {
+            "Break": {
+              "Blast": {},
+              "Chip": {},
+              "Demolish": {},
+              "Explode": {},
+              "Grind": {
+                "Sandblast": {}
+              },
+              "Pulverize": {}
+            },
+            "Capture (collect)": {},
+            "Disassemble": {},
+            "Isolate": {},
+            "Plow": {},
+            "Ravel": {},
+            "Scatter": {
+              "Spray": {},
+              "Sprinkle": {}
+            },
+            "Segregate": {},
+            "Sift": {},
+            "Terminate": {},
+            "Unpack": {
+              "Break Out": {}
+            },
+            "Cut (physical)": {
+              "Bevel": {},
+              "Bore": {},
+              "Butcher": {},
+              "Carve": {
+                "Scratch": {},
+                "Scribe": {}
+              },
+              "Chop": {},
+              "Dissect": {},
+              "Dock (cut)": {},
+              "Incise": {
+                "Score": {}
+              },
+              "Miter": {},
+              "Mow": {},
+              "Perforate": {
+                "Infiltrate": {},
+                "Pierce": {},
+                "Punch": {}
+              },
+              "Rout": {},
+              "Saw": {},
+              "Segment": {},
+              "Shear": {},
+              "Slit": {},
+              "Top": {},
+              "Snip (physical)": {}
+            },
+            "Disconnect (physical)": {
+              "Sever": {},
+              "Unbolt": {},
+              "Uncouple": {},
+              "Undock": {},
+              "Unscrew": {}
+            },
+            "Remove (physical)": {
+              "Bone": {},
+              "Dig": {
+                "Excavate": {},
+                "Shovel": {}
+              },
+              "Discard": {},
+              "Drain": {},
+              "Eliminate": {},
+              "Empty": {},
+              "Etch": {},
+              "Eviscerate": {},
+              "Extract": {
+                "Draw (extract)": {},
+                "Pump": {},
+                "Tap (draw from)": {}
+              },
+              "Pit": {},
+              "Pull": {
+                "Draw (extract)": {},
+                "Retract": {}
+              },
+              "Purge": {},
+              "Ream": {},
+              "Seed": {},
+              "Shed": {},
+              "Strip": {
+                "Pluck": {},
+                "Pry": {},
+                "Skim": {},
+                "Skin": {}
+              },
+              "Sweep": {},
+              "Thin": {},
+              "Uncover": {},
+              "Undress": {},
+              "Unwrap": {},
+              "Weed": {},
+              "Clear (physical)": {
+                "Dislodge": {}
+              }
+            }
+          },
+          "Transform physical objects": {
+            "Apply Makeup": {},
+            "Change surface": {
+              "Bleach": {},
+              "Border": {},
+              "Color": {
+                "Dye": {}
+              },
+              "Decorate": {
+                "Garnish": {}
+              },
+              "Gild": {},
+              "Groom": {
+                "Comb": {},
+                "Shave (groom)": {}
+              },
+              "Impress": {
+                "Emboss": {},
+                "Stamp": {}
+              },
+              "Mark (physical)": {
+                "Brand": {},
+                "Engrave": {}
+              },
+              "Mat": {},
+              "Oil": {},
+              "Pattern": {},
+              "Polish": {
+                "Buff": {}
+              },
+              "Reface": {},
+              "Refinish": {},
+              "Resurface": {},
+              "Rough": {},
+              "Smooth": {
+                "File (surface)": {},
+                "Grade (shape)": {},
+                "Iron": {},
+                "Lap": {},
+                "Level": {},
+                "Plane": {},
+                "Sandpaper": {},
+                "Shave (surface)": {}
+              },
+              "Stain": {
+                "Tattoo": {}
+              },
+              "Tint": {},
+              "Waterproof": {},
+              "Whiten": {},
+              "Finish (physical)": {},
+              "Paint (physical)": {
+                "Lacquer": {},
+                "Prime": {}
+              }
+            },
+            "Cool": {
+              "Freeze": {}
+            },
+            "Demagnetize": {},
+            "Develop (chemically)": {
+              "Expose": {}
+            },
+            "Dilute": {},
+            "Dress (clothes)": {
+              "Dress up": {},
+              "Wear": {}
+            },
+            "Dry": {},
+            "Heat": {
+              "Anneal": {},
+              "Cook": {
+                "Bake": {},
+                "Brew": {},
+                "Broil": {},
+                "Fry": {},
+                "Grill": {},
+                "Roast": {},
+                "Steam": {}
+              },
+              "Cure": {},
+              "Defrost": {},
+              "Ignite": {
+                "Kindle": {},
+                "Strike (ignite)": {}
+              },
+              "Melt": {},
+              "Pasteurize": {},
+              "Preheat": {},
+              "Singe": {},
+              "Smoke": {},
+              "Warm": {}
+            },
+            "Immobilize": {
+              "Stun": {}
+            },
+            "Kill": {},
+            "Machine": {},
+            "Neutralize": {},
+            "Process (physical)": {
+              "Compost": {},
+              "Incubate": {},
+              "Induce": {},
+              "Recycle": {}
+            },
+            "Raze": {},
+            "Redevelop": {},
+            "Refine (substance)": {},
+            "Shape": {
+              "Bead": {},
+              "Bend": {},
+              "Block": {},
+              "Blow (shape by blowing)": {},
+              "Compress": {},
+              "Contort": {},
+              "Curl": {},
+              "Fit": {},
+              "Fold": {},
+              "Hammer": {},
+              "Harrow": {},
+              "Knead": {},
+              "Press (flatten)": {
+                "Tamp": {}
+              },
+              "Reshape": {},
+              "Roll (shape)": {},
+              "Sharpen": {
+                "Hone": {}
+              },
+              "Straighten": {},
+              "Twist": {},
+              "Unfold": {},
+              "Unroll": {},
+              "Unwind": {}
+            },
+            "Style": {},
+            "Tenderize": {},
+            "Wet": {
+              "Moisten": {},
+              "Water": {}
+            },
+            "Adjust (physical)": {
+              "Balance (equilibrate)": {},
+              "Calibrate": {},
+              "Let out": {},
+              "Readjust": {},
+              "Reduce": {},
+              "Shrink": {},
+              "Soften": {},
+              "Take in": {},
+              "Tighten": {},
+              "Tune": {},
+              "Update (physical)": {},
+              "Upgrade": {},
+              "Adapt (physical)": {},
+              "Align (physical)": {
+                "Plumb": {},
+                "Square": {}
+              },
+              "Alter (physical)": {},
+              "Customize (physical)": {
+                "Tailor (physical)": {}
+              },
+              "Harmonize (physical)": {},
+              "Regulate (modulate) (physical)": {},
+              "Synchronize (physical)": {},
+              "Touch Up (physical)": {}
+            },
+            "Clean (physical)": {
+              "Decontaminate": {},
+              "Degrease": {},
+              "Disinfect": {},
+              "Flush": {},
+              "Mop": {},
+              "Sanitize": {},
+              "Scrub": {},
+              "Steam Clean": {},
+              "Vacuum": {},
+              "Wash": {
+                "Bathe": {},
+                "Cleanse": {},
+                "Rinse": {},
+                "Shampoo": {}
+              },
+              "Wipe": {}
+            },
+            "Fill (physical)": {
+              "Charge (electrically)": {},
+              "Fuel": {
+                "Refuel": {}
+              },
+              "Inflate": {},
+              "Pack (compress)": {},
+              "Plug": {},
+              "Recharge": {},
+              "Replenish": {},
+              "Saturate": {},
+              "Stuff": {}
+            },
+            "Prepare (physical)": {
+              "Brace": {
+                "Guy": {}
+              },
+              "Dress (butchery)": {}
+            },
+            "Renew (physical)": {
+              "Refurbish": {}
+            },
+            "Service (physical)": {
+              "Lubricate": {
+                "Grease": {}
+              },
+              "Overhaul": {},
+              "Maintain (physical)": {
+                "Embalm": {}
+              },
+              "Repair (physical)": {
+                "Counteract": {},
+                "Patch (repair)": {},
+                "Recondition": {},
+                "Restore": {},
+                "Troubleshoot (physical)": {}
+              },
+              "Replace (physical)": {
+                "Rewire": {}
+              }
+            }
+          }
+        },
+        "Store physical objects": {
+          "File (physical)": {},
+          "Preserve": {},
+          "Stow": {},
+          "Upload (physical)": {}
+        },
+        "Transfer physical objects": {
+          "Exchange physical objects": {},
+          "Get physical objects": {
+            "Salvage": {},
+            "Gather (physical)": {
+              "Bundle": {},
+              "Harvest": {},
+              "Pick": {},
+              "Collect (physical)": {}
+            }
+          },
+          "Provide physical objects": {
+            "Provide food": {}
+          }
+        }
+      },
+      "Act with other activities and actors (“Interact”)": {
+        "Act on activities": {
+          "Achieve": {},
+          "Adopt": {},
+          "Complete (activity)": {},
+          "Continue": {},
+          "Implement": {},
+          "Improve": {
+            "Optimize": {}
+          },
+          "Pass (achieve)": {},
+          "Perform (action)": {
+            "Activate": {},
+            "Automate": {},
+            "Conduct": {},
+            "Make": {},
+            "Practice": {},
+            "Rehearse": {},
+            "Run (perform)": {}
+          },
+          "Undertake": {}
+        },
+        "Transfer between actors": {
+          "[Transfer how?]": {
+            "[Exchange (Transfer both ways) how?]": {
+              "Interact": {
+                "Befriend": {}
+              },
+              "Trade (Transfer both ways)": {
+                "Transact": {}
+              }
+            },
+            "[Get (Transfer in) how?]": {
+              "Buy": {
+                "[Buy how?]": {
+                  "Order (buy)": {
+                    "Reorder": {}
+                  },
+                  "Rent (pay for time-limited use)": {
+                    "[Rent how?]": {
+                      "Hire": {
+                        "Recruit": {},
+                        "Staff": {},
+                        "Subcontract": {}
+                      },
+                      "Lease": {}
+                    },
+                    "[Rent what kind of input?]": {
+                      "Rent information": {},
+                      "Rent physical object": {},
+                      "Rent service": {}
+                    }
+                  }
+                },
+                "[Buy what kind of input?]": {
+                  "Buy information": {},
+                  "Buy physical object": {},
+                  "Buy service": {}
+                }
+              },
+              "Earn": {},
+              "Raise (funds)": {},
+              "Receive": {
+                "Admit (accept)": {}
+              },
+              "Take": {
+                "Capture (catch)": {
+                  "Recapture": {}
+                },
+                "Impound": {},
+                "Recover": {},
+                "Seize": {}
+              },
+              "Withhold": {}
+            },
+            "[Provide (Transfer out) how?]": {
+              "Distribute": {
+                "Assign": {
+                  "Allocate": {
+                    "Award": {}
+                  },
+                  "Delegate": {},
+                  "Place": {}
+                },
+                "Circulate": {},
+                "Deal": {},
+                "Deploy": {},
+                "Rotate (cycle)": {}
+              },
+              "Give": {
+                "Contribute": {},
+                "Grant": {},
+                "Sponsor": {},
+                "Turn In": {}
+              },
+              "Lend": {},
+              "Open (make available)": {
+                "Reopen": {}
+              },
+              "Pass (over)": {},
+              "Return": {
+                "Refund": {}
+              },
+              "Sell": {
+                "[Sell what?]": {
+                  "Sell information": {},
+                  "Sell physical objects": {},
+                  "Sell service": {}
+                },
+                "Lease out": {},
+                "Rent out": {}
+              },
+              "Supply": {
+                "Equip": {
+                  "Patch (connect)": {},
+                  "Wire": {}
+                },
+                "Make available": {},
+                "Match (co-fund)": {},
+                "Redeem": {},
+                "Retrofit": {},
+                "Stock": {
+                  "Restock": {}
+                },
+                "Ticket": {}
+              }
+            },
+            "[Transfer end-to-end how?]": {
+              "Communicate (transfer information end-to-end)": {}
+            }
+          },
+          "[Transfer what?]": {
+            "Transfer information": {
+              "Communicate (transfer information end-to-end)": {},
+              "Exchange information": {
+                "Agree": {
+                  "Contract": {}
+                },
+                "Confer": {},
+                "Converse": {},
+                "Correspond": {},
+                "Debate": {},
+                "Interview": {},
+                "Mediate": {
+                  "Defuse": {}
+                },
+                "Meet": {},
+                "Negotiate": {
+                  "Renegotiate": {}
+                },
+                "Network": {},
+                "Reach": {},
+                "Teach": {
+                  "Coach": {},
+                  "Drill": {},
+                  "Mentor": {},
+                  "Train": {
+                    "Retrain": {}
+                  },
+                  "Tutor": {}
+                }
+              },
+              "Get information": {
+                "Access": {},
+                "Download": {},
+                "Evaluate": {
+                  "Audit": {},
+                  "Measure": {
+                    "Gauge": {},
+                    "Time": {}
+                  },
+                  "Rate": {
+                    "Grade": {},
+                    "Prioritize": {}
+                  },
+                  "Reevaluate": {},
+                  "Review": {
+                    "Proofread": {}
+                  },
+                  "Screen": {},
+                  "Test": {},
+                  "Weigh": {}
+                },
+                "Import": {},
+                "Learn": {
+                  "Familiarize": {},
+                  "Keep Up": {},
+                  "Know": {},
+                  "Memorize": {}
+                },
+                "Perceive": {
+                  "Check": {},
+                  "Examine": {
+                    "Feel": {},
+                    "Inspect": {},
+                    "Probe": {},
+                    "Scan": {}
+                  },
+                  "Find": {
+                    "Spot": {}
+                  },
+                  "Keep Watch": {},
+                  "Monitor": {
+                    "Keep Track": {},
+                    "Proctor": {},
+                    "Surveil": {},
+                    "Track": {}
+                  },
+                  "Observe": {},
+                  "Orient (person)": {},
+                  "Preview": {},
+                  "Search": {
+                    "Seek": {}
+                  },
+                  "Smell": {},
+                  "Survey": {},
+                  "Taste": {},
+                  "View": {},
+                  "Witness": {}
+                },
+                "Understand": {
+                  "Listen": {},
+                  "Read (gauges, instruments, etc.)": {},
+                  "Read (something written or printed)": {},
+                  "Watch": {}
+                },
+                "Gather (information)": {
+                  "Collect (information)": {}
+                }
+              },
+              "Provide information": {
+                "[Provide information how?]": {
+                  "Appear": {},
+                  "Express Live": {
+                    "Act (Perform, e.g. in a play)": {
+                      "Impersonate": {},
+                      "Improvise": {}
+                    },
+                    "Dance": {},
+                    "Express using instruments": {
+                      "Sight-read": {}
+                    },
+                    "Introduce": {},
+                    "Read (out loud)": {},
+                    "Sign (signal)": {
+                      "Flag": {}
+                    },
+                    "Sing": {},
+                    "Talk": {
+                      "Address (express)": {},
+                      "Call (out)": {},
+                      "Comment": {},
+                      "Praise": {},
+                      "Tell": {}
+                    }
+                  },
+                  "Send information": {
+                    "Advise": {
+                      "Preach": {}
+                    },
+                    "Answer": {},
+                    "Ask": {
+                      "Question": {
+                        "Interrogate": {}
+                      }
+                    },
+                    "Assure": {
+                      "Reassure": {}
+                    },
+                    "Greet": {},
+                    "Inform": {
+                      "Alert": {},
+                      "Announce": {
+                        "Advertise": {},
+                        "Post (announcement)": {},
+                        "Publicize": {
+                          "Broadcast": {}
+                        }
+                      },
+                      "Bring to attention": {},
+                      "Convey": {
+                        "Thank": {}
+                      },
+                      "Cue": {},
+                      "Describe": {},
+                      "Disclose": {},
+                      "Disseminate": {},
+                      "Explain": {
+                        "Brief": {},
+                        "Clarify": {}
+                      },
+                      "File (formal)": {},
+                      "Mention": {},
+                      "Publish": {},
+                      "Refer": {},
+                      "Remind": {},
+                      "Report": {},
+                      "Report (to authorities)": {},
+                      "Seat": {},
+                      "Serve (deliver)": {
+                        "Subpoena": {}
+                      },
+                      "Sign (signal)": {
+                        "Flag": {}
+                      },
+                      "Submit": {},
+                      "Testify": {},
+                      "Warn": {}
+                    },
+                    "Load (digital)": {},
+                    "Page": {},
+                    "Promise": {},
+                    "Propose": {
+                      "Nominate": {}
+                    },
+                    "Radio": {},
+                    "Relay": {
+                      "Fax": {},
+                      "Forward": {}
+                    },
+                    "Request": {
+                      "Apply (for)": {},
+                      "Call": {
+                        "Summon": {}
+                      },
+                      "Claim": {},
+                      "Invite": {},
+                      "Petition": {},
+                      "Requisition": {},
+                      "Reserve": {},
+                      "Solicit": {}
+                    },
+                    "Respond": {},
+                    "Share": {},
+                    "Show": {
+                      "Perform (artistic)": {
+                        "Audition": {},
+                        "Interpret": {},
+                        "Model": {}
+                      },
+                      "Present": {},
+                      "Replay": {}
+                    },
+                    "Talk": {
+                      "Address (express)": {},
+                      "Call (out)": {},
+                      "Comment": {},
+                      "Praise": {},
+                      "Tell": {}
+                    },
+                    "Upload (information)": {}
+                  }
+                },
+                "[Provide what kind of information?]": {
+                  "Charge (money)": {},
+                  "Provide decision": {},
+                  "Provide money": {
+                    "Deposit (money)": {},
+                    "Disburse": {}
+                  }
+                }
+              }
+            },
+            "Transfer physical objects": {
+              "Exchange physical objects": {},
+              "Get physical objects": {
+                "Salvage": {},
+                "Gather (physical)": {
+                  "Bundle": {},
+                  "Harvest": {},
+                  "Pick": {},
+                  "Collect (physical)": {}
+                }
+              },
+              "Provide physical objects": {
+                "Provide food": {}
+              }
+            },
+            "Transfer service": {
+              "End service": {
+                "Discharge": {},
+                "Terminate employment": {}
+              },
+              "Exchange service": {
+                "Collaborate": {
+                  "Agree": {
+                    "Contract": {}
+                  },
+                  "Arrange (make arrangements for)": {
+                    "Settle": {}
+                  },
+                  "Participate": {
+                    "Attend (go to)": {}
+                  }
+                },
+                "Work": {
+                  "Specialize": {}
+                }
+              },
+              "Get service": {
+                "Lead": {
+                  "Build": {},
+                  "Control": {
+                    "Allow": {
+                      "Permit": {}
+                    },
+                    "Authorize": {
+                      "License": {}
+                    },
+                    "Challenge": {},
+                    "Fight": {},
+                    "Manage": {
+                      "Administer (manage)": {},
+                      "Conduct": {},
+                      "Direct": {
+                        "Chair": {},
+                        "Guide": {}
+                      },
+                      "Implement": {},
+                      "Improve": {
+                        "Optimize": {}
+                      },
+                      "Oversee": {}
+                    },
+                    "Operate": {
+                      "[Operate how?]": {
+                        "Drive (operate)": {
+                          "Test drive": {}
+                        },
+                        "Fly": {},
+                        "Man": {},
+                        "Pilot": {},
+                        "Reset": {},
+                        "Restart": {},
+                        "Turn (on/off)": {
+                          "Turn On": {}
+                        }
+                      },
+                      "[Operate what?]": {
+                        "Operate transport": {
+                          "[Operate transport how?]": {
+                            "Transport by animal": {},
+                            "Transport by mechanical vehicle": {}
+                          },
+                          "Operate transport for physical objects": {}
+                        }
+                      },
+                      "Idle": {}
+                    },
+                    "Order (authoritative)": {
+                      "Compel": {},
+                      "Dispatch": {
+                        "Route": {}
+                      },
+                      "Enforce": {
+                        "Evict": {},
+                        "Officiate": {}
+                      },
+                      "Establish": {
+                        "Probate": {}
+                      },
+                      "Regulate (authoritative)": {},
+                      "Standardize": {}
+                    },
+                    "Organize (people or events)": {
+                      "Host": {}
+                    },
+                    "Prevent": {
+                      "Defend (prevent)": {
+                        "Protect": {
+                          "Guard": {},
+                          "Insure": {}
+                        }
+                      },
+                      "Exclude": {},
+                      "Restrain": {
+                        "Arrest": {},
+                        "Detain": {},
+                        "Shackle": {}
+                      },
+                      "Restrict": {},
+                      "Stop": {
+                        "Disable": {},
+                        "Extinguish": {},
+                        "Shut Off": {}
+                      }
+                    },
+                    "Punish": {
+                      "Discipline": {},
+                      "Reprimand": {}
+                    },
+                    "Start": {},
+                    "Steer": {}
+                  },
+                  "Influence": {},
+                  "Persuade": {}
+                }
+              },
+              "Provide service": {
+                "Assimilate": {},
+                "Assist": {
+                  "Care": {
+                    "Attend (care)": {
+                      "Tend": {}
+                    },
+                    "Comfort": {},
+                    "Cultivate": {
+                      "Crossbreed": {},
+                      "Fertilize": {}
+                    }
+                  },
+                  "Encourage": {
+                    "Motivate": {}
+                  },
+                  "Engage (people)": {},
+                  "Escort": {
+                    "Chaperone": {},
+                    "Usher": {}
+                  },
+                  "Facilitate": {
+                    "Expedite": {},
+                    "Moderate": {}
+                  },
+                  "Intervene": {},
+                  "Represent": {},
+                  "Rescue": {},
+                  "Serve (role)": {
+                    "Act As": {},
+                    "Bus (tables)": {},
+                    "Substitute (role)": {}
+                  },
+                  "Treat": {
+                    "Administer (treat)": {
+                      "Anesthetize": {},
+                      "Immunize": {}
+                    },
+                    "Dress (wound)": {
+                      "Ligate": {}
+                    },
+                    "Euthanize": {},
+                    "Operate on": {
+                      "Castrate": {},
+                      "Cauterize": {}
+                    },
+                    "Pack (into)": {}
+                  }
+                },
+                "Entertain": {},
+                "Evacuate": {},
+                "Follow": {
+                  "Comply": {}
+                },
+                "Respond": {},
+                "Wait for": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
