@@ -1,0 +1,1028 @@
+{
+  "process": {
+    "1. Information Activities": {
+      "1.1 Create Information": {
+        "Analyze": {
+          "investigation (investigation.n.02) - Investigate (Investigate.v.01)": {
+            "research (research.n.01) - Research (Research.v.01, Research.v.02)": {
+              "experiment (experiment.n.01) - Experiment (Experiment.v.01)": {
+                "testing (running experiments) (testing.n.01) - Experiment (Experiment.v.01)": {}
+              },
+              "microscopy (microscopy.n.01) - Research (Research.v.01, Research.v.02)": {},
+              "spectroscopy (spectroscopy.n.01) - Research (Research.v.01, Research.v.02)": {}
+            },
+            "examination (scrutiny) (examination.n.01) - Examine (Examine.v.02)": {
+              "survey (survey.n.01) - Survey (Survey.v.02, Survey.v.05)": {},
+              "audit (audit.n.02) - Audit (Audit.v.01)": {},
+              "inspection (inspection.n.01) - Inspect (Inspect.v.01)": {
+                "check (check.n.06) - Check (Check.v.01)": {}
+              },
+              "autopsy (autopsy.n.01) - Examine (Examine.v.02)": {},
+              "testing (evaluative screening) (testing.n.02) - Test (Test.v.01)": {
+                "screening (screening.n.04) - Screen (Screen.v.02, Screen.v.05)": {}
+              }
+            },
+            "inquiry (inquiry.n.03) - Investigate (Investigate.v.01)": {},
+            "count (count.n.02) - Count (Count.v.01)": {}
+          }
+        },
+        "Analyze > Characterize": {
+          "characterization (characterization.n.02) - Characterize (Qualify.v.06)": {}
+        },
+        "Analyze > Determine": {
+          "determination (determination.n.01) - Determine (Determine.v.01, Determine.v.08)": {
+            "designation (designation.n.03) - Identify (Name.v.02)": {}
+          }
+        },
+        "Calculate": {
+          "calculation (calculation.n.01) - Calculate (Calculate.v.01, Calculate.v.02)": {
+            "algorithm (algorithm.n.01) - Calculate (Calculate.v.01, Calculate.v.02)": {}
+          }
+        },
+        "Decide": {
+          "choice (choice.n.02) - Select (Choose.v.01)": {
+            "decision (decision.n.01) - Decide (Decide.v.01)": {
+              "appointment (appointment.n.01) - Appoint (Appoint.v.02)": {}
+            }
+          },
+          "rejection (rejection.n.04) - Reject (Deny.v.04, Refuse.v.02, Reject.v.01, Reject.v.06)": {}
+        },
+        "Decide > Select > [Select for what purpose?]": {
+          "categorization (categorization.n.03) - Categorize (Categorize.v.01)": {},
+          "sampling (sampling.n.01) - Taste (Sample.v.01)": {},
+          "diagnosis (diagnosis.n.01) - Diagnose (Diagnose.v.01)": {
+            "prognosis (prognosis.n.02) - Diagnose (Diagnose.v.01)": {}
+          },
+          "validation (validation.n.01) - Validate (Confirm.v.01, See.v.10, Validate.v.04, Verify.v.01)": {}
+        },
+        "Express information > Record": {
+          "recording (recording.n.02) - Record (Record.v.01)": {},
+          "writing (writing.n.05) - Write (Write.v.01, Write.v.02)": {}
+        },
+        "Express information > Record > Write > Program (computer)": {
+          "programming (programming.n.02) - Program (computer) (Program.v.02, Write.v.10)": {}
+        },
+        "Express information > Record > Create static image": {
+          "art (art.n.02) - Draw (drawing) (Draw.v.04, Draw.v.06)": {
+            "drawing (drawing.n.03) - Draw (drawing) (Draw.v.04, Draw.v.06)": {}
+          },
+          "photography (photography.n.02) - Photograph (Photograph.v.01)": {
+            "exposure (exposure.n.08) - Photograph (Photograph.v.01)": {},
+            "angiography (angiography.n.01) - Photograph (Photograph.v.01)": {},
+            "sonography (sonography.n.01) - Visualize (Visualize.v.04)": {}
+          }
+        },
+        "Express information > Record > Create moving image": {
+          "animation (animation.n.05) - Film (Film.v.01)": {}
+        },
+        "Express information > Record > Document": {
+          "listing (listing.n.02) - List (List.v.02)": {
+            "inventory (inventory.n.05) - Document (Document.v.01, Inventory.v.01, Keep.v.08, Log.v.01, Register.v.01)": {}
+          }
+        },
+        "Express information > Record > Mark (information)": {
+          "label (label.n.01) - Mark (information) (Code.v.01, Mark.v.02, Tag.v.01)": {}
+        },
+        "Express information > Record > Copy (information) > Model (represent)": {
+          "model (model.n.09) - Model (represent) (information) (Model.v.01, Model.v.05)": {
+            "simulation (simulation.n.01) - Model (represent) (information) (Model.v.01, Model.v.05)": {}
+          }
+        },
+        "Express information > Record > Enroll": {
+          "registration (registration.n.01) - Enroll (Enroll.v.01)": {}
+        },
+        "Plan": {
+          "planning (planning.n.01, planning.n.02) - Plan (Mastermind.v.01, Plan.v.02, Plan.v.03)": {
+            "scheduling (scheduling.n.01) - Schedule (Schedule.v.02)": {
+              "booking (booking.n.02) - Book (Book.v.01)": {}
+            }
+          }
+        },
+        "Plan > Design": {
+          "design (design.n.01) - Design (Design.v.02)": {
+            "approach (approach.n.01) - Conceptualize (Gestate.v.01)": {}
+          }
+        },
+        "Reason > Organize (analytically)": {
+          "compilation (compilation.n.02) - Organize (analytically) (Organize.v.04, Structure.v.01)": {}
+        },
+        "Solve > Resolve": {
+          "resolution (resolution.n.04) - Resolve (Decide.v.02)": {}
+        }
+      },
+      "1.2 Modify Information": {
+        "Transform information > Revise": {
+          "revision (revision.n.01) - Revise (Revise.v.01)": {},
+          "correction (correction.n.01) - Repair (information) (Correct.v.01, Correct.v.08, Repair.v.01)": {
+            "redress (redress.n.02) - Repair (information) (Correct.v.01, Correct.v.08, Repair.v.01)": {}
+          },
+          "cancellation (cancellation.n.01) - Cancel (Cancel.v.03)": {},
+          "updating (updating.n.01) - Update information (Update.v.01, Update.v.02)": {}
+        },
+        "Transform information > Adjust (information)": {
+          "alteration (alteration.n.02) - Alter (information) (Alter.v.03)": {},
+          "discount (discount.n.01) - Decrease (Decrease.v.01)": {}
+        },
+        "Transform information > Use": {
+          "use (use.n.01) - Use (Put_on.v.07, Use.v.01)": {
+            "exploitation (exploitation.n.01) - Use (Put_on.v.07, Use.v.01)": {}
+          }
+        },
+        "Transform information > Process (information)": {
+          "processing (processing.n.01) - Process (information) (Process.v.01, Process.v.03)": {
+            "search (computational retrieval) (search.n.03) - Process (information) (Process.v.01, Process.v.03)": {}
+          }
+        },
+        "Separate information": {
+          "separation (separation.n.04) - Separate information (Separate.v.02)": {
+            "triage (triage.n.01) - Separate information (Separate.v.02)": {}
+          }
+        }
+      },
+      "1.3 Store Information": {
+        "storage (informational) (storage.n.01) - Store information (Conserve.v.02, Store.v.01, Store.v.02)": {}
+      },
+      "1.4 Transfer Information": {
+        "Communicate (end-to-end)": {
+          "communication (communication.n.01) - Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {
+            "contact (contact.n.08) - Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {},
+            "liaison (liaison.n.02) - Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {},
+            "traffic (traffic.n.03) - Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {},
+            "transmission (transmission.n.02) - Communicate (transfer information end-to-end) (Communicate.v.01, Communicate.v.02, Communicate.v.05)": {}
+          }
+        },
+        "Exchange information": {
+          "discussion (discussion.n.01) - Confer (Confer.v.01)": {
+            "detail (detail.n.03) - Confer (Confer.v.01)": {}
+          },
+          "negotiation (negotiation.n.02) - Negotiate (Negociate.v.06)": {},
+          "examination (oral) (examination.n.02) - Interview (Interview.v.01, Interview.v.02)": {},
+          "interview (interview.n.01) - Interview (Interview.v.01, Interview.v.02)": {},
+          "deposition (deposition.n.02) - Testify (Testify.v.01, Testify.v.02)": {}
+        },
+        "Exchange information > Teach": {
+          "education (education.n.01) - Teach (Educate.v.01, Prepare.v.05, Teach.v.01)": {
+            "course (course.n.01) - Teach (Educate.v.01, Prepare.v.05, Teach.v.01)": {
+              "workshop (workshop.n.02) - Teach (Educate.v.01, Prepare.v.05, Teach.v.01)": {},
+              "orientation course (orientation_course.n.01) - Teach (Educate.v.01, Prepare.v.05, Teach.v.01)": {}
+            }
+          },
+          "training (training.n.01) - Train (Train.v.01)": {},
+          "lecture (educational address) (lecture.n.01) - Address (express) (Address.v.02, Deliver.v.01)": {
+            "lesson (lesson.n.01) - Teach (Educate.v.01, Prepare.v.05, Teach.v.01)": {}
+          }
+        },
+        "Get information > Evaluate": {
+          "measurement (measurement.n.01) - Measure (Measure.v.04, Quantify.v.02)": {
+            "test (measurement procedure) (test.n.02) - Test (Test.v.01)": {},
+            "surveying (surveying.n.01) - Survey (Survey.v.02, Survey.v.05)": {},
+            "dosimetry (dosimetry.n.01) - Measure (Measure.v.04, Quantify.v.02)": {},
+            "sounding (sounding.n.02) - Measure (Measure.v.04, Quantify.v.02)": {}
+          },
+          "judgment (judgment.n.02) - Evaluate (Evaluate.v.02)": {
+            "adjudication (adjudication.n.01) - Evaluate (Evaluate.v.02)": {},
+            "appraisal (appraisal.n.03) - Evaluate (Evaluate.v.02)": {}
+          },
+          "test (trial/attempt) (test.n.04) - Test (Test.v.01)": {}
+        },
+        "Get information > Perceive > Observe": {
+          "observation (single act) (observation.n.01) - Observe (Detect.v.01, Observe.v.04)": {}
+        },
+        "Get information > Perceive > Keep Watch": {
+          "patrol (patrol.n.02) - Keep Watch (Check.v.01, guard.v.01, patrol.v.01, watch.v.02)": {}
+        },
+        "Get information > Perceive > Monitor": {
+          "surveillance (surveillance.n.01) - Surveil (Surveil.v.01)": {
+            "watch (watch.n.03) - Keep Watch (Check.v.01, guard.v.01, patrol.v.01, watch.v.02)": {}
+          },
+          "observation (sustained) (observation.n.02) - Monitor (Monitor.v.01)": {
+            "monitoring (monitoring.n.01) - Monitor (Monitor.v.01)": {},
+            "sighting (sighting.n.01) - Spot (Spot.v.02)": {}
+          }
+        },
+        "Get information > Perceive > Search": {
+          "search (perceptual seeking) (search.n.01) - Search (Look.v.01, Search.v.01, Search.v.02)": {
+            "exploration (exploration.n.02) - Search (Look.v.01, Search.v.01, Search.v.02)": {},
+            "shakedown (shakedown.n.02) - Search (Look.v.01, Search.v.01, Search.v.02)": {}
+          }
+        },
+        "Get information > Perceive > Find": {
+          "search (investigative work) (search.n.02) - Find (Find.v.03, locate.v.01)": {}
+        },
+        "Provide information > Express Live": {
+          "portrayal (portrayal.n.02) - Act (Perform, e.g. in a play) (Act.v.03)": {},
+          "rendition (rendition.n.04) - Interpret (Interpret.v.03)": {},
+          "magic trick (magic_trick.n.01) - Act (Perform, e.g. in a play) (Act.v.03)": {},
+          "dancing (dancing.n.01) - Dance (Dance.v.02)": {}
+        },
+        "Provide information > Express Live > Talk": {
+          "lecture (one-directional address) (lecture.n.03) - Talk (Talk.v.02)": {
+            "talk (talk.n.03) - Talk (Talk.v.02)": {}
+          }
+        },
+        "Provide information > Express Live > Talk > Address (express)": {
+          "address (address.n.03) - Address (express) (Address.v.02, Deliver.v.01)": {
+            "recitation (recitation.n.02) - Read (out loud) (Read.v.03)": {},
+            "sermon (sermon.n.01) - Talk (Talk.v.02)": {}
+          }
+        },
+        "Provide information > Send information": {
+          "mail (mail.n.02) - Relay (Relay.v.01)": {},
+          "referral (referral.n.03) - Refer (Refer.v.04)": {}
+        },
+        "Provide information > Send information > Inform": {
+          "disclosure (disclosure.n.01) - Disclose (Unwrap.v.02)": {
+            "discovery (discovery.n.04) - Disclose (Unwrap.v.02)": {}
+          },
+          "narration (narration.n.02) - Describe (Describe.v.01)": {},
+          "telling (telling.n.02) - Convey (Convey.v.01)": {
+            "warning (warning.n.03) - Warn (Caution.v.01, Warn.v.01)": {
+              "threat (threat.n.02) - Warn (Caution.v.01, Warn.v.01)": {}
+            }
+          },
+          "briefing (briefing.n.01) - Brief (Brief.v.01)": {},
+          "denial (denial.n.01) - Answer (Answer.v.01, Answer.v.10)": {},
+          "complaint (complaint.n.03) - Inform (Advise.v.02, Inform.v.01)": {
+            "grievance (grievance.n.03) - Inform (Advise.v.02, Inform.v.01)": {}
+          }
+        },
+        "Provide information > Send information > Inform > Announce > Advertise": {
+          "advertising (advertising.n.02) - Advertise (Advertise.v.02)": {}
+        },
+        "Provide information > Send information > Inform > Describe": {
+          "description (characterization.n.02) - Characterize (Qualify.v.06)": {}
+        },
+        "Provide information > Send information > Ask > Question": {
+          "question (question.n.01) - Question (Question.v.03)": {
+            "interrogation (interview.n.01) - Interview (Interview.v.01, Interview.v.02)": {
+              "deposition (testimony) (deposition.n.02) - Testify (Testify.v.01, Testify.v.02)": {}
+            }
+          }
+        },
+        "Provide information > Send information > Request": {
+          "request (request.n.02) - Request (Request.v.01, Request.v.02)": {
+            "order (authoritative request) (order.n.13) - Request (Request.v.01, Request.v.02)": {},
+            "call (request for presence) (call.n.09) - Call (Call.v.05)": {},
+            "charge (formal accusation) (charge.n.11) - File (formal) (File.v.01)": {}
+          }
+        },
+        "Provide information > Send information > Request > Apply (for)": {
+          "application (application.n.07) - Apply (for) (Apply.v.03)": {}
+        },
+        "Provide information > Send information > Inform > Order (authoritative) [speech act]": {
+          "command (command.n.01) - Order (authoritative) (Order.v.01)": {
+            "summons (summons.n.02) - Dispatch (Dispatch.v.01)": {}
+          }
+        },
+        "Provide information > Show > Present": {
+          "presentation (presentation.n.02) - Present (Present.v.02, Present.v.05, Show.v.01)": {}
+        },
+        "Provide information > Show": {
+          "display (display.n.02) - Show (Expose.v.03, Show.v.04)": {}
+        },
+        "Provide information > Send information > [new: Dispute / Object]": {
+          "dispute (dispute.n.01) - Debate (Debate.v.01, Hash_out.v.01)": {},
+          "affray (affray.n.01) - Debate (Debate.v.01, Hash_out.v.01)": {}
+        }
+      }
+    },
+    "2. Physical Activities": {
+      "2.1 Create Physical Objects": {
+        "Assemble > Construct (physical)": {
+          "construction (construction.n.01) - Construct (physical) (Construct.v.01, Raise.v.09)": {
+            "fabrication (fitting parts) (fabrication.n.04) - Fabricate (Manufacture.v.01, Produce.v.01)": {}
+          }
+        },
+        "Fabricate": {
+          "fabrication (from raw materials) (fabrication.n.03) - Fabricate (Manufacture.v.01, Produce.v.01)": {
+            "forging (forging.n.01) - Fabricate (Manufacture.v.01, Produce.v.01)": {}
+          },
+          "production (production.n.01) - Fabricate (Manufacture.v.01, Produce.v.01)": {
+            "breeding (breeding.n.04) - Fabricate (Manufacture.v.01, Produce.v.01)": {},
+            "culture (biological) (culture.n.04) - Fabricate (Manufacture.v.01, Produce.v.01)": {},
+            "crop (crop.n.01) - Fabricate (Manufacture.v.01, Produce.v.01)": {}
+          }
+        },
+        "[new] Create by chemical reaction": {
+          "chemical reaction (chemical_reaction.n.01) - [new] Create by chemical reaction": {
+            "fire (combustion reaction) (fire.n.03) - [new] Create by chemical reaction": {}
+          }
+        }
+      },
+      "2.2 Modify Physical Objects": {
+        "Service (physical) > Repair (physical)": {
+          "repair (repair.n.01) - Repair (physical) (Correct.v.01, Correct.v.08, Repair.v.01)": {
+            "overhaul (overhaul.n.01) - Overhaul (Overhaul.v.02)": {},
+            "rehabilitation (rehabilitation.n.01) - Restore (Restore.v.01)": {
+              "reforestation (reforestation.n.01) - Restore (Restore.v.01)": {}
+            }
+          }
+        },
+        "Service (physical) > Maintain (physical)": {
+          "care (maintenance) (care.n.06) - Maintain (physical) (Conserve.v.02, Keep.v.01)": {}
+        },
+        "Service (physical) > Replace (physical)": {
+          "replacement (replacement.n.01) - Replace (physical) (Replace.v.01)": {}
+        },
+        "Transform physical objects > Change surface": {
+          "decoration (decoration.n.03) - Decorate (Decorate.v.01)": {
+            "marking (marking.n.04) - Mark (physical) (Mark.v.02)": {},
+            "ornamentation (ornamentation.n.03) - Decorate (Decorate.v.01)": {},
+            "trimming (trimming.n.01) - Smooth (Smooth.v.01)": {}
+          },
+          "coloring (coloring.n.03) - Color (Color.v.01)": {},
+          "contamination (contamination.n.03) - Change surface (Change_surface.v.01)": {},
+          "facial (facial.n.02) - Change surface (Change_surface.v.01)": {},
+          "impression (stamping) (impression.n.09) - Impress (Impress.v.04)": {}
+        },
+        "Transform physical objects > Clean (physical)": {
+          "cleaning (cleaning.n.01) - Clean (physical) (Clean.v.01, Clean.v.02)": {}
+        },
+        "Transform physical objects > Adjust (physical)": {
+          "adjustment (adjustment.n.03) - Adjust (physical) (Adjust.v.01)": {},
+          "upgrade (upgrade.n.06) - Upgrade (Upgrade.v.02)": {}
+        },
+        "Transform physical objects > Adjust (physical) > Align (physical)": {
+          "alignment (alignment.n.04) - Align (physical) (Align.v.01)": {}
+        },
+        "Transform physical objects > Adjust (physical) > Calibrate": {
+          "calibration (calibration.n.01) - Calibrate (Calibrate.v.01)": {}
+        },
+        "Transform physical objects > Adjust (physical) > Synchronize (physical)": {
+          "coordination (coordination.n.02) - Synchronize (physical) (Synchronize.v.01, Synchronize.v.03, Synchronize.v.04)": {}
+        },
+        "Transform physical objects > Adjust (physical) > Reduce": {
+          "depletion (depletion.n.01) - Reduce (Reduce.v.01)": {
+            "consumption (depletion) (consumption.n.04) - Reduce (Reduce.v.01)": {}
+          },
+          "easing (easing.n.02) - Reduce (Reduce.v.01)": {},
+          "trim (trim.n.04) - Reduce (Reduce.v.01)": {},
+          "discount (price reduction) (discount.n.01) - Decrease (Decrease.v.01)": {}
+        },
+        "Transform physical objects > Adjust (physical) > Extend (physical)": {
+          "expansion (expansion.n.01) - Extend (physical) (Expand.v.02, Extend.v.17, Widen.v.04)": {
+            "tension (stretched state) (tension.n.06) - Extend (physical) (Expand.v.02, Extend.v.17, Widen.v.04)": {}
+          }
+        },
+        "Transform physical objects > Heat": {
+          "cooking (cooking.n.01) - Cook (Cook.v.02, Cook.v.03)": {
+            "cuisine (cuisine.n.01) - Cook (Cook.v.02, Cook.v.03)": {}
+          },
+          "cremation (cremation.n.01) - Heat (Heat.v.01)": {},
+          "heat (natural thermal process) (heat.n.01)": {}
+        },
+        "Transform physical objects > Prepare (physical)": {
+          "preparation (preparation.n.01) - Prepare (physical) (Fix.v.12)": {}
+        },
+        "[new] Harden": {
+          "hardening (hardening.n.02) - [new] Harden": {}
+        },
+        "Combine physical objects": {
+          "combination (combination.n.07) - Combine physical objects (Create_from_raw_material.v.01)": {
+            "consolidation (consolidation.n.02) - Consolidate (Consolidate.v.01)": {}
+          }
+        },
+        "Combine physical objects > Synthesize (physical) > Blend (physical)": {
+          "blend (blend.n.03) - Blend (physical) (Blend.v.01, Blend.v.03)": {},
+          "mix (mix.n.03) - Blend (physical) (Blend.v.01, Blend.v.03)": {}
+        },
+        "Combine physical objects > Add (physical)": {
+          "addition (addition.n.02) - Add (physical) (Add.v.01, Include.v.01)": {}
+        },
+        "Move physical objects > Put physical objects": {
+          "placement (placement.n.03) - Put physical objects (Put.v.01)": {},
+          "installation (installation.n.01) - Install (physical) (Install.v.01)": {}
+        },
+        "Move physical objects > Put physical objects > Insert (physical)": {
+          "insertion (insertion.n.02) - Insert (physical) (Feed.v.04, Insert.v.01)": {
+            "cannulation (cannulation.n.01) - Insert (physical) (Feed.v.04, Insert.v.01)": {},
+            "transfusion (transfusion.n.01) - Insert (physical) (Feed.v.04, Insert.v.01)": {}
+          }
+        },
+        "Move physical objects > Put physical objects > Load": {
+          "loading (loading.n.05) - Load (physical) (Load.v.01)": {}
+        },
+        "Move physical objects > Put physical objects > Unload": {
+          "unloading (unloading.n.01) - Unload (Drop.v.08)": {}
+        },
+        "Move physical objects > Put physical objects > Support": {
+          "support (physical) (support.n.08) - Support (Hold.v.10)": {
+            "shoring (shoring.n.02) - Support (Hold.v.10)": {}
+          }
+        },
+        "Move physical objects > Put physical objects > Park": {
+          "parking (parking.n.02) - Park (Park.v.02)": {}
+        },
+        "Move physical objects > Handle": {
+          "handling (handling.n.01) - Handle (Handle.v.04)": {}
+        },
+        "Move physical objects > Apply (physical)": {
+          "application (applying substance) (application.n.03) - Apply (physical) (Put_on.v.07)": {
+            "lubrication (lubrication.n.02) - Lubricate (Lubricate.v.02)": {}
+          },
+          "wiring (wiring.n.02) - Wire (Wire.v.01)": {}
+        },
+        "Move physical objects > Move physical objects in other ways > Shake": {
+          "vibration (vibration.n.01) - Shake (Shake.v.01, Vibrate.v.01)": {},
+          "disturbance (disturbance.n.05) - Shake (Shake.v.01, Vibrate.v.01)": {},
+          "suction (natural pressure-driven movement) (suction.n.01) - Shake (Shake.v.01, Vibrate.v.01)": {}
+        },
+        "Move physical objects > Move physical objects in other ways": {
+          "gesture (gesture.n.01) - Handle (Handle.v.04)": {},
+          "throw (throw.n.03) - Push (Push.v.01)": {},
+          "exercise (physical bodily activity) (exercise.n.01) - Exercise (Exercise.v.03, Exercise.v.04)": {},
+          "rotation (spontaneous/mechanical) (rotation.n.03) - Turn (rotate) (Revolve.v.01, Turn.v.01, Turn.v.17)": {}
+        },
+        "Separate physical objects > Cut (physical)": {
+          "cut (cut.n.17) - Cut (physical) (Cut.v.01)": {}
+        },
+        "Separate physical objects > Cut (physical) > Bore": {
+          "drilling (drilling.n.01) - Bore (Bore.v.02)": {}
+        },
+        "Separate physical objects > Cut (physical) > Incise": {
+          "incision (incision.n.02) - Incise (Incise.v.01)": {}
+        },
+        "Separate physical objects > Cut (physical) > Perforate > Pierce": {
+          "puncture (puncture.n.03) - Pierce (Pierce.v.04)": {
+            "prick (prick.n.04) - Pierce (Pierce.v.04)": {},
+            "venipuncture (venipuncture.n.01) - Pierce (Pierce.v.04)": {}
+          }
+        },
+        "Separate physical objects > Break > Explode": {
+          "detonation (detonation.n.02) - Explode (Explode.v.01)": {}
+        },
+        "Separate physical objects > Break": {
+          "fracture (fracture.n.03) - Break (Break.v.02, Sever.v.01)": {}
+        },
+        "Separate physical objects > Disassemble": {
+          "dismantling (dismantling.n.01) - Disassemble (Disassemble.v.01)": {}
+        },
+        "Separate physical objects > Remove (physical)": {
+          "removal (removal.n.01) - Remove (physical) (Remove.v.01)": {
+            "drain (drain.n.01) - Drain (Drain.v.03)": {},
+            "dermabrasion (dermabrasion.n.01) - Remove (physical) (Remove.v.01)": {},
+            "extraction (extraction.n.03) - Extract (Draw.v.07, Extract.v.01)": {}
+          },
+          "disposal (disposal.n.03) - Discard (Discard.v.01, Dump.v.01)": {},
+          "release (release.n.03) - Release (Free.v.01, Let_go_of.v.01, Turn.v.08)": {
+            "radiation (released energy) (radiation.n.04) - Release (Free.v.01, Let_go_of.v.01, Turn.v.08)": {}
+          },
+          "excavation (excavation.n.01) - Excavate (Excavate.v.01)": {},
+          "extermination (extermination.n.02) - Demolish (Demolish.v.01, Destroy.v.01)": {}
+        }
+      },
+      "2.3 Store Physical Objects": {
+        "storage (physical) (storage.n.01) - Store information (Conserve.v.02, Store.v.01, Store.v.02)": {
+          "repositing (repositing.n.01) - Store physical objects (Conserve.v.02, Store.v.01, Store.v.02)": {}
+        },
+        "Preserve": {
+          "preservation (preservation.n.01) - Preserve (Preserve.v.04)": {
+            "conservation (conservation.n.02) - Preserve (Preserve.v.04)": {}
+          }
+        },
+        "[new] Contain": {
+          "containment (containment.n.03) - Restrain (Restrain.v.01, Restrain.v.03)": {}
+        },
+        "[new] Waterproof": {
+          "waterproofing (waterproofing.n.01) - [new] Waterproof": {}
+        }
+      },
+      "2.4 Transfer Physical Objects": {
+        "Transport physical objects > [Deliver]": {
+          "transportation (movement) (transportation.n.02) - Transport physical objects (Transfer.v.02, Transport.v.01, Transport.v.04)": {
+            "delivery (to destination) (delivery.n.01) - Deliver (Deliver.v.02)": {
+              "service (delivery utility) (service.n.13) - Deliver (Deliver.v.02)": {}
+            }
+          }
+        },
+        "Transport physical objects > [Travel] > Visit": {
+          "visit (visit.n.01) - Visit (Visit.v.01)": {}
+        },
+        "Transport physical objects > [Travel]": {
+          "arrival (arrival.n.02) - Travel (Travel.v.01)": {
+            "appearance (coming into view) (appearance.n.05) - Appear (Appear.v.07)": {},
+            "entrance (entrance.n.03) - Enter (Enter.v.01)": {}
+          },
+          "departure (departure.n.01) - Travel (Travel.v.01)": {}
+        },
+        "Transport physical objects > [Carry] > Haul": {
+          "hauling (hauling.n.01) - Haul (Haul.v.02)": {}
+        },
+        "Transport physical objects": {
+          "transportation (commercial shipping) (transportation.n.05) - Transport physical objects (Transfer.v.02, Transport.v.01, Transport.v.04)": {
+            "logistics (logistics.n.01) - Transport physical objects (Transfer.v.02, Transport.v.01, Transport.v.04)": {}
+          }
+        },
+        "Get physical objects > Gather (physical)": {
+          "collection (collection.n.04) - Collect (physical) (Roll_up.v.02)": {
+            "gather (gather.n.02) - Gather (physical) (Gather.v.01)": {
+              "harvest (harvest.n.03) - Harvest (Harvest.v.02, Reap.v.01)": {}
+            },
+            "pickup (pickup.n.08) - Pick up (for transport) (Collect.v.05, Pick.v.01, Pick_Up.v.03)": {}
+          }
+        },
+        "Get physical objects > Buy": {
+          "acquisition (acquisition.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {
+            "purchase (purchase.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {
+              "buying (buying.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {}
+            }
+          }
+        },
+        "Get physical objects > Take > Capture": {
+          "apprehension (apprehension.n.04) - Capture (catch) (Capture.v.06)": {}
+        },
+        "Get physical objects > Take > Recover": {
+          "repossession (repossession.n.01) - Recover (Recover.v.01)": {}
+        },
+        "Get physical objects > Receive": {
+          "reception (reception.n.04) - Receive (Accept.v.02, Receive.v.01, Stock.v.05)": {}
+        },
+        "Provide physical objects > Provide food": {
+          "feeding (feeding.n.02) - Provide food (Feed.v.01, Feed.v.02)": {}
+        },
+        "Provide physical objects > [new: Supply]": {
+          "provision (provision.n.02) - Supply (Supply.v.01)": {
+            "supply (supply.n.02) - Supply (Supply.v.01)": {},
+            "fueling (fueling.n.01) - Fuel (Fuel.v.02)": {},
+            "irrigation (land) (irrigation.n.01) - Supply (Supply.v.01)": {}
+          }
+        },
+        "Transfer physical objects > Exchange physical objects": {
+          "transaction (transaction.n.01) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {
+            "exchange (exchange.n.04) - Exchange physical objects (Change.v.06, Exchange.v.04)": {},
+            "deal (deal.n.01) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {},
+            "transfer (transfer.n.06) - Exchange physical objects (Change.v.06, Exchange.v.04)": {
+              "delivery (conveyance) (delivery.n.04) - Deliver (Deliver.v.02)": {}
+            }
+          },
+          "trade (exchange) (trade.n.03) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {}
+        },
+        "Transfer physical objects > Provide > Sell": {
+          "sale (sale.n.02) - Sell (Market.v.01, Sell.v.01)": {
+            "auction (auction.n.02) - Sell (Market.v.01, Sell.v.01)": {},
+            "resale (resale.n.01) - Sell (Market.v.01, Sell.v.01)": {}
+          },
+          "market (activity) (market.n.01) - Sell (Market.v.01, Sell.v.01)": {}
+        },
+        "Transfer physical objects > Provide > Give": {
+          "grant (grant.n.02) - Grant (Grant.v.05)": {},
+          "financing (financing.n.01) - Give (Give.v.03)": {}
+        },
+        "Transfer physical objects > Provide > Distribute": {
+          "distribution (distribution.n.03, distribution.n.04) - Distribute (Distribute.v.01)": {
+            "allotment (allotment.n.02) - Allocate (Allocate.v.01)": {}
+          }
+        },
+        "Transfer physical objects > [Provide what kind?] > Pay": {
+          "payment (payment.n.02) - Provide money (Pay.v.01)": {
+            "spending (spending.n.01) - Provide money (Pay.v.01)": {}
+          }
+        },
+        "[new] Natural transfer": {
+          "outflow (outflow.n.02) - [new] Natural transfer (flow)": {},
+          "emission (emission.n.01) - [new] Natural transfer (emit)": {}
+        }
+      }
+    },
+    "3. Interactive Activities": {
+      "3.1 Act on Activities": {
+        "Achieve": {
+          "accomplishment (accomplishment.n.01) - Achieve (Achieve.v.01)": {
+            "success (achievement) (success.n.02) - Achieve (Achieve.v.01)": {},
+            "stunt (stunt.n.01) - Achieve (Achieve.v.01)": {}
+          },
+          "liberation (liberation.n.01) - Achieve (Achieve.v.01)": {}
+        },
+        "Complete (activity)": {
+          "termination (termination.n.05) - Complete (activity) (Complete.v.01)": {
+            "completion (completion.n.02) - Complete (activity) (Complete.v.01)": {
+              "fulfillment (fulfillment.n.02) - Complete (activity) (Complete.v.01)": {}
+            },
+            "closure (closure.n.07) - Complete (activity) (Complete.v.01)": {}
+          }
+        },
+        "Continue": {
+          "follow-up (follow-up.n.02) - Continue (Continue.v.01)": {}
+        },
+        "Improve": {
+          "improvement (agentive) (improvement.n.02) - Improve (Better.v.02, Enhance.v.02)": {
+            "development (agentive) (development.n.01) - Improve (Better.v.02, Enhance.v.02)": {
+              "advancement (advancement.n.03) - Optimize (Optimize.v.01)": {}
+            }
+          },
+          "promotion (promotion.n.02) - Improve (Better.v.02, Enhance.v.02)": {}
+        },
+        "Perform": {
+          "operation (operational activity) (operation.n.07) - Operate (Operate.v.03, Run.v.19)": {},
+          "procedure (procedure.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+            "routine (routine.n.01) - Practice (Drill.v.03)": {}
+          },
+          "duty (duty.n.02) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+            "job (specific duty) (job.n.02) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+            "assignment (assigned duty) (assignment.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+              "mission (mission.n.03) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {}
+            },
+            "function (function.n.03) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {}
+          },
+          "assignment (educational/work task) (assignment.n.05) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+            "homework (homework.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {}
+          },
+          "paperwork (paperwork.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "housework (housework.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "job (completed piece of work) (job.n.06) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "performance (carrying out) (performance.n.03) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "action (group) (action.n.09) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "behavior (behavior.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "measure (action taken) (measure.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+            "precaution (precaution.n.01) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {
+              "security (precautionary action) (security.n.09) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {}
+            }
+          },
+          "economy (avoiding waste) (economy.n.04) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {},
+          "labor (labor.n.02) - Perform (action) (Do.v.03, Perform.v.01, Prosecute.v.03, Take.v.01)": {}
+        },
+        "Perform > Practice": {
+          "practice (practice.n.01, practice.n.03, practice.n.05) - Practice (Drill.v.03)": {
+            "habit (habit.n.01, habit.n.02) - Practice (Drill.v.03)": {},
+            "convention (convention.n.02) - Practice (Drill.v.03)": {
+              "protocol (protocol.n.03) - Practice (Drill.v.03)": {}
+            }
+          }
+        },
+        "Perform > Rehearse": {
+          "rehearsal (rehearsal.n.01) - Rehearse (Rehearse.v.01)": {},
+          "exercise (practice run) (exercise.n.03) - Rehearse (Rehearse.v.01)": {}
+        },
+        "Implement": {
+          "implementation (implementation.n.02) - Implement (Carry_through.v.01, Follow_through.v.02)": {
+            "means (means.n.01) - Implement (Carry_through.v.01, Follow_through.v.02)": {
+              "instrument (instrument.n.02) - Implement (Carry_through.v.01, Follow_through.v.02)": {}
+            }
+          }
+        },
+        "Undertake": {
+          "campaign (campaign.n.02) - Undertake (Undertake.v.01)": {}
+        }
+      },
+      "3.2 Transfer Between Actors": {
+        "Transfer between actors > Get > Receive": {
+          "reception (social) (reception.n.04) - Receive (Accept.v.02, Receive.v.01, Stock.v.05)": {}
+        },
+        "Transfer between actors > Get > Take > Capture": {
+          "apprehension (capture) (apprehension.n.04) - Capture (catch) (Capture.v.06)": {}
+        },
+        "Transfer between actors > Get > Take > Recover": {
+          "repossession (repossession.n.01) - Recover (Recover.v.01)": {}
+        },
+        "Transfer between actors > Get > Buy": {
+          "acquisition (acquisition.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {
+            "purchase (purchase.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {
+              "buying (buying.n.01) - Buy (Buy.v.01, Cash.v.01, Shop.v.01, Shop.v.03)": {}
+            }
+          }
+        },
+        "Transfer between actors > Get > Rent > Hire > Recruit": {
+          "recruitment (recruitment.n.01) - Recruit (Recruit.v.02)": {}
+        },
+        "Transfer between actors > Provide > Sell": {
+          "sale (sale.n.02) - Sell (Market.v.01, Sell.v.01)": {
+            "auction (auction.n.02) - Sell (Market.v.01, Sell.v.01)": {},
+            "resale (resale.n.01) - Sell (Market.v.01, Sell.v.01)": {}
+          },
+          "market (bring to buyers) (market.n.01) - Sell (Market.v.01, Sell.v.01)": {}
+        },
+        "Transfer between actors > Provide > Give": {
+          "grant (grant.n.02) - Grant (Grant.v.05)": {},
+          "financing (financing.n.01) - Give (Give.v.03)": {}
+        },
+        "Transfer between actors > Provide > Distribute": {
+          "distribution (distribution.n.03, distribution.n.04) - Distribute (Distribute.v.01)": {
+            "allotment (allotment.n.02) - Allocate (Allocate.v.01)": {}
+          },
+          "deployment (deployment.n.01) - Deploy (Deploy.v.02)": {},
+          "mobilization (mobilization.n.02) - Deploy (Deploy.v.02)": {}
+        },
+        "Transfer between actors > Exchange > Interact": {
+          "interaction (interaction.n.01) - Interact (Interact.v.01)": {
+            "relation (relation.n.06) - Interact (Interact.v.01)": {}
+          }
+        },
+        "Transfer between actors > Exchange > Trade > Transact": {
+          "transaction (transaction.n.01) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {},
+          "exchange (bilateral) (exchange.n.04) - Exchange physical objects (Change.v.06, Exchange.v.04)": {},
+          "deal (deal.n.01) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {},
+          "trade (commercial) (trade.n.03) - Trade (Transfer both ways) (Exchange.v.01, Trade.v.01)": {}
+        },
+        "Transfer between actors > [Provide what kind?] > Pay": {
+          "payment (payment.n.02) - Provide money (Pay.v.01)": {
+            "spending (spending.n.01) - Provide money (Pay.v.01)": {}
+          }
+        }
+      },
+      "3.3 Transfer Service": {
+        "Transfer service > Provide service > Assist": {
+          "aid (aid.n.02) - Assist (Help.v.01, Support.v.01, Support.v.02)": {
+            "support (sustained aid) (support.n.02) - Assist (Help.v.01, Support.v.01, Support.v.02)": {
+              "blessing (blessing.n.01) - Assist (Help.v.01, Support.v.01, Support.v.02)": {
+                "adoption (adoption.n.01) - Care (Care.v.02)": {}
+              },
+              "attachment (assigned support) (attachment.n.05) - Assist (Help.v.01, Support.v.01, Support.v.02)": {},
+              "sponsorship (sponsorship.n.01) - Sponsor (Sponsor.v.01)": {}
+            },
+            "consolation (consolation.n.02) - Comfort (Comfort.v.01)": {},
+            "accommodation (accommodation.n.05) - Facilitate (Facilitate.v.01)": {
+              "service (utility) (service.n.15) - Serve (role) (Serve.v.02)": {}
+            }
+          }
+        },
+        "Transfer service > Provide service > Assist > Care": {
+          "care (looking after wellbeing) (care.n.01) - Care (Care.v.02)": {
+            "treatment (medical care) (treatment.n.01) - Treat (Treat.v.03)": {}
+          }
+        },
+        "Transfer service > Provide service > Assist > Treat": {
+          "massage (massage.n.01) - Massage (Massage.v.01)": {},
+          "administration (medical) (administration.n.03) - Administer (treat) (Administer.v.04)": {
+            "sedation (sedation.n.02) - Anesthetize (Anesthetize.v.01)": {},
+            "injection (injection.n.03) - Administer (treat) (Administer.v.04)": {}
+          },
+          "psychotherapy (psychotherapy.n.02) - Treat (Treat.v.03)": {},
+          "radiotherapy (radiotherapy.n.01) - Treat (Treat.v.03)": {},
+          "enema (enema.n.01) - Treat (Treat.v.03)": {},
+          "douche (douche.n.02) - Treat (Treat.v.03)": {},
+          "irrigation (medical) (irrigation.n.02) - Treat (Treat.v.03)": {}
+        },
+        "Transfer service > Provide service > Assist > Treat > Administer > Immunize": {
+          "immunization (immunization.n.01) - Immunize (Immunize.v.02)": {
+            "inoculation (inoculation.n.01) - Immunize (Immunize.v.02)": {}
+          }
+        },
+        "Transfer service > Provide service > Assist > Treat > Operate on": {
+          "operation (surgical) (operation.n.06) - Operate on (Operate_on.v.01)": {
+            "catheterization (catheterization.n.01) - Operate on (Operate_on.v.01)": {}
+          }
+        },
+        "Transfer service > Provide service > Assist > Rescue": {
+          "resuscitation (resuscitation.n.01) - Rescue (Rescue.v.01)": {
+            "cardiopulmonary resuscitation (cardiopulmonary_resuscitation.n.01) - Rescue (Rescue.v.01)": {}
+          }
+        },
+        "Transfer service > Provide service > Assist > Escort": {
+          "escort (escort.n.02) - Escort (Accompany.v.02, Escort.v.01)": {}
+        },
+        "Transfer service > Provide service > Assist > Facilitate": {
+          "protection (protection.n.01) - Protect (Protect.v.01, Safeguard.v.01)": {}
+        },
+        "Transfer service > Provide service > Assist > Serve (role)": {
+          "service (role) (service.n.01) - Serve (role) (Serve.v.02)": {
+            "facility (facility.n.05) - Serve (role) (Serve.v.02)": {}
+          }
+        },
+        "Transfer service > Provide service > Entertain": {
+          "entertainment (entertainment.n.01) - Entertain (Entertain.v.01)": {}
+        },
+        "Transfer service > Provide service > Follow > Comply": {
+          "conformity (conformity.n.02) - Comply (Adhere.v.01, Comply.v.01, Obey.v.01, Satisfy.v.01)": {}
+        },
+        "Transfer service > Exchange service > Collaborate > Agree": {
+          "commitment (commitment.n.02, commitment.n.03) - Agree (Agree.v.01)": {}
+        },
+        "Transfer service > Exchange service > Collaborate > Participate > Attend (go to)": {
+          "attendance (attendance.n.01) - Attend (go to) (Attend.v.01)": {}
+        },
+        "Transfer service > Exchange service > Collaborate > Participate": {
+          "engagement (mutual involvement) (engagement.n.07) - Participate (Enter.v.02)": {}
+        },
+        "Transfer service > Exchange service > Work": {
+          "operation (business) (operation.n.02) - Work (Work.v.01)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Operate": {
+          "operation (work/military) (operation.n.03, operation.n.07) - Operate (Operate.v.03, Run.v.19)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Manage": {
+          "management (management.n.01) - Manage (Manage.v.02, Treat.v.01)": {
+            "supervision (supervision.n.01) - Oversee (Oversee.v.01)": {},
+            "treatment (managerial) (treatment.n.02) - Manage (Manage.v.02, Treat.v.01)": {},
+            "finance (managing funds) (finance.n.03) - Manage (Manage.v.02, Treat.v.01)": {},
+            "administration (manage) (administration.n.01) - Administer (manage) (Administer.v.01)": {
+              "organization (organization.n.04) - Organize (people or events) (Hold.v.03, Organize.v.05)": {}
+            }
+          }
+        },
+        "Transfer service > Get service > Lead > Control > Authorize": {
+          "authorization (authorization.n.04) - Authorize (Approve.v.01, Authorize.v.01)": {
+            "license (license.n.04) - License (License.v.01)": {
+              "clearance (clearance.n.03) - Authorize (Approve.v.01, Authorize.v.01)": {}
+            },
+            "commission (commission.n.03) - Authorize (Approve.v.01, Authorize.v.01)": {}
+          }
+        },
+        "Transfer service > Get service > Lead > Control > Order > Enforce": {
+          "enforcement (enforcement.n.01) - Enforce (Enforce.v.01, Enforce.v.02)": {
+            "execution (of judgment) (execution.n.06) - Enforce (Enforce.v.01, Enforce.v.02)": {}
+          }
+        },
+        "Transfer service > Get service > Lead > Control > Order > Establish": {
+          "legislation (legislation.n.02) - Establish (Lay_down.v.01)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Order > Dispatch": {
+          "dispatch (dispatch.n.02) - Dispatch (Dispatch.v.01)": {},
+          "summons (summons.n.02) - Dispatch (Dispatch.v.01)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Regulate": {
+          "regulation (regulation.n.06) - Regulate (authoritative) (Regulate.v.02)": {
+            "timing (timing.n.02) - Regulate (authoritative) (Regulate.v.02)": {},
+            "limitation (limitation.n.05) - Restrict (Restrict.v.02, Restrict.v.03)": {},
+            "stipulation (stipulation.n.03) - Restrict (Restrict.v.02, Restrict.v.03)": {}
+          }
+        },
+        "Transfer service > Get service > Lead > Control > Prevent > Defend > Protect": {
+          "protection (cross-ref Facilitate) (protection.n.01) - Protect (Protect.v.01, Safeguard.v.01)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Prevent > Restrain": {
+          "containment (restraint) (containment.n.03) - Restrain (Restrain.v.01, Restrain.v.03)": {}
+        },
+        "Transfer service > Get service > Lead > Control > Stop": {
+          "suppression (suppression.n.03) - Stop (Stop.v.01, Stop.v.03)": {
+            "delay (delay.n.02) - Stop (Stop.v.01, Stop.v.03)": {}
+          },
+          "violence (violence.n.01) - Stop (Stop.v.01, Stop.v.03)": {}
+        },
+        "Transfer service > Get service > Lead > Influence > Motivate": {
+          "motivation (motivation.n.03) - Motivate (Motivate.v.01)": {}
+        },
+        "Transfer service > End service > Discharge": {
+          "liberation (discharge) (liberation.n.01) - Achieve (Achieve.v.01)": {}
+        }
+      },
+      "3.4 Events": {
+        "Social events": {
+          "show (entertainment event) (show.n.03) - Participate (Enter.v.02)": {
+            "attraction (attraction.n.02) - Participate (Enter.v.02)": {},
+            "broadcast (event) (broadcast.n.02) - Participate (Enter.v.02)": {},
+            "performance (artistic event) (performance.n.01) - Participate (Enter.v.02)": {
+              "act (within performance) (act.n.04) - Participate (Enter.v.02)": {}
+            }
+          },
+          "game (game.n.01, game.n.03) - Participate (Enter.v.02)": {},
+          "sport (sport.n.01) - Participate (Enter.v.02)": {},
+          "dancing (event) (dancing.n.01) - Dance (Dance.v.02)": {},
+          "contest (contest.n.01) - Participate (Enter.v.02)": {
+            "race (race.n.02) - Participate (Enter.v.02)": {},
+            "tournament (tournament.n.01) - Participate (Enter.v.02)": {},
+            "competition (competition.n.03) - Participate (Enter.v.02)": {}
+          },
+          "ceremony (ceremony.n.01) - Attend (go to) (Attend.v.01)": {
+            "funeral (funeral.n.01) - Attend (go to) (Attend.v.01)": {
+              "burial (burial.n.01) - Attend (go to) (Attend.v.01)": {}
+            }
+          },
+          "fundraiser (fundraiser.n.02) - Attend (go to) (Attend.v.01)": {},
+          "party (party.n.04) - Attend (go to) (Attend.v.01)": {},
+          "service (religious) (service.n.03) - Attend (go to) (Attend.v.01)": {},
+          "session (session.n.03) - Attend (go to) (Attend.v.01)": {},
+          "visit (social event) (visit.n.01) - Visit (Visit.v.01)": {},
+          "affair (affair.n.03) - Attend (go to) (Attend.v.01)": {},
+          "foray (foray.n.01) - Participate (Enter.v.02)": {}
+        },
+        "Legal / institutional proceedings": {
+          "proceeding (proceeding.n.01) - Participate (Enter.v.02)": {
+            "procedure (legal) (procedure.n.04) - Participate (Enter.v.02)": {},
+            "legal action (legal_action.n.01) - Participate (Enter.v.02)": {
+              "prosecution (prosecution.n.01) - Participate (Enter.v.02)": {}
+            },
+            "appeal (appeal.n.03) - Participate (Enter.v.02)": {},
+            "lawsuit (lawsuit.n.01) - Participate (Enter.v.02)": {},
+            "litigation (litigation.n.01) - Participate (Enter.v.02)": {}
+          }
+        }
+      }
+    },
+    "4. Miscellaneous Changes": {
+      "4.1 Create (Miscellaneous)": {
+        "infection (infection.n.03)": {},
+        "pathogenesis (pathogenesis.n.01)": {},
+        "accretion (accretion.n.01)": {},
+        "development (non-agentive growth) (development.n.02)": {
+          "growth (growth.n.02)": {}
+        },
+        "fire (spontaneous combustion event) (fire.n.01)": {}
+      },
+      "4.2 Modify (Miscellaneous)": {
+        "improvement (spontaneous) (improvement.n.01)": {
+          "convalescence (convalescence.n.01)": {}
+        },
+        "conversion (spontaneous) (conversion.n.01)": {},
+        "development (pathological) (development.n.04)": {
+          "complication (complication.n.04)": {}
+        },
+        "death (event) (death.n.01)": {},
+        "death (organic process) (death.n.02)": {},
+        "variation (variation.n.01)": {
+          "deviation (deviation.n.01)": {}
+        },
+        "mutation (mutation.n.02)": {},
+        "transition (transition.n.03)": {},
+        "distortion (distortion.n.01)": {},
+        "damage (damage.n.03)": {},
+        "failure (failure.n.02)": {
+          "malfunction (malfunction.n.01)": {}
+        },
+        "accident (accident.n.01)": {
+          "injury (injury.n.02)": {}
+        },
+        "mistake (mistake.n.01)": {
+          "omission (omission.n.01)": {
+            "breach (breach.n.01)": {}
+          }
+        },
+        "violation (violation.n.02)": {
+          "larceny (larceny.n.01)": {},
+          "misdemeanor (misdemeanor.n.01)": {},
+          "abnormality (abnormality.n.04)": {}
+        },
+        "disruption (disruption.n.04)": {},
+        "reaction (bodily/physiological) (reaction.n.03)": {},
+        "consumption (bodily) (consumption.n.01)": {
+          "graze (graze.n.02)": {}
+        },
+        "breathing (breathing.n.01)": {},
+        "cycle (cycle.n.03)": {},
+        "hardening (natural) (hardening.n.02) - [new] Harden": {},
+        "extermination (extermination.n.02) - Demolish (Demolish.v.01, Destroy.v.01)": {}
+      },
+      "4.3 Transfer (Miscellaneous)": {
+        "demand (economic force) (demand.n.02)": {
+          "consumption (economic) (consumption.n.03)": {}
+        },
+        "response (involuntary) (response.n.01)": {
+          "reaction (general response) (reaction.n.05)": {}
+        },
+        "consequence (consequence.n.01)": {
+          "change (as consequence) (change.n.04)": {},
+          "impact (impact.n.02)": {}
+        },
+        "loss (loss.n.02)": {},
+        "violence (non-agentive event) (violence.n.01) - Stop (Stop.v.01, Stop.v.03)": {}
+      }
+    },
+    "5. Misclassified": {
+      "5.1 Abstract Entities — Event Structure / Temporal Markers": {
+        "cause (cause.n.01)": {},
+        "factor (factor.n.01)": {},
+        "parameter (parameter.n.02)": {},
+        "etiology (etiology.n.01)": {},
+        "emergency (emergency.n.01)": {},
+        "milestone (milestone.n.02)": {},
+        "result (result.n.03)": {},
+        "win (win.n.01)": {},
+        "success (outcome state) (success.n.01)": {},
+        "incident (incident.n.01)": {},
+        "case (case.n.01)": {},
+        "finding (finding.n.02)": {},
+        "verdict (verdict.n.01)": {},
+        "opinion (opinion.n.05)": {},
+        "first step (first_step.n.01)": {},
+        "gap (disagreement state) (gap.n.05)": {},
+        "source (source.n.07)": {},
+        "origin (origin.n.05)": {}
+      },
+      "5.2 Actor Ontology — Occupations and Role-Types": {
+        "occupation (occupation.n.01)": {},
+        "accountancy (accountancy.n.01)": {},
+        "technology (field) (technology.n.01)": {},
+        "engagement (employment state) (engagement.n.05)": {},
+        "workload (workload.n.01)": {},
+        "trade (craft/profession) (trade.n.02)": {},
+        "lighting (trade specialty) (lighting.n.03)": {},
+        "sewing (trade sense) (sewing.n.01)": {},
+        "specialization (specialization.n.02)": {},
+        "career (career.n.01)": {}
+      },
+      "5.3 Institutional / Economic Ontology": {
+        "commercial enterprise (commercial_enterprise.n.02)": {},
+        "industry (sector) (industry.n.02)": {},
+        "output (quantity descriptor) (output.n.02)": {},
+        "production (industrial capacity) (production.n.07)": {},
+        "finance (domain/field) (finance.n.01)": {},
+        "storage (infrastructure) (storage.n.03)": {},
+        "construction (commercial enterprise sense) (construction.n.07)": {}
+      },
+      "5.4 Physical Properties — Not Processes": {
+        "pressure (pressure.n.01)": {},
+        "beam (radiation stream) (beam.n.03)": {},
+        "signal (signal.n.03)": {},
+        "amperage (amperage.n.01)": {},
+        "charge (electrical) (charge.n.04)": {},
+        "current (electrical) (current.n.01)": {},
+        "electric resistance (electric_resistance.n.01)": {},
+        "electric potential (electric_potential.n.01)": {},
+        "voltage (voltage.n.01)": {},
+        "field (physical) (field.n.05)": {},
+        "wind (wind.n.01)": {},
+        "gas (state of matter) (gas.n.01)": {},
+        "heat (natural thermal energy) (heat.n.01)": {}
+      }
+    }
+  }
+}

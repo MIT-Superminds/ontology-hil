@@ -1,0 +1,602 @@
+{
+  "Agent/Actor": {
+    "[What kind?]": {
+      "1. Human": {
+        "1.1 [How many humans? Group]": {
+          "group (group.n.01)": {
+            "people (people.n.01)": {
+              "populace (populace.n.01)": {},
+              "[virtual] class (class.n.03)": {
+                "market (market.n.02)": {}
+              },
+              "population (population.n.01)": {},
+              "clientele (clientele.n.01)": {}
+            },
+            "[virtual] multitude (multitude.n.03)": {
+              "audience (audience.n.02)": {}
+            },
+            "[virtual] social_group (social_group.n.01)": {
+              "organization (organization.n.01)": {
+                "force (force.n.04)": {
+                  "staff (staff.n.01)": {}
+                },
+                "unit (unit.n.03)": {
+                  "[virtual] administrative_unit (administrative_unit.n.01)": {
+                    "[virtual] division (division.n.04)": {
+                      "department (department.n.01)": {}
+                    },
+                    "agency (agency.n.01)": {
+                      "[virtual] law_enforcement_agency (law_enforcement_agency.n.01)": {
+                        "police (police.n.01)": {}
+                      }
+                    },
+                    "[virtual] committee (committee.n.01)": {
+                      "board (board.n.01)": {}
+                    }
+                  },
+                  "crew (crew.n.01)": {},
+                  "gang (gang.n.03)": {},
+                  "team (team.n.01)": {},
+                  "[virtual] military_unit (military_unit.n.01)": {
+                    "command (command.n.02)": {}
+                  },
+                  "family (family.n.01)": {}
+                },
+                "institution (institution.n.01)": {
+                  "[virtual] educational_institution (educational_institution.n.01)": {
+                    "school (school.n.01)": {},
+                    "university (university.n.03)": {}
+                  }
+                },
+                "[virtual] enterprise (enterprise.n.02)": {
+                  "business (business.n.01)": {
+                    "firm (firm.n.01, company.n.01)": {
+                      "corporation (corporation.n.01)": {},
+                      "publisher (publisher.n.01)": {},
+                      "service (service.n.04)": {},
+                      "investment_company (investment_company.n.01)": {}
+                    },
+                    "carrier (carrier.n.05)": {
+                      "[virtual] line (line.n.23)": {
+                        "[virtual] railway (railway.n.01)": {
+                          "rail (rail.n.02)": {}
+                        }
+                      }
+                    },
+                    "manufacturer (manufacturer.n.01)": {}
+                  },
+                  "[virtual] commercial_enterprise (commercial_enterprise.n.01)": {
+                    "industry (industry.n.01)": {}
+                  }
+                },
+                "association (association.n.01)": {},
+                "alliance (alliance.n.03)": {},
+                "[virtual] nongovernmental_organization (nongovernmental_organization.n.01)": {
+                  "committee (committee.n.02)": {}
+                },
+                "company (company.n.04)": {},
+                "[virtual] polity (polity.n.02)": {
+                  "government (government.n.01)": {}
+                },
+                "[virtual] musical_organization (musical_organization.n.01)": {
+                  "orchestra (orchestra.n.01)": {}
+                },
+                "party (party.n.01)": {}
+              },
+              "body (body.n.02)": {
+                "[virtual] administration (administration.n.02)": {
+                  "management (management.n.02)": {}
+                },
+                "panel (panel.n.04)": {},
+                "staff (staff.n.03)": {},
+                "jury (jury.n.01)": {}
+              },
+              "[virtual] kin (kin.n.02)": {
+                "family (family.n.02)": {}
+              },
+              "[virtual] set (set.n.05)": {
+                "party (party.n.03)": {}
+              },
+              "community (community.n.01)": {},
+              "audience (audience.n.01)": {}
+            }
+          }
+        },
+        "1.2 [How many humans? Individual]": {
+          "person (person.n.01)": {
+            "[subjective identity]": {
+              "[virtual] unfortunate (unfortunate.n.01)": {
+                "[virtual] sick_person (sick_person.n.01)": {
+                  "patient (patient.n.01)": {
+                    "outpatient (outpatient.n.01)": {}
+                  }
+                },
+                "prisoner (prisoner.n.01)": {
+                  "convict (convict.n.01)": {}
+                },
+                "mourner (mourner.n.01)": {
+                  "pallbearer (pallbearer.n.01)": {}
+                },
+                "victim (victim.n.01)": {
+                  "prey (prey.n.01)": {}
+                }
+              },
+              "[virtual] good_person": {},
+              "[virtual] bad_person (bad_person.n.01)": {
+                "wrongdoer (wrongdoer.n.01)": {
+                  "principal (principal.n.05)": {
+                    "[virtual] criminal (criminal.n.01)": {
+                      "[virtual] fugitive (fugitive.n.02)": {
+                        "escapee (escapee.n.01)": {}
+                      },
+                      "probationer (probationer.n.02)": {},
+                      "thief (thief.n.01)": {
+                        "booster (booster.n.03)": {}
+                      },
+                      "violator (violator.n.01)": {}
+                    }
+                  },
+                  "perpetrator (perpetrator.n.01)": {}
+                }
+              },
+              "[virtual] unskilled_person (unskilled_person.n.01)": {
+                "novice (novice.n.02)": {
+                  "trainee (trainee.n.01)": {}
+                }
+              },
+              "disputant (disputant.n.01)": {}
+            },
+            "[professional roles]": {
+              "legal roles": {
+                "suspect (suspect.n.01)": {},
+                "witness (witness.n.05)": {}
+              },
+              "operator (operator.n.02)": {
+                "driver (driver.n.01)": {
+                  "motorist (motorist.n.01)": {}
+                }
+              },
+              "[virtual] benefactor (benefactor.n.01)": {
+                "donor (donor.n.02)": {},
+                "provider (provider.n.02)": {},
+                "patron (patron.n.03)": {}
+              },
+              "[virtual] contestant (contestant.n.01)": {
+                "candidate (candidate.n.02)": {},
+                "athlete (athlete.n.01)": {
+                  "[virtual] swimmer (swimmer.n.01)": {
+                    "diver (diver.n.02)": {}
+                  }
+                },
+                "player (player.n.01)": {
+                  "[virtual] card_player (card_player.n.01)": {
+                    "dealer (dealer.n.05)": {}
+                  }
+                }
+              },
+              "[virtual] capitalist (capitalist.n.02)": {
+                "[virtual] businessperson (businessperson.n.01)": {
+                  "merchant (merchant.n.01)": {
+                    "seller (seller.n.01)": {},
+                    "butcher (butcher.n.01)": {},
+                    "[virtual] shopkeeper (shopkeeper.n.01)": {
+                      "cleaner (cleaner.n.02)": {}
+                    },
+                    "trader (trader.n.01)": {},
+                    "retailer (retailer.n.01)": {}
+                  },
+                  "[virtual] businessman (businessman.n.01)": {
+                    "operator (operator.n.03)": {}
+                  },
+                  "supplier (supplier.n.01)": {
+                    "caterer (caterer.n.01)": {},
+                    "distributor (distributor.n.01)": {},
+                    "recruiter (recruiter.n.01)": {}
+                  },
+                  "agent (agent.n.04)": {
+                    "insurance_broker (insurance_broker.n.01)": {}
+                  },
+                  "exporter (exporter.n.01)": {},
+                  "importer (importer.n.01)": {}
+                },
+                "creditor (creditor.n.01)": {},
+                "investor (investor.n.01)": {
+                  "lender (lender.n.01)": {}
+                }
+              },
+              "owner (owner.n.02)": {
+                "[virtual] holder (holder.n.02)": {
+                  "tenant (tenant.n.02)": {}
+                }
+              },
+              "[virtual] communicator (communicator.n.01)": {
+                "[virtual] negotiator (negotiator.n.01)": {
+                  "representative (representative.n.01)": {
+                    "agent (agent.n.02)": {
+                      "handler (handler.n.02)": {}
+                    },
+                    "contact (contact.n.05)": {}
+                  },
+                  "mediator (mediator.n.01)": {
+                    "interpreter (interpreter.n.01)": {}
+                  }
+                },
+                "writer (writer.n.01)": {
+                  "drafter (drafter.n.01)": {}
+                },
+                "informant (informant.n.01)": {},
+                "[virtual] articulator (articulator.n.01)": {
+                  "speaker (speaker.n.01)": {
+                    "[virtual] inquirer (inquirer.n.01)": {
+                      "interviewer (interviewer.n.01)": {}
+                    }
+                  }
+                },
+                "reporter (reporter.n.01)": {}
+              },
+              "leader (leader.n.01)": {
+                "authority (authority.n.02)": {},
+                "[virtual] superior (superior.n.01)": {
+                  "supervisor (supervisor.n.01)": {
+                    "foreman (foreman.n.01)": {}
+                  }
+                },
+                "head (head.n.04)": {
+                  "administrator (administrator.n.01)": {
+                    "director (director.n.01)": {},
+                    "executive (executive.n.01)": {}
+                  }
+                },
+                "employer (employer.n.01)": {
+                  "[virtual] master (master.n.04)": {
+                    "postmaster (postmaster.n.01)": {}
+                  }
+                },
+                "trainer (trainer.n.01)": {},
+                "[virtual] politician (politician.n.02)": {
+                  "campaigner (campaigner.n.01)": {}
+                },
+                "guide (guide.n.02)": {}
+              },
+              "worker (worker.n.01)": {
+                "planner (planner.n.01)": {
+                  "coordinator (coordinator.n.01)": {}
+                },
+                "collector (collector.n.01)": {},
+                "[virtual] skilled_worker (skilled_worker.n.01)": {
+                  "expert (expert.n.01)": {
+                    "[virtual] entertainer (entertainer.n.01)": {
+                      "performer (performer.n.01)": {
+                        "actor (actor.n.01)": {},
+                        "dancer (dancer.n.01)": {},
+                        "[virtual] musician (musician.n.01)": {
+                          "soloist (soloist.n.01)": {}
+                        }
+                      }
+                    },
+                    "[virtual] creator (creator.n.02)": {
+                      "farmer (farmer.n.01)": {
+                        "agriculturist (agriculturist.n.01)": {},
+                        "rancher (rancher.n.01)": {}
+                      },
+                      "architect (architect.n.01)": {}
+                    },
+                    "programmer (programmer.n.01)": {},
+                    "[virtual] intellectual (intellectual.n.01)": {
+                      "engineer (engineer.n.01)": {
+                        "surveyor (surveyor.n.01)": {}
+                      },
+                      "scientist (scientist.n.01)": {
+                        "psychologist (psychologist.n.01)": {},
+                        "research_worker (research_worker.n.01)": {},
+                        "physicist (physicist.n.01)": {}
+                      },
+                      "[virtual] linguist (linguist.n.02)": {
+                        "translator (translator.n.01)": {}
+                      },
+                      "forecaster (forecaster.n.01)": {},
+                      "scholar (scholar.n.01)": {}
+                    },
+                    "[virtual] authority (authority.n.03)": {
+                      "adviser (adviser.n.01)": {
+                        "counselor (counselor.n.01)": {}
+                      },
+                      "[virtual] adjudicator (adjudicator.n.01)": {
+                        "arbiter (arbiter.n.02)": {},
+                        "official (official.n.02)": {},
+                        "juror (juror.n.01)": {}
+                      }
+                    },
+                    "specialist (specialist.n.01)": {
+                      "interior_designer (interior_designer.n.01)": {},
+                      "graphic_designer (graphic_designer.n.01)": {},
+                      "dietician (dietician.n.01)": {}
+                    },
+                    "therapist (therapist.n.01)": {},
+                    "analyst (analyst.n.01)": {},
+                    "investigator (investigator.n.02)": {
+                      "adjuster (adjuster.n.01)": {},
+                      "coroner (coroner.n.01)": {},
+                      "examiner (examiner.n.02)": {}
+                    },
+                    "[virtual] geographer (geographer.n.01)": {
+                      "cartographer (cartographer.n.01)": {}
+                    },
+                    "observer (observer.n.02)": {}
+                  },
+                  "technician (technician.n.01)": {},
+                  "official (official.n.01)": {
+                    "judge (judge.n.01)": {},
+                    "officeholder (officeholder.n.01)": {}
+                  },
+                  "cook (cook.n.01)": {
+                    "chef (chef.n.01)": {}
+                  },
+                  "[virtual] mender (mender.n.01)": {
+                    "[virtual] repairman (repairman.n.01)": {
+                      "automobile_mechanic (automobile_mechanic.n.01)": {}
+                    }
+                  },
+                  "[virtual] aviator (aviator.n.01)": {
+                    "pilot (pilot.n.01)": {}
+                  },
+                  "cutter (cutter.n.03)": {},
+                  "[virtual] sailor (sailor.n.01)": {
+                    "[virtual] mariner (mariner.n.01)": {
+                      "deckhand (deckhand.n.01)": {},
+                      "helmsman (helmsman.n.01)": {},
+                      "[virtual] officer (officer.n.04)": {
+                        "master (master.n.07)": {}
+                      }
+                    }
+                  },
+                  "editor (editor.n.01)": {},
+                  "[virtual] craftsman (craftsman.n.03)": {
+                    "hairdresser (hairdresser.n.01)": {},
+                    "machinist (machinist.n.01)": {},
+                    "welder (welder.n.01)": {}
+                  },
+                  "printer (printer.n.01)": {}
+                },
+                "employee (employee.n.01)": {
+                  "[virtual] workman (workman.n.01)": {
+                    "laborer (laborer.n.01)": {}
+                  },
+                  "clerk (clerk.n.01)": {},
+                  "[virtual] salesperson (salesperson.n.01)": {
+                    "demonstrator (demonstrator.n.02)": {}
+                  },
+                  "dispatcher (dispatcher.n.02)": {}
+                },
+                "volunteer (volunteer.n.02)": {},
+                "assistant (assistant.n.01)": {
+                  "subordinate (subordinate.n.01)": {
+                    "associate (associate.n.03)": {}
+                  },
+                  "attendant (attendant.n.01)": {
+                    "escort (escort.n.03)": {}
+                  },
+                  "dresser (dresser.n.03)": {},
+                  "prompter (prompter.n.01)": {}
+                },
+                "processor (processor.n.02)": {}
+              },
+              "[virtual] fiduciary (fiduciary.n.01)": {
+                "administrator (administrator.n.02)": {},
+                "executor (executor.n.01)": {}
+              },
+              "[virtual] acquirer (acquirer.n.01)": {
+                "recipient (recipient.n.01)": {
+                  "beneficiary (beneficiary.n.01)": {},
+                  "borrower (borrower.n.01)": {},
+                  "consignee (consignee.n.01)": {}
+                }
+              },
+              "[virtual] money_handler (money_handler.n.01)": {
+                "[virtual] payer (payer.n.01)": {
+                  "taxpayer (taxpayer.n.01)": {}
+                }
+              },
+              "traveler (traveler.n.01)": {
+                "visitor (visitor.n.01)": {
+                  "guest (guest.n.01)": {}
+                },
+                "passenger (passenger.n.01)": {},
+                "arrival (arrival.n.03)": {},
+                "pedestrian (pedestrian.n.01)": {},
+                "tourist (tourist.n.01)": {},
+                "[virtual] entrant (entrant.n.03)": {
+                  "intruder (intruder.n.01)": {}
+                }
+              },
+              "[virtual] preserver (preserver.n.03)": {
+                "defender (defender.n.01)": {
+                  "fireman (fireman.n.04)": {},
+                  "[virtual] guard (guard.n.01)": {
+                    "screener (screener.n.01)": {}
+                  }
+                }
+              },
+              "[virtual] perceiver (perceiver.n.01)": {
+                "witness (witness.n.01)": {},
+                "spectator (spectator.n.01)": {
+                  "eyewitness (eyewitness.n.01)": {}
+                }
+              },
+              "subject (subject.n.02)": {}
+            },
+            "[social and personal identities]": {
+              "relative (relative.n.01)": {
+                "[virtual] ancestor (ancestor.n.01)": {
+                  "[virtual] progenitor (progenitor.n.01)": {
+                    "[virtual] genitor (genitor.n.01)": {
+                      "parent (parent.n.01)": {}
+                    }
+                  }
+                },
+                "[virtual] offspring (offspring.n.01)": {
+                  "[virtual] child (child.n.02)": {
+                    "baby (baby.n.01)": {}
+                  }
+                },
+                "kin (kin.n.01)": {}
+              },
+              "user (user.n.01)": {
+                "[virtual] consumer (consumer.n.01)": {
+                  "customer (customer.n.01)": {
+                    "guest (guest.n.03)": {},
+                    "buyer (buyer.n.01)": {},
+                    "policyholder (policyholder.n.01)": {}
+                  }
+                }
+              },
+              "neighbor (neighbor.n.01)": {},
+              "[virtual] enrollee (enrollee.n.01)": {
+                "student (student.n.01)": {}
+              },
+              "[virtual] peer (peer.n.01)": {
+                "associate (associate.n.01)": {
+                  "colleague (colleague.n.02)": {},
+                  "member (member.n.01)": {},
+                  "participant (participant.n.01)": {},
+                  "collaborator (collaborator.n.03)": {}
+                },
+                "stand-in (stand-in.n.01)": {}
+              },
+              "[virtual] adult (adult.n.01)": {
+                "professional (professional.n.01)": {
+                  "[virtual] health_professional (health_professional.n.01)": {
+                    "[virtual] medical_practitioner (medical_practitioner.n.01)": {
+                      "doctor (doctor.n.01)": {
+                        "house_physician (house_physician.n.01)": {},
+                        "specialist (specialist.n.02)": {
+                          "diagnostician (diagnostician.n.01)": {},
+                          "anesthesiologist (anesthesiologist.n.01)": {},
+                          "dermatologist (dermatologist.n.01)": {},
+                          "oncologist (oncologist.n.01)": {},
+                          "ophthalmologist (ophthalmologist.n.01)": {}
+                        },
+                        "veterinarian (veterinarian.n.01)": {},
+                        "surgeon (surgeon.n.01)": {}
+                      },
+                      "dentist (dentist.n.01)": {}
+                    },
+                    "nurse (nurse.n.01)": {
+                      "midwife (midwife.n.01)": {}
+                    },
+                    "pharmacist (pharmacist.n.01)": {}
+                  },
+                  "practitioner (practitioner.n.01)": {
+                    "clinician (clinician.n.01)": {}
+                  },
+                  "educator (educator.n.01)": {
+                    "teacher (teacher.n.01)": {
+                      "coach (coach.n.02)": {}
+                    }
+                  },
+                  "lawyer (lawyer.n.01)": {
+                    "advocate (advocate.n.02)": {}
+                  },
+                  "librarian (librarian.n.01)": {}
+                },
+                "caregiver (caregiver.n.02)": {},
+                "[virtual] host (host.n.01)": {
+                  "hostess (hostess.n.01)": {}
+                },
+                "woman (woman.n.01)": {}
+              },
+              "[virtual] juvenile (juvenile.n.01)": {
+                "child (child.n.01)": {},
+                "adolescent (adolescent.n.01)": {}
+              },
+              "applicant (applicant.n.01)": {
+                "claimant (claimant.n.01)": {}
+              },
+              "[virtual] inhabitant (inhabitant.n.01)": {
+                "resident (resident.n.01)": {}
+              },
+              "subject (subject.n.06)": {
+                "party (party.n.05)": {
+                  "[virtual] contractor (contractor.n.03)": {
+                    "[virtual] builder (builder.n.03)": {
+                      "contractor (contractor.n.01)": {
+                        "subcontractor (subcontractor.n.01)": {}
+                      }
+                    }
+                  },
+                  "litigant (litigant.n.01)": {
+                    "defendant (defendant.n.01)": {}
+                  }
+                }
+              },
+              "acquaintance (acquaintance.n.03)": {},
+              "[virtual] national (national.n.01)": {
+                "citizen (citizen.n.01)": {
+                  "[virtual] voter (voter.n.01)": {
+                    "constituent (constituent.n.02)": {}
+                  }
+                }
+              },
+              "dead_person (dead_person.n.01)": {}
+            }
+          }
+        }
+      },
+      "2. Animal": {
+        "2.1 [How many animals? Group]": {
+          "[virtual] biological_group (biological_group.n.01)": {
+            "[virtual] animal_group (animal_group.n.01)": {
+              "herd (herd.n.01)": {}
+            },
+            "population (population.n.02)": {}
+          },
+        },
+        "2.2 [How many animals? Individual]": {}
+      },
+      "3. Machine": {
+        "3.1 [How many machines? Group]": {},
+        "3.2 [How many machines? Individual]": {}
+      },
+      "4. Other / Unspecified": {
+        "4.1 [How many other / unspecified? Group]": {
+          "[virtual] system (system.n.02)": {
+            "network (network.n.01)": {},
+            "body (body.n.06)": {},
+            "ecosystem (ecosystem.n.01)": {},
+            "subsystem (subsystem.n.01)": {}
+          }
+        },
+        "4.2 [How many other / unspecified? Individual]": {}
+      },
+      "5. Misclassified": {
+        "case (case.n.06)": {},
+        "interest (interest.n.06)": {},
+        "[virtual] gathering (gathering.n.01)": {
+          "meeting (meeting.n.01)": {
+            "conference (conference.n.01)": {},
+            "convention (convention.n.01)": {}
+          },
+          "[virtual] social_gathering (social_gathering.n.01)": {
+            "[virtual] meeting (meeting.n.02)": {
+              "date (date.n.03)": {}
+            },
+            "party (party.n.02)": {
+              "dinner (dinner.n.02)": {},
+              "reception (reception.n.02)": {}
+            }
+          },
+          "table (table.n.05)": {},
+          "[virtual] assembly (assembly.n.04)": {
+            "court (court.n.01)": {
+              "court (court.n.08)": {}
+            }
+          },
+          "fair (fair.n.02)": {},
+          "[virtual] class (class.n.02)": {
+            "section (section.n.09)": {}
+          }
+        }
+      }
+    }
+  }
+}
