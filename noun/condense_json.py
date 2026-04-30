@@ -4,8 +4,7 @@
 Condenses the raw noun hierarchy JSON for use as LLM context.
 
 What it does:
-- Strips emojis and metadata tags ([added], [edited], [virtual]) from titles
-- Trims node descriptions to Definition + Supersenses only
+- Strips emojis and metadata tags ([added], [edited]) from titles
 - Collapses [virtual] intermediate nodes that have few children (≤ VIRTUAL_COLLAPSE_THRESHOLD)
   by promoting their children directly to the "grandparent" level
 
@@ -14,8 +13,8 @@ What it does:
 import json
 import re
 
-INPUT_FILE  = "noun/nodes-data.json"
-OUTPUT_FILE = "noun/nodes-data-condensed.json"
+INPUT_FILE  = "nodes-data.json"
+OUTPUT_FILE = "nodes-data-condensed.json"
 
 VIRTUAL_COLLAPSE_THRESHOLD = 3
 
@@ -29,23 +28,17 @@ def remove_emojis(text: str) -> str:
 
 
 def clean_title(title: str) -> str:
-    """Strip [added], [edited], [virtual] tags from a title."""
+    """Strip [added], [edited] tags from a title."""
     if not title:
         return title
-    return re.sub(r"\[(added|edited|virtual)\]\s*", "", title).strip()
+    return re.sub(r"\[(added|edited)\]\s*", "", title).strip()
 
 
 def clean_description(desc: str) -> str:
-    """Keep only Definition and Supersenses lines; strip emojis."""
+    """Strip emojis."""
     if not desc:
         return ""
-    desc = remove_emojis(desc)
-    keep = [
-        line.strip()
-        for line in desc.split("\n")
-        if any(k in line for k in ("Definition:", "Supersenses:"))
-    ]
-    return " ".join(keep).strip()
+    return remove_emojis(desc).strip()
 
 
 def is_virtual(node: dict) -> bool:
