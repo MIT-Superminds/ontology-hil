@@ -4,7 +4,7 @@
 Condenses the raw noun hierarchy JSON for use as LLM context.
 
 What it does:
-- Strips emojis and metadata tags ([added], [edited]) from titles
+- Strips emojis and metadata tags ([added], [edited], [moved]) from titles
 - Collapses [virtual] intermediate nodes that have few children (≤ VIRTUAL_COLLAPSE_THRESHOLD)
   by promoting their children directly to the "grandparent" level
 
@@ -28,10 +28,10 @@ def remove_emojis(text: str) -> str:
 
 
 def clean_title(title: str) -> str:
-    """Strip [added], [edited] tags from a title."""
+    """Strip [added], [edited], [moved] tags from a title."""
     if not title:
         return title
-    return re.sub(r"\[(added|edited)\]\s*", "", title).strip()
+    return re.sub(r"\[(added|edited|moved)\]\s*", "", title).strip()
 
 
 def clean_description(desc: str) -> str:

@@ -15,8 +15,8 @@
                 "title": "table",
                 "description": "- Definition: a set of data arranged in rows and columns\n- Synonyms: table, tabular_array\n- Supersenses:  noun.group\n- Path: entity.n.01 > abstraction.n.06 > group.n.01 > arrangement.n.02 > array.n.01 > table.n.01\n- Example: Prepare and alter trace maps, charts, tables, detailed drawings, and three-dimensional optical models of terrain using stereoscopic plotting and computer graphics equipment.\n- Virtual: False"
               },
-              "[moved] measure": {
-                "title": "[moved] measure",
+              "measure": {
+                "title": "measure",
                 "description": "- Definition: how much there is or how many there are of something that you can quantify\n- Synonyms: measure, quantity, amount\n- Supersenses:  noun.Tops,  noun.attribute,  noun.cognition,  noun.communication,  noun.food,  noun.possession,  noun.quantity,  noun.time\n- Path: entity.n.01 > abstraction.n.06 > measure.n.02\n- Example: Determine if inventory quantities are sufficient for needs, ordering more materials when necessary.\n- Virtual: False",
                 "specializations": {
                   "[virtual] indefinite_quantity": {
@@ -771,7 +771,7 @@
                 "title": "chain",
                 "description": "- Definition: a series of things depending on each other as if linked together\n- Synonyms: chain, concatenation\n- Supersenses:  noun.group\n- Path: entity.n.01 > abstraction.n.06 > group.n.01 > arrangement.n.02 > ordering.n.01 > series.n.01 > chain.n.01\n- Example: Design comprehensive supply chains that minimize environmental impacts or costs.\n- Virtual: False"
               },
-              "[moved] [virtual] relation": {
+              "[virtual] relation": {
                 "title": "[virtual] relation",
                 "description": "- Definition: an abstraction belonging to or characteristic of two entities or parts together\n- Synonyms: relation\n- Supersenses:  noun.Tops,  noun.artifact,  noun.attribute,  noun.body,  noun.communication,  noun.food,  noun.possession,  noun.relation,  noun.substance,  noun.time\n- Path: \n- Example: \n- Virtual: True",
                 "specializations": {
@@ -2657,8 +2657,8 @@
                 "title": "tempo",
                 "description": "- Definition: (music) the speed at which a composition is to be played\n- Synonyms: tempo, pacing\n- Supersenses:  noun.time\n- Path: entity.n.01 > abstraction.n.06 > attribute.n.02 > time.n.05 > musical_time.n.01 > tempo.n.01\n- Example: Determine voices, instruments, harmonic structures, rhythms, tempos, and tone balances required to achieve the effects desired in a musical composition.\n- Virtual: False"
               },
-              "[moved] measure": {
-                "title": "[moved] measure",
+              "measure": {
+                "title": "measure",
                 "description": "- Definition: how much there is or how many there are of something that you can quantify\n- Synonyms: measure, quantity, amount\n- Supersenses:  noun.Tops,  noun.attribute,  noun.cognition,  noun.communication,  noun.food,  noun.possession,  noun.quantity,  noun.time\n- Path: entity.n.01 > abstraction.n.06 > measure.n.02\n- Example: Determine if inventory quantities are sufficient for needs, ordering more materials when necessary.\n- Virtual: False",
                 "specializations": {
                   "[virtual] indefinite_quantity": {
