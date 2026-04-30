@@ -16,9 +16,9 @@ def parse_description(desc: str):
     """
     if not desc:
         return "", "", "", ""
-
+    
     def extract(label):
-        pattern = rf"{label}:\s*(.*?)(?=\n[A-Z][a-zA-Z]+:|$)"
+        pattern = rf"-\s*{label}:\s*(.*?)(?=\n-\s*[A-Za-z]+:|$)"
         match = re.search(pattern, desc, re.DOTALL)
         return match.group(1).strip() if match else ""
 

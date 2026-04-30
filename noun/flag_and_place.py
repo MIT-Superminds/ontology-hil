@@ -250,7 +250,7 @@ class NounHierarchyAuditor:
         full_path = item["path"]
 
         # Skip nodes too close to the root (human vetted)
-        if len(full_path) <= 4:
+        if len(full_path) <= ROOT_DISTANCE:
             return None
 
         node      = item["node"]
@@ -347,11 +347,12 @@ class NounHierarchyAuditor:
             # Load hierarchy
             print(f"📊 Loading hierarchy: {self.hierarchy_json}")
             tree = load_json(self.hierarchy_json)
-            root = tree.get("Entity", tree)
+            root_key = next(iter(tree))
+            root = tree[root_key]
             hierarchy_json_str = json.dumps(tree, ensure_ascii=False)
 
             # Traverse all nodes
-            nodes = traverse_nodes(root)
+            nodes = traverse_nodes(root, path=[root_key])
             print(f"   Found {len(nodes)} total nodes")
 
             # Apply sampling

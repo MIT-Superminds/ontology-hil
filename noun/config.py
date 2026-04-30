@@ -11,6 +11,7 @@ HIERARCHY_JSON = "noun/nodes-data-condensed.json"
 PLACEMENTS_CSV = "noun/new_placements_combo.csv"
 
 # Performance / safety
+ROOT_DISTANCE = 3
 CHECKPOINT_INTERVAL = 20
 MAX_SIBLINGS = 10
 
