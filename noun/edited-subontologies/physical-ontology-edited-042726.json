@@ -1,0 +1,1274 @@
+{
+    "[virtual] physical_entity (physical_entity.n.01)": {
+      "artifact (artifact.n.01)": {
+        "infrastructure": {
+          "opening (opening.n.10)": {
+            "hole (hole.n.02)": {
+              "buttonhole (buttonhole.n.01)": {},
+              "manhole (manhole.n.01)": {},
+              "posthole (posthole.n.01)": {},
+              "puncture (puncture.n.02)": {}
+            },
+            "spout (spout.n.01)": {
+              "nozzle (nozzle.n.01)": {}
+            },
+            "window (window.n.02)": {},
+            "bell (bell.n.10)": {},
+            "exit (exit.n.01)": {},
+            "intake (intake.n.02)": {},
+            "port (port.n.03)": {}
+          },
+          "fixture (fixture.n.01)": {
+            "water_faucet (water_faucet.n.01)": {}
+          },
+          "structure (structure.n.01)": {
+            "area (area.n.05)": {
+              "room (room.n.01)": {
+                "kitchen (kitchen.n.01)": {},
+                "barroom (barroom.n.01)": {},
+                "booth (booth.n.02)": {},
+                "car (car.n.04)": {},
+                "cabinet (cabinet.n.03)": {},
+                "stall (stall.n.01)": {},
+                "classroom (classroom.n.01)": {},
+                "court (court.n.02)": {},
+                "hall (hall.n.03)": {},
+                "anteroom (anteroom.n.01)": {},
+                "lounge (lounge.n.02)": {},
+                "vault (vault.n.02)": {}
+              },
+              "enclosure (enclosure.n.01)": {
+                "pen (pen.n.02)": {},
+                "cage (cage.n.01)": {
+                  "hutch (hutch.n.01)": {}
+                },
+                "chamber (chamber.n.01)": {
+                  "cylinder (cylinder.n.03)": {},
+                  "furnace (furnace.n.01)": {
+                    "kiln (kiln.n.01)": {}
+                  }
+                },
+                "cargo_area (cargo_area.n.01)": {},
+                "terrarium (terrarium.n.01)": {},
+                "yard (yard.n.09)": {}
+              },
+              "cupboard (cupboard.n.01)": {},
+              "showroom (showroom.n.01)": {}
+            },
+            "building (building.n.01)": {
+              "kennel (kennel.n.01)": {},
+              "school (school.n.02)": {},
+              "casino (casino.n.01)": {},
+              "chapel (chapel.n.01)": {},
+              "church (church.n.02)": {},
+              "courthouse (courthouse.n.02)": {},
+              "morgue (morgue.n.01)": {
+                "crematory (crematory.n.01)": {}
+              },
+              "library (library.n.05)": {}
+            },
+            "obstruction (obstruction.n.01)": {
+              "barrier (barrier.n.01)": {
+                "door (door.n.01)": {},
+                "gate (gate.n.01)": {},
+                "hatch (hatch.n.03)": {},
+                "fence (fence.n.01)": {
+                  "hedge (hedge.n.01)": {}
+                },
+                "barricade (barricade.n.02)": {},
+                "roadblock (roadblock.n.02)": {},
+                "dam (dam.n.01)": {},
+                "safety_rail (safety_rail.n.01)": {},
+                "bannister (bannister.n.02)": {}
+              },
+              "clog (clog.n.02)": {},
+              "tumbler (tumbler.n.03)": {}
+            },
+            "guide (guide.n.06)": {},
+            "plant (plant.n.01)": {
+              "factory (factory.n.01)": {}
+            },
+            "establishment (establishment.n.04)": {
+              "office (office.n.01)": {},
+              "mercantile_establishment (mercantile_establishment.n.01)": {
+                "shop (shop.n.01)": {
+                  "stall (stall.n.03)": {}
+                }
+              },
+              "penitentiary (penitentiary.n.01)": {}
+            },
+            "skeleton (skeleton.n.04)": {},
+            "framework (framework.n.03)": {
+              "scaffold (scaffold.n.02)": {},
+              "derrick (derrick.n.01)": {},
+              "frame (frame.n.01)": {},
+              "window (window.n.01)": {
+                "skylight (skylight.n.01)": {}
+              },
+              "airframe (airframe.n.01)": {},
+              "mounting (mounting.n.02)": {},
+              "rack (rack.n.01)": {},
+              "sash (sash.n.01)": {},
+              "trellis (trellis.n.01)": {}
+            },
+            "support (support.n.07)": {
+              "foundation (foundation.n.03)": {}
+            },
+            "tower (tower.n.01)": {},
+            "bridge (bridge.n.01)": {
+              "drawbridge (drawbridge.n.01)": {}
+            },
+            "[virtual] projection (projection.n.04)": {
+              "burr (burr.n.02)": {},
+              "nailhead (nailhead.n.02)": {},
+              "arm (arm.n.02)": {},
+              "cleat (cleat.n.01)": {},
+              "flange (flange.n.01)": {},
+              "tooth (tooth.n.05)": {}
+            },
+            "partition (partition.n.01)": {
+              "wall (wall.n.01)": {
+                "sidewall (sidewall.n.02)": {}
+              }
+            },
+            "floor (floor.n.02)": {
+              "basement (basement.n.01)": {}
+            },
+            "body (body.n.11)": {},
+            "brickwork (brickwork.n.01)": {},
+            "dwelling (dwelling.n.01)": {
+              "cabin (cabin.n.02)": {}
+            },
+            "coil (coil.n.01)": {},
+            "deck (deck.n.04)": {},
+            "dock (dock.n.05)": {},
+            "hull (hull.n.06)": {},
+            "plywood (plywood.n.01)": {},
+            "shelter (shelter.n.01)": {},
+            "superstructure (superstructure.n.01)": {},
+            "[virtual] way (way.n.06)": {
+              "conduit (conduit.n.01)": {
+                "tube (tube.n.01)": {
+                  "hose (hose.n.03)": {},
+                  "pipe (pipe.n.02)": {
+                    "pipeline (pipeline.n.02)": {},
+                    "drain (drain.n.03)": {
+                      "sewer (sewer.n.01)": {}
+                    },
+                    "main (main.n.02)": {}
+                  },
+                  "catheter (catheter.n.01)": {}
+                },
+                "flue (flue.n.03)": {
+                  "chimney (chimney.n.01)": {}
+                },
+                "duct (duct.n.03)": {}
+              },
+              "gutter (gutter.n.01)": {
+                "chute (chute.n.02)": {}
+              },
+              "aisle (aisle.n.02)": {},
+              "corridor (corridor.n.01)": {
+                "hallway (hallway.n.01)": {}
+              },
+              "tunnel (tunnel.n.01)": {},
+              "stairway (stairway.n.01)": {
+                "ladder (ladder.n.01)": {},
+                "escalator (escalator.n.02)": {}
+              },
+              "road (road.n.01)": {
+                "highway (highway.n.01)": {},
+                "roadway (roadway.n.01)": {},
+                "street (street.n.01)": {},
+                "trail (trail.n.02)": {}
+              },
+              "entrance (entrance.n.01)": {},
+              "path (path.n.02)": {
+                "walk (walk.n.05)": {}
+              }
+            },
+            "facility (facility.n.04)": {
+              "public_toilet (public_toilet.n.01)": {}
+            }
+          },
+          "excavation (excavation.n.03)": {
+            "ditch (ditch.n.01)": {
+              "trench (trench.n.03)": {}
+            },
+            "well (well.n.01)": {},
+            "mine (mine.n.01)": {}
+          },
+          "barrier (barrier.n.03)": {}
+        },
+        "part (artifact) (part.n.02)": {
+          "component (component.n.03)": {
+            "hardware (hardware.n.03)": {},
+            "accessory (accessory.n.02)": {
+              "fitting (fitting.n.02)": {
+                "wall_socket (wall_socket.n.01)": {}
+              }
+            },
+            "attachment (attachment.n.02)": {},
+            "additive (additive.n.01)": {
+              "adjuvant (adjuvant.n.01)": {}
+            },
+            "module (module.n.04)": {},
+            "burner (burner.n.02)": {},
+            "crystal (crystal.n.02)": {},
+            "ingredient (ingredient.n.01)": {},
+            "input (input.n.04)": {}
+          },
+          "handle (handle.n.01)": {
+            "knob (knob.n.02)": {}
+          },
+          "section (section.n.04)": {
+            "length (length.n.05)": {}
+          },
+          "piece (piece.n.01)": {
+            "timber (timber.n.02)": {},
+            "patch (patch.n.03)": {},
+            "towel (towel.n.01)": {},
+            "upper (upper.n.02)": {}
+          },
+          "seat (seat.n.08)": {},
+          "assembly (assembly.n.05)": {},
+          "article (article.n.02)": {
+            "ware (ware.n.01)": {
+              "tableware (tableware.n.01)": {
+                "glassware (glassware.n.01)": {},
+                "silverware (silverware.n.01)": {},
+                "cutlery (cutlery.n.02)": {},
+                "place_setting (place_setting.n.01)": {}
+              }
+            }
+          },
+          "insert (insert.n.02)": {}
+        },
+        "[virtual] layer (layer.n.01)": {
+          "backing (backing.n.02)": {},
+          "ply (ply.n.02)": {},
+          "surface (surface.n.01)": {
+            "side (side.n.05)": {
+              "bevel (bevel.n.01)": {},
+              "ceiling (ceiling.n.01)": {}
+            },
+            "platform (platform.n.01)": {
+              "deck (deck.n.01)": {}
+            },
+            "floor (floor.n.01)": {},
+            "pavement (pavement.n.01)": {},
+            "plaster (plaster.n.04)": {},
+            "screen (screen.n.01)": {},
+            "tread (tread.n.02)": {}
+          },
+          "strip (strip.n.02)": {
+            "hoop (hoop.n.02)": {
+              "tire (tire.n.01)": {},
+              "rim (rim.n.03)": {}
+            },
+            "tape (tape.n.01)": {},
+            "ribbon (ink)] (ribbon.n.03)": {},
+            "ribbon (fabric) (ribbon.n.04)": {}
+          },
+          "sheet (sheet.n.06)": {
+            "panel (panel.n.01)": {
+              "paneling (paneling.n.01)": {}
+            },
+            "plate (plate.n.11)": {},
+            "slide (slide.n.01)": {},
+            "pane (pane.n.01)": {},
+            "stencil (stencil.n.01)": {},
+            "blank (blank.n.03)": {},
+            "board (board.n.03)": {
+              "wallboard (wallboard.n.01)": {
+                "masonite (masonite.n.01)": {}
+              }
+            },
+            "membrane (membrane.n.01)": {
+              "drumhead (drumhead.n.01)": {}
+            },
+            "film (film.n.05)": {},
+            "flashing (flashing.n.02)": {}
+          }
+        },
+        "object (object.n.01)": {
+          "keepsake (keepsake.n.01)": {},
+          "property (property.n.05)": {},
+          "item (item.n.03)": {},
+          "creation (creation.n.02)": {
+            "representation (representation.n.02)": {
+              "photograph (photograph.n.01)": {
+                "blueprint (blueprint.n.02)": {},
+                "photographic_print (photographic_print.n.01)": {},
+                "frame (frame.n.02)": {},
+                "photomicrograph (photomicrograph.n.01)": {},
+                "radiogram (radiogram.n.02)": {},
+                "scene (scene.n.04)": {}
+              },
+              "drawing (drawing.n.02)": {
+                "sketch (sketch.n.01)": {},
+                "diagram (diagram.n.01)": {},
+                "plan (plan.n.03)": {},
+                "rendering (rendering.n.06)": {},
+                "tracing (tracing.n.02)": {}
+              },
+              "map (map.n.01)": {
+                "chart (chart.n.02)": {}
+              },
+              "picture (picture.n.01)": {
+                "graphic (graphic.n.01)": {},
+                "likeness (likeness.n.02)": {},
+                "slide (slide.n.06)": {},
+                "sonogram (sonogram.n.01)": {}
+              },
+              "model (model.n.04)": {
+                "mock-up (mock-up.n.01)": {},
+                "figure (figure.n.04)": {
+                  "dummy (dummy.n.03)": {
+                    "mannequin (mannequin.n.02)": {}
+                  },
+                  "puppet (puppet.n.01)": {}
+                }
+              },
+              "display (display.n.03)": {},
+              "copy (copy.n.02)": {
+                "backup (backup.n.04)": {},
+                "cast (cast.n.06)": {},
+                "photocopy (photocopy.n.01)": {}
+              },
+              "stage_set (stage_set.n.01)": {
+                "backdrop (backdrop.n.01)": {}
+              },
+              "document (document.n.02)": {},
+              "illustration (illustration.n.04)": {}
+            },
+            "product (product.n.02)": {
+              "work (work.n.02)": {
+                "workpiece (workpiece.n.01)": {},
+                "publication (publication.n.01)": {
+                  "book (book.n.01)": {
+                    "handbook (handbook.n.01)": {
+                      "manual (manual.n.01)": {},
+                      "guidebook (guidebook.n.01)": {}
+                    },
+                    "directory (directory.n.01)": {},
+                    "booklet (booklet.n.01)": {},
+                    "textbook (textbook.n.01)": {},
+                    "workbook (workbook.n.01)": {}
+                  },
+                  "periodical (periodical.n.01)": {
+                    "journal (journal.n.02)": {},
+                    "issue (issue.n.02)": {}
+                  },
+                  "proof (proof.n.04)": {},
+                  "reference (reference.n.08)": {},
+                  "volume (volume.n.04)": {}
+                },
+                "metalwork (metalwork.n.01)": {},
+                "woodwork (woodwork.n.01)": {}
+              },
+              "movie (movie.n.01)": {},
+              "deliverable (deliverable.n.01)": {},
+              "by-product (by-product.n.02)": {},
+              "notebook (notebook.n.01)": {},
+              "end_product (end_product.n.01)": {
+                "oeuvre (oeuvre.n.01)": {}
+              }
+            },
+            "piece (piece.n.06)": {
+              "article (article.n.01)": {
+                "paper (paper.n.05)": {},
+                "column (column.n.05)": {}
+              }
+            },
+            "invention (invention.n.02)": {},
+            "applique (applique.n.01)": {},
+            "binding (binding.n.02)": {},
+            "stitch (stitch.n.01)": {},
+            "dance (dance.n.01)": {},
+            "scene (scene.n.08)": {},
+            "master (master.n.06)": {}
+          },
+          "commodity (commodity.n.01)": {
+            "merchandise (merchandise.n.01)": {
+              "stock (stock.n.02)": {},
+              "cargo (cargo.n.01)": {},
+              "contraband (contraband.n.01)": {}
+            },
+            "appliance (appliance.n.02)": {
+              "dryer (dryer.n.01)": {},
+              "iron (iron.n.04)": {},
+              "oven (oven.n.01)": {},
+              "refrigerator (refrigerator.n.01)": {},
+              "washer (washer.n.03)": {}
+            },
+            "clothing (clothing.n.01)": {
+              "garment (garment.n.01)": {
+                "trouser (trouser.n.01)": {},
+                "shirt (shirt.n.01)": {},
+                "skirt (skirt.n.02)": {},
+                "diaper (diaper.n.01)": {},
+                "jacket (jacket.n.01)": {},
+                "laundry (laundry.n.01)": {}
+              },
+              "footwear (footwear.n.01)": {
+                "stocking (stocking.n.01)": {}
+              },
+              "uniform (uniform.n.01)": {},
+              "apparel (apparel.n.01)": {},
+              "accessory (accessory.n.01)": {},
+              "glove (glove.n.02)": {},
+              "costume (costume.n.02)": {},
+              "hairpiece (hairpiece.n.01)": {
+                "wig (wig.n.01)": {}
+              }
+            },
+            "linen (linen.n.03)": {
+              "napkin (napkin.n.01)": {},
+              "tablecloth (tablecloth.n.01)": {}
+            },
+            "future (future.n.03)": {}
+          },
+          "remains (remains.n.01)": {},
+          "decoration (decoration.n.01)": {
+            "design (design.n.04)": {
+              "marking (marking.n.02)": {
+                "spot (spot.n.05)": {}
+              }
+            },
+            "garnish (garnish.n.01)": {
+              "topping (topping.n.01)": {
+                "glaze (glaze.n.01)": {},
+                "frosting (frosting.n.01)": {}
+              }
+            },
+            "trimming (trimming.n.02)": {},
+            "jewelry (jewelry.n.01)": {
+              "jewel (jewel.n.01)": {
+                "diamond (diamond.n.01)": {}
+              }
+            },
+            "bouquet (bouquet.n.01)": {},
+            "wreath (wreath.n.01)": {},
+            "molding (molding.n.02)": {}
+          },
+          "block (block.n.01)": {
+            "slab (slab.n.01)": {
+              "tile (tile.n.01)": {}
+            },
+            "ingot (ingot.n.01)": {}
+          },
+          "[virtual] building_material (building_material.n.01)": {
+            "concrete (concrete.n.01)": {},
+            "cement (cement.n.02)": {},
+            "insulating_material (insulating_material.n.01)": {},
+            "mortar (mortar.n.02)": {},
+            "plaster (plaster.n.01)": {},
+            "fiberglass (fiberglass.n.01)": {},
+            "linoleum (linoleum.n.01)": {},
+            "lumber (lumber.n.01)": {
+              "stock (stock.n.14)": {},
+              "strip (strip.n.05)": {
+                "batten (batten.n.02)": {},
+                "furring_strip (furring_strip.n.01)": {},
+                "slat (slat.n.01)": {
+                  "lath (lath.n.01)": {}
+                }
+              }
+            },
+            "brick (brick.n.01)": {},
+            "flooring (flooring.n.02)": {},
+            "stone (stone.n.02)": {},
+            "shingle (shingle.n.01)": {},
+            "siding (siding.n.02)": {},
+            "tile (tile.n.02)": {},
+            "asphalt (asphalt.n.01)": {},
+            "blacktop (blacktop.n.01)": {}
+          },
+          "fabric (fabric.n.01)": {
+            "net (net.n.06)": {},
+            "elastic (elastic.n.02)": {},
+            "felt (felt.n.01)": {},
+            "lace (lace.n.02)": {},
+            "webbing (webbing.n.03)": {}
+          },
+          "rope (rope.n.01)": {
+            "cable (cable.n.03)": {},
+            "cordage (cordage.n.02)": {}
+          },
+          "cord (cord.n.01)": {
+            "thread (thread.n.01)": {
+              "suture (suture.n.03)": {}
+            },
+            "tie (tie.n.09)": {},
+            "string (string.n.01)": {}
+          },
+          "padding (padding.n.01)": {
+            "cushion (cushion.n.03)": {
+              "pillow (pillow.n.01)": {}
+            },
+            "pad (pad.n.04)": {
+              "mattress (mattress.n.01)": {}
+            }
+          },
+          "weight (weight.n.04)": {
+            "bob (bob.n.04)": {
+              "plumb_bob (plumb_bob.n.01)": {}
+            },
+            "counterweight (counterweight.n.01)": {}
+          },
+          "cone (cone.n.01)": {},
+          "marker (marker.n.01)": {},
+          "raft (raft.n.01)": {},
+          "restoration (restoration.n.05)": {},
+          "plaything (plaything.n.01)": {},
+          "covering (covering.n.02)": {
+            "coating (coating.n.01)": {
+              "paint (paint.n.01)": {
+                "enamel (enamel.n.03)": {}
+              },
+              "flat_coat (flat_coat.n.01)": {},
+              "lacquer (lacquer.n.02)": {},
+              "seal (seal.n.07)": {},
+              "varnish (varnish.n.01)": {}
+            },
+            "dressing (dressing.n.04)": {
+              "bandage (bandage.n.01)": {
+                "cast (cast.n.05)": {},
+                "sling (sling.n.05)": {}
+              },
+              "compress (compress.n.01)": {}
+            },
+            "blanket (blanket.n.01)": {},
+            "[virtual] protective_covering (protective_covering.n.01)": {
+              "housing (housing.n.02)": {
+                "shell (shell.n.08)": {}
+              },
+              "blind (blind.n.03)": {
+                "curtain (curtain.n.01)": {}
+              },
+              "lining (lining.n.01)": {},
+              "roof (roof.n.02)": {},
+              "screen (screen.n.05)": {
+                "windshield (windshield.n.01)": {}
+              },
+              "mask (mask.n.04)": {},
+              "mulch (mulch.n.01)": {},
+              "shade (shade.n.03)": {},
+              "shelter (shelter.n.02)": {},
+              "shield (shield.n.01)": {}
+            },
+            "upholstery (upholstery.n.01)": {},
+            "rug (rug.n.01)": {},
+            "mat (mat.n.01)": {},
+            "footwear (footwear.n.02)": {
+              "boot (boot.n.01)": {},
+              "shoe (shoe.n.01)": {}
+            },
+            "cap (cap.n.02)": {},
+            "casing (casing.n.02)": {},
+            "envelope (envelope.n.02)": {},
+            "flap (flap.n.01)": {},
+            "folder (folder.n.02)": {}
+          }
+        },
+        "instrumentality (instrumentality.n.03)": {
+          "system (system.n.01)": {
+            "scaffolding (scaffolding.n.01)": {},
+            "linkage (linkage.n.03)": {},
+            "network (network.n.04)": {}
+          },
+          "device (device.n.01)": {
+            "mechanism (mechanism.n.05)": {
+              "control (control.n.09)": {
+                "valve (valve.n.03)": {
+                  "accelerator (accelerator.n.02)": {}
+                },
+                "push_button (push_button.n.01)": {},
+                "commutator (commutator.n.01)": {},
+                "handwheel (handwheel.n.02)": {},
+                "regulator (regulator.n.01)": {
+                  "thermostat (thermostat.n.01)": {},
+                  "aperture (aperture.n.01)": {}
+                },
+                "timer (timer.n.03)": {}
+              },
+              "lever (lever.n.02)": {},
+              "wheel (wheel.n.01)": {
+                "gear (gear.n.01)": {}
+              },
+              "wedge (wedge.n.06)": {
+                "shim (shim.n.01)": {}
+              },
+              "ramp (ramp.n.01)": {},
+              "pulley (pulley.n.01)": {},
+              "pump (pump.n.01)": {},
+              "bobbin (bobbin.n.01)": {},
+              "hammer (hammer.n.06)": {},
+              "head (head.n.29)": {},
+              "hook (hook.n.04)": {},
+              "piston (piston.n.02)": {},
+              "bumper (bumper.n.02)": {},
+              "carburetor (carburetor.n.01)": {},
+              "coupling (coupling.n.02)": {
+                "clutch (clutch.n.07)": {}
+              },
+              "compressor (compressor.n.01)": {},
+              "curler (curler.n.01)": {},
+              "propeller (propeller.n.01)": {},
+              "ride (ride.n.02)": {},
+              "splint (splint.n.02)": {},
+              "broadcaster (broadcaster.n.02)": {},
+              "windshield_wiper (windshield_wiper.n.01)": {},
+              "automaton (automaton.n.02)": {},
+              "action (action.n.07)": {},
+              "actuator (actuator.n.01)": {},
+              "[virtual] rotating_mechanism (rotating_mechanism.n.01)": {
+                "cam (cam.n.02)": {},
+                "disk (disk.n.02)": {},
+                "paddle (paddle.n.02)": {}
+              },
+              "gear (gear.n.03)": {
+                "transmission (transmission.n.05)": {}
+              }
+            },
+            "machine (machine.n.01)": {
+              "machinery (machinery.n.01)": {
+                "mill (mill.n.04)": {}
+              },
+              "motor (motor.n.01)": {
+                "engine (engine.n.01)": {
+                  "generator (generator.n.02)": {},
+                  "turbine (turbine.n.01)": {}
+                },
+                "starter (starter.n.01)": {}
+              },
+              "computer (computer.n.01)": {
+                "web_site (web_site.n.01)": {},
+                "server (server.n.03)": {},
+                "workstation (workstation.n.01)": {}
+              },
+              "press (press.n.07)": {},
+              "power_saw (power_saw.n.01)": {
+                "chain_saw (chain_saw.n.01)": {}
+              },
+              "assembly (assembly.n.01)": {},
+              "calculator (calculator.n.02)": {
+                "counter (counter.n.03)": {}
+              },
+              "lathe (lathe.n.01)": {},
+              "loom (loom.n.01)": {},
+              "printer (printer.n.02)": {},
+              "typewriter (typewriter.n.01)": {}
+            },
+            "instrument (instrument.n.01)": {
+              "gauge (gauge.n.01)": {},
+              "meter (meter.n.02)": {
+                "ammeter (ammeter.n.01)": {},
+                "taximeter (taximeter.n.01)": {}
+              },
+              "thermometer (thermometer.n.01)": {},
+              "timepiece (timepiece.n.01)": {
+                "clock (clock.n.01)": {}
+              },
+              "console (console.n.02)": {},
+              "microscope (microscope.n.01)": {},
+              "stroboscope (stroboscope.n.01)": {},
+              "weapon (weapon.n.01)": {
+                "bullet (bullet.n.01)": {},
+                "firearm (firearm.n.01)": {}
+              },
+              "projector (projector.n.02)": {},
+              "retractor (retractor.n.01)": {}
+            },
+            "[virtual] electrical_device (electrical_device.n.01)": {
+              "circuit (circuit.n.01)": {
+                "wiring (wiring.n.01)": {},
+                "circuit_board (circuit_board.n.01)": {},
+                "link (link.n.09)": {}
+              },
+              "battery (battery.n.02)": {},
+              "antenna (antenna.n.01)": {},
+              "control_panel (control_panel.n.01)": {},
+              "relay (relay.n.05)": {},
+              "fuse (fuse.n.01)": {
+                "circuit_breaker (circuit_breaker.n.01)": {}
+              },
+              "cell (cell.n.03)": {},
+              "distributor (distributor.n.04)": {},
+              "earphone (earphone.n.01)": {},
+              "loudspeaker (loudspeaker.n.01)": {},
+              "spark_plug (spark_plug.n.01)": {},
+              "plug (plug.n.05)": {},
+              "transformer (transformer.n.01)": {}
+            },
+            "conductor (conductor.n.04)": {
+              "cable (cable.n.02)": {},
+              "electrode (electrode.n.01)": {},
+              "wire (wire.n.02)": {
+                "jumper_cable (jumper_cable.n.01)": {}
+              }
+            },
+            "hoist (hoist.n.01)": {},
+            "crane (crane.n.04)": {},
+            "winch (winch.n.01)": {},
+            "elevator (elevator.n.01)": {
+              "dumbwaiter (dumbwaiter.n.01)": {}
+            },
+            "restraint (restraint.n.06)": {
+              "brake (brake.n.01)": {},
+              "catch (catch.n.06)": {
+                "pawl (pawl.n.01)": {}
+              },
+              "fastener (fastener.n.02)": {
+                "screw (screw.n.04)": {
+                  "bolt (bolt.n.06)": {},
+                  "setscrew (setscrew.n.02)": {}
+                },
+                "button (button.n.01)": {},
+                "clip (clip.n.03)": {},
+                "buckle (buckle.n.01)": {},
+                "seal (seal.n.08)": {
+                  "gasket (gasket.n.01)": {}
+                },
+                "cringle (cringle.n.01)": {},
+                "lock (lock.n.01)": {},
+                "nail (nail.n.02)": {
+                  "staple (staple.n.04)": {},
+                  "tack (tack.n.02)": {}
+                },
+                "pin (pin.n.09)": {
+                  "rivet (rivet.n.02)": {}
+                },
+                "slide_fastener (slide_fastener.n.01)": {}
+              },
+              "handcuff (handcuff.n.01)": {},
+              "lock (lock.n.05)": {},
+              "seat_belt (seat_belt.n.01)": {}
+            },
+            "indicator (indicator.n.03)": {
+              "dial (dial.n.03)": {}
+            },
+            "support (support.n.10)": {
+              "shelf (shelf.n.01)": {},
+              "brace (brace.n.09)": {},
+              "column (column.n.07)": {
+                "pile (pile.n.06)": {}
+              },
+              "post (post.n.04)": {},
+              "scantling (scantling.n.01)": {},
+              "beam (beam.n.02)": {
+                "girder (girder.n.01)": {}
+              },
+              "sill (sill.n.01)": {},
+              "bracket (bracket.n.04)": {},
+              "step (step.n.04)": {},
+              "base (base.n.08)": {},
+              "bearing (bearing.n.06)": {},
+              "brace (brace.n.01)": {},
+              "bridge (bridge.n.06)": {},
+              "hanger (hanger.n.02)": {},
+              "rack (rack.n.05)": {},
+              "seat (seat.n.04)": {}
+            },
+            "light_bulb (light_bulb.n.01)": {},
+            "lantern (lantern.n.01)": {},
+            "light (light.n.02)": {
+              "headlight (headlight.n.01)": {}
+            },
+            "filter (filter.n.01)": {},
+            "jig (jig.n.03)": {},
+            "display (display.n.06)": {
+              "screen (screen.n.03)": {},
+              "display_panel (display_panel.n.01)": {},
+              "monitor (monitor.n.04)": {}
+            },
+            "scanner (scanner.n.02)": {},
+            "tube (tube.n.02)": {},
+            "clamp (clamp.n.01)": {},
+            "chuck (chuck.n.03)": {},
+            "holder (holder.n.01)": {},
+            "magnetic_disk (magnetic_disk.n.01)": {},
+            "recording (recording.n.03)": {
+              "tape (tape.n.02)": {},
+              "video_recording (video_recording.n.01)": {
+                "videotape (videotape.n.01)": {}
+              },
+              "sound_recording (sound_recording.n.01)": {}
+            },
+            "magnetic_tape (magnetic_tape.n.01)": {
+              "videotape (videotape.n.02)": {}
+            },
+            "musical_instrument (musical_instrument.n.01)": {
+              "piano (piano.n.01)": {}
+            },
+            "lens (lens.n.01)": {},
+            "laser (laser.n.01)": {},
+            "prosthesis (prosthesis.n.01)": {
+              "implant (implant.n.01)": {}
+            },
+            "detector (detector.n.01)": {},
+            "spring (spring.n.02)": {
+              "hairspring (hairspring.n.01)": {}
+            },
+            "trap (trap.n.01)": {},
+            "alarm (alarm.n.02)": {},
+            "applicator (applicator.n.01)": {},
+            "bait (bait.n.02)": {},
+            "bell (bell.n.01)": {},
+            "siren (siren.n.04)": {},
+            "blower (blower.n.01)": {},
+            "comb (comb.n.01)": {},
+            "crusher (crusher.n.01)": {},
+            "denture (denture.n.01)": {},
+            "flare (flare.n.09)": {},
+            "fuse (fuse.n.02)": {},
+            "heater (heater.n.01)": {},
+            "inverter (inverter.n.01)": {},
+            "keyboard (keyboard.n.01)": {},
+            "lift (lift.n.06)": {},
+            "mirror (mirror.n.01)": {},
+            "router (router.n.02)": {},
+            "spoiler (spoiler.n.04)": {},
+            "tie (tie.n.08)": {}
+          },
+          "implement (implement.n.01)": {
+            "tool (tool.n.01)": {
+              "bit (bit.n.11)": {},
+              "blade (blade.n.09)": {},
+              "cutter (cutter.n.06)": {
+                "chisel (chisel.n.01)": {},
+                "knife (knife.n.01)": {},
+                "scissors (scissors.n.01)": {},
+                "shear (shear.n.02)": {}
+              },
+              "jack (jack.n.10)": {},
+              "drill (drill.n.01)": {
+                "auger (auger.n.02)": {}
+              },
+              "file (file.n.04)": {},
+              "saw (saw.n.02)": {},
+              "scraper (scraper.n.01)": {},
+              "shovel (shovel.n.01)": {},
+              "wrench (wrench.n.03)": {},
+              "punch (punch.n.03)": {},
+              "ram (ram.n.04)": {},
+              "stylus (stylus.n.02)": {}
+            },
+            "bar (bar.n.03)": {
+              "pedal (pedal.n.02)": {},
+              "clipper (clipper.n.04)": {},
+              "rail (rail.n.04)": {},
+              "track (track.n.09)": {}
+            },
+            "utensil (utensil.n.01)": {
+              "pan (pan.n.01)": {},
+              "porcelain (porcelain.n.01)": {},
+              "pottery (pottery.n.01)": {}
+            },
+            "rod (rod.n.01)": {
+              "pole (pole.n.01)": {},
+              "rotating_shaft (rotating_shaft.n.01)": {
+                "spindle (spindle.n.03)": {}
+              },
+              "axle (axle.n.01)": {}
+            },
+            "beater (beater.n.02)": {},
+            "brush (brush.n.02)": {},
+            "needle (needle.n.03)": {},
+            "spindle (spindle.n.04)": {},
+            "squeegee (squeegee.n.01)": {},
+            "stick (stick.n.07)": {},
+            "strap (strap.n.01)": {}
+          },
+          "vehicle (vehicle.n.01)": {
+            "aircraft (aircraft.n.01)": {
+              "airplane (airplane.n.01)": {}
+            },
+            "vessel (vessel.n.02)": {
+              "boat (boat.n.01)": {
+                "barge (barge.n.01)": {},
+                "lifeboat (lifeboat.n.01)": {},
+                "tugboat (tugboat.n.01)": {}
+              },
+              "ship (ship.n.01)": {}
+            },
+            "tractor (tractor.n.01)": {
+              "bulldozer (bulldozer.n.01)": {},
+              "skidder (skidder.n.03)": {}
+            },
+            "locomotive (locomotive.n.01)": {
+              "dinky (dinky.n.01)": {}
+            },
+            "truck (truck.n.01)": {
+              "van (van.n.05)": {}
+            },
+            "car (car.n.01)": {
+              "ambulance (ambulance.n.01)": {},
+              "limousine (limousine.n.01)": {},
+              "cab (cab.n.03)": {}
+            },
+            "forklift (forklift.n.01)": {},
+            "carrier (carrier.n.02)": {},
+            "car (car.n.02)": {
+              "flatcar (flatcar.n.01)": {}
+            },
+            "handcart (handcart.n.01)": {},
+            "bicycle (bicycle.n.01)": {},
+            "sled (sled.n.01)": {}
+          },
+          "train (train.n.01)": {},
+          "bus (bus.n.01)": {},
+          "stretcher (stretcher.n.03)": {},
+          "trailer (trailer.n.03)": {},
+          "telephone (telephone.n.01)": {},
+          "circuitry (circuitry.n.01)": {},
+          "set (set.n.13)": {
+            "radio_receiver (radio_receiver.n.01)": {},
+            "transmitter (transmitter.n.03)": {}
+          },
+          "television_camera (television_camera.n.01)": {},
+          "monitor (monitor.n.05)": {},
+          "terminal (terminal.n.04)": {},
+          "apparatus (apparatus.n.01)": {
+            "burner (burner.n.01)": {
+              "blowtorch (blowtorch.n.01)": {}
+            },
+            "centrifuge (centrifuge.n.01)": {},
+            "facsimile (facsimile.n.02)": {},
+            "fluoroscope (fluoroscope.n.01)": {},
+            "lighting (lighting.n.02)": {},
+            "nuclear_reactor (nuclear_reactor.n.01)": {}
+          },
+          "camera (camera.n.01)": {},
+          "film (film.n.03)": {
+            "footage (footage.n.01)": {},
+            "negative (negative.n.02)": {},
+            "sequence (sequence.n.03)": {},
+            "reel (reel.n.01)": {}
+          },
+          "chip (chip.n.06)": {},
+          "puzzle (puzzle.n.02)": {},
+          "gear (gear.n.04)": {
+            "kit (kit.n.02)": {},
+            "rigging (rigging.n.01)": {},
+            "rig (rig.n.01)": {}
+          },
+          "packaging (packaging.n.03)": {},
+          "roofing (roofing.n.01)": {},
+          "recorder (recorder.n.01)": {},
+          "connection (connection.n.03)": {
+            "joint (joint.n.05)": {
+              "seam (seam.n.01)": {
+                "suture (suture.n.02)": {}
+              },
+              "hinge (hinge.n.01)": {},
+              "miter_joint (miter_joint.n.01)": {},
+              "weld (weld.n.03)": {}
+            },
+            "distributor_point (distributor_point.n.01)": {},
+            "terminal (terminal.n.02)": {},
+            "splice (splice.n.01)": {},
+            "wire (wire.n.01)": {},
+            "chain (chain.n.03)": {},
+            "yoke (yoke.n.06)": {}
+          },
+          "container (container.n.01)": {
+            "receptacle (receptacle.n.01)": {
+              "hopper (hopper.n.01)": {},
+              "tray (tray.n.01)": {},
+              "ashtray (ashtray.n.01)": {},
+              "trough (trough.n.05)": {}
+            },
+            "vessel (vessel.n.03)": {
+              "tank (tank.n.02)": {
+                "reservoir (reservoir.n.03)": {}
+              },
+              "pot (pot.n.01)": {},
+              "autoclave (autoclave.n.01)": {},
+              "bedpan (bedpan.n.01)": {},
+              "boiler (boiler.n.01)": {},
+              "bottle (bottle.n.03)": {},
+              "bowl (bowl.n.01)": {},
+              "bucket (bucket.n.01)": {},
+              "keg (keg.n.02)": {},
+              "ladle (ladle.n.01)": {},
+              "tub (tub.n.02)": {}
+            },
+            "mold (mold.n.02)": {
+              "form (form.n.16)": {}
+            },
+            "box (box.n.01)": {
+              "crate (crate.n.01)": {},
+              "carton (carton.n.02)": {},
+              "coffin (coffin.n.01)": {},
+              "cash_register (cash_register.n.01)": {},
+              "safe (safe.n.01)": {}
+            },
+            "dish (dish.n.01)": {},
+            "baggage (baggage.n.01)": {
+              "trunk (trunk.n.02)": {}
+            },
+            "sleeve (sleeve.n.02)": {},
+            "bag (bag.n.01)": {},
+            "package (package.n.02)": {
+              "bundle (bundle.n.02)": {
+                "bale (bale.n.01)": {}
+              }
+            },
+            "case (case.n.20)": {},
+            "drawer (drawer.n.01)": {},
+            "glass (glass.n.02)": {},
+            "basket (basket.n.01)": {},
+            "bin (bin.n.01)": {},
+            "cylinder (cylinder.n.04)": {},
+            "dispenser (dispenser.n.01)": {},
+            "envelope (envelope.n.01)": {},
+            "pan (pan.n.03)": {},
+            "wastepaper_basket (wastepaper_basket.n.01)": {}
+          },
+          "furnishing (furnishing.n.02)": {
+            "furniture (furniture.n.01)": {
+              "table (table.n.03)": {},
+              "bed (bed.n.01)": {},
+              "seat (seat.n.03)": {
+                "bench (bench.n.01)": {},
+                "chair (chair.n.01)": {}
+              },
+              "cabinet (cabinet.n.01)": {},
+              "crib (crib.n.01)": {},
+              "file (file.n.03)": {}
+            }
+          },
+          "cosmetic (cosmetic.n.01)": {
+            "makeup (makeup.n.01)": {}
+          },
+          "lotion (lotion.n.01)": {},
+          "cream (cream.n.03)": {},
+          "hardware (hardware.n.02)": {}
+        }
+      },
+      "matter (matter.n.03)": {
+        "glass (glass.n.01)": {},
+        "gem (gem.n.02)": {},
+        "ice (ice.n.01)": {
+          "frost (frost.n.01)": {}
+        },
+        "plastic (plastic.n.01)": {},
+        "powder (powder.n.01)": {},
+        "gas (gas.n.02)": {
+          "air (air.n.01)": {},
+          "oxygen (oxygen.n.01)": {}
+        },
+        "film (film.n.04)": {
+          "slag (slag.n.01)": {}
+        },
+        "fragment (fragment.n.01)": {
+          "bit (bit.n.02)": {},
+          "ember (ember.n.01)": {}
+        },
+        "residue (residue.n.01)": {
+          "ash (ash.n.01)": {}
+        },
+        "sediment (sediment.n.01)": {},
+        "substance (substance.n.07)": {
+          "reagent (reagent.n.01)": {},
+          "coolant (coolant.n.01)": {},
+          "antifungal (antifungal.n.01)": {},
+          "drug (drug.n.01)": {
+            "medicine (medicine.n.02)": {
+              "dose (dose.n.01)": {},
+              "antibiotic (antibiotic.n.01)": {},
+              "antiseptic (antiseptic.n.01)": {},
+              "radiopharmaceutical (radiopharmaceutical.n.01)": {},
+              "refill (refill.n.01)": {},
+              "sedative (sedative.n.01)": {},
+              "tonic (tonic.n.04)": {}
+            },
+            "anesthetic (anesthetic.n.01)": {}
+          },
+          "food (food.n.01)": {
+            "foodstuff (foodstuff.n.02)": {
+              "ingredient (ingredient.n.03)": {
+                "sauce (sauce.n.01)": {
+                  "dressing (dressing.n.01)": {}
+                },
+                "relish (relish.n.02)": {}
+              },
+              "dough (dough.n.01)": {},
+              "butter (butter.n.01)": {},
+              "flour (flour.n.01)": {},
+              "formula (formula.n.06)": {}
+            },
+            "meal (meal.n.01)": {
+              "bite (bite.n.04)": {
+                "refreshment (refreshment.n.01)": {}
+              }
+            },
+            "course (course.n.07)": {
+              "dessert (dessert.n.01)": {},
+              "appetizer (appetizer.n.01)": {}
+            },
+            "dish (dish.n.02)": {
+              "hamburger (hamburger.n.01)": {},
+              "soup (soup.n.01)": {}
+            },
+            "vitamin (vitamin.n.01)": {},
+            "meat (meat.n.01)": {
+              "cut (cut.n.06)": {
+                "roast (roast.n.01)": {}
+              },
+              "bird (bird.n.02)": {
+                "poultry (poultry.n.02)": {}
+              }
+            },
+            "bread (bread.n.01)": {
+              "bun (bun.n.01)": {}
+            },
+            "pastry (pastry.n.02)": {},
+            "cake (cake.n.03)": {},
+            "fish (fish.n.02)": {},
+            "seafood (seafood.n.01)": {
+              "shellfish (shellfish.n.01)": {}
+            },
+            "vegetable (vegetable.n.01)": {},
+            "water (water.n.06)": {},
+            "diet (diet.n.01)": {},
+            "feed (feed.n.01)": {},
+            "beverage (beverage.n.01)": {
+              "tea (tea.n.01)": {},
+              "beer (beer.n.01)": {},
+              "liquor (liquor.n.01)": {},
+              "wine (wine.n.01)": {}
+            }
+          },
+          "fuel (fuel.n.01)": {
+            "coal (coal.n.01)": {},
+            "firewood (firewood.n.01)": {}
+          },
+          "lubricant (lubricant.n.01)": {},
+          "poison (poison.n.01)": {},
+          "refrigerant (refrigerant.n.01)": {},
+          "vaccine (vaccine.n.01)": {},
+          "oil (oil.n.01)": {
+            "blubber (blubber.n.01)": {}
+          },
+          "fat (fat.n.01)": {}
+        }
+      },
+      "Natural Entities": {
+        "sample (sample.n.03)": {
+          "specimen (specimen.n.02)": {},
+          "core (core.n.05)": {}
+        },
+        "stock (stock.n.11)": {},
+        "fruit (fruit.n.01)": {
+          "grain (grain.n.07)": {}
+        },
+        "seed (seed.n.02)": {},
+        "trunk (trunk.n.01)": {},
+        "branch (branch.n.02)": {
+          "limb (limb.n.02)": {}
+        },
+        "bulb (bulb.n.01)": {},
+        "cutting (cutting.n.02)": {},
+        "leaf (leaf.n.01)": {
+          "greenery (greenery.n.01)": {}
+        },
+        "stump (stump.n.01)": {},
+        "hair (hair.n.01)": {
+          "beard (beard.n.01)": {},
+          "mustache (mustache.n.01)": {},
+          "coat (coat.n.03)": {},
+          "eyebrow (eyebrow.n.01)": {},
+          "eyelash (eyelash.n.01)": {}
+        },
+        "hide (hide.n.02)": {},
+        "skin (skin.n.01)": {
+          "cuticle (cuticle.n.01)": {},
+          "scalp (scalp.n.01)": {}
+        },
+        "blanket (blanket.n.02)": {},
+        "body (body.n.01)": {},
+        "rock (rock.n.01)": {
+          "pebble (pebble.n.01)": {}
+        },
+        "geological_formation (geological_formation.n.01)": {
+          "bed (bed.n.03)": {},
+          "berm (berm.n.01)": {}
+        },
+        "body_of_water (body_of_water.n.01)": {
+          "pond (pond.n.01)": {}
+        },
+        "land (land.n.02)": {},
+        "organism (organism.n.01)": {
+          "animal (animal.n.01)": {
+            "livestock (livestock.n.01)": {},
+            "dog (dog.n.01)": {},
+            "equine (equine.n.01)": {
+              "horse (horse.n.01)": {}
+            },
+            "fetus (fetus.n.01)": {},
+            "fish (fish.n.01)": {},
+            "domestic_fowl (domestic_fowl.n.01)": {},
+            "pest (pest.n.04)": {},
+            "prey (prey.n.02)": {},
+            "wildlife (wildlife.n.01)": {},
+            "[virtual] body_part (body_part.n.01)": {
+              "tissue (tissue.n.01)": {
+                "gingiva (gingiva.n.01)": {},
+                "bone (bone.n.01)": {
+                  "tooth (tooth.n.01)": {},
+                  "jaw (jaw.n.01)": {}
+                },
+                "flesh (flesh.n.01)": {}
+              },
+              "structure (structure.n.04)": {
+                "hair (hair.n.04)": {},
+                "nail (nail.n.01)": {},
+                "duct (duct.n.01)": {},
+                "orifice (orifice.n.01)": {},
+                "auricle (auricle.n.02)": {},
+                "layer (layer.n.05)": {},
+                "pulp (pulp.n.05)": {},
+                "vessel (vessel.n.01)": {
+                  "vein (vein.n.01)": {}
+                }
+              },
+              "system (system.n.06)": {
+                "respiratory_tract (respiratory_tract.n.01)": {},
+                "diaphragm (diaphragm.n.02)": {}
+              },
+              "area (area.n.03)": {},
+              "arm (arm.n.01)": {},
+              "finger (finger.n.01)": {},
+              "tail (tail.n.01)": {},
+              "neck (neck.n.01)": {},
+              "organ (organ.n.01)": {
+                "eye (eye.n.01)": {},
+                "viscera (viscera.n.01)": {}
+              }
+            }
+          },
+          "plant (plant.n.02)": {
+            "tree (tree.n.01)": {
+              "sapling (sapling.n.01)": {}
+            },
+            "shrub (shrub.n.01)": {},
+            "flower (flower.n.01)": {},
+            "seedling (seedling.n.01)": {},
+            "grass (grass.n.01)": {},
+            "vegetable (vegetable.n.02)": {},
+            "weed (weed.n.01)": {},
+            "crop (crop.n.02)": {}
+          },
+          "microorganism (microorganism.n.01)": {},
+          "parasite (parasite.n.01)": {},
+          "cell (cell.n.02)": {
+            "chromosome (chromosome.n.01)": {}
+          }
+        },
+        "life (life.n.10)": {}
+      }
+    }
+  }

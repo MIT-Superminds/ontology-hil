@@ -1,0 +1,1323 @@
+{
+  "Information": {
+    "Communication": {
+      "[virtual] written_communication (written_communication.n.01)": {
+        "[virtual] writing (writing.n.04)": {
+          "[virtual] coding_system (coding_system.n.01)": {
+            "code (code.n.03)": {
+              "software (software.n.01)": {
+                "program (program.n.07)": {
+                  "application (application.n.04)": {},
+                  "patch (patch.n.05)": {}
+                },
+                "software_documentation (software_documentation.n.01)": {},
+                "routine (routine.n.03)": {}
+              },
+              "instruction (instruction.n.04)": {
+                "link (link.n.06)": {}
+              }
+            }
+          },
+          "notation (notation.n.01)": {},
+          "spelling (spelling.n.01)": {}
+        },
+        "correspondence (correspondence.n.01)": {},
+        "code (code.n.01)": {},
+        "prescription (prescription.n.03)": {},
+        "transcription (transcription.n.01)": {},
+        "record (record.n.07)": {
+          "ledger (ledger.n.01)": {},
+          "[virtual] register (register.n.03)": {
+            "[virtual] accounting (accounting.n.04)": {
+              "audited_account (audited_account.n.01)": {},
+              "entry (entry.n.03)": {}
+            }
+          }
+        },
+        "bond (bond.n.02)": {},
+        "note (note.n.09)": {},
+        "paper (paper.n.04)": {},
+        "magazine (magazine.n.01)": {}
+      },
+      "[virtual] auditory_communication (auditory_communication.n.01)": {
+        "[virtual] speech (speech.n.02)": {
+          "discussion (discussion.n.02)": {
+            "consultation (consultation.n.02)": {},
+            "mediation (mediation.n.01)": {}
+          },
+          "dictation (dictation.n.02)": {},
+          "motto (motto.n.01)": {}
+        },
+        "music (music.n.01)": {
+          "musical_composition (musical_composition.n.01)": {
+            "passage (passage.n.06)": {},
+            "song (song.n.01)": {},
+            "score (score.n.02)": {}
+          },
+          "vocal_music (vocal_music.n.01)": {},
+          "part (part.n.11)": {},
+          "excerpt (excerpt.n.01)": {}
+        },
+        "audio (audio.n.01)": {},
+        "language (language.n.01)": {},
+        "[virtual] telecommunication (telecommunication.n.01)": {
+          "call (call.n.01)": {}
+        }
+      },
+      "[virtual] visual_communication (visual_communication.n.01)": {
+        "chart (chart.n.01)": {
+          "plot (plot.n.04)": {}
+        },
+        "graph (graph.n.01)": {},
+        "table (table.n.01)": {},
+        "presentation (presentation.n.03)": {
+          "production (production.n.02)": {},
+          "demonstration (demonstration.n.05)": {
+            "display (display.n.01)": {}
+          }
+        },
+        "artwork (artwork.n.01)": {
+          "illustration (illustration.n.01)": {
+            "picture (picture.n.05)": {}
+          }
+        },
+        "film (film.n.02)": {},
+        "screening (screening.n.01)": {},
+        "grimace (grimace.n.01)": {}
+      },
+      "signal (signal.n.01)": {
+        "symbol (symbol.n.01)": {
+          "marker (marker.n.02)": {
+            "label (label.n.04)": {
+              "tag (tag.n.01)": {}
+            },
+            "trademark (trademark.n.02)": {}
+          },
+          "identifier (identifier.n.01)": {},
+          "postage (postage.n.02)": {}
+        },
+        "alarm (alarm.n.03)": {
+          "torpedo (torpedo.n.05)": {}
+        },
+        "input_signal (input_signal.n.01)": {},
+        "output_signal (output_signal.n.01)": {
+          "printout (printout.n.01)": {}
+        },
+        "recording (recording.n.01)": {},
+        "light (light.n.14)": {
+          "traffic_light (traffic_light.n.01)": {}
+        },
+        "flag (flag.n.04)": {},
+        "post (post.n.09)": {}
+      },
+      "sign (sign.n.02)": {
+        "poster (poster.n.01)": {}
+      },
+      "message (message.n.01)": {
+        "mail (mail.n.01)": {},
+        "broadcast (broadcast.n.01)": {}
+      },
+      "[virtual] indication (indication.n.01)": {
+        "[virtual] evidence (evidence.n.02)": {
+          "identification (identification.n.02)": {
+            "[virtual] positive_identification (positive_identification.n.01)": {
+              "number (number.n.08)": {},
+              "card (card.n.02)": {}
+            }
+          },
+          "[virtual] record (record.n.01)": {
+            "history (history.n.02)": {
+              "profile (profile.n.03)": {}
+            },
+            "file (file.n.01)": {
+              "text_file (text_file.n.01)": {}
+            },
+            "[virtual] written_record (written_record.n.01)": {
+              "log (log.n.03)": {},
+              "note (note.n.01)": {
+                "memo (memo.n.01)": {}
+              },
+              "entry (entry.n.01)": {},
+              "transcript (transcript.n.02)": {},
+              "translation (translation.n.01)": {},
+              "timeline (timeline.n.01)": {}
+            }
+          },
+          "argument (argument.n.01)": {
+            "case (case.n.09)": {}
+          },
+          "sign (sign.n.01)": {}
+        },
+        "mark (mark.n.04)": {
+          "fingerprint (fingerprint.n.01)": {},
+          "guideline (guideline.n.01)": {}
+        }
+      },
+      "expressive_style (expressive_style.n.01)": {
+        "jargon (jargon.n.03)": {},
+        "[virtual] writing_style (writing_style.n.01)": {
+          "poetry (poetry.n.01)": {},
+          "prose (prose.n.01)": {}
+        }
+      }
+    },
+    "Attribute (attribute.n.02)": {
+      "[virtual] arrangement (arrangement.n.02)": {
+        "classification (classification.n.02)": {},
+        "[virtual] series (series.n.01)": {
+          "sequence (sequence.n.01)": {},
+          "chain (chain.n.01)": {}
+        }
+      },
+      "[virtual] relation (relation.n.01)": {
+        "part (part.n.01)": {
+          "substance (substance.n.01)": {
+            "material (material.n.01)": {
+              "waste (waste.n.01)": {
+                "rubbish (rubbish.n.01)": {
+                  "debris (debris.n.01)": {},
+                  "litter (litter.n.02)": {}
+                },
+                "impurity (impurity.n.01)": {},
+                "[virtual] body_waste (body_waste.n.01)": {
+                  "fecal_matter (fecal_matter.n.01)": {},
+                  "urine (urine.n.01)": {}
+                },
+                "garbage (garbage.n.01)": {}
+              },
+              "chemical (chemical.n.01)": {
+                "compound (compound.n.02)": {
+                  "[virtual] organic_compound (organic_compound.n.01)": {
+                    "[virtual] macromolecule (macromolecule.n.01)": {
+                      "[virtual] lipid (lipid.n.01)": {
+                        "oil (oil.n.01)": {
+                          "petroleum (petroleum.n.01)": {}
+                        },
+                        "wax (wax.n.01)": {}
+                      },
+                      "protein (protein.n.01)": {}
+                    },
+                    "resin (resin.n.01)": {},
+                    "pitch (pitch.n.06)": {},
+                    "urethane (urethane.n.01)": {}
+                  },
+                  "acid (acid.n.01)": {},
+                  "oxide (oxide.n.01)": {
+                    "rust (rust.n.01)": {}
+                  },
+                  "formulation (formulation.n.01)": {
+                    "polish (polish.n.03)": {},
+                    "detergent (detergent.n.02)": {}
+                  },
+                  "[virtual] salt (salt.n.01)": {
+                    "fluoride (fluoride.n.01)": {},
+                    "plaster_of_paris (plaster_of_paris.n.01)": {}
+                  },
+                  "deoxyribonucleic_acid (deoxyribonucleic_acid.n.01)": {}
+                },
+                "flux (flux.n.03)": {},
+                "herbicide (herbicide.n.01)": {},
+                "pesticide (pesticide.n.01)": {
+                  "insecticide (insecticide.n.01)": {}
+                },
+                "explosive (explosive.n.01)": {
+                  "charge (charge.n.15)": {}
+                },
+                "fertilizer (fertilizer.n.01)": {},
+                "fumigant (fumigant.n.01)": {}
+              },
+              "adhesive_material (adhesive_material.n.01)": {
+                "cement (cement.n.03)": {
+                  "glue (glue.n.01)": {},
+                  "mastic (mastic.n.02)": {}
+                },
+                "paste (paste.n.03)": {}
+              },
+              "paper (paper.n.01)": {
+                "sheet (sheet.n.02)": {
+                  "slip (slip.n.10)": {},
+                  "signature (signature.n.05)": {},
+                  "page (page.n.01)": {}
+                },
+                "card (card.n.01)": {},
+                "timecard (timecard.n.02)": {}
+              },
+              "earth (earth.n.02)": {
+                "soil (soil.n.02)": {
+                  "clay (clay.n.01)": {},
+                  "sand (sand.n.01)": {},
+                  "topsoil (topsoil.n.01)": {},
+                  "mud (mud.n.01)": {}
+                }
+              },
+              "rock (rock.n.02)": {
+                "gravel (gravel.n.01)": {
+                  "ballast (ballast.n.02)": {}
+                },
+                "marble (marble.n.01)": {},
+                "granite (granite.n.01)": {}
+              },
+              "[virtual] plant_material (plant_material.n.01)": {
+                "wood (wood.n.01)": {
+                  "log (log.n.01)": {},
+                  "pulpwood (pulpwood.n.01)": {}
+                },
+                "tobacco (tobacco.n.01)": {}
+              },
+              "[virtual] sealing_material (sealing_material.n.01)": {
+                "sealant (sealant.n.01)": {
+                  "caulk (caulk.n.01)": {}
+                },
+                "size (size.n.03)": {}
+              },
+              "abrasive (abrasive.n.01)": {
+                "emery_paper (emery_paper.n.01)": {}
+              },
+              "[virtual] mineral (mineral.n.01)": {
+                "asphalt (asphalt.n.02)": {},
+                "asbestos (asbestos.n.01)": {}
+              },
+              "insulator (insulator.n.01)": {
+                "bushing (bushing.n.01)": {}
+              },
+              "fiber (fiber.n.01)": {
+                "fibril (fibril.n.01)": {},
+                "cotton (cotton.n.01)": {}
+              },
+              "[virtual] coloring_material (coloring_material.n.01)": {
+                "dye (dye.n.01)": {},
+                "pigment (pigment.n.01)": {}
+              },
+              "cement (cement.n.04)": {},
+              "feedstock (feedstock.n.01)": {},
+              "[virtual] animal_skin (animal_skin.n.01)": {
+                "hide (hide.n.01)": {},
+                "fur (fur.n.01)": {}
+              },
+              "rubber (rubber.n.01)": {},
+              "sponge (sponge.n.01)": {}
+            },
+            "mixture (mixture.n.01)": {
+              "solution (solution.n.01)": {},
+              "plaster (plaster.n.01)": {
+                "grout (grout.n.01)": {}
+              },
+              "alloy (alloy.n.01)": {
+                "solder (solder.n.01)": {},
+                "steel (steel.n.01)": {},
+                "brass (brass.n.01)": {}
+              },
+              "composition (composition.n.03)": {
+                "paste (paste.n.01)": {}
+              }
+            },
+            "chemical_element (chemical_element.n.01)": {
+              "metallic_element (metallic_element.n.01)": {
+                "iron (iron.n.01)": {},
+                "lead (lead.n.02)": {}
+              },
+              "carbon (carbon.n.01)": {
+                "diamond (diamond.n.02)": {}
+              }
+            },
+            "[virtual] liquid (liquid.n.01)": {
+              "beverage (beverage.n.01)": {
+                "coffee (coffee.n.01)": {}
+              },
+              "alcohol (alcohol.n.02)": {},
+              "ink (ink.n.01)": {}
+            },
+            "[virtual] liquid_body_substance (liquid_body_substance.n.01)": {
+              "blood (blood.n.01)": {},
+              "semen (semen.n.01)": {},
+              "serum (serum.n.01)": {},
+              "plasma (plasma.n.01)": {}
+            },
+            "catalyst (catalyst.n.01)": {},
+            "radioisotope (radioisotope.n.01)": {},
+            "solvent (solvent.n.01)": {}
+          },
+          "detail (detail.n.02)": {},
+          "unit (unit.n.02)": {},
+          "[virtual] language_unit (language_unit.n.01)": {
+            "name (name.n.01)": {
+              "signature (signature.n.01)": {},
+              "title (title.n.02)": {}
+            },
+            "word (word.n.01)": {
+              "[virtual] form (form.n.01)": {
+                "abbreviation (abbreviation.n.01)": {}
+              },
+              "homonym (homonym.n.01)": {},
+              "terminology (terminology.n.01)": {}
+            }
+          },
+          "member (member.n.02)": {},
+          "basis (basis.n.03)": {},
+          "[virtual] remainder (remainder.n.01)": {
+            "leftover (leftover.n.01)": {}
+          }
+        },
+        "possession (possession.n.02)": {
+          "[virtual] transferred_property (transferred_property.n.01)": {
+            "outgo (outgo.n.01)": {
+              "cost (cost.n.01)": {
+                "charge (charge.n.03)": {
+                  "[virtual] fixed_charge (fixed_charge.n.01)": {
+                    "fee (fee.n.01)": {
+                      "commission (commission.n.02)": {}
+                    },
+                    "interest (interest.n.04)": {}
+                  },
+                  "fare (fare.n.02)": {},
+                  "rate (rate.n.02)": {}
+                },
+                "payment (payment.n.01)": {
+                  "premium (premium.n.01)": {},
+                  "[virtual] recompense (recompense.n.01)": {
+                    "allowance (allowance.n.03)": {},
+                    "compensation (compensation.n.01)": {
+                      "allowance (allowance.n.02)": {}
+                    }
+                  },
+                  "credit (credit.n.05)": {},
+                  "refund (refund.n.01)": {},
+                  "[virtual] regular_payment (regular_payment.n.01)": {
+                    "wage (wage.n.01)": {},
+                    "rent (rent.n.01)": {}
+                  },
+                  "repayment (repayment.n.02)": {},
+                  "royalty (royalty.n.01)": {},
+                  "fine (fine.n.01)": {}
+                },
+                "price (price.n.02)": {},
+                "expense (expense.n.01)": {}
+              }
+            },
+            "acquisition (acquisition.n.02)": {
+              "gift (gift.n.01)": {
+                "contribution (contribution.n.02)": {},
+                "jackpot (jackpot.n.02)": {}
+              },
+              "purchase (purchase.n.02)": {}
+            },
+            "tax_write-off (tax_write-off.n.01)": {}
+          },
+          "property (property.n.01)": {
+            "[virtual] wealth (wealth.n.04)": {
+              "money (money.n.02)": {}
+            },
+            "[virtual] real_property (real_property.n.01)": {
+              "land (land.n.01)": {},
+              "estate (estate.n.02)": {}
+            }
+          },
+          "[virtual] assets (assets.n.01)": {
+            "sum (sum.n.01)": {
+              "coverage (coverage.n.01)": {},
+              "gross (gross.n.02)": {},
+              "advance (advance.n.05)": {},
+              "figure (figure.n.07)": {},
+              "income (income.n.01)": {
+                "dividend (dividend.n.01)": {},
+                "store (store.n.02)": {
+                  "infrastructure (infrastructure.n.02)": {}
+                },
+                "reserve (reserve.n.02)": {}
+              }
+            },
+            "investment (investment.n.02)": {
+              "stake (stake.n.04)": {}
+            },
+            "resource (resource.n.01)": {
+              "support (support.n.11)": {}
+            },
+            "capital (capital.n.02)": {},
+            "credit (credit.n.02)": {},
+            "interest (interest.n.05)": {
+              "[virtual] security_interest (security_interest.n.01)": {
+                "collateral (collateral.n.01)": {}
+              }
+            },
+            "reinsurance (reinsurance.n.01)": {},
+            "valuable (valuable.n.01)": {}
+          },
+          "[virtual] liabilities (liabilities.n.01)": {
+            "tax (tax.n.01)": {
+              "duty (duty.n.03)": {}
+            },
+            "assessment (assessment.n.02)": {},
+            "loan (loan.n.01)": {}
+          }
+        },
+        "position (position.n.07)": {
+          "[virtual] placement (placement.n.01)": {
+            "spacing (spacing.n.02)": {
+              "distance (distance.n.01)": {
+                "clearance (clearance.n.01)": {},
+                "altitude (altitude.n.01)": {}
+              },
+              "distribution (distribution.n.02)": {}
+            },
+            "alignment (alignment.n.02)": {},
+            "proportion (proportion.n.05)": {}
+          },
+          "direction (direction.n.02)": {
+            "orientation (orientation.n.03)": {}
+          },
+          "occlusion (occlusion.n.03)": {},
+          "gradient (gradient.n.02)": {},
+          "seating (seating.n.01)": {}
+        },
+        "change (change.n.02)": {},
+        "[virtual] magnitude_relation (magnitude_relation.n.01)": {
+          "rate (rate.n.01)": {
+            "flow (flow.n.02)": {},
+            "speed (speed.n.01)": {},
+            "frequency (frequency.n.01)": {
+              "attendance (attendance.n.02)": {},
+              "station (station.n.05)": {}
+            }
+          },
+          "ratio (ratio.n.01)": {
+            "efficiency (efficiency.n.01)": {},
+            "content (content.n.03)": {},
+            "rate (rate.n.04)": {}
+          }
+        },
+        "ownership (ownership.n.01)": {},
+        "partnership (partnership.n.02)": {},
+        "link (link.n.01)": {}
+      },
+      "[virtual] state (state.n.02)": {
+        "condition (condition.n.03)": {
+          "wellbeing (wellbeing.n.01)": {}
+        },
+        "being (being.n.01)": {
+          "possibility (possibility.n.02)": {
+            "opportunity (opportunity.n.01)": {},
+            "potential (potential.n.01)": {}
+          }
+        },
+        "relationship (relationship.n.02)": {},
+        "[virtual] skillfulness (skillfulness.n.01)": {
+          "expertness (expertness.n.01)": {},
+          "efficiency (efficiency.n.02)": {}
+        },
+        "order (order.n.03)": {
+          "agreement (agreement.n.03)": {
+            "consensus (consensus.n.01)": {}
+          }
+        },
+        "imperfection (imperfection.n.01)": {
+          "defect (defect.n.03)": {},
+          "failing (failing.n.01)": {}
+        },
+        "[virtual] situation (situation.n.01)": {
+          "environment (environment.n.01)": {
+            "sphere (sphere.n.01)": {},
+            "setting (setting.n.02)": {}
+          },
+          "challenge (challenge.n.01)": {},
+          "picture (picture.n.04)": {},
+          "operation (operation.n.08)": {}
+        },
+        "[virtual] status (status.n.01)": {
+          "standing (standing.n.01)": {
+            "rating (rating.n.03)": {}
+          },
+          "precedence (precedence.n.01)": {},
+          "grade (grade.n.02)": {}
+        },
+        "[virtual] relationship (relationship.n.03)": {
+          "account (account.n.03)": {},
+          "membership (membership.n.02)": {},
+          "affiliation (affiliation.n.01)": {},
+          "company (company.n.03)": {},
+          "detention (detention.n.01)": {}
+        },
+        "conflict (conflict.n.04)": {},
+        "degree (degree.n.02)": {
+          "extent (extent.n.01)": {}
+        },
+        "[virtual] feeling (feeling.n.01)": {
+          "wish (wish.n.01)": {},
+          "concern (concern.n.03)": {},
+          "satisfaction (satisfaction.n.01)": {},
+          "comfort (comfort.n.05)": {}
+        },
+        "integrity (integrity.n.01)": {
+          "completeness (completeness.n.01)": {}
+        },
+        "obligation (obligation.n.02)": {
+          "indebtedness (indebtedness.n.01)": {}
+        },
+        "ownership (ownership.n.03)": {},
+        "readiness (readiness.n.01)": {},
+        "incident (incident.n.02)": {},
+        "connection (connection.n.02)": {},
+        "shadow (shadow.n.01)": {},
+        "phenomenon (phenomenon.n.01)": {}
+      },
+      "property (property.n.02)": {
+        "[virtual] magnitude (magnitude.n.01)": {
+          "dimension (dimension.n.01)": {
+            "length (length.n.01)": {
+              "diameter (diameter.n.01)": {}
+            },
+            "thickness (thickness.n.01)": {},
+            "height (height.n.01)": {},
+            "width (width.n.01)": {}
+          },
+          "size (size.n.01)": {},
+          "[virtual] extent (extent.n.02)": {
+            "area (area.n.06)": {
+              "space (space.n.07)": {}
+            },
+            "depth (depth.n.01)": {}
+          },
+          "[virtual] amount (amount.n.02)": {
+            "[virtual] insufficiency (insufficiency.n.03)": {
+              "deficit (deficit.n.01)": {}
+            },
+            "number (number.n.01)": {},
+            "[virtual] increase (increase.n.04)": {
+              "supplement (supplement.n.02)": {}
+            }
+          },
+          "intensity (intensity.n.01)": {}
+        },
+        "degree (degree.n.01)": {
+          "quality (quality.n.02)": {}
+        },
+        "characteristic (characteristic.n.04)": {},
+        "[virtual] temporal_property (temporal_property.n.01)": {
+          "pace (pace.n.03)": {
+            "speed (speed.n.02)": {}
+          },
+          "[virtual] temporal_arrangement (temporal_arrangement.n.01)": {
+            "timing (timing.n.01)": {},
+            "rotation (rotation.n.04)": {}
+          },
+          "[virtual] duration (duration.n.03)": {
+            "lastingness (lastingness.n.01)": {}
+          }
+        },
+        "constitution (constitution.n.04)": {
+          "structure (structure.n.02)": {
+            "infrastructure (infrastructure.n.01)": {}
+          }
+        },
+        "[virtual] physical_property (physical_property.n.01)": {
+          "weight (weight.n.01)": {},
+          "luminosity (luminosity.n.01)": {},
+          "sensitivity (sensitivity.n.02)": {}
+        },
+        "[virtual] visual_property (visual_property.n.01)": {
+          "color (color.n.01)": {
+            "shade (shade.n.02)": {}
+          },
+          "light (light.n.07)": {},
+          "texture (texture.n.04)": {}
+        },
+        "[virtual] spatial_property (spatial_property.n.01)": {
+          "shape (shape.n.01)": {
+            "curvature (curvature.n.03)": {}
+          },
+          "irregularity (irregularity.n.03)": {}
+        },
+        "manner (manner.n.01)": {
+          "drape (drape.n.02)": {},
+          "fit (fit.n.03)": {},
+          "setup (setup.n.02)": {}
+        },
+        "[virtual] consistency (consistency.n.01)": {
+          "viscosity (viscosity.n.01)": {},
+          "fluidity (fluidity.n.01)": {}
+        },
+        "[virtual] bodily_property (bodily_property.n.01)": {
+          "physiology (physiology.n.02)": {},
+          "pose (pose.n.02)": {}
+        },
+        "[virtual] sound_property (sound_property.n.01)": {
+          "pitch (pitch.n.01)": {},
+          "volume (volume.n.06)": {}
+        },
+        "size (size.n.02)": {},
+        "strength (strength.n.01)": {},
+        "sustainability (sustainability.n.01)": {},
+        "[virtual] tactile_property (tactile_property.n.01)": {
+          "texture (texture.n.01)": {}
+        },
+        "freshness (freshness.n.01)": {}
+      },
+      "[virtual] quality (quality.n.01)": {
+        "characteristic (characteristic.n.02)": {
+          "aspect (aspect.n.02)": {},
+          "conformity (conformity.n.01)": {}
+        },
+        "[virtual] power (power.n.01)": {
+          "effectiveness (effectiveness.n.01)": {
+            "efficacy (efficacy.n.01)": {}
+          },
+          "control (control.n.01)": {
+            "authority (authority.n.01)": {}
+          },
+          "pressure (pressure.n.02)": {}
+        },
+        "appearance (appearance.n.01)": {
+          "color (color.n.08)": {},
+          "blemish (blemish.n.01)": {
+            "dent (dent.n.03)": {},
+            "crack (crack.n.07)": {},
+            "smudge (smudge.n.02)": {},
+            "mole (mole.n.04)": {},
+            "scratch (scratch.n.10)": {},
+            "wart (wart.n.03)": {}
+          },
+          "form (form.n.07)": {},
+          "look (look.n.03)": {},
+          "stain (stain.n.01)": {},
+          "image (image.n.08)": {},
+          "coating (coating.n.02)": {
+            "glaze (glaze.n.03)": {}
+          }
+        },
+        "accuracy (accuracy.n.01)": {
+          "fidelity (fidelity.n.01)": {},
+          "[virtual] exactness (exactness.n.01)": {
+            "preciseness (preciseness.n.02)": {},
+            "trueness (trueness.n.03)": {}
+          }
+        },
+        "[virtual] asset (asset.n.01)": {
+          "resource (resource.n.02)": {},
+          "[virtual] advantage (advantage.n.01)": {
+            "[virtual] handicap (handicap.n.02)": {
+              "penalty (penalty.n.04)": {}
+            }
+          },
+          "forte (forte.n.01)": {}
+        },
+        "ability (ability.n.01)": {
+          "capability (capability.n.01)": {},
+          "adaptability (adaptability.n.01)": {},
+          "competence (competence.n.01)": {}
+        },
+        "utility (utility.n.02)": {
+          "[virtual] practicability (practicability.n.01)": {
+            "feasibility (feasibility.n.01)": {}
+          },
+          "function (function.n.02)": {},
+          "practicality (practicality.n.01)": {
+            "functionality (functionality.n.01)": {},
+            "viability (viability.n.02)": {}
+          },
+          "serviceability (serviceability.n.01)": {}
+        },
+        "suitability (suitability.n.01)": {
+          "[virtual] convenience (convenience.n.02)": {
+            "handiness (handiness.n.02)": {}
+          },
+          "[virtual] fitness (fitness.n.01)": {
+            "qualification (qualification.n.01)": {
+              "eligibility (eligibility.n.01)": {}
+            }
+          }
+        },
+        "difference (difference.n.01)": {
+          "discrepancy (discrepancy.n.01)": {
+            "allowance (allowance.n.04)": {}
+          },
+          "[virtual] dissimilarity (dissimilarity.n.01)": {
+            "[virtual] nonuniformity (nonuniformity.n.01)": {
+              "inconsistency (inconsistency.n.02)": {}
+            }
+          }
+        },
+        "nature (nature.n.01)": {},
+        "sufficiency (sufficiency.n.03)": {},
+        "inaccuracy (inaccuracy.n.01)": {},
+        "tone (tone.n.10)": {},
+        "productiveness (productiveness.n.01)": {},
+        "admissibility (admissibility.n.01)": {},
+        "authenticity (authenticity.n.01)": {},
+        "balance (balance.n.02)": {},
+        "transparency (transparency.n.02)": {},
+        "[virtual] distinctness (distinctness.n.01)": {
+          "focus (focus.n.02)": {}
+        },
+        "value (value.n.02)": {
+          "[virtual] importance (importance.n.01)": {
+            "significance (significance.n.01)": {}
+          }
+        },
+        "stability (stability.n.01)": {},
+        "benefit (benefit.n.02)": {
+          "advantage (advantage.n.03)": {}
+        }
+      },
+      "[virtual] shape (shape.n.02)": {
+        "[virtual] solid (solid.n.03)": {
+          "[virtual] concave_shape (concave_shape.n.01)": {
+            "depression (depression.n.08)": {
+              "crevice (crevice.n.01)": {},
+              "groove (groove.n.01)": {},
+              "dimple (dimple.n.02)": {}
+            }
+          },
+          "[virtual] cylinder (cylinder.n.01)": {
+            "roller (roller.n.04)": {},
+            "roll (roll.n.11)": {}
+          },
+          "[virtual] polyhedron (polyhedron.n.01)": {
+            "pyramid (pyramid.n.01)": {}
+          }
+        },
+        "[virtual] line (line.n.04)": {
+          "curve (curve.n.02)": {},
+          "boundary (boundary.n.02)": {
+            "margin (margin.n.01)": {}
+          },
+          "centerline (centerline.n.01)": {}
+        },
+        "[virtual] amorphous_shape (amorphous_shape.n.01)": {
+          "space (space.n.02)": {
+            "opening (opening.n.01)": {
+              "[virtual] hole (hole.n.01)": {
+                "leak (leak.n.01)": {}
+              },
+              "crack (crack.n.01)": {},
+              "rip (rip.n.02)": {}
+            },
+            "compartment (compartment.n.01)": {},
+            "angle (angle.n.01)": {
+              "[virtual] angular_distance (angular_distance.n.01)": {
+                "latitude (latitude.n.01)": {},
+                "longitude (longitude.n.01)": {}
+              }
+            }
+          }
+        },
+        "[virtual] figure (figure.n.06)": {
+          "[virtual] plane_figure (plane_figure.n.01)": {
+            "tree (tree.n.02)": {}
+          },
+          "[virtual] solid_figure (solid_figure.n.01)": {
+            "sculpture (sculpture.n.01)": {
+              "statue (statue.n.01)": {}
+            }
+          }
+        },
+        "[virtual] round_shape (round_shape.n.01)": {
+          "[virtual] sphere (sphere.n.05)": {
+            "[virtual] ball (ball.n.03)": {
+              "[virtual] globule (globule.n.01)": {
+                "bubble (bubble.n.01)": {
+                  "[virtual] foam (foam.n.01)": {
+                    "soapsuds (soapsuds.n.01)": {}
+                  }
+                }
+              }
+            }
+          },
+          "[virtual] cylinder (cylinder.n.02)": {
+            "barrel (barrel.n.03)": {},
+            "brake_drum (brake_drum.n.01)": {},
+            "pipe (pipe.n.03)": {}
+          }
+        },
+        "column (column.n.04)": {}
+      },
+      "[virtual] trait (trait.n.01)": {
+        "cleanliness (cleanliness.n.02)": {},
+        "[virtual] individuality (individuality.n.01)": {
+          "[virtual] peculiarity (peculiarity.n.02)": {
+            "idiosyncrasy (idiosyncrasy.n.01)": {}
+          }
+        }
+      },
+      "[virtual] time (time.n.05)": {
+        "[virtual] continuum (continuum.n.01)": {
+          "history (history.n.04)": {}
+        },
+        "[virtual] musical_time (musical_time.n.01)": {
+          "rhythm (rhythm.n.01)": {},
+          "tempo (tempo.n.01)": {}
+        }
+      },
+      "measure (measure.n.02)": {
+        "[virtual] indefinite_quantity (indefinite_quantity.n.01)": {
+          "supply (supply.n.01)": {},
+          "load (load.n.02)": {},
+          "limit (limit.n.06)": {},
+          "output (output.n.04)": {},
+          "catch (catch.n.02)": {},
+          "correction (correction.n.02)": {},
+          "dose (dose.n.02)": {},
+          "addition (addition.n.03)": {},
+          "run (run.n.10)": {},
+          "[virtual] small_indefinite_quantity (small_indefinite_quantity.n.01)": {
+            "helping (helping.n.01)": {},
+            "spot (spot.n.10)": {}
+          },
+          "spillage (spillage.n.01)": {}
+        },
+        "[virtual] fundamental_quantity (fundamental_quantity.n.01)": {
+          "time_period (time_period.n.01)": {
+            "run (run.n.08)": {},
+            "time (time.n.03)": {},
+            "watch (watch.n.04)": {},
+            "duration (duration.n.01)": {},
+            "life (life.n.05)": {},
+            "phase (phase.n.01)": {},
+            "[virtual] work_time (work_time.n.01)": {
+              "[virtual] hours (hours.n.01)": {
+                "shift (shift.n.03)": {}
+              }
+            }
+          },
+          "temperature (temperature.n.01)": {},
+          "length (length.n.01)": {
+            "radius (radius.n.01)": {}
+          }
+        },
+        "volume (volume.n.01)": {
+          "capacity (capacity.n.03)": {}
+        },
+        "count (count.n.01)": {},
+        "coordinate (coordinate.n.01)": {},
+        "score (score.n.03)": {},
+        "[virtual] time_unit (time_unit.n.01)": {
+          "[virtual] day (day.n.01)": {
+            "date (date.n.01)": {}
+          },
+          "hour (hour.n.01)": {}
+        },
+        "value (value.n.03)": {},
+        "system_of_measurement (system_of_measurement.n.01)": {
+          "standard (standard.n.01)": {
+            "[virtual] medium_of_exchange (medium_of_exchange.n.01)": {
+              "currency (currency.n.01)": {
+                "cash (cash.n.01)": {
+                  "change (change.n.05)": {}
+                },
+                "[virtual] coinage (coinage.n.01)": {
+                  "coin (coin.n.01)": {}
+                },
+                "money (money.n.03)": {}
+              },
+              "money (money.n.01)": {
+                "fund (fund.n.01)": {
+                  "deposit (deposit.n.04)": {}
+                },
+                "appropriation (appropriation.n.01)": {}
+              }
+            }
+          }
+        },
+        "[virtual] time_interval (time_interval.n.01)": {
+          "[virtual] pause (pause.n.01)": {
+            "delay (delay.n.01)": {
+              "extension (extension.n.01)": {}
+            }
+          }
+        },
+        "[virtual] point (point.n.06)": {
+          "deadline (deadline.n.01)": {},
+          "[virtual] moment (moment.n.01)": {
+            "time (time.n.04)": {}
+          }
+        },
+        "unit_of_measurement (unit_of_measurement.n.01)": {
+          "[virtual] electromagnetic_unit (electromagnetic_unit.n.01)": {
+            "[virtual] power_unit (power_unit.n.01)": {
+              "horsepower (horsepower.n.01)": {}
+            }
+          }
+        },
+        "number (number.n.02)": {}
+      },
+      "base (base.n.04)": {},
+      "cognition (cognition.n.01)": {
+        "information (information.n.02)": {
+        "example (example.n.01)": {
+            "sample (sample.n.01)": {},
+            "exception (exception.n.02)": {}
+        },
+        "[virtual] datum (datum.n.01)": {
+            "reading (reading.n.03)": {
+            "clock_time (clock_time.n.01)": {
+                "hour (hour.n.02)": {}
+            }
+            },
+            "statistic (statistic.n.01)": {}
+        },
+        "fact (fact.n.01)": {
+            "detail (detail.n.01)": {},
+            "observation (observation.n.04)": {},
+            "particular (particular.n.01)": {}
+        },
+        "[virtual] evidence (evidence.n.01)": {
+            "sign (sign.n.06)": {
+            "[virtual] vital_sign (vital_sign.n.01)": {
+                "pulse (pulse.n.03)": {}
+            }
+            },
+            "[virtual] symptom (symptom.n.01)": {
+            "pain (pain.n.01)": {},
+            "syndrome (syndrome.n.02)": {}
+            },
+            "[virtual] proof (proof.n.01)": {
+            "confirmation (confirmation.n.01)": {}
+            }
+        },
+        "acquaintance (acquaintance.n.01)": {},
+        "circumstance (circumstance.n.03)": {},
+        "[virtual] stimulation (stimulation.n.02)": {
+            "discriminative_stimulus (discriminative_stimulus.n.01)": {}
+        }
+        },
+        "[virtual] cognitive_factor (cognitive_factor.n.01)": {
+        "determinant (determinant.n.01)": {
+            "support (support.n.03)": {}
+        },
+        "difficulty (difficulty.n.02)": {
+            "trouble (trouble.n.01)": {},
+            "hindrance (hindrance.n.01)": {
+            "obstacle (obstacle.n.01)": {
+                "barrier (barrier.n.02)": {}
+            }
+            }
+        }
+        },
+        "ability (ability.n.02)": {
+        "[virtual] know-how (know-how.n.01)": {
+            "method (method.n.01)": {
+            "system (system.n.04)": {
+                "program (program.n.02)": {},
+                "discipline (discipline.n.02)": {}
+            },
+            "solution (solution.n.03)": {},
+            "technique (technique.n.01)": {},
+            "methodology (methodology.n.02)": {}
+            },
+            "confidentiality (confidentiality.n.02)": {}
+        },
+        "skill (skill.n.02)": {},
+        "capacity (capacity.n.08)": {},
+        "capability (capability.n.03)": {},
+        "fictional_character (fictional_character.n.01)": {},
+        "[virtual] modality (modality.n.03)": {
+            "sight (sight.n.03)": {
+            "acuity (acuity.n.01)": {}
+            },
+            "hearing (hearing.n.06)": {}
+        }
+        },
+        "[virtual] content (content.n.05)": {
+        "idea (idea.n.01)": {
+            "plan (plan.n.01)": {
+            "[virtual] plan_of_action (plan_of_action.n.01)": {
+                "scheme (scheme.n.01)": {},
+                "policy (policy.n.01)": {},
+                "system (system.n.07)": {},
+                "travel_plan (travel_plan.n.01)": {},
+                "tactic (tactic.n.01)": {}
+            },
+            "budget (budget.n.02)": {},
+            "project (project.n.02)": {},
+            "agenda (agenda.n.01)": {},
+            "blueprint (blueprint.n.01)": {},
+            "outline (outline.n.03)": {},
+            "regimen (regimen.n.01)": {}
+            },
+            "[virtual] ideal (ideal.n.01)": {
+            "criterion (criterion.n.02)": {
+                "control_condition (control_condition.n.01)": {}
+            },
+            "principle (principle.n.02)": {}
+            },
+            "concept (concept.n.01)": {
+            "rule (rule.n.01)": {
+                "restriction (restriction.n.01)": {}
+            },
+            "part (part.n.09)": {
+                "component (component.n.01)": {}
+            },
+            "[virtual] hypothesis (hypothesis.n.02)": {
+                "model (model.n.01)": {},
+                "[virtual] assumption (assumption.n.02)": {
+                "basis (basis.n.02)": {}
+                }
+            },
+            "[virtual] property (property.n.04)": {
+                "feature (feature.n.01)": {},
+                "quality (quality.n.03)": {}
+            },
+            "law (law.n.04)": {},
+            "[virtual] quantity (quantity.n.03)": {
+                "subtotal (subtotal.n.01)": {},
+                "value (value.n.01)": {}
+            },
+            "principle (principle.n.03)": {},
+            "kind (kind.n.01)": {
+                "style (style.n.03)": {},
+                "type (type.n.01)": {}
+            },
+            "[virtual] right (right.n.01)": {
+                "access (access.n.02)": {},
+                "easement (easement.n.01)": {}
+            }
+            },
+            "theme (theme.n.02)": {},
+            "principle (principle.n.01)": {},
+            "effect (effect.n.03)": {},
+            "significance (significance.n.02)": {}
+        },
+        "goal (goal.n.01)": {
+            "aim (aim.n.02)": {},
+            "purpose (purpose.n.01)": {}
+        },
+        "topic (topic.n.02)": {
+            "area (area.n.02)": {}
+        },
+        "belief (belief.n.01)": {
+            "[virtual] opinion (opinion.n.01)": {
+            "[virtual] judgment (judgment.n.01)": {
+                "decision (decision.n.02)": {}
+            }
+            },
+            "doctrine (doctrine.n.01)": {}
+        },
+        "[virtual] representation (representation.n.01)": {
+            "[virtual] model (model.n.07)": {
+            "template (template.n.01)": {},
+            "original (original.n.02)": {}
+            },
+            "interpretation (interpretation.n.01)": {},
+            "[virtual] view (view.n.02)": {
+            "background (background.n.02)": {},
+            "profile (profile.n.02)": {}
+            }
+        },
+        "issue (issue.n.01)": {},
+        "experience (experience.n.02)": {},
+        "tradition (tradition.n.01)": {},
+        "discipline (discipline.n.01)": {
+            "engineering (engineering.n.02)": {
+            "nanotechnology (nanotechnology.n.01)": {},
+            "[virtual] computer_science (computer_science.n.01)": {
+                "object (object.n.05)": {},
+                "[virtual] artificial_intelligence (artificial_intelligence.n.01)": {
+                "robotics (robotics.n.01)": {}
+                }
+            }
+            },
+            "[virtual] humanistic_discipline (humanistic_discipline.n.01)": {
+            "[virtual] performing_arts (performing_arts.n.01)": {
+                "[virtual] acting (acting.n.01)": {
+                "portrayal (portrayal.n.02)": {
+                    "character (character.n.04)": {}
+                },
+                "skit (skit.n.01)": {}
+                }
+            }
+            },
+            "science (science.n.01)": {
+            "[virtual] natural_science (natural_science.n.01)": {
+                "[virtual] physics (physics.n.01)": {
+                "astronomy (astronomy.n.01)": {
+                    "astrophysics (astrophysics.n.01)": {}
+                }
+                },
+                "chemistry (chemistry.n.01)": {},
+                "[virtual] earth_science (earth_science.n.01)": {
+                "geography (geography.n.01)": {}
+                },
+                "[virtual] life_science (life_science.n.01)": {
+                "[virtual] medical_science (medical_science.n.01)": {
+                    "[virtual] medicine (medicine.n.01)": {
+                    "prosthetics (prosthetics.n.01)": {}
+                    }
+                }
+                }
+            },
+            "[virtual] social_science (social_science.n.01)": {
+                "sociology (sociology.n.01)": {}
+            }
+            }
+        },
+        "experience (experience.n.01)": {}
+        },
+        "[virtual] process (process.n.02)": {
+        "[virtual] higher_cognitive_process (higher_cognitive_process.n.01)": {
+            "[virtual] thinking (thinking.n.01)": {
+            "[virtual] reasoning (reasoning.n.01)": {
+                "analysis (analysis.n.02)": {},
+                "argumentation (argumentation.n.02)": {
+                "policy (policy.n.02)": {
+                    "quota (quota.n.03)": {}
+                }
+                }
+            },
+            "planning (planning.n.03)": {
+                "agreement (agreement.n.04)": {
+                "[virtual] prearrangement (prearrangement.n.01)": {
+                    "reservation (reservation.n.06)": {}
+                }
+                }
+            },
+            "[virtual] problem_solving (problem_solving.n.02)": {
+                "calculation (calculation.n.02)": {
+                "estimate (estimate.n.01)": {
+                    "credit_rating (credit_rating.n.01)": {}
+                }
+                },
+                "inquiry (inquiry.n.01)": {
+                "poll (poll.n.01)": {},
+                "trial (trial.n.02)": {}
+                }
+            },
+            "theory (theory.n.01)": {}
+            },
+            "[virtual] decision_making (decision_making.n.01)": {
+            "option (option.n.02)": {},
+            "settlement (settlement.n.05)": {},
+            "judgment (judgment.n.04)": {}
+            },
+            "[virtual] knowing (knowing.n.01)": {
+            "awareness (awareness.n.01)": {},
+            "understanding (understanding.n.01)": {}
+            }
+        },
+        "[virtual] basic_cognitive_process (basic_cognitive_process.n.01)": {
+            "[virtual] perception (perception.n.03)": {
+            "[virtual] somesthesia (somesthesia.n.01)": {
+                "temperature (temperature.n.02)": {},
+                "pressure (pressure.n.05)": {}
+            },
+            "[virtual] sensation (sensation.n.01)": {
+                "taste (taste.n.01)": {
+                "relish (relish.n.03)": {}
+                },
+                "dub (dub.n.01)": {}
+            }
+            },
+            "appraisal (appraisal.n.01)": {
+            "evaluation (evaluation.n.02)": {
+                "mark (mark.n.01)": {},
+                "pricing (pricing.n.01)": {}
+            }
+            },
+            "symbol (symbol.n.02)": {
+            "badge (badge.n.01)": {}
+            },
+            "identity (identity.n.02)": {},
+            "vogue (vogue.n.01)": {}
+        }
+        },
+        "[virtual] structure (structure.n.03)": {
+        "form (form.n.03)": {
+            "grid (grid.n.01)": {}
+        },
+        "design (design.n.02)": {
+            "layout (layout.n.01)": {},
+            "configuration (configuration.n.01)": {}
+        }
+        },
+        "attitude (attitude.n.01)": {
+        "position (position.n.03)": {}
+        },
+        "level (level.n.07)": {},
+        "substitute (substitute.n.01)": {},
+        "inefficiency (inefficiency.n.01)": {}
+      },
+      "motivation (motivation.n.01)": {
+        "incentive (incentive.n.01)": {}
+      }
+    },
+    "Location (location.n.01)": {
+        "[virtual] line (line.n.11)": {
+          "path (path.n.04)": {}
+        },
+        "point (point.n.02)": {
+          "position (position.n.01)": {},
+          "beginning (beginning.n.04)": {},
+          "[virtual] topographic_point (topographic_point.n.01)": {
+            "stop (stop.n.05)": {}
+          },
+          "[virtual] geographic_point (geographic_point.n.01)": {
+            "address (address.n.02)": {
+              "[virtual] residence (residence.n.01)": {
+                "home (home.n.01)": {}
+              }
+            },
+            "workplace (workplace.n.01)": {
+              "lab (lab.n.01)": {},
+              "location (location.n.04)": {},
+              "[virtual] central (central.n.01)": {
+                "switchboard (switchboard.n.01)": {}
+              }
+            }
+          },
+          "corner (corner.n.02)": {}
+        },
+        "[virtual] region (region.n.03)": {
+          "[virtual] geographical_area (geographical_area.n.01)": {
+            "tract (tract.n.01)": {
+              "site (site.n.01)": {
+                "cemetery (cemetery.n.01)": {}
+              },
+              "field (field.n.01)": {
+                "lawn (lawn.n.01)": {}
+              },
+              "[virtual] plot (plot.n.02)": {
+                "garden (garden.n.01)": {
+                  "landscaping (landscaping.n.02)": {}
+                },
+                "bed (bed.n.02)": {}
+              },
+              "park (park.n.01)": {},
+              "range (range.n.03)": {},
+              "yard (yard.n.07)": {}
+            },
+            "environment (environment.n.02)": {
+              "habitat (habitat.n.01)": {},
+              "setting (setting.n.01)": {}
+            }
+          },
+          "area (area.n.01)": {
+            "scene (scene.n.01)": {
+              "venue (venue.n.01)": {}
+            },
+            "space (space.n.03)": {},
+            "section (section.n.03)": {
+              "[virtual] vicinity (vicinity.n.01)": {
+                "[virtual] scenery (scenery.n.02)": {
+                  "landscape (landscape.n.01)": {}
+                }
+              }
+            }
+          }
+        },
+        "space (space.n.02)": {
+          "opening (opening.n.01)": {
+            "[virtual] hole (hole.n.01)": {
+              "leak (leak.n.01)": {}
+            },
+            "crack (crack.n.01)": {},
+            "rip (rip.n.02)": {}
+          },
+          "compartment (compartment.n.01)": {},
+          "angle (angle.n.01)": {
+            "[virtual] angular_distance (angular_distance.n.01)": {
+              "latitude (latitude.n.01)": {},
+              "longitude (longitude.n.01)": {}
+            }
+          }
+        },
+        "base (base.n.14)": {}
+    }
+  }
+}
