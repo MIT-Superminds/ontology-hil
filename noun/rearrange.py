@@ -1,6 +1,6 @@
 """
-Rearranges an "original" ontology JSON to match the structure of a "target" ontology JSON,
-while preserving metadata fields like 'title' and 'description' from the original where available.
+Rearranges an "original" ontology JSON to match the structure of a "target" condensed ontology JSON,
+to add synsets and preserve 'description' from the original where available.
 
 Matching strategy:
 - Target node keys carry a synset ID in parentheses, e.g. "hole (hole.n.02)".
@@ -16,7 +16,7 @@ import re
 
 
 # =========================
-# CONFIGURATION
+# CONFIGURATION (to edit)
 # =========================
 OG_INPUT_PATH = 'physical-condensed.json'
 TS_INPUT_PATH = 'to-sample.json'
